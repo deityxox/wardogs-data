@@ -1,0 +1,132 @@
+id,role,name,description,tree_row,tree_column,effects
+Driver.AimDownSightSpeed.MountedGun,Driver,Time-to-ADS speed improvement (Mounted MG - Ground Vehicles),Reduces the amount of time it takes to enter ADS whilst using any mounted MG's on ground vehicles.,2,5,GE_Weapon_AimTime
+Driver.AutoRepair,Driver,Can autorepair at petrol stations (Ground Vehicles),Unlocks the ability to auto repair ground vehicles at a petrol station.,1,2,
+Driver.FuelUsageReduction,Driver,Fuel usage rate reduction (Ground Vehicles),"Reduces the usage of fuel when driving ground vehicles, providing a longer fuel time.",1,5,GE_Vehicle_FuelUsageReductionMultiplier
+Driver.HorizontalRecoil.MountedGun,Driver,Horizontal recoil reduction (Mounted MG - Ground Vehicles),Reduces horizontal recoil experienced when firing a mounted MG on a ground vehicle.,0,1,GE_Weapon_HorizontalRecoilMultiplier
+Driver.ImpactDamageReduction,Driver,Impact damage reduction (Ground Vehicles),Reduces the amount of damage your ground vehicle receives from impacting with objects & landscape in the world (when you are driver).,1,1,GE_Vehicle_ImpactReductionMultiplier
+Driver.IncreasedHealth.SupplyCrate,Driver,Increased supply crate durability (Ground Vehicles),Increases the amount of damage a supply crate can take before it is destroyed (when the supply crate is dropped by you as a driver),2,4,GE_Vehicle_Health
+Driver.QuickerEngineStart,Driver,Engine turn on speed improvement,Reduces the time it takes to turn the engine on in ground vehicles.,1,4,
+Driver.RefuelSpeed.PetrolStation,Driver,Petrol station refueling speed improvement (Ground Vehicles),Reduces the amount of time it takes to refuel a ground vehicle at a petrol station.,1,6,
+Driver.RefuelSpeed.Spawn,Driver,Spawnzone refueling speed improvement (Ground Vehicles),Reduces the amount of time it takes to refuel a ground vehicle in the spawnzone.,1,7,
+Driver.ReloadSpeed.MountedGun,Driver,Reload speed improvement (Mounted MG - Ground Vehicles),Reduces the amount of time it takes to reload the mounted MG's on ground vehicles.,2,3,
+Driver.RepairSpeed.Spawn,Driver,Spawnzone Repairing speed improvement (Ground Vehicles),Reduces the amount of time it takes to repair a ground vehicle in the spawnzone.,1,3,
+Driver.VerticalRecoil.MountedGun,Driver,Vertical recoil reduction (Mounted MG - Ground Vehicles),Reduces vertical recoil experienced when firing a mounted MG on a ground vehicle.,0,7,GE_Weapon_VerticalRecoilMultiplier
+Infantry.AimDownSightSpeed.AssaultRifle,Infantry,Time-to-ADS speed improvement (Assault Archetype),"Reduces the time it takes to enter ADS, specifically with weapons within the 'assault' archetype.",2,3,GE_Weapon_AimTime
+Infantry.AimDownSightSpeed.SMG,Infantry,Time-to-ADS speed improvement (SMG Archetype),"Reduces the time it takes to enter ADS, specifically with weapons within the 'SMG' archetypes.",2,5,GE_Weapon_AimTime
+Infantry.AimMoveSpeed.AssaultRifle,Infantry,ADS movement speed improvement (Assault Archetype),"Increases the speed a player can move whilst aiming down sights, specifically with weapons within the 'assault' archetype.",2,2,GE_Player_MaxSpeedMultiplier_Aiming
+Infantry.AimMoveSpeed.SMG,Infantry,ADS movement speed improvement (SMG Archetype),"Increases the speed a player can move whilst aiming down sights, specifically with weapons within the 'SMG' archetypes.",2,6,GE_Player_MaxSpeedMultiplier_Aiming
+Infantry.BreathHoldImpact,Infantry,Reduced shooting penalty on focus-time (Assault & SMG Archetypes),Reduces the amount of focus-time penalty the player experiences when they shoot their weapon whilst holding their breath. This should apply to weapons in both Assault & SMG archetypes.,1,4,
+Infantry.CovertMovementSpeed,Infantry,Crouch/prone movement speed improvements,Increases the base speed a player moves when they are in crouch & prone.,2,8,GE_Player_MaxSpeedMultiplier_Covert
+Infantry.CovertStaminaRegen,Infantry,Faster Tac-sprint stamina regen whilst crouched/proned,Tac-sprint stamina recovery is faster when player is crouched or proned.,3,7,GE_Player_StaminaRegenPerSecondMultiplier_Covert
+Infantry.FasterVault,Infantry,Faster vault speed,Reduces the time it takes to perform vaults at all heights.,2,7,
+Infantry.FlakJacket,Infantry,Reduced suppresion effect,Reduces the severity of the suppresion effect experienced when under fire / near an explosion.,3,1,
+Infantry.HorizontalRecoil.AssaultRifle,Infantry,Horizontal recoil reduction (Assault Archetype),Reduces the amount of horizontal recoil a player experiences when firing weapons within the 'assault' archetype.,0,3,GE_Weapon_HorizontalRecoilMultiplier
+Infantry.HorizontalRecoil.SMG,Infantry,Horizontal recoil reduction (SMG Archetype),Reduces the amount of horizontal recoil a player experiences when firing weapons within the 'SMG' archetypes.,0,5,GE_Weapon_HorizontalRecoilMultiplier
+Infantry.MeleeDamage,Infantry,Melee damage increase,"Increase the damage dealt by the player's melee attacks. This includes fists, melee weapons and weapon 'bashing'.",1,0,
+Infantry.MeleeSpeed,Infantry,Melee speed improvement,"Reduce the time it takes for players to complete a melee attack. This includes fists, melee weapons and weapon 'bashing'.",2,0,
+Infantry.ReducedFocus,Infantry,Reduced effect of received damage on focus-reduction,Reduces the effect that receiving damage has on your focus-time.,2,1,
+Infantry.ReloadSpeed.AssaultRifle,Infantry,Reload Speed Improvement (Assault Archetype),Reduces the time it takes to reload. Specifically with weapons within the 'assault' archetype.,3,3,
+Infantry.ReloadSpeed.SMG,Infantry,Reload Speed Improvement (SMG Archetype),Reduces the time it takes to reload. Specifically with weapons within the 'SMG' archetypes.,3,5,
+Infantry.ReturnToFireSpeed.AssaultRifle,Infantry,Ready-to-fire speed improvement (Assault Archetype),"Reduces the time it takes for your gun to come up after certain actions, specifically with weapons that fall under the 'assault' archetype  (eg. Sprinting, dismounting ladder, exiting vault, etc).",1,2,GE_Player_ReadyToFirePlayRate
+Infantry.ReturnToFireSpeed.SMG,Infantry,Ready-to-fire speed improvement (SMG Archetype),"Reduces the time it takes for your gun to come up after certain actions, specifically with weapons that fall under the 'SMG' archetypes  (eg. Sprinting, dismounting ladder, exiting vault, etc).",1,6,GE_Player_ReadyToFirePlayRate
+Infantry.SlideDownLadders,Infantry,Fast-descend down ladders,Unlocks the ability to quickly descend ladders by sliding down them.,3,6,
+Infantry.SprintBreach,Infantry,Sprint-breach through doors,Unlocks the ability to bash through doors by sprinting into them.,3,0,GE_GrantSkill_DoorBreach
+Infantry.StrongArm,Infantry,Increased grenade throw strength,"Increase throw strength when throwing grenades, allowing for a higher potential maximum distance.",0,1,
+Infantry.TacticalSprintDuration,Infantry,Tac-sprint duration,Increased duration of tac-sprint before it runs out.,3,8,GE_Player_TacSprintStaminaUsageMultiplier
+Infantry.TacticalSprintRecovery,Infantry,Tac-sprint recovery time improvement,Reduces the time it takes to recover tac-sprint stamina.,1,7,GE_Player_StaminaRegenPerSecondMultiplier
+Infantry.TacticalSwimDuration,Infantry,Tac-swim duration,Increased duration of tac-swimming before it runs out.,1,8,
+Infantry.UnarmedSprintSpeed,Infantry,Unarmed sprint speed improvement,Increases the speed a player sprints when they have their fists out.,0,7,GE_Player_SprintSpeedMultiplier
+Infantry.VerticalRecoil.AssaultRifle,Infantry,Vertical recoil reduction (Assault Archetype),Reduces the amount of vertical recoil a player experiences when firing weapons under the 'assault' archetype.,1,3,GE_Weapon_VerticalRecoilMultiplier
+Infantry.VerticalRecoil.SMG,Infantry,Vertical recoil reduction (SMG Archetype),Reduces the amount of vertical recoil a player experiences when firing weapons under the 'SMG' archetypes.,1,5,GE_Weapon_VerticalRecoilMultiplier
+Infantry.WeaponSwitchSpeed,Infantry,Weapon-switch speed improvement (Assault & SMG Archetypes),Reduces the amount of time it takes to switch TO any weapon in the assault & SMG archetypes.,2,4,GE_Weapon_EquipSpeedMultiplier
+Infantry.WeightPenalty,Infantry,Reduced weight-related movement penalty,Reduces the amount that movement is negatively affected by inventory weight.,1,1,
+Medic.BuffApplicationTime,Medic,Buff application speed improvement,Reduces the amount of time it takes to apply buffs to self AND teammates.,2,4,
+Medic.BuffDuration.Self,Medic,Increased self buff duration,Increases the amount of time a buff is active after you have self-buffed.,1,5,
+Medic.BuffDuration.Teammate,Medic,Increased teammate buff duration,Increases the amount of time a buff is active on a teammate you have buffed.,1,4,
+Medic.ChargeTime.Defibrillator,Medic,Defib charge speed improvement,Reduces the amount of time it takes to charge up your defib.,1,7,
+Medic.DragSpeed,Medic,Drag speed improvement,Increases the speed that you can move when you are dragging another player.,0,5,
+Medic.HealthierRevive,Medic,Increased health after base reviving someone,"Increases the amount of health a teammate revives with after you have revived them using the base-revive (no equipment, just bare hands).",2,5,
+Medic.HealTime.Self,Medic,Self-healing speed improvement,Reduces the amount of time it takes to heal yourself with all medical items.,2,3,
+Medic.HealTime.Teammate,Medic,Teammate healing speed improvement,Reduces the amount of time it takes to heal teammates with all medical items.,3,3,
+Medic.HealTimeWhileSuppressed,Medic,Faster healing whilst suppressed,Reduces the amount of time it takes to heal a teammate whilst you are experiencing the suppressed effect from enemy fire.,1,1,
+Medic.IncreaseBleedTime,Medic,Increased bleedout timer,Increases the amount of time you have before you bleed out when you are in a downed state.,0,7,
+Medic.LessSuppression,Medic,Reduced suppression effect,Reduces the severity of the suppression effect experienced when enemies are firing at you.,0,1,
+Medic.MedicalItemSwapSpeed,Medic,Item-switch speed improvement (Medical Archetype),Reduces the amount of time it takes to switch TO any items / equipment within the 'medical' archetype.,1,3,GE_Weapon_EquipSpeedMultiplier
+Medic.MedicalItemWeightReduction,Medic,Reduced weight-penalty for medical items,Reduces the amount of weight-penalty that is given from carrying medical items specifically.,0,3,
+Medic.MedicBag,Medic,Medic bag (additional slots for medical items),"Unlocks the ability to purchase a medic bag, which provides additional slots specifically for medical items.",3,1,
+Medic.MedkitUsage,Medic,Medkits have more uses,Increases the amount of 'uses' a medkit has before it is depleted (only when you are using it).,,,
+Medic.ReducedFalldamage,Medic,Reduced fall damage,Reduces the amount of fall damage you take.,1,2,
+Medic.ReduceUsage.Defibrillator,Medic,Increased charges per battery,Increases the amount of charges per battery when you are using a defib. (One time unlock).,1,6,
+Medic.ReduceUsage.Medkit,Medic,Medkits have more uses,Increases the amount of 'uses' a medkit has before it is depleted (only when you are using it).,2,2,GE_Item_UsageRateMultiplier
+Medic.ReviveDamageReduction,Medic,Take less damage whilst reviving teammate,Reduces the amount of incoming damage whilst you are reviving a teammate.,2,6,
+Medic.ReviveSpeed.Standard,Medic,Base revive speed improvement,"Reduces the time it takes to 'base-revive' a teammate. (no equipment, just bare hands).",3,5,
+Medic.ReviveSpeedBoost.Self,Medic,Increased sprint speed after reviving teammates,"After you have revived a teammate, YOU will receive a temporary increase in your sprint speed.",3,7,GE_Player_SprintSpeedMultiplier_Temp
+Medic.ReviveSpeedBoost.Teammate,Medic,Teammates faster after you've revived them,"After you have revived a teammate, THEY will receive a temporary increase in their sprint speed.",2,7,GE_Player_SprintSpeedMultiplier_Temp
+Medic.StunResistance,Medic,Reduced flash/stun effect duration,Reduces the duration of the effects received from flash & stun grenades.,2,1,
+Pilot.AimDownSightSpeed.MountedGun,Pilot,Time-to-ADS speed improvement (Mounted MG - Air Vehicles),Reduces the amount of time it takes to enter ADS whilst using any mounted MG's on air vehicles.,2,5,GE_Weapon_AimTime
+Pilot.AutoRepair,Pilot,Can autorepair at petrol stations (Air Vehicles),Unlocks the ability to auto repair air vehicles at a petrol station.,1,2,
+Pilot.FuelUsageReduction,Pilot,Fuel usage rate reduction (Air Vehicles),"Reduces the usage of fuel when piloting air vehicles, providing a longer fuel time.",1,5,GE_Vehicle_FuelUsageReductionMultiplier
+Pilot.HorizontalRecoil.MountedGun,Pilot,Horizontal recoil reduction (Mounted MG - Air Vehicles),Reduces horizontal recoil experienced when firing a mounted MG on an air vehicle.,0,1,GE_Weapon_HorizontalRecoilMultiplier
+Pilot.ImpactDamageReduction,Pilot,Impact damage reduction (Air Vehicles),Reduces the amount of damage your air vehicle receives from impacting with objects & landscape in the world (when you are driver).,1,1,GE_Vehicle_ImpactReductionMultiplier
+Pilot.IncreasedHealth.SupplyCrate,Pilot,Increased supply crate durability (Air Vehicles),Increases the amount of damage a supply crate can take before it is destroyed (when the supply crate is dropped by you as a pilot),2,4,GE_Vehicle_Health
+Pilot.QuickerEngineStart,Pilot,Engine turn on speed improvement (Air Vehicles),Reduces the time it takes to turn the engine on in air vehicles.,1,4,
+Pilot.RefuelSpeed.PetrolStation,Pilot,Petrol station refueling speed improvement (Air Vehicles),Reduces the amount of time it takes to refuel an air vehicle at a petrol station.,1,6,
+Pilot.RefuelSpeed.Spawn,Pilot,Spawnzone refueling speed improvement (Air Vehicles),Reduces the amount of time it takes to refuel an air vehicle in the spawnzone.,1,7,
+Pilot.ReloadSpeed.MountedGun,Pilot,Reload speed improvement (Mounted MG - Air Vehicles),Reduces the amount of time it takes to reload the mounted MG's on air vehicles.,2,3,
+Pilot.RepairSpeed.Spawn,Pilot,Spawnzone Repairing speed improvement (Air Vehicles),Reduces the amount of time it takes to repair an air vehicle in the spawnzone.,1,3,
+Pilot.VerticalRecoil.MountedGun,Pilot,Vertical recoil reduction (Mounted MG - Air Vehicles),Reduces vertical recoil experienced when firing a mounted MG on an air vehicle.,0,7,GE_Weapon_VerticalRecoilMultiplier
+Recon.AimDownSightSpeed.Marksman,Recon,Time-to-ADS speed improvement (Marksman Archetype),"Reduces the time it takes to enter ADS, specifically with weapons within the 'marksman' archetypes.",2,5,GE_Weapon_AimTime
+Recon.AimDownSightSpeed.Sniper,Recon,Time-to-ADS speed improvement (Sniper Rifle Archetype),"Reduces the time it takes to enter ADS, specifically with weapons within the 'sniper rifle' archetype.",2,3,GE_Weapon_AimTime
+Recon.AimMoveSpeed.Marksman,Recon,ADS movement speed improvement (Marksman Archetype),"Increases the speed a player can move whilst aiming down sights, specifically with weapons within the 'marksman' archetypes.",2,6,GE_Player_MaxSpeedMultiplier_Aiming
+Recon.AimMoveSpeed.Sniper,Recon,ADS movement speed improvement (Sniper Rifle Archetype),"Increases the speed a player can move whilst aiming down sights, specifically with weapons within the 'sniper rifle' archetype.",2,2,GE_Player_MaxSpeedMultiplier_Aiming
+Recon.BoltActionRechamberSpeed,Recon,Bolt action rechambering speed improvement,Reduces the time it takes to rechamber a bullet when using bolt action rifles.,1,1,
+Recon.ColdBlooded,Recon,Infrared visibility reduction,"Reduces how visible you are on enemies infrared sights when people are looking at you. (not completely invisible, just heavily reduced to make it harder to see you) This is a one time unlock, not different percentages.",3,0,
+Recon.FocusSteadyAimSpeed,Recon,Focus-time steady aim speed improvement,Reduces the time it takes for the 'steady aim' effect to complete when you hold your breath with a weapon.,1,8,
+Recon.HearNearbySquadChat,Recon,Hear nearby squad chat,Unlocks the ability to eavesdrop nearby enemy squad chats.,3,8,
+Recon.HorizontalRecoil.Marksman,Recon,Horizontal recoil reduction (Marksman Archetype),Reduces the amount of horizontal recoil a player experiences when firing weapons within the 'marksman' archetypes.,0,5,GE_Weapon_HorizontalRecoilMultiplier
+Recon.HorizontalRecoil.Sniper,Recon,Horizontal recoil reduction (Sniper Rifle Archetype),Reduces the amount of horizontal recoil a player experiences when firing weapons within the 'sniper rifle' archetype.,0,3,GE_Weapon_HorizontalRecoilMultiplier
+Recon.IncreasedSpottedTime,Recon,Increased time to be spotted,Increases the time it takes for you to be successfully spotted by an enemy player.,1,0,
+Recon.IncreasedSpottingDuration,Recon,Increased 'enemy spotted' duration,Increases the duration that enemies remain spotted when you have personally spotted them.,2,1,
+Recon.IncreaseFocusDuration,Recon,Increased focus-time duration,"Increases the amount of time you are able to ""hold breath"" with a weapon before it runs out.",2,7,
+Recon.Lockpicking,Recon,Lockpicking,"Unlock the ability to 'lockpick' enemy locked vehicles, buildables and fortifications.",3,7,
+Recon.MagnificationSpeed,Recon,Magnification speed improvement,Reduces the time it takes to 'zoom in' on scopes that have magnification.,0,1,
+Recon.QuieterInteractions,Recon,Quieter interactions,Unlocks the ability to perform all interactions that make noise quieter.,2,8,
+Recon.ReadyToFireSpeed.Marksman,Recon,Ready-to-fire speed improvement (Marksman Archetype),"Reduces the time it takes for your gun to come up after certain actions, specifically with weapons that fall under the 'marksman' archetypes (eg. Sprinting, dismounting ladder, exiting vault, etc).",1,6,GE_Player_ReadyToFirePlayRate
+Recon.ReadyToFireSpeed.Sniper,Recon,Ready-to-fire speed improvement (Sniper Rifle Archetype),"Reduces the time it takes for your weapon to come up after certain actions, specifically with weapons that fall under the 'sniper rifle' archetype (eg. Sprinting, dismounting ladder, exiting vault, etc).",1,2,GE_Player_ReadyToFirePlayRate
+Recon.ReduceFocus,Recon,Reduced shooting penalty on focus-time (Sniper Rifle & Marksman Archetypes),Reduces the amount of focus-time penalty the player experiences when they shoot their weapon whilst holding their breath. This should apply to weapon in both Sniper rifle and Marksman archetypes.,1,4,
+Recon.ReloadSpeed.Marksman,Recon,Reload speed improvement (Marksman Archetype),Reduces the time it takes to reload. Specifically with weapons within the 'marksman' archetypes.,3,5,
+Recon.ReloadSpeed.Sniper,Recon,Reload speed improvement (Sniper Rifle Archetype),Reduces the time it takes to reload. Specifically with weapons within the 'sniper rifle' archetype.,3,3,
+Recon.SniperKillFocusReset,Recon,Sniper Rifle kill replenishes focus,Downing an enemy player with any weapon in the 'sniper rifle' platform with replenish your focus. (one time unlock),3,1,GE_GrantSkill_SniperKillFocusRefresh
+Recon.SpotDeployables,Recon,Spot enemy buildables & deployables,"Unlock the ability to spot enemy buildables, fortifications and deployables.",2,0,
+Recon.StealthMeleeDamage,Recon,Increased melee damage from behind,"Increases the amount of damage you do with melee attacks, specifically when you hit an enemy from behind. This includes fists, melee weapons and weapon 'bashing'.",0,7,
+Recon.VerticalRecoil.Marksman,Recon,Vertical recoil reduction (Marksman Archetype),Reduces the amount of vertical recoil a player experiences when firing weapons within the 'marksman' archetypes.,1,5,GE_Weapon_VerticalRecoilMultiplier
+Recon.VerticalRecoil.Sniper,Recon,Vertical recoil reduction (Sniper Rifle Archetype),Reduces the amount of vertical recoil a player experiences when firing weapons within the 'sniper rifle' archetype.,1,3,GE_Weapon_VerticalRecoilMultiplier
+Recon.WeaponSwitchSpeed.Pistol,Recon,Weapon-switch speed improvement (Sidearms Archetype).,Reduces the amount of time it takes to switch TO any weapons within the sidearm archetype.,1,7,GE_Weapon_EquipSpeedMultiplier
+Recon.WeaponSwitchSpeed.ReconWeaponry,Recon,Weapon-switch speed improvement (Sniper Rifle & Marksman Archetypes),Reduces the amount of time it takes to switch TO any weapons within the Sniper Rifle & Marksman archetypes.,2,4,GE_Weapon_EquipSpeedMultiplier
+Support.AimDownSightSpeed.LMG,Support,Time-to-ADS speed improvement (LMG Archetype),"Reduces the time it takes to enter ADS, specifically with weapons within the 'LMG' archetype.",2,3,GE_Weapon_AimTime
+Support.AimdownSightspeed.Shotgun,Support,Time-to-ADS speed improvement (Shotgun Archetype),"Reduces the time it takes to enter ADS, specifically with weapons within the 'shotgun' archetype.",2,5,GE_Weapon_AimTime
+Support.AimMoveSpeed.LMG,Support,ADS movement speed improvement (LMG Archetype),"Increases the speed a player can move whilst aiming down sights, specifically with weapons within the 'LMG' archetype.",2,2,GE_Player_MaxSpeedMultiplier_Aiming
+Support.AimMoveSpeed.Shotgun,Support,ADS movement speed improvement (Shotgun Archetype),"Increases the speed a player can move whilst aiming down sights, specifically with weapons within the 'shotgun' archetype.",2,6,GE_Player_MaxSpeedMultiplier_Aiming
+Support.CombineMagSpeed,Support,Combining mags' speed improvement,Reduces the amount of time it takes to combine mags in your inventory.,2,1,
+Support.DeploySpeed,Support,Equipment deployment speed improvement,Reduces the amount of time it takes to deploy deployable equipment.,0,7,
+Support.GrenadeThrowback,Support,Throw back grenades,Unlocks the ability to pick up and throw back enemy grenades that have been thrown at you and have landed on the floor.,3,0,
+Support.HorizontalRecoil.LMG,Support,Horizontal recoil reduction (LMG Archetype),Reduces the amount of horizontal recoil a player experiences when firing weapons within the 'LMG' archetype.,0,3,GE_Weapon_HorizontalRecoilMultiplier
+Support.HorizontalRecoil.Shotgun,Support,Horizontal recoil reduction (Shotgun Archetype),Reduces the amount of horizontal recoil a player experiences when firing weapons within the 'shotgun' archetype.,0,5,GE_Weapon_HorizontalRecoilMultiplier
+Support.IncreadedDetonatorRange,Support,Increased detonator range,Unlocks Increased effective range of the C4's detonator. (Can detonate C4s from further away). This is a one time unlock.,3,1,
+Support.IncreasedDurability.Buildables,Support,Increased buildables durability,Increases the amount of damage it takes to destroy buildables that YOU have built.,3,7,
+Support.IncreasedDurability.RepairTool,Support,Increased repair tool durability,Increases the amount of durability your repair tools have when you are using them. This should affect all repair tools.,1,7,
+Support.MediumHammerUpgrade,Support,Build anything with medium hammers,Unlocks the ability to build things with the medium hammer that you would normally need the heavy hammer to build.,1,8,
+Support.ReadyToFireSpeed.LMG,Support,Ready-to-fire speed improvement (LMG Archetype),"Reduces the time it takes for your weapon to come up after certain actions, specifically with weapons that fall under the 'LMG' archetype (eg. Sprinting, dismounting ladder, exiting vault, etc).",1,2,GE_Player_ReadyToFirePlayRate
+Support.ReadyToFireSpeed.Shotgun,Support,Ready-to-fire speed improvement (Shotgun Archetype),"Reduces the time it takes for your weapon to come up after certain actions, specifically with weapons that fall under the 'shotgun' archetype (eg. Sprinting, dismounting ladder, exiting vault, etc).",1,6,GE_Player_ReadyToFirePlayRate
+Support.ReduceExplosiveDamage.Teammate,Support,Explosives do less damage to teammates,"Reduces the amount of damage that your explosives do to teammates. This includes explosives from launchers, grenades & deployables.",0,1,
+Support.ReduceFocus,Support,Reduced shooting penalty on focus-time (LMG & Shotgun Archetypes),Reduces the amount of focus-time penalty the player experiences when they shoot their weapon whilst holding their breath. This should apply to weapons in both LMG and shotgun archetypes.,1,4,
+Support.ReduceResourceUsage,Support,Less resource use per hit,Reduces the amount of resources that are used per hit of building.,2,7,
+Support.RefuelSpeed,Support,Refueling speed improvement,Reduces the time it takes to refuel vehicles.,1,0,
+Support.ReloadSpeed.Launcher,Support,Reload speed improvement (Launchers Archetype),Reduces the amount of time it takes to reload weapons within the 'launcher' archetype.,1,1,
+Support.ReloadSpeed.LMG,Support,Reload speed improvement ('LMG' Archetype),Reduces the amount of time it takes to reload weapons within the 'LMG' archetype.,3,3,
+Support.ReloadSpeed.Shotgun,Support,Reload speed improvement (Shotgun Archetype),Reduces the time it takes to reload. Specifically with weapons within the 'shotgun' archetype.,3,5,
+Support.RepairSpeed,Support,Repair speed improvement,Reduces the time it takes to repair damaged vehicles.,2,0,
+Support.SmallHammerUpgrade,Support,Build anything with small hammers,Unlocks the ability to build things with the small hammer that you would normally need the medium or heavy hammer to build.,2,8,
+Support.VerticalRecoil.LMG,Support,Vertical recoil reduction (LMG Archetype),Reduces the amount of vertical recoil a player experiences when firing weapons within the 'LMG' archetype.,1,3,GE_Weapon_VerticalRecoilMultiplier
+Support.VerticalRecoil.Shotgun,Support,Vertical recoil reduction (Shotgun Archetype),Reduces the amount of vertical recoil a player experiences when firing weapons within the 'shotgun' archetype.,1,5,GE_Weapon_VerticalRecoilMultiplier
+Support.WeaponSwitchSpeed,Support,Weapon-switch speed improvement (LMG & Shotgun Archetypes),Reduces the amount of time it takes to switch TO any weapons within the LMG and shotgun archetypes.,2,4,GE_Weapon_EquipSpeedMultiplier

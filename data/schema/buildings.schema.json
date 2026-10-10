@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Buildings",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1,
+      "description": "Version of this file's layout. It changes only when the layout does."
+    },
+    "world": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Name of the world (level) the buildings are in."
+    },
+    "gameBuild": {
+      "type": "string",
+      "description": "Steam build id the data was extracted from."
+    },
+    "units": {
+      "type": "string",
+      "const": "meters",
+      "description": "Unit of every distance in the file."
+    },
+    "shape": {
+      "type": "string",
+      "const": "axis-aligned bounding box",
+      "description": "How each building is represented."
+    },
+    "count": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 9007199254740991,
+      "description": "Number of buildings."
+    },
+    "buildings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{12}$",
+            "description": "Stable id derived from the placed actor's name."
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "bungalow",
+              "house",
+              "apartment",
+              "warehouse",
+              "market",
+              "shop",
+              "garage",
+              "office",
+              "supply",
+              "pool"
+            ],
+            "description": "Building category, derived from the blueprint class."
+          },
+          "class": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Blueprint class of the building."
+          },
+          "min": {
+            "type": "array",
+            "prefixItems": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "number"
+              },
+              {
+                "type": "number"
+              }
+            ],
+            "items": false,
+            "minItems": 3,
+            "maxItems": 3,
+            "description": "Minimum corner of the box: [x, y, z] in meters."
+          },
+          "max": {
+            "type": "array",
+            "prefixItems": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "number"
+              },
+              {
+                "type": "number"
+              }
+            ],
+            "items": false,
+            "minItems": 3,
+            "maxItems": 3,
+            "description": "Maximum corner of the box: [x, y, z] in meters."
+          },
+          "parts": {
+            "type": "integer",
+            "exclusiveMinimum": 0,
+            "maximum": 9007199254740991,
+            "description": "Number of mesh parts whose bounds were merged into the box."
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "class",
+          "min",
+          "max",
+          "parts"
+        ],
+        "additionalProperties": false
+      },
+      "description": "Buildings, sorted by id."
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "world",
+    "gameBuild",
+    "units",
+    "shape",
+    "count",
+    "buildings"
+  ],
+  "additionalProperties": false,
+  "description": "Destructible buildings of one world as axis-aligned boxes. Z is up. Boxes enclose, so they overestimate."
+}

@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Attachments",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1,
+      "description": "Version of this file's layout. It changes only when the layout does."
+    },
+    "gameBuild": {
+      "type": "string",
+      "description": "Steam build id the data was extracted from."
+    },
+    "attachments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Item id from items.json."
+          },
+          "name": {
+            "description": "Display name, as in items.json (the game's UI table). Absent when the game has none.",
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Attachment type, for example `Magazine`, `Muzzle`, `Sight` (the game's `Item.Attachment.*` tag)."
+          },
+          "contexts": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Item context tags, which weapon slots match against."
+          },
+          "modifiers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "attribute": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Attribute, for example `Weapon.AimTime` (the game's `Attribute.Gameplay.*` tag without the prefix)."
+                },
+                "op": {
+                  "type": "string",
+                  "enum": [
+                    "multiplyCompound",
+                    "multiply",
+                    "add",
+                    "override"
+                  ],
+                  "description": "How the value combines: `multiplyCompound` and `multiply` scale the attribute (1.1 is +10%), `add` adds, `override` replaces. Several `multiplyCompound` modifiers multiply together."
+                },
+                "value": {
+                  "type": "number",
+                  "description": "The number applied. For `multiply` and `multiplyCompound`, 1.1 means +10%."
+                }
+              },
+              "required": [
+                "attribute",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false,
+              "description": "One change an attachment makes to a gameplay attribute."
+            },
+            "description": "Changes applied to the weapon while the attachment is fitted."
+          },
+          "characterModifiers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "attribute": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Attribute, for example `Weapon.AimTime` (the game's `Attribute.Gameplay.*` tag without the prefix)."
+                },
+                "op": {
+                  "type": "string",
+                  "enum": [
+                    "multiplyCompound",
+                    "multiply",
+                    "add",
+                    "override"
+                  ],
+                  "description": "How the value combines: `multiplyCompound` and `multiply` scale the attribute (1.1 is +10%), `add` adds, `override` replaces. Several `multiplyCompound` modifiers multiply together."
+                },
+                "value": {
+                  "type": "number",
+                  "description": "The number applied. For `multiply` and `multiplyCompound`, 1.1 means +10%."
+                }
+              },
+              "required": [
+                "attribute",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false,
+              "description": "One change an attachment makes to a gameplay attribute."
+            },
+            "description": "Changes applied to the character carrying the weapon, such as sway."
+          },
+          "magazine": {
+            "description": "Magazines: how many rounds fit, and which calibers.",
+            "type": "object",
+            "properties": {
+              "capacity": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991,
+                "description": "Rounds the magazine holds."
+              },
+              "calibers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "description": "Calibers the magazine takes (the game's `Item.Caliber.*` tags without the prefix)."
+              }
+            },
+            "required": [
+              "capacity",
+              "calibers"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "type",
+          "contexts",
+          "modifiers",
+          "characterModifiers"
+        ],
+        "additionalProperties": false
+      },
+      "description": "One entry per attachment item, sorted by item id."
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "gameBuild",
+    "attachments"
+  ],
+  "additionalProperties": false,
+  "description": "Weapon attachments: the attribute changes each one makes, and capacity and calibers for magazines. Ids are item ids from items.json."
+}

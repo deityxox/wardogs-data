@@ -1,0 +1,986 @@
+{
+  "schemaVersion": 1,
+  "gameBuild": "25677108",
+  "tables": [
+    {
+      "id": "AbandonedTower",
+      "spawnChance": 50,
+      "spawnByDefault": false,
+      "spawnByPoints": true,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 10,
+      "canRespawn": true,
+      "respawnTime": 300,
+      "neverSelectPreviousItem": true,
+      "spawnInsideControlZoneOnly": true,
+      "items": [
+        {
+          "item": "Id.Item.Bandage",
+          "amount": 3,
+          "weight": 1,
+          "subItems": [
+            {
+              "item": "Id.Item.M67Grenade",
+              "chance": 100,
+              "amount": 2
+            },
+            {
+              "item": "Id.Item.BasicRedDot",
+              "chance": 100,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.3xScope",
+          "amount": 1,
+          "weight": 1,
+          "subItems": [
+            {
+              "item": "Id.Item.RK6ForeGrip",
+              "chance": 100,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.SuperBandage",
+          "amount": 2,
+          "weight": 1,
+          "subItems": [
+            {
+              "item": "Id.Item.StimPen",
+              "chance": 100,
+              "amount": 3
+            },
+            {
+              "item": "Id.Item.SGHT_009",
+              "chance": 100,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.Bandage",
+          "amount": 5,
+          "weight": 1,
+          "subItems": [
+            {
+              "item": "Id.Item.Resuscitator.Standard",
+              "chance": 100,
+              "amount": 2
+            },
+            {
+              "item": "ID.Item.SmokeGrenade.White",
+              "chance": 100,
+              "amount": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Armor",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": true,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 15,
+      "canRespawn": false,
+      "respawnTime": 10,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.LightArmor",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "Bandage",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": true,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 15,
+      "canRespawn": false,
+      "respawnTime": 10,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.Bandage",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "Defib.Cheap",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": true,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 15,
+      "canRespawn": false,
+      "respawnTime": 10,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.Defibrillator.Cheap",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "Helmet",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": true,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 15,
+      "canRespawn": false,
+      "respawnTime": 10,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.LightHelmet",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "Sniper",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": true,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 15,
+      "canRespawn": false,
+      "respawnTime": 10,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.Mosin",
+          "amount": 1,
+          "weight": 1,
+          "subItems": [
+            {
+              "item": "ID.Item.RangeFinder",
+              "chance": 100,
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SniperOnly.HighValue",
+      "spawnChance": 25,
+      "spawnByDefault": false,
+      "spawnByPoints": false,
+      "initialSpawnTime": 30,
+      "initialSpawnPoints": 15,
+      "canRespawn": true,
+      "respawnTime": 60,
+      "neverSelectPreviousItem": true,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.Mosin",
+          "amount": 1,
+          "weight": 1,
+          "subItems": [
+            {
+              "item": "Id.Item.4xElcanSpectr",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.762x54mm.Tracer",
+              "chance": 100,
+              "amount": 10
+            },
+            {
+              "item": "Id.Item.762x54mm.Tracer",
+              "chance": 100,
+              "amount": 10
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.SV98",
+          "amount": 1,
+          "weight": 1,
+          "subItems": [
+            {
+              "item": "Id.Item.SGHT_030",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.SV98Magazine",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.SV98Magazine",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.Bandage",
+              "chance": 25,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.MK22",
+          "amount": 1,
+          "weight": 1,
+          "subItems": [
+            {
+              "item": "Id.Item.SGHT_036",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.MK22Mag",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.MK22Mag",
+              "chance": 100,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.SR_04",
+          "amount": 1,
+          "weight": 1,
+          "subItems": [
+            {
+              "item": "Id.Item.SGHT_029",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.SR_04Magazine",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.SR_04Magazine",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.Bandage",
+              "chance": 25,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.GhillieArmor",
+          "amount": 1,
+          "weight": 0.5,
+          "subItems": [
+            {
+              "item": "Id.Item.GhillieHelmet",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "ID.Item.InfraredRangeFinder",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.Bandage",
+              "chance": 25,
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SniperOnly.LowValue",
+      "spawnChance": 20,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 10,
+      "initialSpawnPoints": 15,
+      "canRespawn": true,
+      "respawnTime": 20,
+      "neverSelectPreviousItem": true,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.Mosin",
+          "amount": 1,
+          "weight": 0.25,
+          "subItems": [
+            {
+              "item": "Id.Item.4xElcanSpectr",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.762x54mm.Tracer",
+              "chance": 100,
+              "amount": 10
+            },
+            {
+              "item": "Id.Item.762x54mm.Tracer",
+              "chance": 100,
+              "amount": 10
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.10xScopeMoa",
+          "amount": 1,
+          "weight": 0.5,
+          "subItems": [
+            {
+              "item": "Id.Item.SR_04Magazine",
+              "chance": 50,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.WEPN_027",
+              "chance": 25,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.SniperScope10x",
+          "amount": 1,
+          "weight": 0.5,
+          "subItems": [
+            {
+              "item": "ID.Item.RangeFinder",
+              "chance": 50,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.MUZL_022",
+              "chance": 50,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.Bandage",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.SV98Magazine",
+              "chance": 50,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.10xScopeMoa",
+          "amount": 1,
+          "weight": 0.5,
+          "subItems": [
+            {
+              "item": "ID.Item.RangeFinder",
+              "chance": 50,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.SV98",
+              "chance": 50,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.SGHT_036",
+          "amount": 1,
+          "weight": 0.5,
+          "subItems": [
+            {
+              "item": "Id.Item.WEPN_027",
+              "chance": 50,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.Bandage",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.SV98Magazine",
+              "chance": 50,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.SGHT_031",
+          "amount": 1,
+          "weight": 0.5,
+          "subItems": [
+            {
+              "item": "Id.Item.Glock17",
+              "chance": 50,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.SGHT_031",
+          "amount": 1,
+          "weight": 0.5,
+          "subItems": [
+            {
+              "item": "Id.Item.MUZL_025",
+              "chance": 50,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.FGRP_009",
+              "chance": 25,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.MK22",
+              "chance": 25,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.SGHT_011",
+          "amount": 1,
+          "weight": 0.5,
+          "subItems": [
+            {
+              "item": "Id.Item.FGRP_013",
+              "chance": 25,
+              "amount": 1
+            },
+            {
+              "item": "ID.Item.RangeFinder",
+              "chance": 50,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.SR_04Magazine",
+              "chance": 50,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.SGHT_032",
+          "amount": 1,
+          "weight": 0.5,
+          "subItems": [
+            {
+              "item": "Id.Item.FGRP_013",
+              "chance": 25,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.SuperBandage",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.SR_04",
+              "chance": 25,
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SniperOnly.MiddleValue",
+      "spawnChance": 25,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 10,
+      "initialSpawnPoints": 15,
+      "canRespawn": true,
+      "respawnTime": 20,
+      "neverSelectPreviousItem": true,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.Mosin",
+          "amount": 1,
+          "weight": 0.25,
+          "subItems": [
+            {
+              "item": "Id.Item.4xElcanSpectr",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.762x54mm.Tracer",
+              "chance": 100,
+              "amount": 10
+            },
+            {
+              "item": "Id.Item.762x54mm.Tracer",
+              "chance": 100,
+              "amount": 10
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.SV98",
+          "amount": 1,
+          "weight": 0.25,
+          "subItems": [
+            {
+              "item": "Id.Item.SGHT_030",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.SV98Magazine",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.SV98Magazine",
+              "chance": 100,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.MK22",
+          "amount": 1,
+          "weight": 0.25,
+          "subItems": [
+            {
+              "item": "Id.Item.SGHT_036",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.MK22Mag",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.MK22Mag",
+              "chance": 100,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.SR_04",
+          "amount": 1,
+          "weight": 0.25,
+          "subItems": [
+            {
+              "item": "Id.Item.SGHT_029",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.SR_04Magazine",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.SR_04Magazine",
+              "chance": 100,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.GhillieArmor",
+          "amount": 1,
+          "weight": 0.05,
+          "subItems": [
+            {
+              "item": "Id.Item.GhillieHelmet",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "ID.Item.InfraredRangeFinder",
+              "chance": 100,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.10xScopeMoa",
+          "amount": 1,
+          "weight": 1,
+          "subItems": [
+            {
+              "item": "Id.Item.Mosin",
+              "chance": 25,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.SniperScope10x",
+          "amount": 1,
+          "weight": 1,
+          "subItems": [
+            {
+              "item": "ID.Item.RangeFinder",
+              "chance": 50,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.MUZL_022",
+              "chance": 50,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.Bandage",
+              "chance": 100,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.10xScopeMoa",
+          "amount": 1,
+          "weight": 1,
+          "subItems": [
+            {
+              "item": "ID.Item.RangeFinder",
+              "chance": 50,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.SGHT_036",
+          "amount": 1,
+          "weight": 1,
+          "subItems": [
+            {
+              "item": "Id.Item.WEPN_027",
+              "chance": 50,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.SGHT_031",
+          "amount": 1,
+          "weight": 1,
+          "subItems": [
+            {
+              "item": "Id.Item.Mosin",
+              "chance": 50,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.SGHT_031",
+          "amount": 1,
+          "weight": 1,
+          "subItems": [
+            {
+              "item": "Id.Item.MUZL_025",
+              "chance": 50,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.FGRP_009",
+              "chance": 25,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.Mosin",
+              "chance": 25,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.SGHT_011",
+          "amount": 1,
+          "weight": 1,
+          "subItems": [
+            {
+              "item": "Id.Item.MUZL_022",
+              "chance": 50,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.FGRP_013",
+              "chance": 25,
+              "amount": 1
+            },
+            {
+              "item": "ID.Item.RangeFinder",
+              "chance": 50,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.SGHT_032",
+          "amount": 1,
+          "weight": 1,
+          "subItems": [
+            {
+              "item": "Id.Item.FGRP_013",
+              "chance": 25,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.SuperBandage",
+              "chance": 100,
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Test",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": true,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 15,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": true,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.SV98",
+          "amount": 1,
+          "weight": 0.8,
+          "subItems": [
+            {
+              "item": "Id.Item.SniperScope10x",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.SV98Magazine",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.SV98Magazine",
+              "chance": 100,
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Tower",
+      "spawnChance": 50,
+      "spawnByDefault": false,
+      "spawnByPoints": true,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 10,
+      "canRespawn": true,
+      "respawnTime": 300,
+      "neverSelectPreviousItem": true,
+      "spawnInsideControlZoneOnly": true,
+      "items": [
+        {
+          "item": "Id.Item.FOB",
+          "amount": 1,
+          "weight": 0.5,
+          "subItems": []
+        },
+        {
+          "item": "Id.Item.SV98",
+          "amount": 1,
+          "weight": 0.8,
+          "subItems": [
+            {
+              "item": "Id.Item.SniperScope10x",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.SV98Magazine",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.SV98Magazine",
+              "chance": 100,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.M249",
+          "amount": 1,
+          "weight": 1,
+          "subItems": [
+            {
+              "item": "Id.Item.MAGZ_062",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.FGRP_012",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.EotechHoloSight",
+              "chance": 100,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.MedKit.Standard",
+          "amount": 1,
+          "weight": 0.8,
+          "subItems": [
+            {
+              "item": "Id.Item.Defibrillator.Standard",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.Battery",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.Battery",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.StimPen",
+              "chance": 100,
+              "amount": 3
+            },
+            {
+              "item": "ID.Item.SmokeGrenade.White",
+              "chance": 100,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "Id.Item.M500",
+          "amount": 1,
+          "weight": 1,
+          "subItems": [
+            {
+              "item": "Id.Item.12g.RifledSlug",
+              "chance": 100,
+              "amount": 30
+            },
+            {
+              "item": "Id.Item.C4Explosive",
+              "chance": 100,
+              "amount": 3
+            },
+            {
+              "item": "Id.Item.C4Trigger",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.M67Grenade",
+              "chance": 100,
+              "amount": 2
+            },
+            {
+              "item": "Id.Item.Claymore",
+              "chance": 100,
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "item": "ID.Item.RepairTool.Drill.Heavy",
+          "amount": 1,
+          "weight": 0.5,
+          "subItems": [
+            {
+              "item": "Id.Item.LargeBattery",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.FuelCan",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.WEPN_028",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.MAGZ_004",
+              "chance": 100,
+              "amount": 1
+            },
+            {
+              "item": "Id.Item.MAGZ_004",
+              "chance": 100,
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Weapon",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": true,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 15,
+      "canRespawn": false,
+      "respawnTime": 10,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.AK74M",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    }
+  ]
+}

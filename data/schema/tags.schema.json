@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Tag text",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1,
+      "description": "Version of this file's layout. It changes only when the layout does."
+    },
+    "gameBuild": {
+      "type": "string",
+      "description": "Steam build id the data was extracted from."
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tag": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The game's gameplay tag, as it appears in the other files (item tags, weapon archetypes, calibers, damage types, roles, slots)."
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The text the game shows for the tag."
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The game's table the text comes from, for example `Archetypes`, `Calibers` or `Roles`."
+          }
+        },
+        "required": [
+          "tag",
+          "text",
+          "source"
+        ],
+        "additionalProperties": false,
+        "description": "One tag with its display text."
+      },
+      "description": "Tags with text, sorted by tag then source. A tag can appear under more than one source with different text."
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "gameBuild",
+    "tags"
+  ],
+  "additionalProperties": false,
+  "description": "Display text for the game's gameplay tags, to turn tags such as `Item.Archetype.AR` into words. Only tags with text are listed."
+}

@@ -1,0 +1,204 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Items and vehicles",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1,
+      "description": "Version of this file's layout. It changes only when the layout does."
+    },
+    "gameBuild": {
+      "type": "string",
+      "description": "Steam build id the data was extracted from."
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Stable identifier from the game. Forms seen: `Id.Item.*`, `ID.Item.*` and `Vehicle.*`."
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "item",
+              "vehicle"
+            ],
+            "description": "`vehicle` for ids starting with `Vehicle.`, otherwise `item`."
+          },
+          "asset": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Path of the item definition inside the game files."
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Display name: the definition's own name, else the one in the UI tables, else the id."
+          },
+          "subtitle": {
+            "description": "Short category line shown under the name in tooltips, such as \"Assault Rifle\" or \"Truck\".",
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "description": "Short tooltip text (a one-line summary or a few stat bullets, joined with newlines).",
+            "type": "string",
+            "minLength": 1
+          },
+          "icon": {
+            "description": "The icon the game shows for this item in the inventory and the shop, as a PNG path relative to the release's `icons/` folder. Several items can share one icon. Absent for parts with no icon in the game (built-in barrels and stocks, vehicle turrets, storage).",
+            "type": "string",
+            "minLength": 1
+          },
+          "developer": {
+            "description": "True for items the game ships for development (test and debug items) that players cannot get. Join on this to leave them out of weapons, ammunition and other files that refer to items.",
+            "type": "boolean",
+            "const": true
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "The item's context tags, which describe what it is and where it can go (`Item.Attachment.Muzzle`, `Inventory.Slot.Primary`)."
+          },
+          "grid": {
+            "type": "array",
+            "prefixItems": [
+              {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              }
+            ],
+            "items": false,
+            "minItems": 2,
+            "maxItems": 2,
+            "description": "Inventory footprint in cells: [width, height]."
+          },
+          "maxStack": {
+            "type": "integer",
+            "exclusiveMinimum": 0,
+            "maximum": 9007199254740991,
+            "description": "Max units per inventory cell (1 when the item is not stackable)."
+          },
+          "weight": {
+            "description": "Weight as stored by the game.",
+            "type": "number",
+            "minimum": 0
+          },
+          "durability": {
+            "description": "Durability as stored by the game, for items that wear.",
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "unlock": {
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "role": {
+                    "type": "string",
+                    "minLength": 1,
+                    "description": "Progression tree: Infantry, Support, Medic, Recon, Pilot, Driver, or Wardog (the account-wide career level)."
+                  },
+                  "level": {
+                    "type": "integer",
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991,
+                    "description": "Minimum level in that tree."
+                  },
+                  "cost": {
+                    "type": "number",
+                    "minimum": 0,
+                    "description": "Cash cost to unlock."
+                  }
+                },
+                "required": [
+                  "role",
+                  "level",
+                  "cost"
+                ],
+                "additionalProperties": false,
+                "description": "What it takes to unlock an item in the progression trees."
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Null when the item is available without unlocking (or is not part of a tree)."
+          },
+          "vendor": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "tag": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Vendor variation tag. Equals the item id for the base item; variants append a suffix."
+                },
+                "price": {
+                  "type": "number",
+                  "minimum": 0,
+                  "description": "Price of one purchase, in the game's cash."
+                },
+                "amount": {
+                  "type": "integer",
+                  "exclusiveMinimum": 0,
+                  "maximum": 9007199254740991,
+                  "description": "Units sold per purchase at `price` (ammo is sold in lots)."
+                },
+                "categories": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Vendor categories the entry is listed under, for example `Vendor.Category.Attachment`."
+                }
+              },
+              "required": [
+                "tag",
+                "price",
+                "amount",
+                "categories"
+              ],
+              "additionalProperties": false
+            },
+            "description": "Ways to buy the item. Empty when no shop sells it."
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "asset",
+          "name",
+          "tags",
+          "grid",
+          "maxStack",
+          "unlock",
+          "vendor"
+        ],
+        "additionalProperties": false
+      },
+      "description": "One entry per item and vehicle definition, sorted by id."
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "gameBuild",
+    "items"
+  ],
+  "additionalProperties": false,
+  "description": "Every item and vehicle: names, tooltip text, icon, inventory size, stacking, vendor prices and unlock requirements."
+}

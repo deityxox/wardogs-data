@@ -1,0 +1,296 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Match objectives",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1,
+      "description": "Version of this file's layout. It changes only when the layout does."
+    },
+    "world": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Name of the world (level) the objectives are in."
+    },
+    "gameBuild": {
+      "type": "string",
+      "description": "Steam build id the data was extracted from."
+    },
+    "units": {
+      "type": "string",
+      "const": "meters",
+      "description": "Unit of every distance in the file."
+    },
+    "configs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "config": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Name of the game's control zone configuration asset."
+          },
+          "mode": {
+            "type": "string",
+            "minLength": 1,
+            "description": "`Standard` for the normal match, otherwise the name of the game mode variant (for example `SniperShowdown`)."
+          },
+          "zone": {
+            "type": "object",
+            "properties": {
+              "center": {
+                "type": "array",
+                "prefixItems": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ],
+                "items": false,
+                "minItems": 3,
+                "maxItems": 3,
+                "description": "Center of the control zone: [x, y, z] in meters."
+              },
+              "extents": {
+                "type": "array",
+                "prefixItems": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ],
+                "items": false,
+                "minItems": 3,
+                "maxItems": 3,
+                "description": "Size of the control zone as the game stores it, in meters: for a cylinder, x and y are the radius and z the half height."
+              },
+              "shape": {
+                "description": "Zone shape, for example `Cylinder`. Absent when the game leaves it at its default.",
+                "type": "string"
+              },
+              "hotZone": {
+                "type": "object",
+                "properties": {
+                  "extents": {
+                    "type": "array",
+                    "prefixItems": [
+                      {
+                        "type": "number"
+                      },
+                      {
+                        "type": "number"
+                      },
+                      {
+                        "type": "number"
+                      }
+                    ],
+                    "items": false,
+                    "minItems": 3,
+                    "maxItems": 3,
+                    "description": "Size of the hot zone (the moving capture area inside the control zone), in meters, read like `extents`."
+                  },
+                  "shape": {
+                    "description": "Hot zone shape. Absent when the game leaves it at its default.",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "extents"
+                ],
+                "additionalProperties": false,
+                "description": "The hot zone inside the control zone."
+              }
+            },
+            "required": [
+              "center",
+              "extents",
+              "hotZone"
+            ],
+            "additionalProperties": false,
+            "description": "The default control zone."
+          },
+          "alternatives": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "The game's tag for this placement, for example `ZoneAlternator.Bakurani.Farmland.Circle`."
+                },
+                "weight": {
+                  "type": "number",
+                  "minimum": 0,
+                  "description": "Relative chance the placement is chosen. 0 means it is never chosen."
+                },
+                "zone": {
+                  "type": "object",
+                  "properties": {
+                    "center": {
+                      "type": "array",
+                      "prefixItems": [
+                        {
+                          "type": "number"
+                        },
+                        {
+                          "type": "number"
+                        },
+                        {
+                          "type": "number"
+                        }
+                      ],
+                      "items": false,
+                      "minItems": 3,
+                      "maxItems": 3,
+                      "description": "Center of the control zone: [x, y, z] in meters."
+                    },
+                    "extents": {
+                      "type": "array",
+                      "prefixItems": [
+                        {
+                          "type": "number"
+                        },
+                        {
+                          "type": "number"
+                        },
+                        {
+                          "type": "number"
+                        }
+                      ],
+                      "items": false,
+                      "minItems": 3,
+                      "maxItems": 3,
+                      "description": "Size of the control zone as the game stores it, in meters: for a cylinder, x and y are the radius and z the half height."
+                    },
+                    "shape": {
+                      "description": "Zone shape, for example `Cylinder`. Absent when the game leaves it at its default.",
+                      "type": "string"
+                    },
+                    "hotZone": {
+                      "type": "object",
+                      "properties": {
+                        "extents": {
+                          "type": "array",
+                          "prefixItems": [
+                            {
+                              "type": "number"
+                            },
+                            {
+                              "type": "number"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ],
+                          "items": false,
+                          "minItems": 3,
+                          "maxItems": 3,
+                          "description": "Size of the hot zone (the moving capture area inside the control zone), in meters, read like `extents`."
+                        },
+                        "shape": {
+                          "description": "Hot zone shape. Absent when the game leaves it at its default.",
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "extents"
+                      ],
+                      "additionalProperties": false,
+                      "description": "The hot zone inside the control zone."
+                    }
+                  },
+                  "required": [
+                    "center",
+                    "extents",
+                    "hotZone"
+                  ],
+                  "additionalProperties": false,
+                  "description": "A control zone and the hot zone inside it."
+                }
+              },
+              "required": [
+                "id",
+                "weight",
+                "zone"
+              ],
+              "additionalProperties": false
+            },
+            "description": "Other places the control zone can be put at the start of a match. Empty when the zone never moves."
+          },
+          "hotZoneMovement": {
+            "type": "object",
+            "properties": {
+              "firstMoveDelay": {
+                "description": "Seconds before the hot zone first moves.",
+                "type": "number"
+              },
+              "moveDelay": {
+                "description": "Seconds of delay before the hot zone moves, as stored (the game's `MoveDelay`).",
+                "type": "number"
+              },
+              "innerRadiusFraction": {
+                "description": "The game's `HotZoneInnerRadiusPercentage`, as stored (0.95 on the standard configurations). It limits how far toward the control zone's edge the hot zone may go.",
+                "type": "number"
+              },
+              "defaultSpeed": {
+                "description": "Hot zone speed multiplier, as stored (the game's `DefaultSpeed`).",
+                "type": "number"
+              },
+              "dynamicSpeeds": {
+                "description": "True when the hot zone uses the speeds listed in `speeds` (the game's `bUseDynamicHotzoneSpeeds`).",
+                "type": "boolean"
+              },
+              "speeds": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "description": "The game's `HotzoneSpeeds` list, as stored."
+              },
+              "minMoveDistance": {
+                "description": "Shortest move of the hot zone, in meters.",
+                "type": "number"
+              }
+            },
+            "required": [
+              "speeds"
+            ],
+            "additionalProperties": false,
+            "description": "How the hot zone moves inside the control zone."
+          }
+        },
+        "required": [
+          "config",
+          "mode",
+          "zone",
+          "alternatives",
+          "hotZoneMovement"
+        ],
+        "additionalProperties": false
+      },
+      "description": "One entry per control zone configuration the game has for the world."
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "world",
+    "gameBuild",
+    "units",
+    "configs"
+  ],
+  "additionalProperties": false,
+  "description": "Match objectives of one world: where the control zone and its hot zone are, how big they are, and how the hot zone moves."
+}

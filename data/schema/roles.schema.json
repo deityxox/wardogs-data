@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Role levels",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1,
+      "description": "Version of this file's layout. It changes only when the layout does."
+    },
+    "gameBuild": {
+      "type": "string",
+      "description": "Steam build id the data was extracted from."
+    },
+    "roles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Role id: the game's role tag without the `Meta.Role.` prefix: Infantry, Support, Medic, Recon, Pilot or Driver. The same ids as `unlock.role` in items.json."
+          },
+          "xpResource": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The game's attribute that holds the role's XP, without the `Attribute.Meta.` prefix, for example `XP.Role.Infantry`."
+          },
+          "levels": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "level": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 9007199254740991,
+                  "description": "Role level."
+                },
+                "xp": {
+                  "type": "number",
+                  "minimum": 0,
+                  "description": "Total role XP needed to reach this level, counted from zero (level 0 needs 0). The game's progress display reads `current XP / next level XP`, so the values are totals, not per-level costs."
+                }
+              },
+              "required": [
+                "level",
+                "xp"
+              ],
+              "additionalProperties": false,
+              "description": "One level of a role."
+            },
+            "description": "Every level from 0 up, sorted by level."
+          }
+        },
+        "required": [
+          "id",
+          "xpResource",
+          "levels"
+        ],
+        "additionalProperties": false,
+        "description": "The XP a role needs for each level."
+      },
+      "description": "Roles, sorted by id."
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "gameBuild",
+    "roles"
+  ],
+  "additionalProperties": false,
+  "description": "Role mastery: the XP needed for each level of each role. Items unlock at a role level (`unlock` in items.json), so this turns a level gate into an amount of XP. The overall Wardog (career) level, which gates some items up to level 150, has no table of its own: the game's text says all role levels combine into it, without giving the formula."
+}

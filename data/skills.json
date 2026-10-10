@@ -1,0 +1,3110 @@
+{
+  "schemaVersion": 1,
+  "gameBuild": "25677108",
+  "trees": [
+    {
+      "role": "Driver",
+      "rows": 4,
+      "columns": 9,
+      "shape": "Circle"
+    },
+    {
+      "role": "Infantry",
+      "rows": 4,
+      "columns": 9,
+      "shape": "Circle"
+    },
+    {
+      "role": "Medic",
+      "rows": 4,
+      "columns": 9,
+      "shape": "Circle"
+    },
+    {
+      "role": "Pilot",
+      "rows": 4,
+      "columns": 9,
+      "shape": "Circle"
+    },
+    {
+      "role": "Recon",
+      "rows": 4,
+      "columns": 9,
+      "shape": "Circle"
+    },
+    {
+      "role": "Support",
+      "rows": 4,
+      "columns": 9,
+      "shape": "Circle"
+    }
+  ],
+  "skills": [
+    {
+      "id": "Driver.AimDownSightSpeed.MountedGun",
+      "role": "Driver",
+      "name": "Time-to-ADS speed improvement (Mounted MG - Ground Vehicles)",
+      "description": "Reduces the amount of time it takes to enter ADS whilst using any mounted MG's on ground vehicles.",
+      "layout": {
+        "row": 2,
+        "column": 5,
+        "x": 1198.774,
+        "y": 320.773
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_AimTime",
+          "attribute": "Weapon.AimTime",
+          "curve": "AimDownSight_MountedGun",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Driver.AutoRepair",
+      "role": "Driver",
+      "name": "Can autorepair at petrol stations (Ground Vehicles)",
+      "description": "Unlocks the ability to auto repair ground vehicles at a petrol station.",
+      "layout": {
+        "row": 1,
+        "column": 2,
+        "x": 580.691,
+        "y": 594.642
+      },
+      "effects": []
+    },
+    {
+      "id": "Driver.FuelUsageReduction",
+      "role": "Driver",
+      "name": "Fuel usage rate reduction (Ground Vehicles)",
+      "description": "Reduces the usage of fuel when driving ground vehicles, providing a longer fuel time.",
+      "layout": {
+        "row": 1,
+        "column": 5,
+        "x": 1134.646,
+        "y": 496.965
+      },
+      "effects": [
+        {
+          "trigger": "Vehicle",
+          "effect": "GE_Vehicle_FuelUsageReductionMultiplier",
+          "attribute": "FuelUsageReductionMultiplier",
+          "curve": "FuelUsageReduction",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Driver.HorizontalRecoil.MountedGun",
+      "role": "Driver",
+      "name": "Horizontal recoil reduction (Mounted MG - Ground Vehicles)",
+      "description": "Reduces horizontal recoil experienced when firing a mounted MG on a ground vehicle.",
+      "layout": {
+        "row": 0,
+        "column": 1,
+        "x": 617.5,
+        "y": 838.043
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_HorizontalRecoilMultiplier",
+          "attribute": "Weapon.HorizontalRecoilMultiplier",
+          "curve": "HorizontalRecoil_MountedGun",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Driver.ImpactDamageReduction",
+      "role": "Driver",
+      "name": "Impact damage reduction (Ground Vehicles)",
+      "description": "Reduces the amount of damage your ground vehicle receives from impacting with objects & landscape in the world (when you are driver).",
+      "layout": {
+        "row": 1,
+        "column": 1,
+        "x": 455.12,
+        "y": 744.292
+      },
+      "effects": [
+        {
+          "trigger": "Vehicle",
+          "effect": "GE_Vehicle_ImpactReductionMultiplier",
+          "attribute": "Health.ImpactReductionMultiplier",
+          "curve": "ImpactDamageReduction",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Driver.IncreasedHealth.SupplyCrate",
+      "role": "Driver",
+      "name": "Increased supply crate durability (Ground Vehicles)",
+      "description": "Increases the amount of damage a supply crate can take before it is destroyed (when the supply crate is dropped by you as a driver)",
+      "layout": {
+        "row": 2,
+        "column": 4,
+        "x": 942.259,
+        "y": 275.542
+      },
+      "effects": [
+        {
+          "trigger": "SupplyCrate",
+          "effect": "GE_Vehicle_Health",
+          "attribute": "Health",
+          "curve": "IncreasedHealth_SupplyCrate",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 1.2
+            },
+            {
+              "level": 4,
+              "value": 1.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Driver.QuickerEngineStart",
+      "role": "Driver",
+      "name": "Engine turn on speed improvement",
+      "description": "Reduces the time it takes to turn the engine on in ground vehicles.",
+      "layout": {
+        "row": 1,
+        "column": 4,
+        "x": 942.259,
+        "y": 463.042
+      },
+      "effects": []
+    },
+    {
+      "id": "Driver.RefuelSpeed.PetrolStation",
+      "role": "Driver",
+      "name": "Petrol station refueling speed improvement (Ground Vehicles)",
+      "description": "Reduces the amount of time it takes to refuel a ground vehicle at a petrol station.",
+      "layout": {
+        "row": 1,
+        "column": 6,
+        "x": 1303.827,
+        "y": 594.642
+      },
+      "effects": []
+    },
+    {
+      "id": "Driver.RefuelSpeed.Spawn",
+      "role": "Driver",
+      "name": "Spawnzone refueling speed improvement (Ground Vehicles)",
+      "description": "Reduces the amount of time it takes to refuel a ground vehicle in the spawnzone.",
+      "layout": {
+        "row": 1,
+        "column": 7,
+        "x": 1429.398,
+        "y": 744.292
+      },
+      "effects": []
+    },
+    {
+      "id": "Driver.ReloadSpeed.MountedGun",
+      "role": "Driver",
+      "name": "Reload speed improvement (Mounted MG - Ground Vehicles)",
+      "description": "Reduces the amount of time it takes to reload the mounted MG's on ground vehicles.",
+      "layout": {
+        "row": 2,
+        "column": 3,
+        "x": 685.744,
+        "y": 320.773
+      },
+      "effects": []
+    },
+    {
+      "id": "Driver.RepairSpeed.Spawn",
+      "role": "Driver",
+      "name": "Spawnzone Repairing speed improvement (Ground Vehicles)",
+      "description": "Reduces the amount of time it takes to repair a ground vehicle in the spawnzone.",
+      "layout": {
+        "row": 1,
+        "column": 3,
+        "x": 749.873,
+        "y": 496.965
+      },
+      "effects": []
+    },
+    {
+      "id": "Driver.VerticalRecoil.MountedGun",
+      "role": "Driver",
+      "name": "Vertical recoil reduction (Mounted MG - Ground Vehicles)",
+      "description": "Reduces vertical recoil experienced when firing a mounted MG on a ground vehicle.",
+      "layout": {
+        "row": 0,
+        "column": 7,
+        "x": 1267.019,
+        "y": 838.042
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_VerticalRecoilMultiplier",
+          "attribute": "Weapon.VerticalRecoilMultiplier",
+          "curve": "VerticalRecoil_MountedGun",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Infantry.AimDownSightSpeed.AssaultRifle",
+      "role": "Infantry",
+      "name": "Time-to-ADS speed improvement (Assault Archetype)",
+      "description": "Reduces the time it takes to enter ADS, specifically with weapons within the 'assault' archetype.",
+      "layout": {
+        "row": 2,
+        "column": 3,
+        "x": 685.744,
+        "y": 320.773
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_AimTime",
+          "attribute": "Weapon.AimTime",
+          "curve": "AimDownSightSpeed_AssaultRifle",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Infantry.AimDownSightSpeed.SMG",
+      "role": "Infantry",
+      "name": "Time-to-ADS speed improvement (SMG Archetype)",
+      "description": "Reduces the time it takes to enter ADS, specifically with weapons within the 'SMG' archetypes.",
+      "layout": {
+        "row": 2,
+        "column": 5,
+        "x": 1198.774,
+        "y": 320.773
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_AimTime",
+          "attribute": "Weapon.AimTime",
+          "curve": "AimDownSightSpeed_SMG",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Infantry.AimMoveSpeed.AssaultRifle",
+      "role": "Infantry",
+      "name": "ADS movement speed improvement (Assault Archetype)",
+      "description": "Increases the speed a player can move whilst aiming down sights, specifically with weapons within the 'assault' archetype.",
+      "layout": {
+        "row": 2,
+        "column": 2,
+        "x": 460.168,
+        "y": 451.009
+      },
+      "effects": [
+        {
+          "trigger": "Character.HeldItemUpdated",
+          "effect": "GE_Player_MaxSpeedMultiplier_Aiming",
+          "attribute": "Movement.MaxSpeedMultiplier",
+          "curve": "AimMoveSpeed_AssaultRifle",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 1.2
+            },
+            {
+              "level": 4,
+              "value": 1.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Infantry.AimMoveSpeed.SMG",
+      "role": "Infantry",
+      "name": "ADS movement speed improvement (SMG Archetype)",
+      "description": "Increases the speed a player can move whilst aiming down sights, specifically with weapons within the 'SMG' archetypes.",
+      "layout": {
+        "row": 2,
+        "column": 6,
+        "x": 1424.35,
+        "y": 451.009
+      },
+      "effects": [
+        {
+          "trigger": "Character.HeldItemUpdated",
+          "effect": "GE_Player_MaxSpeedMultiplier_Aiming",
+          "attribute": "Movement.MaxSpeedMultiplier",
+          "curve": "AimMoveSpeed_SMG",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 1.2
+            },
+            {
+              "level": 4,
+              "value": 1.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Infantry.BreathHoldImpact",
+      "role": "Infantry",
+      "name": "Reduced shooting penalty on focus-time (Assault & SMG Archetypes)",
+      "description": "Reduces the amount of focus-time penalty the player experiences when they shoot their weapon whilst holding their breath. This should apply to weapons in both Assault & SMG archetypes.",
+      "layout": {
+        "row": 1,
+        "column": 4,
+        "x": 942.259,
+        "y": 463.042
+      },
+      "effects": []
+    },
+    {
+      "id": "Infantry.CovertMovementSpeed",
+      "role": "Infantry",
+      "name": "Crouch/prone movement speed improvements",
+      "description": "Increases the base speed a player moves when they are in crouch & prone.",
+      "layout": {
+        "row": 2,
+        "column": 8,
+        "x": 1680.865,
+        "y": 895.306
+      },
+      "effects": [
+        {
+          "trigger": "Character",
+          "effect": "GE_Player_MaxSpeedMultiplier_Covert",
+          "attribute": "Movement.MaxSpeedMultiplier",
+          "curve": "CovertMovementSpeed",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 1.2
+            },
+            {
+              "level": 4,
+              "value": 1.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Infantry.CovertStaminaRegen",
+      "role": "Infantry",
+      "name": "Faster Tac-sprint stamina regen whilst crouched/proned",
+      "description": "Tac-sprint stamina recovery is faster when player is crouched or proned.",
+      "layout": {
+        "row": 3,
+        "column": 7,
+        "x": 1754.158,
+        "y": 556.792
+      },
+      "effects": [
+        {
+          "trigger": "Character",
+          "effect": "GE_Player_StaminaRegenPerSecondMultiplier_Covert",
+          "attribute": "Movement.StaminaRegenPerSecondMultiplier",
+          "curve": "CovertStaminaRegen",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 1.2
+            },
+            {
+              "level": 4,
+              "value": 1.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Infantry.FasterVault",
+      "role": "Infantry",
+      "name": "Faster vault speed",
+      "description": "Reduces the time it takes to perform vaults at all heights.",
+      "layout": {
+        "row": 2,
+        "column": 7,
+        "x": 1591.778,
+        "y": 650.542
+      },
+      "effects": []
+    },
+    {
+      "id": "Infantry.FlakJacket",
+      "role": "Infantry",
+      "name": "Reduced suppresion effect",
+      "description": "Reduces the severity of the suppresion effect experienced when under fire / near an explosion.",
+      "layout": {
+        "row": 3,
+        "column": 1,
+        "x": 130.36,
+        "y": 556.792
+      },
+      "effects": []
+    },
+    {
+      "id": "Infantry.HorizontalRecoil.AssaultRifle",
+      "role": "Infantry",
+      "name": "Horizontal recoil reduction (Assault Archetype)",
+      "description": "Reduces the amount of horizontal recoil a player experiences when firing weapons within the 'assault' archetype.",
+      "layout": {
+        "row": 0,
+        "column": 3,
+        "x": 814.002,
+        "y": 673.158
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_HorizontalRecoilMultiplier",
+          "attribute": "Weapon.HorizontalRecoilMultiplier",
+          "curve": "HorizontalRecoil_AssaultRifle",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Infantry.HorizontalRecoil.SMG",
+      "role": "Infantry",
+      "name": "Horizontal recoil reduction (SMG Archetype)",
+      "description": "Reduces the amount of horizontal recoil a player experiences when firing weapons within the 'SMG' archetypes.",
+      "layout": {
+        "row": 0,
+        "column": 5,
+        "x": 1070.517,
+        "y": 673.158
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_HorizontalRecoilMultiplier",
+          "attribute": "Weapon.HorizontalRecoilMultiplier",
+          "curve": "HorizontalRecoil_SMG",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Infantry.MeleeDamage",
+      "role": "Infantry",
+      "name": "Melee damage increase",
+      "description": "Increase the damage dealt by the player's melee attacks. This includes fists, melee weapons and weapon 'bashing'.",
+      "layout": {
+        "row": 1,
+        "column": 0,
+        "x": 388.305,
+        "y": 927.865
+      },
+      "effects": []
+    },
+    {
+      "id": "Infantry.MeleeSpeed",
+      "role": "Infantry",
+      "name": "Melee speed improvement",
+      "description": "Reduce the time it takes for players to complete a melee attack. This includes fists, melee weapons and weapon 'bashing'.",
+      "layout": {
+        "row": 2,
+        "column": 0,
+        "x": 203.653,
+        "y": 895.306
+      },
+      "effects": []
+    },
+    {
+      "id": "Infantry.ReducedFocus",
+      "role": "Infantry",
+      "name": "Reduced effect of received damage on focus-reduction",
+      "description": "Reduces the effect that receiving damage has on your focus-time.",
+      "layout": {
+        "row": 2,
+        "column": 1,
+        "x": 292.74,
+        "y": 650.542
+      },
+      "effects": []
+    },
+    {
+      "id": "Infantry.ReloadSpeed.AssaultRifle",
+      "role": "Infantry",
+      "name": "Reload Speed Improvement (Assault Archetype)",
+      "description": "Reduces the time it takes to reload. Specifically with weapons within the 'assault' archetype.",
+      "layout": {
+        "row": 3,
+        "column": 3,
+        "x": 621.615,
+        "y": 144.581
+      },
+      "effects": []
+    },
+    {
+      "id": "Infantry.ReloadSpeed.SMG",
+      "role": "Infantry",
+      "name": "Reload Speed Improvement (SMG Archetype)",
+      "description": "Reduces the time it takes to reload. Specifically with weapons within the 'SMG' archetypes.",
+      "layout": {
+        "row": 3,
+        "column": 5,
+        "x": 1262.903,
+        "y": 144.581
+      },
+      "effects": []
+    },
+    {
+      "id": "Infantry.ReturnToFireSpeed.AssaultRifle",
+      "role": "Infantry",
+      "name": "Ready-to-fire speed improvement (Assault Archetype)",
+      "description": "Reduces the time it takes for your gun to come up after certain actions, specifically with weapons that fall under the 'assault' archetype  (eg. Sprinting, dismounting ladder, exiting vault, etc).",
+      "layout": {
+        "row": 1,
+        "column": 2,
+        "x": 580.691,
+        "y": 594.642
+      },
+      "effects": [
+        {
+          "trigger": "Character",
+          "effect": "GE_Player_ReadyToFirePlayRate",
+          "attribute": "Movement.ReadyToFirePlayRate",
+          "curve": "ReadyToFireSpeed_AssaultRifle",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Infantry.ReturnToFireSpeed.SMG",
+      "role": "Infantry",
+      "name": "Ready-to-fire speed improvement (SMG Archetype)",
+      "description": "Reduces the time it takes for your gun to come up after certain actions, specifically with weapons that fall under the 'SMG' archetypes  (eg. Sprinting, dismounting ladder, exiting vault, etc).",
+      "layout": {
+        "row": 1,
+        "column": 6,
+        "x": 1303.827,
+        "y": 594.642
+      },
+      "effects": [
+        {
+          "trigger": "Character",
+          "effect": "GE_Player_ReadyToFirePlayRate",
+          "attribute": "Movement.ReadyToFirePlayRate",
+          "curve": "ReadyToFireSpeed_SMG",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Infantry.SlideDownLadders",
+      "role": "Infantry",
+      "name": "Fast-descend down ladders",
+      "description": "Unlocks the ability to quickly descend ladders by sliding down them.",
+      "layout": {
+        "row": 3,
+        "column": 6,
+        "x": 1544.873,
+        "y": 307.376
+      },
+      "effects": []
+    },
+    {
+      "id": "Infantry.SprintBreach",
+      "role": "Infantry",
+      "name": "Sprint-breach through doors",
+      "description": "Unlocks the ability to bash through doors by sprinting into them.",
+      "layout": {
+        "row": 3,
+        "column": 0,
+        "x": 19.002,
+        "y": 862.747
+      },
+      "effects": [
+        {
+          "trigger": "Character",
+          "effect": "GE_GrantSkill_DoorBreach"
+        }
+      ]
+    },
+    {
+      "id": "Infantry.StrongArm",
+      "role": "Infantry",
+      "name": "Increased grenade throw strength",
+      "description": "Increase throw strength when throwing grenades, allowing for a higher potential maximum distance.",
+      "layout": {
+        "row": 0,
+        "column": 1,
+        "x": 617.5,
+        "y": 838.042
+      },
+      "effects": []
+    },
+    {
+      "id": "Infantry.TacticalSprintDuration",
+      "role": "Infantry",
+      "name": "Tac-sprint duration",
+      "description": "Increased duration of tac-sprint before it runs out.",
+      "layout": {
+        "row": 3,
+        "column": 8,
+        "x": 1865.517,
+        "y": 862.747
+      },
+      "effects": [
+        {
+          "trigger": "Character",
+          "effect": "GE_Player_TacSprintStaminaUsageMultiplier",
+          "attribute": "Movement.TacSprintStaminaUsageMultiplier",
+          "curve": "TacticalSprintDuration",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Infantry.TacticalSprintRecovery",
+      "role": "Infantry",
+      "name": "Tac-sprint recovery time improvement",
+      "description": "Reduces the time it takes to recover tac-sprint stamina.",
+      "layout": {
+        "row": 1,
+        "column": 7,
+        "x": 1429.399,
+        "y": 744.292
+      },
+      "effects": [
+        {
+          "trigger": "Character",
+          "effect": "GE_Player_StaminaRegenPerSecondMultiplier",
+          "attribute": "Movement.StaminaRegenPerSecondMultiplier",
+          "curve": "TacticalSprintRecovery",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 1.2
+            },
+            {
+              "level": 4,
+              "value": 1.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Infantry.TacticalSwimDuration",
+      "role": "Infantry",
+      "name": "Tac-swim duration",
+      "description": "Increased duration of tac-swimming before it runs out.",
+      "layout": {
+        "row": 1,
+        "column": 8,
+        "x": 1496.214,
+        "y": 927.865
+      },
+      "effects": []
+    },
+    {
+      "id": "Infantry.UnarmedSprintSpeed",
+      "role": "Infantry",
+      "name": "Unarmed sprint speed improvement",
+      "description": "Increases the speed a player sprints when they have their fists out.",
+      "layout": {
+        "row": 0,
+        "column": 7,
+        "x": 1267.019,
+        "y": 838.042
+      },
+      "effects": [
+        {
+          "trigger": "Character.HeldItemUpdated",
+          "effect": "GE_Player_SprintSpeedMultiplier",
+          "attribute": "Movement.SprintSpeedMultiplier",
+          "curve": "UnarmedSprintSpeed_SprintSpeed",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 1.2
+            },
+            {
+              "level": 4,
+              "value": 1.4
+            }
+          ]
+        },
+        {
+          "trigger": "Character.HeldItemUpdated",
+          "effect": "GE_Player_SprintSpeedMultiplier",
+          "attribute": "Movement.TacSprintSpeedMultiplier",
+          "curve": "UnarmedSprintSpeed_TacSprintSpeed",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 1.2
+            },
+            {
+              "level": 4,
+              "value": 1.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Infantry.VerticalRecoil.AssaultRifle",
+      "role": "Infantry",
+      "name": "Vertical recoil reduction (Assault Archetype)",
+      "description": "Reduces the amount of vertical recoil a player experiences when firing weapons under the 'assault' archetype.",
+      "layout": {
+        "row": 1,
+        "column": 3,
+        "x": 749.873,
+        "y": 496.965
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_VerticalRecoilMultiplier",
+          "attribute": "Weapon.VerticalRecoilMultiplier",
+          "curve": "VerticalRecoil_AssaultRifle",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Infantry.VerticalRecoil.SMG",
+      "role": "Infantry",
+      "name": "Vertical recoil reduction (SMG Archetype)",
+      "description": "Reduces the amount of vertical recoil a player experiences when firing weapons under the 'SMG' archetypes.",
+      "layout": {
+        "row": 1,
+        "column": 5,
+        "x": 1134.645,
+        "y": 496.965
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_VerticalRecoilMultiplier",
+          "attribute": "Weapon.VerticalRecoilMultiplier",
+          "curve": "VerticalRecoil_SMG",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Infantry.WeaponSwitchSpeed",
+      "role": "Infantry",
+      "name": "Weapon-switch speed improvement (Assault & SMG Archetypes)",
+      "description": "Reduces the amount of time it takes to switch TO any weapon in the assault & SMG archetypes.",
+      "layout": {
+        "row": 2,
+        "column": 4,
+        "x": 942.259,
+        "y": 275.542
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_EquipSpeedMultiplier",
+          "attribute": "Weapon.EquipSpeedMultiplier",
+          "curve": "WeaponSwitchSpeed",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 1.2
+            },
+            {
+              "level": 4,
+              "value": 1.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Infantry.WeightPenalty",
+      "role": "Infantry",
+      "name": "Reduced weight-related movement penalty",
+      "description": "Reduces the amount that movement is negatively affected by inventory weight.",
+      "layout": {
+        "row": 1,
+        "column": 1,
+        "x": 455.12,
+        "y": 744.292
+      },
+      "effects": []
+    },
+    {
+      "id": "Medic.BuffApplicationTime",
+      "role": "Medic",
+      "name": "Buff application speed improvement",
+      "description": "Reduces the amount of time it takes to apply buffs to self AND teammates.",
+      "layout": {
+        "row": 2,
+        "column": 4,
+        "x": 942.259,
+        "y": 275.542
+      },
+      "effects": []
+    },
+    {
+      "id": "Medic.BuffDuration.Self",
+      "role": "Medic",
+      "name": "Increased self buff duration",
+      "description": "Increases the amount of time a buff is active after you have self-buffed.",
+      "layout": {
+        "row": 1,
+        "column": 5,
+        "x": 1134.645,
+        "y": 496.965
+      },
+      "effects": []
+    },
+    {
+      "id": "Medic.BuffDuration.Teammate",
+      "role": "Medic",
+      "name": "Increased teammate buff duration",
+      "description": "Increases the amount of time a buff is active on a teammate you have buffed.",
+      "layout": {
+        "row": 1,
+        "column": 4,
+        "x": 942.259,
+        "y": 463.042
+      },
+      "effects": []
+    },
+    {
+      "id": "Medic.ChargeTime.Defibrillator",
+      "role": "Medic",
+      "name": "Defib charge speed improvement",
+      "description": "Reduces the amount of time it takes to charge up your defib.",
+      "layout": {
+        "row": 1,
+        "column": 7,
+        "x": 1429.399,
+        "y": 744.292
+      },
+      "effects": []
+    },
+    {
+      "id": "Medic.DragSpeed",
+      "role": "Medic",
+      "name": "Drag speed improvement",
+      "description": "Increases the speed that you can move when you are dragging another player.",
+      "layout": {
+        "row": 0,
+        "column": 5,
+        "x": 1070.517,
+        "y": 673.158
+      },
+      "effects": []
+    },
+    {
+      "id": "Medic.HealthierRevive",
+      "role": "Medic",
+      "name": "Increased health after base reviving someone",
+      "description": "Increases the amount of health a teammate revives with after you have revived them using the base-revive (no equipment, just bare hands).",
+      "layout": {
+        "row": 2,
+        "column": 5,
+        "x": 1198.774,
+        "y": 320.773
+      },
+      "effects": []
+    },
+    {
+      "id": "Medic.HealTime.Self",
+      "role": "Medic",
+      "name": "Self-healing speed improvement",
+      "description": "Reduces the amount of time it takes to heal yourself with all medical items.",
+      "layout": {
+        "row": 2,
+        "column": 3,
+        "x": 685.744,
+        "y": 320.773
+      },
+      "effects": []
+    },
+    {
+      "id": "Medic.HealTime.Teammate",
+      "role": "Medic",
+      "name": "Teammate healing speed improvement",
+      "description": "Reduces the amount of time it takes to heal teammates with all medical items.",
+      "layout": {
+        "row": 3,
+        "column": 3,
+        "x": 621.615,
+        "y": 144.581
+      },
+      "effects": []
+    },
+    {
+      "id": "Medic.HealTimeWhileSuppressed",
+      "role": "Medic",
+      "name": "Faster healing whilst suppressed",
+      "description": "Reduces the amount of time it takes to heal a teammate whilst you are experiencing the suppressed effect from enemy fire.",
+      "layout": {
+        "row": 1,
+        "column": 1,
+        "x": 455.12,
+        "y": 744.292
+      },
+      "effects": []
+    },
+    {
+      "id": "Medic.IncreaseBleedTime",
+      "role": "Medic",
+      "name": "Increased bleedout timer",
+      "description": "Increases the amount of time you have before you bleed out when you are in a downed state.",
+      "layout": {
+        "row": 0,
+        "column": 7,
+        "x": 1267.019,
+        "y": 838.042
+      },
+      "effects": []
+    },
+    {
+      "id": "Medic.LessSuppression",
+      "role": "Medic",
+      "name": "Reduced suppression effect",
+      "description": "Reduces the severity of the suppression effect experienced when enemies are firing at you.",
+      "layout": {
+        "row": 0,
+        "column": 1,
+        "x": 617.5,
+        "y": 838.042
+      },
+      "effects": []
+    },
+    {
+      "id": "Medic.MedicalItemSwapSpeed",
+      "role": "Medic",
+      "name": "Item-switch speed improvement (Medical Archetype)",
+      "description": "Reduces the amount of time it takes to switch TO any items / equipment within the 'medical' archetype.",
+      "layout": {
+        "row": 1,
+        "column": 3,
+        "x": 749.873,
+        "y": 496.965
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_EquipSpeedMultiplier",
+          "attribute": "Weapon.EquipSpeedMultiplier",
+          "curve": "MedicalItemSwapSpeed",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 1.2
+            },
+            {
+              "level": 4,
+              "value": 1.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Medic.MedicalItemWeightReduction",
+      "role": "Medic",
+      "name": "Reduced weight-penalty for medical items",
+      "description": "Reduces the amount of weight-penalty that is given from carrying medical items specifically.",
+      "layout": {
+        "row": 0,
+        "column": 3,
+        "x": 814.002,
+        "y": 673.158
+      },
+      "effects": []
+    },
+    {
+      "id": "Medic.MedicBag",
+      "role": "Medic",
+      "name": "Medic bag (additional slots for medical items)",
+      "description": "Unlocks the ability to purchase a medic bag, which provides additional slots specifically for medical items.",
+      "layout": {
+        "row": 3,
+        "column": 1,
+        "x": 130.36,
+        "y": 556.792
+      },
+      "effects": []
+    },
+    {
+      "id": "Medic.MedkitUsage",
+      "role": "Medic",
+      "name": "Medkits have more uses",
+      "description": "Increases the amount of 'uses' a medkit has before it is depleted (only when you are using it).",
+      "effects": []
+    },
+    {
+      "id": "Medic.ReducedFalldamage",
+      "role": "Medic",
+      "name": "Reduced fall damage",
+      "description": "Reduces the amount of fall damage you take.",
+      "layout": {
+        "row": 1,
+        "column": 2,
+        "x": 580.691,
+        "y": 594.642
+      },
+      "effects": []
+    },
+    {
+      "id": "Medic.ReduceUsage.Defibrillator",
+      "role": "Medic",
+      "name": "Increased charges per battery",
+      "description": "Increases the amount of charges per battery when you are using a defib. (One time unlock).",
+      "layout": {
+        "row": 1,
+        "column": 6,
+        "x": 1303.827,
+        "y": 594.642
+      },
+      "effects": []
+    },
+    {
+      "id": "Medic.ReduceUsage.Medkit",
+      "role": "Medic",
+      "name": "Medkits have more uses",
+      "description": "Increases the amount of 'uses' a medkit has before it is depleted (only when you are using it).",
+      "layout": {
+        "row": 2,
+        "column": 2,
+        "x": 460.168,
+        "y": 451.009
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Item_UsageRateMultiplier",
+          "attribute": "Item.UsageRateMultiplier",
+          "curve": "ReduceUsage_Medkit",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Medic.ReviveDamageReduction",
+      "role": "Medic",
+      "name": "Take less damage whilst reviving teammate",
+      "description": "Reduces the amount of incoming damage whilst you are reviving a teammate.",
+      "layout": {
+        "row": 2,
+        "column": 6,
+        "x": 1424.35,
+        "y": 451.009
+      },
+      "effects": []
+    },
+    {
+      "id": "Medic.ReviveSpeed.Standard",
+      "role": "Medic",
+      "name": "Base revive speed improvement",
+      "description": "Reduces the time it takes to 'base-revive' a teammate. (no equipment, just bare hands).",
+      "layout": {
+        "row": 3,
+        "column": 5,
+        "x": 1262.903,
+        "y": 144.581
+      },
+      "effects": []
+    },
+    {
+      "id": "Medic.ReviveSpeedBoost.Self",
+      "role": "Medic",
+      "name": "Increased sprint speed after reviving teammates",
+      "description": "After you have revived a teammate, YOU will receive a temporary increase in your sprint speed.",
+      "layout": {
+        "row": 3,
+        "column": 7,
+        "x": 1754.158,
+        "y": 556.792
+      },
+      "effects": [
+        {
+          "trigger": "Revive.Target",
+          "effect": "GE_Player_SprintSpeedMultiplier_Temp",
+          "attribute": "Movement.SprintSpeedMultiplier",
+          "curve": "ReviveSpeedBoost_Self_SprintSpeed",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 1.2
+            },
+            {
+              "level": 4,
+              "value": 1.4
+            }
+          ]
+        },
+        {
+          "trigger": "Revive.Target",
+          "effect": "GE_Player_SprintSpeedMultiplier_Temp",
+          "attribute": "Movement.TacSprintSpeedMultiplier",
+          "curve": "ReviveSpeedBoost_Self_TacSprintSpeed",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 1.2
+            },
+            {
+              "level": 4,
+              "value": 1.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Medic.ReviveSpeedBoost.Teammate",
+      "role": "Medic",
+      "name": "Teammates faster after you've revived them",
+      "description": "After you have revived a teammate, THEY will receive a temporary increase in their sprint speed.",
+      "layout": {
+        "row": 2,
+        "column": 7,
+        "x": 1591.778,
+        "y": 650.542
+      },
+      "effects": [
+        {
+          "trigger": "Revive.Target",
+          "effect": "GE_Player_SprintSpeedMultiplier_Temp",
+          "attribute": "Movement.SprintSpeedMultiplier",
+          "curve": "ReviveSpeedBoost_Teammate_SprintSpeed",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 1.2
+            },
+            {
+              "level": 4,
+              "value": 1.4
+            }
+          ]
+        },
+        {
+          "trigger": "Revive.Target",
+          "effect": "GE_Player_SprintSpeedMultiplier_Temp",
+          "attribute": "Movement.TacSprintSpeedMultiplier",
+          "curve": "ReviveSpeedBoost_Teammate_TacSprintSpeed",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 1.2
+            },
+            {
+              "level": 4,
+              "value": 1.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Medic.StunResistance",
+      "role": "Medic",
+      "name": "Reduced flash/stun effect duration",
+      "description": "Reduces the duration of the effects received from flash & stun grenades.",
+      "layout": {
+        "row": 2,
+        "column": 1,
+        "x": 292.74,
+        "y": 650.542
+      },
+      "effects": []
+    },
+    {
+      "id": "Pilot.AimDownSightSpeed.MountedGun",
+      "role": "Pilot",
+      "name": "Time-to-ADS speed improvement (Mounted MG - Air Vehicles)",
+      "description": "Reduces the amount of time it takes to enter ADS whilst using any mounted MG's on air vehicles.",
+      "layout": {
+        "row": 2,
+        "column": 5,
+        "x": 1198.774,
+        "y": 320.773
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_AimTime",
+          "attribute": "Weapon.AimTime",
+          "curve": "AimDownSight_MountedGun",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Pilot.AutoRepair",
+      "role": "Pilot",
+      "name": "Can autorepair at petrol stations (Air Vehicles)",
+      "description": "Unlocks the ability to auto repair air vehicles at a petrol station.",
+      "layout": {
+        "row": 1,
+        "column": 2,
+        "x": 580.691,
+        "y": 594.642
+      },
+      "effects": []
+    },
+    {
+      "id": "Pilot.FuelUsageReduction",
+      "role": "Pilot",
+      "name": "Fuel usage rate reduction (Air Vehicles)",
+      "description": "Reduces the usage of fuel when piloting air vehicles, providing a longer fuel time.",
+      "layout": {
+        "row": 1,
+        "column": 5,
+        "x": 1134.645,
+        "y": 496.965
+      },
+      "effects": [
+        {
+          "trigger": "Vehicle",
+          "effect": "GE_Vehicle_FuelUsageReductionMultiplier",
+          "attribute": "FuelUsageReductionMultiplier",
+          "curve": "FuelUsageReduction",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Pilot.HorizontalRecoil.MountedGun",
+      "role": "Pilot",
+      "name": "Horizontal recoil reduction (Mounted MG - Air Vehicles)",
+      "description": "Reduces horizontal recoil experienced when firing a mounted MG on an air vehicle.",
+      "layout": {
+        "row": 0,
+        "column": 1,
+        "x": 617.5,
+        "y": 838.042
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_HorizontalRecoilMultiplier",
+          "attribute": "Weapon.HorizontalRecoilMultiplier",
+          "curve": "HorizontalRecoil_MountedGun",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Pilot.ImpactDamageReduction",
+      "role": "Pilot",
+      "name": "Impact damage reduction (Air Vehicles)",
+      "description": "Reduces the amount of damage your air vehicle receives from impacting with objects & landscape in the world (when you are driver).",
+      "layout": {
+        "row": 1,
+        "column": 1,
+        "x": 455.12,
+        "y": 744.292
+      },
+      "effects": [
+        {
+          "trigger": "Vehicle",
+          "effect": "GE_Vehicle_ImpactReductionMultiplier",
+          "attribute": "Health.ImpactReductionMultiplier",
+          "curve": "ImpactDamageReduction",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Pilot.IncreasedHealth.SupplyCrate",
+      "role": "Pilot",
+      "name": "Increased supply crate durability (Air Vehicles)",
+      "description": "Increases the amount of damage a supply crate can take before it is destroyed (when the supply crate is dropped by you as a pilot)",
+      "layout": {
+        "row": 2,
+        "column": 4,
+        "x": 942.259,
+        "y": 275.542
+      },
+      "effects": [
+        {
+          "trigger": "SupplyCrate",
+          "effect": "GE_Vehicle_Health",
+          "attribute": "Health",
+          "curve": "IncreasedHealth_SupplyCrate",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 1.2
+            },
+            {
+              "level": 4,
+              "value": 1.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Pilot.QuickerEngineStart",
+      "role": "Pilot",
+      "name": "Engine turn on speed improvement (Air Vehicles)",
+      "description": "Reduces the time it takes to turn the engine on in air vehicles.",
+      "layout": {
+        "row": 1,
+        "column": 4,
+        "x": 942.259,
+        "y": 463.042
+      },
+      "effects": []
+    },
+    {
+      "id": "Pilot.RefuelSpeed.PetrolStation",
+      "role": "Pilot",
+      "name": "Petrol station refueling speed improvement (Air Vehicles)",
+      "description": "Reduces the amount of time it takes to refuel an air vehicle at a petrol station.",
+      "layout": {
+        "row": 1,
+        "column": 6,
+        "x": 1303.827,
+        "y": 594.642
+      },
+      "effects": []
+    },
+    {
+      "id": "Pilot.RefuelSpeed.Spawn",
+      "role": "Pilot",
+      "name": "Spawnzone refueling speed improvement (Air Vehicles)",
+      "description": "Reduces the amount of time it takes to refuel an air vehicle in the spawnzone.",
+      "layout": {
+        "row": 1,
+        "column": 7,
+        "x": 1429.399,
+        "y": 744.292
+      },
+      "effects": []
+    },
+    {
+      "id": "Pilot.ReloadSpeed.MountedGun",
+      "role": "Pilot",
+      "name": "Reload speed improvement (Mounted MG - Air Vehicles)",
+      "description": "Reduces the amount of time it takes to reload the mounted MG's on air vehicles.",
+      "layout": {
+        "row": 2,
+        "column": 3,
+        "x": 685.744,
+        "y": 320.773
+      },
+      "effects": []
+    },
+    {
+      "id": "Pilot.RepairSpeed.Spawn",
+      "role": "Pilot",
+      "name": "Spawnzone Repairing speed improvement (Air Vehicles)",
+      "description": "Reduces the amount of time it takes to repair an air vehicle in the spawnzone.",
+      "layout": {
+        "row": 1,
+        "column": 3,
+        "x": 749.873,
+        "y": 496.965
+      },
+      "effects": []
+    },
+    {
+      "id": "Pilot.VerticalRecoil.MountedGun",
+      "role": "Pilot",
+      "name": "Vertical recoil reduction (Mounted MG - Air Vehicles)",
+      "description": "Reduces vertical recoil experienced when firing a mounted MG on an air vehicle.",
+      "layout": {
+        "row": 0,
+        "column": 7,
+        "x": 1267.019,
+        "y": 838.042
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_VerticalRecoilMultiplier",
+          "attribute": "Weapon.VerticalRecoilMultiplier",
+          "curve": "VerticalRecoil_MountedGun",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Recon.AimDownSightSpeed.Marksman",
+      "role": "Recon",
+      "name": "Time-to-ADS speed improvement (Marksman Archetype)",
+      "description": "Reduces the time it takes to enter ADS, specifically with weapons within the 'marksman' archetypes.",
+      "layout": {
+        "row": 2,
+        "column": 5,
+        "x": 1198.774,
+        "y": 320.773
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_AimTime",
+          "attribute": "Weapon.AimTime",
+          "curve": "AimDownSightSpeed_DMR",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Recon.AimDownSightSpeed.Sniper",
+      "role": "Recon",
+      "name": "Time-to-ADS speed improvement (Sniper Rifle Archetype)",
+      "description": "Reduces the time it takes to enter ADS, specifically with weapons within the 'sniper rifle' archetype.",
+      "layout": {
+        "row": 2,
+        "column": 3,
+        "x": 685.744,
+        "y": 320.773
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_AimTime",
+          "attribute": "Weapon.AimTime",
+          "curve": "AimDownSightSpeed_Sniper",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Recon.AimMoveSpeed.Marksman",
+      "role": "Recon",
+      "name": "ADS movement speed improvement (Marksman Archetype)",
+      "description": "Increases the speed a player can move whilst aiming down sights, specifically with weapons within the 'marksman' archetypes.",
+      "layout": {
+        "row": 2,
+        "column": 6,
+        "x": 1424.35,
+        "y": 451.009
+      },
+      "effects": [
+        {
+          "trigger": "Character.HeldItemUpdated",
+          "effect": "GE_Player_MaxSpeedMultiplier_Aiming",
+          "attribute": "Movement.MaxSpeedMultiplier",
+          "curve": "AimMoveSpeed_DMR",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 1.2
+            },
+            {
+              "level": 4,
+              "value": 1.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Recon.AimMoveSpeed.Sniper",
+      "role": "Recon",
+      "name": "ADS movement speed improvement (Sniper Rifle Archetype)",
+      "description": "Increases the speed a player can move whilst aiming down sights, specifically with weapons within the 'sniper rifle' archetype.",
+      "layout": {
+        "row": 2,
+        "column": 2,
+        "x": 460.169,
+        "y": 451.009
+      },
+      "effects": [
+        {
+          "trigger": "Character.HeldItemUpdated",
+          "effect": "GE_Player_MaxSpeedMultiplier_Aiming",
+          "attribute": "Movement.MaxSpeedMultiplier",
+          "curve": "AimMoveSpeed_Sniper",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 1.2
+            },
+            {
+              "level": 4,
+              "value": 1.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Recon.BoltActionRechamberSpeed",
+      "role": "Recon",
+      "name": "Bolt action rechambering speed improvement",
+      "description": "Reduces the time it takes to rechamber a bullet when using bolt action rifles.",
+      "layout": {
+        "row": 1,
+        "column": 1,
+        "x": 455.12,
+        "y": 744.292
+      },
+      "effects": []
+    },
+    {
+      "id": "Recon.ColdBlooded",
+      "role": "Recon",
+      "name": "Infrared visibility reduction",
+      "description": "Reduces how visible you are on enemies infrared sights when people are looking at you. (not completely invisible, just heavily reduced to make it harder to see you) This is a one time unlock, not different percentages.",
+      "layout": {
+        "row": 3,
+        "column": 0,
+        "x": 19.002,
+        "y": 862.747
+      },
+      "effects": []
+    },
+    {
+      "id": "Recon.FocusSteadyAimSpeed",
+      "role": "Recon",
+      "name": "Focus-time steady aim speed improvement",
+      "description": "Reduces the time it takes for the 'steady aim' effect to complete when you hold your breath with a weapon.",
+      "layout": {
+        "row": 1,
+        "column": 8,
+        "x": 1496.213,
+        "y": 927.865
+      },
+      "effects": []
+    },
+    {
+      "id": "Recon.HearNearbySquadChat",
+      "role": "Recon",
+      "name": "Hear nearby squad chat",
+      "description": "Unlocks the ability to eavesdrop nearby enemy squad chats.",
+      "layout": {
+        "row": 3,
+        "column": 8,
+        "x": 1865.517,
+        "y": 862.747
+      },
+      "effects": []
+    },
+    {
+      "id": "Recon.HorizontalRecoil.Marksman",
+      "role": "Recon",
+      "name": "Horizontal recoil reduction (Marksman Archetype)",
+      "description": "Reduces the amount of horizontal recoil a player experiences when firing weapons within the 'marksman' archetypes.",
+      "layout": {
+        "row": 0,
+        "column": 5,
+        "x": 1070.517,
+        "y": 673.158
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_HorizontalRecoilMultiplier",
+          "attribute": "Weapon.HorizontalRecoilMultiplier",
+          "curve": "HorizontalRecoil_DMR",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Recon.HorizontalRecoil.Sniper",
+      "role": "Recon",
+      "name": "Horizontal recoil reduction (Sniper Rifle Archetype)",
+      "description": "Reduces the amount of horizontal recoil a player experiences when firing weapons within the 'sniper rifle' archetype.",
+      "layout": {
+        "row": 0,
+        "column": 3,
+        "x": 814.002,
+        "y": 673.158
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_HorizontalRecoilMultiplier",
+          "attribute": "Weapon.HorizontalRecoilMultiplier",
+          "curve": "HorizontalRecoil_Sniper",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Recon.IncreasedSpottedTime",
+      "role": "Recon",
+      "name": "Increased time to be spotted",
+      "description": "Increases the time it takes for you to be successfully spotted by an enemy player.",
+      "layout": {
+        "row": 1,
+        "column": 0,
+        "x": 388.305,
+        "y": 927.865
+      },
+      "effects": []
+    },
+    {
+      "id": "Recon.IncreasedSpottingDuration",
+      "role": "Recon",
+      "name": "Increased 'enemy spotted' duration",
+      "description": "Increases the duration that enemies remain spotted when you have personally spotted them.",
+      "layout": {
+        "row": 2,
+        "column": 1,
+        "x": 292.74,
+        "y": 650.542
+      },
+      "effects": []
+    },
+    {
+      "id": "Recon.IncreaseFocusDuration",
+      "role": "Recon",
+      "name": "Increased focus-time duration",
+      "description": "Increases the amount of time you are able to \"hold breath\" with a weapon before it runs out.",
+      "layout": {
+        "row": 2,
+        "column": 7,
+        "x": 1591.778,
+        "y": 650.542
+      },
+      "effects": []
+    },
+    {
+      "id": "Recon.Lockpicking",
+      "role": "Recon",
+      "name": "Lockpicking",
+      "description": "Unlock the ability to 'lockpick' enemy locked vehicles, buildables and fortifications.",
+      "layout": {
+        "row": 3,
+        "column": 7,
+        "x": 1754.158,
+        "y": 556.792
+      },
+      "effects": []
+    },
+    {
+      "id": "Recon.MagnificationSpeed",
+      "role": "Recon",
+      "name": "Magnification speed improvement",
+      "description": "Reduces the time it takes to 'zoom in' on scopes that have magnification.",
+      "layout": {
+        "row": 0,
+        "column": 1,
+        "x": 617.5,
+        "y": 838.042
+      },
+      "effects": []
+    },
+    {
+      "id": "Recon.QuieterInteractions",
+      "role": "Recon",
+      "name": "Quieter interactions",
+      "description": "Unlocks the ability to perform all interactions that make noise quieter.",
+      "layout": {
+        "row": 2,
+        "column": 8,
+        "x": 1680.865,
+        "y": 895.306
+      },
+      "effects": []
+    },
+    {
+      "id": "Recon.ReadyToFireSpeed.Marksman",
+      "role": "Recon",
+      "name": "Ready-to-fire speed improvement (Marksman Archetype)",
+      "description": "Reduces the time it takes for your gun to come up after certain actions, specifically with weapons that fall under the 'marksman' archetypes (eg. Sprinting, dismounting ladder, exiting vault, etc).",
+      "layout": {
+        "row": 1,
+        "column": 6,
+        "x": 1303.827,
+        "y": 594.642
+      },
+      "effects": [
+        {
+          "trigger": "Character",
+          "effect": "GE_Player_ReadyToFirePlayRate",
+          "attribute": "Movement.ReadyToFirePlayRate",
+          "curve": "ReadyToFireSpeed_DMR",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Recon.ReadyToFireSpeed.Sniper",
+      "role": "Recon",
+      "name": "Ready-to-fire speed improvement (Sniper Rifle Archetype)",
+      "description": "Reduces the time it takes for your weapon to come up after certain actions, specifically with weapons that fall under the 'sniper rifle' archetype (eg. Sprinting, dismounting ladder, exiting vault, etc).",
+      "layout": {
+        "row": 1,
+        "column": 2,
+        "x": 580.691,
+        "y": 594.642
+      },
+      "effects": [
+        {
+          "trigger": "Character",
+          "effect": "GE_Player_ReadyToFirePlayRate",
+          "attribute": "Movement.ReadyToFirePlayRate",
+          "curve": "ReadyToFireSpeed_Sniper",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Recon.ReduceFocus",
+      "role": "Recon",
+      "name": "Reduced shooting penalty on focus-time (Sniper Rifle & Marksman Archetypes)",
+      "description": "Reduces the amount of focus-time penalty the player experiences when they shoot their weapon whilst holding their breath. This should apply to weapon in both Sniper rifle and Marksman archetypes.",
+      "layout": {
+        "row": 1,
+        "column": 4,
+        "x": 942.259,
+        "y": 463.042
+      },
+      "effects": []
+    },
+    {
+      "id": "Recon.ReloadSpeed.Marksman",
+      "role": "Recon",
+      "name": "Reload speed improvement (Marksman Archetype)",
+      "description": "Reduces the time it takes to reload. Specifically with weapons within the 'marksman' archetypes.",
+      "layout": {
+        "row": 3,
+        "column": 5,
+        "x": 1262.903,
+        "y": 144.58
+      },
+      "effects": []
+    },
+    {
+      "id": "Recon.ReloadSpeed.Sniper",
+      "role": "Recon",
+      "name": "Reload speed improvement (Sniper Rifle Archetype)",
+      "description": "Reduces the time it takes to reload. Specifically with weapons within the 'sniper rifle' archetype.",
+      "layout": {
+        "row": 3,
+        "column": 3,
+        "x": 621.615,
+        "y": 144.58
+      },
+      "effects": []
+    },
+    {
+      "id": "Recon.SniperKillFocusReset",
+      "role": "Recon",
+      "name": "Sniper Rifle kill replenishes focus",
+      "description": "Downing an enemy player with any weapon in the 'sniper rifle' platform with replenish your focus. (one time unlock)",
+      "layout": {
+        "row": 3,
+        "column": 1,
+        "x": 130.361,
+        "y": 556.792
+      },
+      "effects": [
+        {
+          "trigger": "Character",
+          "effect": "GE_GrantSkill_SniperKillFocusRefresh"
+        }
+      ]
+    },
+    {
+      "id": "Recon.SpotDeployables",
+      "role": "Recon",
+      "name": "Spot enemy buildables & deployables",
+      "description": "Unlock the ability to spot enemy buildables, fortifications and deployables.",
+      "layout": {
+        "row": 2,
+        "column": 0,
+        "x": 203.654,
+        "y": 895.306
+      },
+      "effects": []
+    },
+    {
+      "id": "Recon.StealthMeleeDamage",
+      "role": "Recon",
+      "name": "Increased melee damage from behind",
+      "description": "Increases the amount of damage you do with melee attacks, specifically when you hit an enemy from behind. This includes fists, melee weapons and weapon 'bashing'.",
+      "layout": {
+        "row": 0,
+        "column": 7,
+        "x": 1267.019,
+        "y": 838.042
+      },
+      "effects": []
+    },
+    {
+      "id": "Recon.VerticalRecoil.Marksman",
+      "role": "Recon",
+      "name": "Vertical recoil reduction (Marksman Archetype)",
+      "description": "Reduces the amount of vertical recoil a player experiences when firing weapons within the 'marksman' archetypes.",
+      "layout": {
+        "row": 1,
+        "column": 5,
+        "x": 1134.646,
+        "y": 496.965
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_VerticalRecoilMultiplier",
+          "attribute": "Weapon.VerticalRecoilMultiplier",
+          "curve": "VerticalRecoil_DMR",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Recon.VerticalRecoil.Sniper",
+      "role": "Recon",
+      "name": "Vertical recoil reduction (Sniper Rifle Archetype)",
+      "description": "Reduces the amount of vertical recoil a player experiences when firing weapons within the 'sniper rifle' archetype.",
+      "layout": {
+        "row": 1,
+        "column": 3,
+        "x": 749.873,
+        "y": 496.965
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_VerticalRecoilMultiplier",
+          "attribute": "Weapon.VerticalRecoilMultiplier",
+          "curve": "VerticalRecoil_Sniper",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Recon.WeaponSwitchSpeed.Pistol",
+      "role": "Recon",
+      "name": "Weapon-switch speed improvement (Sidearms Archetype).",
+      "description": "Reduces the amount of time it takes to switch TO any weapons within the sidearm archetype.",
+      "layout": {
+        "row": 1,
+        "column": 7,
+        "x": 1429.398,
+        "y": 744.292
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_EquipSpeedMultiplier",
+          "attribute": "Weapon.EquipSpeedMultiplier",
+          "curve": "WeaponSwitchSpeed_Pistol",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 1.2
+            },
+            {
+              "level": 4,
+              "value": 1.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Recon.WeaponSwitchSpeed.ReconWeaponry",
+      "role": "Recon",
+      "name": "Weapon-switch speed improvement (Sniper Rifle & Marksman Archetypes)",
+      "description": "Reduces the amount of time it takes to switch TO any weapons within the Sniper Rifle & Marksman archetypes.",
+      "layout": {
+        "row": 2,
+        "column": 4,
+        "x": 942.259,
+        "y": 275.542
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_EquipSpeedMultiplier",
+          "attribute": "Weapon.EquipSpeedMultiplier",
+          "curve": "WeaponSwitchSpeed_ReconWeaponry",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 1.2
+            },
+            {
+              "level": 4,
+              "value": 1.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Support.AimDownSightSpeed.LMG",
+      "role": "Support",
+      "name": "Time-to-ADS speed improvement (LMG Archetype)",
+      "description": "Reduces the time it takes to enter ADS, specifically with weapons within the 'LMG' archetype.",
+      "layout": {
+        "row": 2,
+        "column": 3,
+        "x": 685.744,
+        "y": 320.773
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_AimTime",
+          "attribute": "Weapon.AimTime",
+          "curve": "AimDownSightSpeed_LMG",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Support.AimdownSightspeed.Shotgun",
+      "role": "Support",
+      "name": "Time-to-ADS speed improvement (Shotgun Archetype)",
+      "description": "Reduces the time it takes to enter ADS, specifically with weapons within the 'shotgun' archetype.",
+      "layout": {
+        "row": 2,
+        "column": 5,
+        "x": 1198.774,
+        "y": 320.773
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_AimTime",
+          "attribute": "Weapon.AimTime",
+          "curve": "AimDownSightSpeed_Shotgun",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Support.AimMoveSpeed.LMG",
+      "role": "Support",
+      "name": "ADS movement speed improvement (LMG Archetype)",
+      "description": "Increases the speed a player can move whilst aiming down sights, specifically with weapons within the 'LMG' archetype.",
+      "layout": {
+        "row": 2,
+        "column": 2,
+        "x": 460.168,
+        "y": 451.009
+      },
+      "effects": [
+        {
+          "trigger": "Character.HeldItemUpdated",
+          "effect": "GE_Player_MaxSpeedMultiplier_Aiming",
+          "attribute": "Movement.MaxSpeedMultiplier",
+          "curve": "AimMoveSpeed_LMG",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 1.2
+            },
+            {
+              "level": 4,
+              "value": 1.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Support.AimMoveSpeed.Shotgun",
+      "role": "Support",
+      "name": "ADS movement speed improvement (Shotgun Archetype)",
+      "description": "Increases the speed a player can move whilst aiming down sights, specifically with weapons within the 'shotgun' archetype.",
+      "layout": {
+        "row": 2,
+        "column": 6,
+        "x": 1424.35,
+        "y": 451.009
+      },
+      "effects": [
+        {
+          "trigger": "Character.HeldItemUpdated",
+          "effect": "GE_Player_MaxSpeedMultiplier_Aiming",
+          "attribute": "Movement.MaxSpeedMultiplier",
+          "curve": "AimMoveSpeed_Shotgun",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 1.2
+            },
+            {
+              "level": 4,
+              "value": 1.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Support.CombineMagSpeed",
+      "role": "Support",
+      "name": "Combining mags' speed improvement",
+      "description": "Reduces the amount of time it takes to combine mags in your inventory.",
+      "layout": {
+        "row": 2,
+        "column": 1,
+        "x": 292.74,
+        "y": 650.542
+      },
+      "effects": []
+    },
+    {
+      "id": "Support.DeploySpeed",
+      "role": "Support",
+      "name": "Equipment deployment speed improvement",
+      "description": "Reduces the amount of time it takes to deploy deployable equipment.",
+      "layout": {
+        "row": 0,
+        "column": 7,
+        "x": 1267.019,
+        "y": 838.042
+      },
+      "effects": []
+    },
+    {
+      "id": "Support.GrenadeThrowback",
+      "role": "Support",
+      "name": "Throw back grenades",
+      "description": "Unlocks the ability to pick up and throw back enemy grenades that have been thrown at you and have landed on the floor.",
+      "layout": {
+        "row": 3,
+        "column": 0,
+        "x": 19.002,
+        "y": 862.747
+      },
+      "effects": []
+    },
+    {
+      "id": "Support.HorizontalRecoil.LMG",
+      "role": "Support",
+      "name": "Horizontal recoil reduction (LMG Archetype)",
+      "description": "Reduces the amount of horizontal recoil a player experiences when firing weapons within the 'LMG' archetype.",
+      "layout": {
+        "row": 0,
+        "column": 3,
+        "x": 814.002,
+        "y": 673.158
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_HorizontalRecoilMultiplier",
+          "attribute": "Weapon.HorizontalRecoilMultiplier",
+          "curve": "HorizontalRecoil_LMG",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Support.HorizontalRecoil.Shotgun",
+      "role": "Support",
+      "name": "Horizontal recoil reduction (Shotgun Archetype)",
+      "description": "Reduces the amount of horizontal recoil a player experiences when firing weapons within the 'shotgun' archetype.",
+      "layout": {
+        "row": 0,
+        "column": 5,
+        "x": 1070.517,
+        "y": 673.158
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_HorizontalRecoilMultiplier",
+          "attribute": "Weapon.HorizontalRecoilMultiplier",
+          "curve": "HorizontalRecoil_Shotgun",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Support.IncreadedDetonatorRange",
+      "role": "Support",
+      "name": "Increased detonator range",
+      "description": "Unlocks Increased effective range of the C4's detonator. (Can detonate C4s from further away). This is a one time unlock.",
+      "layout": {
+        "row": 3,
+        "column": 1,
+        "x": 130.36,
+        "y": 556.792
+      },
+      "effects": []
+    },
+    {
+      "id": "Support.IncreasedDurability.Buildables",
+      "role": "Support",
+      "name": "Increased buildables durability",
+      "description": "Increases the amount of damage it takes to destroy buildables that YOU have built.",
+      "layout": {
+        "row": 3,
+        "column": 7,
+        "x": 1754.158,
+        "y": 556.792
+      },
+      "effects": []
+    },
+    {
+      "id": "Support.IncreasedDurability.RepairTool",
+      "role": "Support",
+      "name": "Increased repair tool durability",
+      "description": "Increases the amount of durability your repair tools have when you are using them. This should affect all repair tools.",
+      "layout": {
+        "row": 1,
+        "column": 7,
+        "x": 1429.399,
+        "y": 744.292
+      },
+      "effects": []
+    },
+    {
+      "id": "Support.MediumHammerUpgrade",
+      "role": "Support",
+      "name": "Build anything with medium hammers",
+      "description": "Unlocks the ability to build things with the medium hammer that you would normally need the heavy hammer to build.",
+      "layout": {
+        "row": 1,
+        "column": 8,
+        "x": 1496.214,
+        "y": 927.865
+      },
+      "effects": []
+    },
+    {
+      "id": "Support.ReadyToFireSpeed.LMG",
+      "role": "Support",
+      "name": "Ready-to-fire speed improvement (LMG Archetype)",
+      "description": "Reduces the time it takes for your weapon to come up after certain actions, specifically with weapons that fall under the 'LMG' archetype (eg. Sprinting, dismounting ladder, exiting vault, etc).",
+      "layout": {
+        "row": 1,
+        "column": 2,
+        "x": 580.691,
+        "y": 594.642
+      },
+      "effects": [
+        {
+          "trigger": "Character",
+          "effect": "GE_Player_ReadyToFirePlayRate",
+          "attribute": "Movement.ReadyToFirePlayRate",
+          "curve": "ReadyToFireSpeed_LMG",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Support.ReadyToFireSpeed.Shotgun",
+      "role": "Support",
+      "name": "Ready-to-fire speed improvement (Shotgun Archetype)",
+      "description": "Reduces the time it takes for your weapon to come up after certain actions, specifically with weapons that fall under the 'shotgun' archetype (eg. Sprinting, dismounting ladder, exiting vault, etc).",
+      "layout": {
+        "row": 1,
+        "column": 6,
+        "x": 1303.827,
+        "y": 594.642
+      },
+      "effects": [
+        {
+          "trigger": "Character",
+          "effect": "GE_Player_ReadyToFirePlayRate",
+          "attribute": "Movement.ReadyToFirePlayRate",
+          "curve": "ReadyToFireSpeed_Shotgun",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Support.ReduceExplosiveDamage.Teammate",
+      "role": "Support",
+      "name": "Explosives do less damage to teammates",
+      "description": "Reduces the amount of damage that your explosives do to teammates. This includes explosives from launchers, grenades & deployables.",
+      "layout": {
+        "row": 0,
+        "column": 1,
+        "x": 617.5,
+        "y": 838.042
+      },
+      "effects": []
+    },
+    {
+      "id": "Support.ReduceFocus",
+      "role": "Support",
+      "name": "Reduced shooting penalty on focus-time (LMG & Shotgun Archetypes)",
+      "description": "Reduces the amount of focus-time penalty the player experiences when they shoot their weapon whilst holding their breath. This should apply to weapons in both LMG and shotgun archetypes.",
+      "layout": {
+        "row": 1,
+        "column": 4,
+        "x": 942.259,
+        "y": 463.042
+      },
+      "effects": []
+    },
+    {
+      "id": "Support.ReduceResourceUsage",
+      "role": "Support",
+      "name": "Less resource use per hit",
+      "description": "Reduces the amount of resources that are used per hit of building.",
+      "layout": {
+        "row": 2,
+        "column": 7,
+        "x": 1591.778,
+        "y": 650.542
+      },
+      "effects": []
+    },
+    {
+      "id": "Support.RefuelSpeed",
+      "role": "Support",
+      "name": "Refueling speed improvement",
+      "description": "Reduces the time it takes to refuel vehicles.",
+      "layout": {
+        "row": 1,
+        "column": 0,
+        "x": 388.305,
+        "y": 927.865
+      },
+      "effects": []
+    },
+    {
+      "id": "Support.ReloadSpeed.Launcher",
+      "role": "Support",
+      "name": "Reload speed improvement (Launchers Archetype)",
+      "description": "Reduces the amount of time it takes to reload weapons within the 'launcher' archetype.",
+      "layout": {
+        "row": 1,
+        "column": 1,
+        "x": 455.12,
+        "y": 744.292
+      },
+      "effects": []
+    },
+    {
+      "id": "Support.ReloadSpeed.LMG",
+      "role": "Support",
+      "name": "Reload speed improvement ('LMG' Archetype)",
+      "description": "Reduces the amount of time it takes to reload weapons within the 'LMG' archetype.",
+      "layout": {
+        "row": 3,
+        "column": 3,
+        "x": 621.615,
+        "y": 144.581
+      },
+      "effects": []
+    },
+    {
+      "id": "Support.ReloadSpeed.Shotgun",
+      "role": "Support",
+      "name": "Reload speed improvement (Shotgun Archetype)",
+      "description": "Reduces the time it takes to reload. Specifically with weapons within the 'shotgun' archetype.",
+      "layout": {
+        "row": 3,
+        "column": 5,
+        "x": 1262.903,
+        "y": 144.581
+      },
+      "effects": []
+    },
+    {
+      "id": "Support.RepairSpeed",
+      "role": "Support",
+      "name": "Repair speed improvement",
+      "description": "Reduces the time it takes to repair damaged vehicles.",
+      "layout": {
+        "row": 2,
+        "column": 0,
+        "x": 203.653,
+        "y": 895.306
+      },
+      "effects": []
+    },
+    {
+      "id": "Support.SmallHammerUpgrade",
+      "role": "Support",
+      "name": "Build anything with small hammers",
+      "description": "Unlocks the ability to build things with the small hammer that you would normally need the medium or heavy hammer to build.",
+      "layout": {
+        "row": 2,
+        "column": 8,
+        "x": 1680.865,
+        "y": 895.306
+      },
+      "effects": []
+    },
+    {
+      "id": "Support.VerticalRecoil.LMG",
+      "role": "Support",
+      "name": "Vertical recoil reduction (LMG Archetype)",
+      "description": "Reduces the amount of vertical recoil a player experiences when firing weapons within the 'LMG' archetype.",
+      "layout": {
+        "row": 1,
+        "column": 3,
+        "x": 749.873,
+        "y": 496.965
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_VerticalRecoilMultiplier",
+          "attribute": "Weapon.VerticalRecoilMultiplier",
+          "curve": "VerticalRecoil_LMG",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Support.VerticalRecoil.Shotgun",
+      "role": "Support",
+      "name": "Vertical recoil reduction (Shotgun Archetype)",
+      "description": "Reduces the amount of vertical recoil a player experiences when firing weapons within the 'shotgun' archetype.",
+      "layout": {
+        "row": 1,
+        "column": 5,
+        "x": 1134.645,
+        "y": 496.965
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_VerticalRecoilMultiplier",
+          "attribute": "Weapon.VerticalRecoilMultiplier",
+          "curve": "VerticalRecoil_Shotgun",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 0.8
+            },
+            {
+              "level": 3,
+              "value": 0.7
+            },
+            {
+              "level": 4,
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Support.WeaponSwitchSpeed",
+      "role": "Support",
+      "name": "Weapon-switch speed improvement (LMG & Shotgun Archetypes)",
+      "description": "Reduces the amount of time it takes to switch TO any weapons within the LMG and shotgun archetypes.",
+      "layout": {
+        "row": 2,
+        "column": 4,
+        "x": 942.259,
+        "y": 275.542
+      },
+      "effects": [
+        {
+          "trigger": "Item",
+          "effect": "GE_Weapon_EquipSpeedMultiplier",
+          "attribute": "Weapon.EquipSpeedMultiplier",
+          "curve": "WeaponSwitchSpeed",
+          "levels": [
+            {
+              "level": 0,
+              "value": 1
+            },
+            {
+              "level": 2,
+              "value": 1.2
+            },
+            {
+              "level": 4,
+              "value": 1.4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

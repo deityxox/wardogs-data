@@ -1,0 +1,339 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Weapons",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1,
+      "description": "Version of this file's layout. It changes only when the layout does."
+    },
+    "gameBuild": {
+      "type": "string",
+      "description": "Steam build id the data was extracted from."
+    },
+    "units": {
+      "type": "string",
+      "const": "meters",
+      "description": "Unit of every distance in the file. Speeds are meters per second."
+    },
+    "weapons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Item id from items.json."
+          },
+          "name": {
+            "description": "Display name, as in items.json (the game's UI table). Absent when the game has none.",
+            "type": "string"
+          },
+          "asset": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Path of the weapon stats asset inside the game files."
+          },
+          "fireModes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Fire modes: `Automatic`, `SemiAutomatic`, `Burst`."
+          },
+          "rpm": {
+            "description": "Rounds per minute.",
+            "type": "number",
+            "minimum": 0
+          },
+          "roundsPerBurst": {
+            "description": "Rounds fired per burst.",
+            "type": "integer",
+            "exclusiveMinimum": 0,
+            "maximum": 9007199254740991
+          },
+          "calibers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Calibers the weapon fires (the game's `Item.Caliber.*` tags without the prefix)."
+          },
+          "muzzleVelocity": {
+            "description": "Muzzle velocity in meters per second.",
+            "type": "number",
+            "minimum": 0
+          },
+          "effectiveRange": {
+            "description": "Range in meters the game tunes the weapon for.",
+            "type": "number",
+            "minimum": 0
+          },
+          "damageFalloff": {
+            "description": "Damage multiplier by distance. Between points the game interpolates as each point's `interpolation` says (linear when absent), and holds the first value before the first point and the last after the last.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "distance": {
+                  "type": "number",
+                  "minimum": 0,
+                  "description": "Distance in meters."
+                },
+                "multiplier": {
+                  "type": "number",
+                  "minimum": 0,
+                  "description": "Damage multiplier at that distance (1 is full damage)."
+                },
+                "interpolation": {
+                  "description": "How the game interpolates from this point to the next, when it is not linear. Absent means linear. A cubic segment follows the game's own tangents, which are not published, so treat it as a smooth curve between the two points.",
+                  "type": "string",
+                  "enum": [
+                    "Cubic",
+                    "Constant"
+                  ]
+                }
+              },
+              "required": [
+                "distance",
+                "multiplier"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "accuracy": {
+            "description": "Accuracy rating as stored. Larger values go with looser weapons in the data (SV98 0.56, AK74M 0.825, M500 1.5, RPG-7 3.0), so compare weapons of one class.",
+            "type": "number"
+          },
+          "randomDeviation": {
+            "description": "Random aim deviation in degrees.",
+            "type": "number"
+          },
+          "adsTime": {
+            "description": "Seconds to aim down sights through iron sights.",
+            "type": "number"
+          },
+          "zeroing": {
+            "description": "Sight zeroing range in meters. Absent for weapons without zeroing.",
+            "type": "object",
+            "properties": {
+              "min": {
+                "description": "Shortest zeroing distance.",
+                "type": "number"
+              },
+              "max": {
+                "description": "Longest zeroing distance.",
+                "type": "number"
+              },
+              "step": {
+                "description": "Distance between zeroing settings.",
+                "type": "number"
+              }
+            },
+            "additionalProperties": false
+          },
+          "meleeDamage": {
+            "description": "Damage of a melee hit.",
+            "type": "number"
+          },
+          "suppressionMultiplier": {
+            "description": "Multiplier on the suppression the weapon causes.",
+            "type": "number"
+          },
+          "windupTime": {
+            "description": "Seconds between pulling the trigger and the first shot, for weapons that spin up.",
+            "type": "number"
+          },
+          "recoil": {
+            "description": "Recoil. Absent for weapons the game gives no pattern.",
+            "type": "object",
+            "properties": {
+              "pattern": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "x": {
+                      "type": "number",
+                      "description": "Sideways kick of this shot."
+                    },
+                    "y": {
+                      "type": "number",
+                      "description": "Upward kick of this shot."
+                    }
+                  },
+                  "required": [
+                    "x",
+                    "y"
+                  ],
+                  "additionalProperties": false
+                },
+                "description": "The game's `RecoilPattern`: one x and y pair per shot, as stored. In the data x is sideways and y is upward for nearly every shot (a few shots of two weapons pull slightly down); the game gives no unit."
+              },
+              "patternResetTime": {
+                "description": "Seconds without firing before the pattern restarts.",
+                "type": "number"
+              },
+              "viewKickMultiplier": {
+                "description": "Multiplier on the camera kick.",
+                "type": "number"
+              },
+              "afterPatternPitch": {
+                "description": "Random extra upward kick once the pattern has ended, [min, max], as stored (the game's `PostPatternRandomPitchRecoil`).",
+                "type": "array",
+                "prefixItems": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ],
+                "items": false,
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "afterPatternYaw": {
+                "description": "Random extra sideways kick once the pattern has ended, [min, max], as stored (the game's `PostPatternRandomYawRecoil`).",
+                "type": "array",
+                "prefixItems": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ],
+                "items": false,
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "pattern"
+            ],
+            "additionalProperties": false
+          },
+          "shotgun": {
+            "description": "Spread of a shotgun's pellets. Absent for other weapons.",
+            "type": "object",
+            "properties": {
+              "chokeFactor": {
+                "description": "Choke, as stored (higher tightens the spread).",
+                "type": "number"
+              },
+              "outerConeHalfAngle": {
+                "description": "Half angle of the outer spread cone, in degrees.",
+                "type": "number"
+              },
+              "innerConeMultiplier": {
+                "description": "Inner cone size as a multiple of the outer cone.",
+                "type": "number"
+              },
+              "randomConeHalfAngleRange": {
+                "description": "Random extra half angle added to the cone: [min, max] in degrees.",
+                "type": "array",
+                "prefixItems": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ],
+                "items": false,
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "additionalProperties": false
+          },
+          "slots": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "slot": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Slot type, for example `Sight` or `Magazine` (the game's `Item.Attachment.*` tag without its prefix)."
+                },
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Items accepted by name."
+                },
+                "contexts": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Item context tags accepted: anything carrying one of these tags fits."
+                },
+                "filter": {
+                  "type": "string",
+                  "description": "The game's filter mode: `AllowList` accepts only the listed items and contexts, `BlockPriority` accepts all except what is blocked."
+                },
+                "blockedItems": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Items refused by name."
+                },
+                "blockedContexts": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Context tags refused."
+                },
+                "default": {
+                  "description": "Item the weapon starts with in this slot.",
+                  "type": "string"
+                },
+                "hidden": {
+                  "type": "boolean",
+                  "description": "Slot is not shown to players (chamber, built-in parts)."
+                }
+              },
+              "required": [
+                "slot",
+                "items",
+                "contexts",
+                "filter",
+                "blockedItems",
+                "blockedContexts",
+                "hidden"
+              ],
+              "additionalProperties": false,
+              "description": "One attachment slot on a weapon."
+            },
+            "description": "Attachment slots from the weapon's item definition."
+          }
+        },
+        "required": [
+          "id",
+          "asset",
+          "fireModes",
+          "calibers",
+          "slots"
+        ],
+        "additionalProperties": false
+      },
+      "description": "One entry per weapon, sorted by item id."
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "gameBuild",
+    "units",
+    "weapons"
+  ],
+  "additionalProperties": false,
+  "description": "Weapon statistics (fire rate, ballistics, recoil, accuracy) and the attachment slots of each weapon. Weapon ids are item ids from items.json."
+}

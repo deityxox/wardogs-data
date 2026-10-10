@@ -1,0 +1,212 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Damage model",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1,
+      "description": "Version of this file's layout. It changes only when the layout does."
+    },
+    "gameBuild": {
+      "type": "string",
+      "description": "Steam build id the data was extracted from."
+    },
+    "rules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "entity": {
+            "type": "string",
+            "minLength": 1,
+            "description": "What the rule belongs to: the damageable entity the game's table row names, such as `Infantry`, `Armor`, `Helmet`, `Armor.Ghillie`, `Vehicle` or one vehicle (`Vehicle.Air.Rotary.Havoc`). The `Meta.Damage.` prefix is dropped."
+          },
+          "source": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Tags the incoming damage must carry for the rule to apply, such as `Bullet`, `Bullet.556mm`, `Bullet.AmmoModifier.HollowPoint` or `Explosive.Rocket.84mm`. All of them must match. Empty means any damage."
+          },
+          "target": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Tags the target must carry, such as `Armor`, `Helmet.SuperHeavy`. Empty means any target."
+          },
+          "instigator": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Tags the attacker must carry. Empty means any attacker."
+          },
+          "hitLocations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Hit locations the rule is limited to (`Vehicle.MainRotor`, `Infantry.Head`), or attribute tags for vehicle parts. Empty means anywhere."
+          },
+          "alignment": {
+            "description": "`Friendly` for rules that only apply to damage between teammates. Absent otherwise.",
+            "type": "string"
+          },
+          "category": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The group the game applies the rule in, such as `Weapon`, `Calibre`, `AmmoModifier`, `Armor`, `Bone`, `Penetration`. Rules of one category do not stack the way different categories do."
+          },
+          "operation": {
+            "type": "string",
+            "minLength": 1,
+            "description": "How the amount changes the damage. `Percentage_Ongoing` reads as a percentage change to the running damage: -20 is 20% less and 100 doubles it. `Add` adds a flat amount of damage (tracked vehicles crushing buildables). The game's own code decides the exact order rules apply in."
+          },
+          "amount": {
+            "type": "number",
+            "description": "The amount: a percentage for `Percentage_Ongoing`, damage points for `Add`."
+          },
+          "custom": {
+            "description": "Name of the game's own code that computes the real effect when the rule is not a plain percentage (for example `B_BoneDamageModifiers_C`, which applies the hit-location multipliers). Absent for plain rules.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "entity",
+          "source",
+          "target",
+          "instigator",
+          "hitLocations",
+          "category",
+          "operation",
+          "amount"
+        ],
+        "additionalProperties": false,
+        "description": "One rule in the game's damage model. Rules that do nothing are left out."
+      },
+      "description": "The damage rules, grouped by entity in the game's order. Order inside an entity matters to the game."
+    },
+    "hitLocationMultipliers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "weaponClass": {
+            "type": "string",
+            "minLength": 1,
+            "description": "`Universal`, or the weapon class the multipliers are for, such as `Weapon.AR`, `Weapon.Sniper`. The `Meta.Damage.` prefix is dropped."
+          },
+          "multipliers": {
+            "type": "object",
+            "propertyNames": {
+              "type": "string"
+            },
+            "additionalProperties": {
+              "type": "number"
+            },
+            "description": "Damage multiplier per hit location, keyed by location (`Head`, `Neck`, `Torso.Upper`, ...)."
+          }
+        },
+        "required": [
+          "weaponClass",
+          "multipliers"
+        ],
+        "additionalProperties": false,
+        "description": "Damage multiplier by body part for one weapon class."
+      },
+      "description": "Body-part multipliers by weapon class."
+    },
+    "ammoTypes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ammoType": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Ammo type: `FMJ`, `HollowPoint`, `ArmorPiercing`, with `.Tracer` variants."
+          },
+          "modifier": {
+            "type": "number",
+            "description": "Penetration effectiveness multiplier of the ammo type."
+          },
+          "byArmsClass": {
+            "type": "object",
+            "propertyNames": {
+              "type": "string"
+            },
+            "additionalProperties": {
+              "type": "number"
+            },
+            "description": "Multiplier by weapon arms class (`Small`, `Medium`, `High`, `Special`) that replaces `modifier` for that class. Empty when the game gives none."
+          }
+        },
+        "required": [
+          "ammoType",
+          "modifier",
+          "byArmsClass"
+        ],
+        "additionalProperties": false,
+        "description": "How well an ammo type penetrates armor."
+      },
+      "description": "Penetration effectiveness by ammo type."
+    },
+    "vehicleSeats": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "vehicle": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Vehicle variant id from items.json."
+          },
+          "rules": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "damageSources": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Arms classes the reduction applies to (`Small`, `Medium`, `High`, `Special`)."
+                },
+                "reduction": {
+                  "type": "number",
+                  "description": "Percent change to damage the occupant takes; -90 is 90% less."
+                }
+              },
+              "required": [
+                "damageSources",
+                "reduction"
+              ],
+              "additionalProperties": false
+            },
+            "description": "Damage reduction for a person sitting in the vehicle, by arms class."
+          }
+        },
+        "required": [
+          "vehicle",
+          "rules"
+        ],
+        "additionalProperties": false,
+        "description": "How much a vehicle protects its occupants."
+      },
+      "description": "Occupant protection by vehicle."
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "gameBuild",
+    "rules",
+    "hitLocationMultipliers",
+    "ammoTypes",
+    "vehicleSeats"
+  ],
+  "additionalProperties": false,
+  "description": "The game's damage model: percentage rules by source, target and hit location (ammo types, calibers, armor, vehicles), body-part multipliers by weapon class, ammo-type penetration, and occupant protection in vehicles. Base damage per hit is in ammo.json; this file says what happens to it."
+}

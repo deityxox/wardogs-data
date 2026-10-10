@@ -1,0 +1,352 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Challenge rewards",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1,
+      "description": "Version of this file's layout. It changes only when the layout does."
+    },
+    "gameBuild": {
+      "type": "string",
+      "description": "Steam build id the data was extracted from."
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Event id: the game's event tag without the `Challenges.SessionEvents.` prefix, for example `PlayerKill.Assist`."
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The game's name for the event."
+          },
+          "description": {
+            "description": "The game's note on when the event pays, when it has one.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name"
+        ],
+        "additionalProperties": false,
+        "description": "An in-match event that can pay a reward."
+      },
+      "description": "The game's definitions of the in-match events, sorted by id. A reward id (`Challenges.Rewards.` prefix removed) equals an event id only for some events: the game pays most events through several reward rows (one per vehicle, item or building), and which rows an event uses is in the game's logic, not in these tables."
+    },
+    "rewards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The game's reward tag without the `Challenges.Rewards.` prefix, for example `PlayerKill`, `PlayerKill.CrewAssist` or `Spotting.Added.Kodiak`."
+          },
+          "resources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "resource": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "What is paid, without the `Attribute.Meta.` prefix: `Currency.Cash`, or role XP as `XP.Role` (the game decides which role it goes to) or `XP.Role.<Role>` for one role."
+                },
+                "formula": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "The amount, as the game's formula. Functions: clamp(value, min, max), pow(base, exponent), max(a, b). Each name is an entry of `inputs` or a variable."
+                },
+                "inputs": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string",
+                        "minLength": 1,
+                        "description": "The name the formula uses."
+                      },
+                      "default": {
+                        "type": "string",
+                        "minLength": 1,
+                        "description": "The variable the name stands for when no option applies."
+                      },
+                      "options": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "when": {
+                              "type": "object",
+                              "properties": {
+                                "match": {
+                                  "type": "string",
+                                  "enum": [
+                                    "all",
+                                    "any",
+                                    "none"
+                                  ],
+                                  "description": "How the parts combine: `all` of them, `any` of them, or `none` of them."
+                                },
+                                "tags": {
+                                  "description": "Context tags tested directly (for example `Challenges.Context.Headshot`). `all` needs every tag, `any` needs at least one, `none` needs none of them. Present when the condition tests tags.",
+                                  "type": "array",
+                                  "items": {
+                                    "type": "string"
+                                  }
+                                },
+                                "of": {
+                                  "description": "Groups of tags that are combined with `match`. Present when the condition combines several groups, such as `all` of (`any` of A and B) and (`none` of C).",
+                                  "type": "array",
+                                  "items": {
+                                    "type": "object",
+                                    "properties": {
+                                      "match": {
+                                        "type": "string",
+                                        "enum": [
+                                          "all",
+                                          "any",
+                                          "none"
+                                        ],
+                                        "description": "How this part combines its tags."
+                                      },
+                                      "tags": {
+                                        "type": "array",
+                                        "items": {
+                                          "type": "string"
+                                        },
+                                        "description": "Context tags tested by this part."
+                                      }
+                                    },
+                                    "required": [
+                                      "match",
+                                      "tags"
+                                    ],
+                                    "additionalProperties": false,
+                                    "description": "A group of context tags."
+                                  }
+                                }
+                              },
+                              "required": [
+                                "match"
+                              ],
+                              "additionalProperties": false,
+                              "description": "A test on the tags that describe what just happened (a headshot, a friendly kill, the player standing in a hot zone). It is the game's gameplay tag query, decoded."
+                            },
+                            "use": {
+                              "type": "string",
+                              "minLength": 1,
+                              "description": "The variable the name stands for when `when` holds."
+                            }
+                          },
+                          "required": [
+                            "when",
+                            "use"
+                          ],
+                          "additionalProperties": false,
+                          "description": "One choice."
+                        },
+                        "description": "Choices tried in order: the first whose `when` holds decides which variable the name stands for."
+                      }
+                    },
+                    "required": [
+                      "name",
+                      "default",
+                      "options"
+                    ],
+                    "additionalProperties": false,
+                    "description": "A formula name whose value depends on the situation. The first matching option wins, else the default."
+                  },
+                  "description": "Names in the formula that depend on the situation. Names not listed here are variables."
+                },
+                "variables": {
+                  "type": "array",
+                  "items": {
+                    "oneOf": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "name": {
+                            "type": "string",
+                            "minLength": 1,
+                            "description": "Variable name."
+                          },
+                          "type": {
+                            "type": "string",
+                            "const": "literal",
+                            "description": "A fixed number."
+                          },
+                          "value": {
+                            "type": "number",
+                            "description": "The number."
+                          }
+                        },
+                        "required": [
+                          "name",
+                          "type",
+                          "value"
+                        ],
+                        "additionalProperties": false,
+                        "description": "A fixed number."
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "name": {
+                            "type": "string",
+                            "minLength": 1,
+                            "description": "Variable name."
+                          },
+                          "type": {
+                            "type": "string",
+                            "const": "game",
+                            "description": "A number the game supplies while it plays."
+                          },
+                          "game": {
+                            "type": "string",
+                            "minLength": 1,
+                            "description": "The name of the game value, for example `KillStreak`, `LastVictimCount`, `CrewCount`, `BuildProgress` or `BaseRewardValue`."
+                          }
+                        },
+                        "required": [
+                          "name",
+                          "type",
+                          "game"
+                        ],
+                        "additionalProperties": false,
+                        "description": "A number the game fills in at the moment the reward is paid."
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "name": {
+                            "type": "string",
+                            "minLength": 1,
+                            "description": "Variable name."
+                          },
+                          "type": {
+                            "type": "string",
+                            "const": "scaling",
+                            "description": "A number looked up on a curve."
+                          },
+                          "input": {
+                            "type": "string",
+                            "minLength": 1,
+                            "description": "The game value that is looked up on the curve, for example `DistanceToTarget` or `DamageFraction`."
+                          },
+                          "curve": {
+                            "type": "string",
+                            "minLength": 1,
+                            "description": "Id of the curve in `curves`."
+                          }
+                        },
+                        "required": [
+                          "name",
+                          "type",
+                          "input",
+                          "curve"
+                        ],
+                        "additionalProperties": false,
+                        "description": "A number read from a curve at the value of `input`."
+                      }
+                    ],
+                    "description": "A named number used by a reward formula."
+                  },
+                  "description": "The numbers the formula and the inputs use."
+                }
+              },
+              "required": [
+                "resource",
+                "formula",
+                "inputs",
+                "variables"
+              ],
+              "additionalProperties": false,
+              "description": "One payment of a reward."
+            },
+            "description": "What the reward pays: cash, usually together with role XP."
+          }
+        },
+        "required": [
+          "id",
+          "resources"
+        ],
+        "additionalProperties": false,
+        "description": "What the game pays for one kind of event."
+      },
+      "description": "Rewards, sorted by id."
+    },
+    "curves": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The game's tag for the curve, for example `LiveCurves.Challenges.SessionEvents.PlayerKill.DistanceScalar`."
+          },
+          "points": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "input": {
+                  "type": "number",
+                  "description": "The value being looked up, in the game's units (distances are as stored by the game, not converted)."
+                },
+                "value": {
+                  "type": "number",
+                  "description": "The curve's value from this input on."
+                },
+                "interpolation": {
+                  "type": "string",
+                  "enum": [
+                    "constant",
+                    "linear",
+                    "cubic"
+                  ],
+                  "description": "How the curve moves from this point to the next: `constant` holds the value until the next input (a step)."
+                }
+              },
+              "required": [
+                "input",
+                "value",
+                "interpolation"
+              ],
+              "additionalProperties": false,
+              "description": "One point of the curve."
+            },
+            "description": "Points in the order the game stores them (rising input)."
+          }
+        },
+        "required": [
+          "id",
+          "points"
+        ],
+        "additionalProperties": false,
+        "description": "A curve that scales a reward."
+      },
+      "description": "Curves the rewards use, sorted by id."
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "gameBuild",
+    "events",
+    "rewards",
+    "curves"
+  ],
+  "additionalProperties": false,
+  "description": "How much cash and role XP each in-match event pays, as the game's own formulas: the formula, the numbers behind its names, the situations that change them, and the curves that scale them. The game can change these values from its server ('live curves' and the challenge reward registry have a server source), so a live game may differ from the files."
+}

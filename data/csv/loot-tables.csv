@@ -1,0 +1,13 @@
+id,spawn_chance,spawn_by_default,initial_spawn_time_s,initial_spawn_points,can_respawn,respawn_time,never_repeat_previous,control_zone_only,entries
+AbandonedTower,50,false,0,10,true,300,true,true,4
+Armor,100,true,0,15,false,10,false,false,1
+Bandage,100,true,0,15,false,10,false,false,1
+Defib.Cheap,100,true,0,15,false,10,false,false,1
+Helmet,100,true,0,15,false,10,false,false,1
+Sniper,100,true,0,15,false,10,false,false,1
+SniperOnly.HighValue,25,false,30,15,true,60,true,false,5
+SniperOnly.LowValue,20,true,10,15,true,20,true,false,9
+SniperOnly.MiddleValue,25,true,10,15,true,20,true,false,13
+Test,100,true,0,15,true,1,true,false,1
+Tower,50,false,0,10,true,300,true,true,6
+Weapon,100,true,0,15,false,10,false,false,1

@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Loot tables",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1,
+      "description": "Version of this file's layout. It changes only when the layout does."
+    },
+    "gameBuild": {
+      "type": "string",
+      "description": "Steam build id the data was extracted from."
+    },
+    "tables": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Loot table id: the game's tag without its `Lootable.` prefix, such as `Tower` or `AbandonedTower`."
+          },
+          "spawnChance": {
+            "type": "number",
+            "description": "Percent chance the loot spawns."
+          },
+          "spawnByDefault": {
+            "description": "True when it spawns at the start of a match.",
+            "type": "boolean"
+          },
+          "spawnByPoints": {
+            "description": "True when spawning is paced by spawn points.",
+            "type": "boolean"
+          },
+          "initialSpawnTime": {
+            "description": "Seconds into the match before the first spawn.",
+            "type": "number"
+          },
+          "initialSpawnPoints": {
+            "description": "Spawn points available at the start.",
+            "type": "number"
+          },
+          "canRespawn": {
+            "description": "True when the loot comes back after it is taken.",
+            "type": "boolean"
+          },
+          "respawnTime": {
+            "description": "Seconds until it respawns, as stored.",
+            "type": "number"
+          },
+          "neverSelectPreviousItem": {
+            "description": "True when a respawn never repeats the previous item.",
+            "type": "boolean"
+          },
+          "spawnInsideControlZoneOnly": {
+            "description": "True when it only spawns inside the control zone.",
+            "type": "boolean"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "item": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Item id from items.json."
+                },
+                "amount": {
+                  "type": "integer",
+                  "exclusiveMinimum": 0,
+                  "maximum": 9007199254740991,
+                  "description": "Units spawned."
+                },
+                "weight": {
+                  "type": "number",
+                  "minimum": 0,
+                  "description": "Relative chance this entry is picked among the table's entries."
+                },
+                "subItems": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "item": {
+                        "type": "string",
+                        "minLength": 1,
+                        "description": "Item id from items.json."
+                      },
+                      "chance": {
+                        "type": "number",
+                        "description": "Percent chance it spawns with the main item."
+                      },
+                      "amount": {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "maximum": 9007199254740991,
+                        "description": "Units spawned."
+                      }
+                    },
+                    "required": [
+                      "item",
+                      "chance",
+                      "amount"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "description": "Items that spawn together with this one (attachments, magazines, grenades)."
+                }
+              },
+              "required": [
+                "item",
+                "amount",
+                "weight",
+                "subItems"
+              ],
+              "additionalProperties": false,
+              "description": "One entry of a loot table."
+            },
+            "description": "What can spawn."
+          }
+        },
+        "required": [
+          "id",
+          "spawnChance",
+          "items"
+        ],
+        "additionalProperties": false,
+        "description": "One loot table."
+      },
+      "description": "Loot tables, sorted by id."
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "gameBuild",
+    "tables"
+  ],
+  "additionalProperties": false,
+  "description": "What spawns as loot (in towers and other lootables): items, amounts, weights and respawn rules."
+}

@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "gameBuild": "25677108",
+  "sets": [
+    {
+      "id": "Featured",
+      "name": "Featured",
+      "sortIndex": 0,
+      "hidden": false
+    },
+    {
+      "id": "BlackAndGold",
+      "name": "Black & Gold",
+      "sortIndex": 1,
+      "hidden": false
+    },
+    {
+      "id": "Frogman",
+      "name": "Frogman",
+      "sortIndex": 2,
+      "hidden": false
+    },
+    {
+      "id": "DigitalWood",
+      "name": "Digital Wood",
+      "sortIndex": 3,
+      "hidden": false
+    },
+    {
+      "id": "TripleDesert",
+      "name": "Triple Desert",
+      "sortIndex": 4,
+      "hidden": false
+    },
+    {
+      "id": "DigitalFlora",
+      "name": "Digital Flora",
+      "sortIndex": 5,
+      "hidden": false
+    },
+    {
+      "id": "TwoToneDesert",
+      "name": "Two Tone Desert",
+      "sortIndex": 6,
+      "hidden": false
+    },
+    {
+      "id": "Emote",
+      "name": "Emotes",
+      "sortIndex": 7,
+      "hidden": true
+    },
+    {
+      "id": "Bobblehead",
+      "name": "Bobbleheads",
+      "sortIndex": 8,
+      "hidden": false
+    },
+    {
+      "id": "Taxi",
+      "name": "Taxi",
+      "sortIndex": 9,
+      "hidden": false
+    },
+    {
+      "id": "FactionLogo",
+      "name": "Faction Logo",
+      "sortIndex": 10,
+      "hidden": false
+    }
+  ],
+  "cosmetics": [
+    {
+      "id": "BlackAndGold.AK74",
+      "item": "Id.Item.AK74M",
+      "set": "BlackAndGold",
+      "archetype": "AR",
+      "source": "Season01_Skins"
+    },
+    {
+      "id": "DigitalWood.GGX17",
+      "item": "Id.Item.Glock17",
+      "set": "DigitalWood",
+      "archetype": "Pistol",
+      "source": "Season01_Skins"
+    },
+    {
+      "id": "DigitalWood.M4",
+      "item": "Id.Item.M4",
+      "set": "DigitalWood",
+      "archetype": "AR",
+      "source": "Season01_Skins"
+    },
+    {
+      "id": "DigitalWood.SportsParachute",
+      "item": "Id.Item.Parachute.Sport",
+      "set": "DigitalWood",
+      "archetype": "Parachute",
+      "source": "Season01_Skins"
+    },
+    {
+      "id": "DigitalWood.SV98",
+      "item": "Id.Item.SV98",
+      "set": "DigitalWood",
+      "archetype": "Sniper",
+      "source": "Season01_Skins"
+    },
+    {
+      "id": "Emote.Middle_Finger",
+      "item": "Id.Emote.Middle_Finger",
+      "set": "Emote",
+      "source": "Season01_Emotes"
+    },
+    {
+      "id": "Emote.RockPaperScissors",
+      "item": "Id.Emote.RockPaperScissors",
+      "set": "Emote",
+      "source": "Season01_Emotes"
+    },
+    {
+      "id": "Emote.Shh",
+      "item": "Id.Emote.Shh",
+      "set": "Emote",
+      "source": "Season01_Emotes"
+    },
+    {
+      "id": "FactionLogo.A91",
+      "item": "Id.Item.A91",
+      "set": "FactionLogo",
+      "archetype": "AR",
+      "source": "FactionLogo"
+    },
+    {
+      "id": "FactionLogo.KH2002",
+      "item": "Id.Item.KH2002",
+      "set": "FactionLogo",
+      "archetype": "AR",
+      "source": "FactionLogo"
+    },
+    {
+      "id": "FactionLogo.WEPN_033",
+      "item": "Id.Item.WEPN_033",
+      "set": "FactionLogo",
+      "archetype": "AR",
+      "source": "FactionLogo"
+    },
+    {
+      "id": "Taxi.Littlebird",
+      "item": "Vehicle.Variant.Air.Rotary.Littlebird.Default",
+      "set": "Taxi",
+      "archetype": "Vehicle.Archetype.Air.Rotary",
+      "source": "Taxi"
+    },
+    {
+      "id": "TwoToneDesert.A91",
+      "item": "Id.Item.A91",
+      "set": "TwoToneDesert",
+      "archetype": "AR",
+      "source": "Season01_Skins"
+    },
+    {
+      "id": "TwoToneDesert.AX50",
+      "item": "Id.Item.SR_04",
+      "set": "TwoToneDesert",
+      "archetype": "Sniper",
+      "source": "Season01_Skins"
+    },
+    {
+      "id": "TwoToneDesert.Bobcat",
+      "item": "Vehicle.Variant.Land.Wheeled.Bobcat.Default",
+      "set": "TwoToneDesert",
+      "archetype": "Vehicle.Archetype.Land.Wheeled",
+      "source": "Season01_Skins"
+    },
+    {
+      "id": "TwoToneDesert.Bushmaster",
+      "item": "Id.Item.WEPN_033",
+      "set": "TwoToneDesert",
+      "archetype": "AR",
+      "source": "Season01_Skins"
+    },
+    {
+      "id": "TwoToneDesert.DuneBuggy",
+      "item": "Vehicle.Variant.Land.Wheeled.DuneBuggy.Default",
+      "set": "TwoToneDesert",
+      "archetype": "Vehicle.Archetype.Land.Wheeled",
+      "source": "Season01_Skins"
+    },
+    {
+      "id": "TwoToneDesert.Humvee",
+      "item": "Vehicle.Variant.Land.Wheeled.Humvee.Default",
+      "set": "TwoToneDesert",
+      "archetype": "Vehicle.Archetype.Land.Wheeled",
+      "source": "Season01_Skins"
+    },
+    {
+      "id": "TwoToneDesert.KH2002",
+      "item": "Id.Item.KH2002",
+      "set": "TwoToneDesert",
+      "archetype": "AR",
+      "source": "Season01_Skins"
+    },
+    {
+      "id": "TwoToneDesert.Littlebird",
+      "item": "Vehicle.Variant.Air.Rotary.Littlebird.Default",
+      "set": "TwoToneDesert",
+      "archetype": "Vehicle.Archetype.Air.Rotary",
+      "source": "Season01_Skins"
+    },
+    {
+      "id": "TwoToneDesert.M249",
+      "item": "Id.Item.M249",
+      "set": "TwoToneDesert",
+      "archetype": "LMG",
+      "source": "Season01_Skins"
+    },
+    {
+      "id": "TwoToneDesert.M4",
+      "item": "Id.Item.M4",
+      "set": "TwoToneDesert",
+      "archetype": "AR",
+      "source": "Season01_Skins"
+    },
+    {
+      "id": "TwoToneDesert.M500",
+      "item": "Id.Item.M500",
+      "set": "TwoToneDesert",
+      "archetype": "Shotgun",
+      "source": "Season01_Skins"
+    },
+    {
+      "id": "TwoToneDesert.MP9",
+      "item": "Id.Item.MP9",
+      "set": "TwoToneDesert",
+      "archetype": "SMG",
+      "source": "Season01_Skins"
+    }
+  ]
+}

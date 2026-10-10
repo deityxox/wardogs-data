@@ -1,0 +1,128 @@
+action,context,resource,base,description
+BuildableBuilt,DefaultReward,Cash,1,
+BuildableBuilt,Id.Buildable.HBlock,Cash,1,
+BuildableBuilt,Id.Buildable.TallHBlock,Cash,1,
+BuildableBuilt,Id.Buildable.Gate,Cash,1,
+BuildableBuilt,Id.Buildable.FOB,Cash,1,
+BuildableBuilt,Id.Buildable.HBlockQuadWall,Cash,1,
+BuildableBuilt,Id.Buildable.Mortar,Cash,1,
+BuildableBuilt,Id.Buildable.BarbedWire,Cash,1,
+BuildableBuilt,Id.Buildable.TankTrap,Cash,1,
+BuildableBuilt,Id.Buildable.AirRaidShelter,Cash,1,
+BuildableBuilt,Id.Buildable.Bunker,Cash,1,
+BuildablePlaced,DefaultReward,Cash,1,
+BuildablePlaced,Id.Buildable.HBlock,Cash,100,
+BuildablePlaced,Id.Buildable.TallHBlock,Cash,200,
+BuildablePlaced,Id.Buildable.Gate,Cash,300,
+BuildablePlaced,Id.Buildable.FOB,Cash,1000,
+BuildablePlaced,Id.Buildable.HBlockQuadWall,Cash,500,
+BuildablePlaced,Id.Buildable.Mortar,Cash,300,
+BuildablePlaced,Id.Buildable.BarbedWire,Cash,10,
+BuildablePlaced,Id.Buildable.TankTrap,Cash,100,
+BuildablePlaced,Id.Buildable.AirRaidShelter,Cash,500,
+BuildablePlaced,Id.Buildable.Bunker,Cash,500,
+BuildablePlacedInFOB,DefaultReward,Cash,1,
+BuildablePlacedInFOB,Id.Buildable.HBlock,Cash,100,
+BuildablePlacedInFOB,Id.Buildable.TallHBlock,Cash,200,
+BuildablePlacedInFOB,Id.Buildable.Gate,Cash,300,
+BuildablePlacedInFOB,Id.Buildable.FOB,Cash,1000,
+BuildablePlacedInFOB,Id.Buildable.HBlockQuadWall,Cash,500,
+BuildablePlacedInFOB,Id.Buildable.Mortar,Cash,300,
+BuildablePlacedInFOB,Id.Buildable.BarbedWire,Cash,10,
+BuildablePlacedInFOB,Id.Buildable.TankTrap,Cash,100,
+BuildablePlacedInFOB,Id.Buildable.AirRaidShelter,Cash,500,
+BuildablePlacedInFOB,Id.Buildable.Bunker,Cash,500,
+ControlZoneReward,Meta.Progression.Resources.MatchScore.ObjectiveScore.ControlZoneContested,Cash,150,Reward for player if  they are in the control zone and it is contested
+ControlZoneReward,Meta.Progression.Resources.MatchScore.ObjectiveScore.ControlZoneNotOwned,Cash,150,Reward for player if they are in the control zone and it is not owned by the players faction
+ControlZoneReward,Meta.Progression.Resources.MatchScore.ObjectiveScore.ControlZoneOwned,Cash,150,Reward for player if they are in the control zone and it is owned by the players faction
+ControlZoneReward,Meta.Progression.Resources.MatchScore.ObjectiveScore.ControlZoneEntered,Cash,100,Reward for player when they enter the control zone for the first time in that life
+ControlZoneReward,Meta.Progression.Resources.MatchScore.ObjectiveScore.HotzoneNotOwned,Cash,600,Reward for player if they are in the HZ and it is not owed
+ControlZoneReward,Meta.Progression.Resources.MatchScore.ObjectiveScore.HotzoneContested,Cash,600,Reward for player if they are in the HZ and it is contested
+ControlZoneReward,Meta.Progression.Resources.MatchScore.ObjectiveScore.HotzoneOwned,Cash,600,Reward for player if they are in the HZ and it is owned by the players faction
+ControlZoneReward,Meta.Progression.Resources.MatchScore.ObjectiveScore.HotzoneEntered,Cash,0,Reward for player if they enter the HZ
+ControlZoneReward,Meta.Progression.Resources.MatchScore.ObjectiveScore.MagnetZoneContested,Cash,600,Reward for player if they enter the HZM and it is contested
+ControlZoneReward,Meta.Progression.Resources.MatchScore.ObjectiveScore.MagnetZoneOwned,Cash,700,Reward for player if they enter the HZM and it is owned by the players faction
+ControlZoneReward,Meta.Progression.Resources.MatchScore.ObjectiveScore.MagnetZoneNotOwned,Cash,600,Reward for player if they enter the HZM and it is not owned by the players faction
+ControlZoneReward,Meta.Progression.Resources.MatchScore.ObjectiveScore.SpawnVehicle.ControlZoneEntered,Cash,3000,
+DeployableDestroyed,DefaultReward,Cash,1,
+DeployableDestroyed,Id.Item.Claymore,Cash,100,
+DeployableDestroyed,Id.Item.C4Explosive,Cash,100,
+DeployableDestroyed,ID.Item.ATMine,Cash,100,
+DeployableDestroyed,ID.Item.VehicleSupplyCrate.Free,Cash,100,
+DeployableDestroyed,ID.Item.VehicleSupplyCrate.Container.Free,Cash,100,
+DeployableDestroyed,ID.Item.VehicleSupplyCrate.Small,Cash,100,
+DeployableDestroyed,ID.Item.VehicleSupplyCrate.Large,Cash,200,
+DeployableDestroyed,ID.Item.VehicleSupplyCrate.Small.Armoured,Cash,200,
+DeployableDestroyed,ID.Item.VehicleSupplyCrate.Large.Armoured,Cash,200,
+DeployableDestroyed,Id.Buildable.HBlock,Cash,100,
+DeployableDestroyed,Id.Buildable.TallHBlock,Cash,100,
+DeployableDestroyed,Id.Buildable.Gate,Cash,500,
+DeployableDestroyed,Id.Buildable.FOB,Cash,5000,
+DeployableDestroyed,Id.Buildable.HBlockQuadWall,Cash,125,
+DeployableDestroyed,Id.Buildable.Mortar,Cash,300,
+DeployableDestroyed,Id.Buildable.BarbedWire,Cash,75,
+DeployableDestroyed,Id.Buildable.TankTrap,Cash,250,
+DeployableDestroyed,Id.Buildable.Bunker,Cash,1400,
+DeployableDestroyed,Id.Buildable.AirRaidShelter,Cash,1400,
+DeployableDestroyed,Id.Buildable.CrowsNest,Cash,1400,
+DeployableDestroyed,Id.Buildable.CamoNetTent,Cash,75,
+DeployableDestroyed,Id.Buildable.Door,Cash,100,
+DeployableDestroyed,Id.Buildable.HotzoneMagnet,Cash,3000,
+DeployableDestroyed,Id.Buildable.SandbagWall,Cash,100,
+DeployedSupplyCrate,DefaultReward,Cash,25,Default fallback deployed supply crate value
+DeployedSupplyCrate,ID.Item.VehicleSupplyCrate.Container.Free,Cash,25,Reward for deploying free supply crate container
+DeployedSupplyCrate,ID.Item.VehicleSupplyCrate.Large,Cash,150,Reward for deploying large supply crate
+DeployedSupplyCrate,ID.Item.VehicleSupplyCrate.Large.Armoured,Cash,150,Reward for deploying large armoured supply crate
+DeployedSupplyCrate,ID.Item.VehicleSupplyCrate.Small,Cash,50,Reward for deploying small supply crate
+DeployedSupplyCrate,ID.Item.VehicleSupplyCrate.Small.Armoured,Cash,50,Reward for deploying small armoured supply crate
+EndGameFactionReward,DefaultReward,Cash,100,Revive Reward if the player doesnt use a item
+EndGameFactionReward,Meta.Progression.Resources.MatchScore.Faction.FirstPlace,Cash,200,Reward for the faction which finishes in first place
+EndGameFactionReward,Meta.Progression.Resources.MatchScore.Faction.SecondPlace,Cash,150,Reward for the faction which finishes in second place
+EndGameFactionReward,Meta.Progression.Resources.MatchScore.Faction.ThirdPlace,Cash,100,Reward for the faction which finishes in third place
+Heal,DefaultReward,Cash,10,Default Heal Reward. Used if no heal item ID tag is set
+Heal,Id.Item.Bandage,Cash,400,Bandage Heal Reward
+Heal,Id.Item.SuperBandage,Cash,1000,Super Bandage Heal Reward
+Heal,ID.Item.MedKit.Standard,Cash,100,Medkit Heal Reward
+Heal,Id.Item.StimPen,Cash,0,Heal reward when player is revived using stim pen
+Heal,Id.Item.AdrenalinePen,Cash,1200,Heal reward when player is revived using adrenaline pen
+Heal,Id.Item.Defibrillator,Cash,1500,Heal reward when player is revived using defib
+Heal,Id.Item.Resuscitator,Cash,1500,Heal reward when player is revived using the resusitator
+HotZoneMagnet,MatchScore.MagnetActivatedInstigator,Cash,5000,Reward for player if they activated the magnet
+HotZoneMagnet,MatchScore.MagnetActivated,Cash,5000,Reward for player if they're near an activated magnet
+HotZoneMagnet,MatchScore.MagnetDestroyedInstigator,Cash,200,Reward for player if they deactivated the magnet
+HotZoneMagnet,MatchScore.MagnetDestroyed,Cash,150,[NOT BEING USED]
+HotZoneMagnet,MatchScore.CapturedTowerInstigatorHostile,Cash,1000,Reward for player if they capture a hostile tower
+HotZoneMagnet,MatchScore.CapturedTowerHostile,Cash,1000,Reward for player if they're near a captured hostile tower
+HotZoneMagnet,MatchScore.CapturedTowerInstigator,Cash,250,Reward for player if they capture a neutral tower
+HotZoneMagnet,MatchScore.CapturedTower,Cash,250,Reward for player if they're near a neutral tower
+PlayerKill,DefaultReward,Cash,250,Kill reward if a the instigator kills another player
+PlayerKill,Vehicle.Variant.Land.Tracked.TNK_01.Artillery,Cash,5000,Kill reward if the instigator kills another player while in artillery and the instighator is in no mans land
+PlayerKill,DefaultReward.Vehicle.InZone,Cash,100,Kill reward if the instigator kills another player while in artillery is in the zone
+Refuel,DefaultReward,Cash,10,Default fallback refuel value
+Repair,DefaultReward,Cash,20,Default fallback repair value
+Repair,ID.Item.RepairTool.Wrench.Standard,Cash,20,Standard repair tool value
+Repair,ID.Item.RepairTool.Drill.Light,Cash,20,Light Drill repair tool value
+Repair,ID.Item.RepairTool.Drill.Heavy,Cash,25,Heavy Drill repair tool value
+Revive,DefaultReward,Cash,1500,Revive Reward if the player doesnt use a item
+Revive,Id.Item.Defibrillator,Cash,1000,Revive reward for if the player uses a defib. Reward Scales on health restored on revive
+Revive,Id.Item.StimPen,Cash,400,Revive reward for if the player uses a addrenaline pen
+Revive,Id.Item.AdrenalinePen,Cash,100,Revive Reward for if the player uses the stim pen. Reward scales depending on health restored
+Revive,Id.Item.MedKit,Cash,800,Revive reward for if the player uses a MedKit. Reward Scales on health restored on revive
+Revive,Id.Item.Resuscitator,Cash,1000,Revive reward for if the player uses a Resuscitator. Reward Scales on health restored on revive
+Spotting,MatchScore.SpottedMin,Cash,15,The minimum reward for spotting multiplied by the assist scaling modifier.
+Spotting,MatchScore.SpottedMax,Cash,275,The maximum reward for spotting multiplied by the assist scaling modifier.
+Spotting,MatchScore.SpottedDestroyedMin,Cash,50,The minimum reward for destroyed spotted targets multiplied by the assist scaling modifier.
+Spotting,MatchScore.SpottedDestroyedMax,Cash,500,The maximum reward for destroyed spotted targets multiplied by the assist scaling modifier.
+VehicleDestroyed,Vehicle.Variant.Land.Wheeled.Bobcat,Cash,100,Destoryed Bobcat reward for all bobcat varients
+VehicleDestroyed,Vehicle.Variant.Land.Wheeled.Kodiak,Cash,500,Destoryed Kodiak reward for all Kodiak varients
+VehicleDestroyed,Vehicle.Variant.Air.Rotary.Littlebird,Cash,800,Destoryed Littlebird reward for all Littlebird varients
+VehicleDestroyed,Vehicle.Variant.Air.Rotary.ROT_01,Cash,1200,Destoryed Huey reward for all Huey varients
+VehicleDestroyed,Vehicle.Variant.Air.Rotary.Havoc,Cash,6000,Destoryed Havoc reward for all Havoc varients
+VehicleDestroyed,Vehicle.Variant.Land.Tracked.SpawnVehicle,Cash,4000,Destoryed Spawn Vehicle reward for all Spawn Vehicle varients
+VehicleDestroyed,Vehicle.Variant.Land.Tracked.TNK_01.Heavy,Cash,5000,Destoryed Heavy Tank reward for all Heavy Tank varients
+VehicleDestroyed,Vehicle.Variant.Land.Tracked.TNK_01.Artillery,Cash,6000,Destoryed Artillery reward for all Artillery varients
+VehicleDestroyed,Vehicle.Variant.Land.Wheeled.Humvee,Cash,500,Destroyed Humvee reward for all Humvee varients
+VehicleDestroyed,Vehicle.Variant.Land.Wheeled.DuneBuggy,Cash,300,Destroyed Dune Buggy reward for all Dune Buggy varients
+VehicleTransport,DefaultReward,Cash,20,
+VehicleTransport,Vehicle.SpawnedOn,Cash,100,
+VehicleTransport,Vehicle.Transported,Cash,250,

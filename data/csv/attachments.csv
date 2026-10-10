@@ -1,0 +1,266 @@
+id,name,type,contexts,magazine_capacity,magazine_calibers
+Id.Item.10xScopeMoa,6-10x Scope MOA,Sight,Item.Context.Equippable;Item.Attachment.Sight.Long,,
+Id.Item.3xScope,Spitfire 3X,Sight,Item.Context.Equippable;Item.Attachment.Sight.Medium,,
+Id.Item.4xElcanSpectr,4x Elcan Spectr,Sight,Item.Context.Equippable;Item.Attachment.Sight.Medium,,
+Id.Item.6xScope,3-6x Scope,Sight,Item.Context.Equippable;Item.Attachment.Sight.Long,,
+ID.Item.A91Barrel,A91 Barrel,Barrel,Item.Attachment.Barrel.A91,,
+ID.Item.A91Mag,A91 Standard Mag,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Standard,30,556mm
+Id.Item.AK74MBarrel,AK74 Barrel,Barrel,Item.Attachment.Barrel.AK74M,,
+Id.Item.AK74MExtendedMagazine,AK74 60 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Extended,60,545mm
+Id.Item.AK74MGrip,AK74M Grip,Grip,Item.Attachment.Grip.AK74M,,
+ID.Item.AK74MIMIEGGrip,AK74 Grip,Grip,Item.Attachment.Grip.AK74M,,
+Id.Item.AK74MMagazine,AK74 30 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Standard,30,545mm
+Id.Item.AK74MMagazine75rnd,AK74 75 RND Drum Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Drum,75,545mm
+Id.Item.AK74MStock,AK74M Stock,Stock,Item.Attachment.Stock.AK74M,,
+ID.Item.AR_01_BRL_02,ID.Item.AR_01_BRL_02,Barrel,Item.Attachment.Barrel.AK74M,,
+ID.Item.AR_02_BRL_01,MMGL Barrel,Barrel,Item.Attachment.Barrel.M4,,
+ID.Item.AR_02_GRP_05,ID.Item.AR_02_GRP_05,Grip,Item.Attachment.Grip.M4,,
+ID.Item.AR_02_HGD_04,LVOA Handguard,Handguard,Item.Attachment.Handguard.M4,,
+ID.Item.AR_02_STK_04,ID.Item.AR_02_STK_04,Stock,Item.Attachment.Stock.M4,,
+Id.Item.ARExtendedMagazine545mm,AR Extended Mag,Magazine,Item.Attachment.Magazine.AR,45,545mm
+ID.Item.BARL_003,M1911 Barrel,Barrel,Item.Attachment.Barrel.WEPN_026,,
+Id.Item.BARL_004,Deagle Barrel,Barrel,Item.Attachment.Barrel.WEPN_027,,
+ID.Item.BARL_005,MP5 Barrel,Barrel,Item.Attachment.Barrel.WEPN_028,,
+Id.Item.BARL_006,Galil Barrel,Barrel,Item.Attachment.Barrel.WEPN_029,,
+Id.Item.BARL_007,Id.Item.BARL_007,Barrel,Item.Attachment.Barrel,,
+ID.Item.BARL_011,RPK74 Barrel + Gas Block,Barrel,Item.Attachment.Barrel,,
+Id.Item.BARL_044,Id.Item.BARL_044,Barrel,Item.Attachment.Barrel.WEPN_033,,
+Id.Item.BARL_045,Scout Rifle Standard Barrel,Barrel,Item.Attachment.Barrel.WEPN_035,,
+Id.Item.BasicRedDot,Compact T-2 Red Dot,Sight,Item.Context.Equippable;Item.Attachment.Sight.Short,,
+Id.Item.Battery,Battery,Magazine,Item.Attachment.Magazine.Battery;Item.Resource.Magazine.Battery,100,BatteryCharge
+Id.Item.C4Explosive,C4 Charge,Magazine,Item.Resource.HiddenConsumable;Item.Archetype.Grenade;Item.Context.UtilityItem;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand;Item.Ammo;Item.Caliber.C4Charge,,
+Id.Item.CantedIrons,CantedIrons,Sight,Item.Attachment.CantedSight,,
+Id.Item.CombatBowMagazine,Combat Bow Standard Mag,Magazine,Item.Attachment.Magazine,5,Arrow
+Id.Item.EotechHoloSight,Holographic Sight,Sight,Item.Context.Equippable;Item.Attachment.Sight.Short,,
+Id.Item.FGP_02,TDG Vertical Foregrip,Grip,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Context.Animation.Archetype.Foregrip.Vertical,,
+Id.Item.FGP_03,AFG Angled Foregrip,Grip,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Context.Animation.Archetype.Foregrip.Angled,,
+Id.Item.FGP_04,Grip Pod,Bipod,Item.Context.Equippable;Item.Context.Animation.Archetype.Foregrip.Vertical;Item.Attachment.Underbarrel.VertForegrip,,
+Id.Item.FGRP_006,RVG Vertical Foregrip,Grip,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Context.Animation.Archetype.Foregrip.Vertical,,
+Id.Item.FGRP_007,Shift Foregrip,Grip,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Context.Animation.Archetype.Foregrip.Vertical,,
+Id.Item.FGRP_008,PKM Bipod,Bipod,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Attachment.Bipod.Attached,,
+Id.Item.FGRP_009,SV98 Bipod,Bipod,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Attachment.Bipod.Attached,,
+Id.Item.FGRP_010,SKS Bipod,Bipod,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Attachment.Bipod.Attached,,
+Id.Item.FGRP_011,SVD Bipod,Bipod,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Attachment.Bipod.Attached,,
+Id.Item.FGRP_012,M249 Bipod,Bipod,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Attachment.Bipod.Attached,,
+Id.Item.FGRP_013,Pro Tilt Bipod,Bipod,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Attachment.Bipod.Attached,,
+Id.Item.FGRP_014,CQR Tactical Front Rail Grip,Grip,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Context.Animation.Archetype.Foregrip.HERA,,
+Id.Item.FGRP_015,Rubberized Ergonomic Foregrip,Grip,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Context.Animation.Archetype.Foregrip.Vertical,,
+Id.Item.FGRP_016,45° Angled Foregrip,Grip,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Context.Animation.Archetype.Foregrip.Angled,,
+Id.Item.FGRP_017,Angled Tactical Foregrip,Grip,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Context.Animation.Archetype.Foregrip.BumpStop,,
+Id.Item.FGRP_018,Mini Angled Foregrip,Grip,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Context.Animation.Archetype.Foregrip.BumpStop,,
+Id.Item.Glock17Barrel,Id.Item.Glock17Barrel,Barrel,Item.Attachment.Barrel.Glock,,
+Id.Item.Glock17ExtendedMagazine,Glock 17 Extended Mag,Magazine,Item.Attachment.Magazine,30,9mm
+Id.Item.Glock17Magazine,GGX 17 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Standard,17,9mm
+Id.Item.HNDG_003,MP5 Handguard,Handguard,Item.Attachment.Handguard.WEPN_028,,
+Id.Item.HNDG_005,AK74 Polymer Handguard,Handguard,Item.Attachment.Handguard,,
+Id.Item.HNDG_006,AK74 Wooden Dong Grip,Handguard,Item.Attachment.Handguard,,
+Id.Item.HNDG_007,AK74 Sharkfin Dong Grip,Handguard,Item.Attachment.Handguard,,
+Id.Item.HNDG_008,AK74u Wooden Handguard,Handguard,Item.Attachment.Handguard,,
+Id.Item.HNDG_009,AK74u Polymer Handguard,Handguard,Item.Attachment.Handguard,,
+Id.Item.HNDG_010,AK74 Archangel OPFOR Forend,Handguard,Item.Attachment.Handguard,,
+Id.Item.HNDG_011,RPK74 Wooden Handguard,Handguard,Item.Attachment.Handguard,,
+Id.Item.HNDG_012,RPK74 Polymer Handguard,Handguard,Item.Attachment.Handguard,,
+Id.Item.HNDG_013,AK74 M-LOK Dong Grip,Handguard,Item.Attachment.Handguard,,
+Id.Item.HNDG_014,AK74 MI Universal Handguard,Handguard,Item.Attachment.Handguard,,
+Id.Item.HNDG_015,AK74 TI Battlerail,Handguard,Item.Attachment.Handguard,,
+Id.Item.HNDG_016,AK74 ZenitCo B-13 Side Mount,Handguard,Item.Attachment.Handguard,,
+Id.Item.HybridScope4x,4x Hybrid,Sight,Item.Attachment.Sight;Item.Context.Equippable,,
+Id.Item.IED.Explosive,Improvised Explosive Device,Magazine,Item.Resource.HiddenConsumable;Item.Context.UtilityItem;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand;Item.Ammo;Item.Caliber.IEDCharge,,
+Id.Item.JudgeBarrel,Id.Item.JudgeBarrel,Barrel,Item.Attachment.Barrel.Judge,,
+Id.Item.JudgeMagazine,Judge Bullet Cylinder,Magazine,Item.Attachment.Magazine,6,45Colt
+Id.Item.JudgePistolgrip,Id.Item.JudgePistolgrip,Grip,Item.Attachment.Grip.Judge,,
+ID.Item.KH2002Barrel,KH2002 Barrel,Barrel,Item.Attachment.Barrel.KH2002,,
+Id.Item.KH2002ExtendedMagazine,KH2002 Extended Mag,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Extended,45,556mm
+ID.Item.KH2002Mag,KH2002 Standard Mag,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Standard,30,556mm
+Id.Item.LargeBattery,High Capacity Battery,Magazine,Item.Attachment.Magazine.Battery;Item.Resource.Magazine.Battery,250,BatteryCharge
+Id.Item.Launcher_04Magazine,Launcher_04 Standard Mag,Magazine,Item.Attachment.Magazine,1,72mm
+ID.Item.LMG_01_BRL_06,ID.Item.LMG_01_BRL_06,Barrel,Item.Attachment.Barrel.M249,,
+Id.Item.LMG_02Barrel,Id.Item.LMG_02Barrel,Barrel,Item.Attachment.Barrel,,
+Id.Item.LMG_02Magazine,PKM 100 RND Box,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Belt,100,762x54mm
+Id.Item.LMG_02PistolGrip,Id.Item.LMG_02PistolGrip,Grip,Item.Attachment.Grip,,
+Id.Item.LMG_02Stock,Id.Item.LMG_02Stock,Stock,Item.Attachment.Stock,,
+Id.Item.M249Barrel,Id.Item.M249Barrel,Barrel,Item.Attachment.Barrel.M249,,
+Id.Item.M249Magazine,M249 200 RND Box,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Belt,200,556mm
+Id.Item.M249Stock,Id.Item.M249Stock,Stock,Item.Attachment.Stock.M249,,
+Id.Item.M4Barrel,M4 Barrel,Barrel,Item.Attachment.Barrel.M4,,
+Id.Item.M4ExtendedMagazine,M4 Extended Mag,Magazine,Item.Attachment.Magazine,45,556mm
+Id.Item.M4Handguard,M4 Handguard,Handguard,Item.Attachment.Handguard.M4,,
+Id.Item.M4Magazine,M4 Standard Mag,Magazine,Item.Attachment.Magazine.AR;Item.Resource.Magazine.Standard,30,556mm
+Id.Item.M4PistolGrip,M4 Pistol Grip,Grip,Item.Attachment.Grip.M4,,
+Id.Item.M4Stock,M4 Stock,Stock,Item.Attachment.Stock.M4,,
+Id.Item.M500Barrel,Id.Item.M500Barrel,Barrel,Item.Attachment.Barrel.M500,,
+Id.Item.M500Magazine,M500 Internal Mag,Magazine,Item.Attachment.Magazine,6,12g
+Id.Item.M500Stock,Id.Item.M500Stock,Stock,Item.Attachment.Stock.M500,,
+Id.Item.MAGZ_002,M1911 7 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Standard,7,45ACP
+ID.Item.MAGZ_003,Deagle 7 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Standard,7,50AE
+Id.Item.MAGZ_004,MP5 30 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Extended,30,9mm
+Id.Item.MAGZ_005,Galil 35 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Extended,35,556mm
+Id.Item.MAGZ_006,FAL 20 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Extended,20,308Win
+Id.Item.MAGZ_011,GGX 50 RND Drum Magazine,Magazine,Item.Attachment.Magazine;Item.Context.Equippable;Item.Resource.Magazine.Drum,50,9mm
+Id.Item.MAGZ_012,GGX 33 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Context.Equippable;Item.Resource.Magazine.Extended,33,9mm
+Id.Item.MAGZ_024,FAL 30 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Extended,30,308Win
+Id.Item.MAGZ_026,AMR 50 10 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Small,10,50Cal
+Id.Item.MAGZ_034,MK22 5 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Small,5,308Win
+Id.Item.MAGZ_046,PP-19 50 RND Vityaz Drum Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Drum,50,9mm
+Id.Item.MAGZ_052,AMP-9 20 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Extended,20,9mm
+Id.Item.MAGZ_055,Super-45 40 RND Drum Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Drum,40,45ACP
+Id.Item.MAGZ_056,MP5 50 RND Drum Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Drum,50,9mm
+Id.Item.MAGZ_057,Super-45 13 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Standard,13,45ACP
+Id.Item.MAGZ_059,PP-19 Vityaz 10 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Standard,10,9mm
+Id.Item.MAGZ_060,Galil 50 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Extended,50,556mm
+Id.Item.MAGZ_061,AMP-9 15 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Standard,15,9mm
+Id.Item.MAGZ_062,M249 100 RND Fabric Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Belt,100,556mm
+Id.Item.MAGZ_063,M1911 10 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Standard,10,45ACP
+Id.Item.MAGZ_064,MP5 20 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Standard,20,9mm
+Id.Item.MAGZ_065,SVD 5 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Small,5,762x54mm
+Id.Item.MAGZ_066,AMP-9 50 RND Drum Magazine,Magazine,Item.Attachment.Magazine,50,9mm
+Id.Item.MK22Barrel,Id.Item.MK22Barrel,Barrel,Item.Attachment.Barrel.MK22,,
+Id.Item.MK22Grip,Id.Item.MK22Grip,Grip,Item.Attachment.Grip.MK22,,
+Id.Item.MK22Mag,MK22 Standard Mag,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Small,10,308Win
+Id.Item.MK22Stock,Id.Item.MK22Stock,Stock,Item.Attachment.Stock,,
+Id.Item.MMGLBarrel,MMGL Barrel,Barrel,Item.Attachment.Barrel,,
+Id.Item.MMGLHandguard,MMGL Handguard,Handguard,Item.Attachment.Handguard,,
+Id.Item.MMGLMagazine,MMGL Internal Mag,Magazine,Item.Attachment.Magazine,6,40mm
+Id.Item.MMGLPistolGrip,MMGL Pistol Grip,Grip,Item.Attachment.Grip,,
+Id.Item.MMGLStock,MMGL Stock,Stock,Item.Attachment.Stock,,
+Id.Item.MosinBarrel,Id.Item.MosinBarrel,Barrel,Item.Attachment.Barrel,,
+Id.Item.MosinMagazine,Mosin Standard Mag,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Internal,5,762x54mm
+Id.Item.MosinStock,Id.Item.MosinStock,Stock,Item.Attachment.Stock,,
+Id.Item.MP43Barrel,Id.Item.MP43Barrel,Barrel,Item.Attachment.Barrel,,
+Id.Item.MP43Handguard,Id.Item.MP43Handguard,Handguard,Item.Attachment.Handguard,,
+Id.Item.MP43Magazine,MP43 Internal Mag,Magazine,Item.Attachment.Magazine,2,12g
+Id.Item.MP43Stock,Id.Item.MP43Stock,Stock,Item.Attachment.Stock,,
+Id.Item.MP9Barrel,Id.Item.MP9Barrel,Barrel,Item.Attachment.Barrel,,
+Id.Item.MP9ExtendedMagazine,MP9 Extended Mag,Magazine,Item.Attachment.Magazine,30,9mm
+Id.Item.MP9Magazine,AMP-9 30 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Extended,30,9mm
+Id.Item.MP9Stock,Id.Item.MP9Stock,Stock,Item.Attachment.Stock,,
+Id.Item.MUZL_013,3 Prong Flash Hider,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.M4;Item.Attachment.Muzzle.M249;Item.Attachment.Muzzle.556,,
+Id.Item.MUZL_014,TopComp Brake,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.556,,
+Id.Item.MUZL_019,Dual Port Brake,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.9mm,,
+Id.Item.MUZL_020,Ballista Brake,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.556;Item.Attachment.Muzzle.9mm;Item.Attachment.Muzzle.545,,
+Id.Item.MUZL_022,Constrictor Brake,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.308;Item.Attachment.Muzzle.762x54mm;Item.Attachment.Muzzle.SKS,,
+Id.Item.MUZL_023,Tread Brake,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.556,,
+Id.Item.MUZL_024,Hexagon Brake,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.556,,
+Id.Item.MUZL_025,Slicktap Brake,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.650;Item.Attachment.Muzzle.762x39mm,,
+Id.Item.MUZL_027,3-Chamber Brake,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.556,,
+Id.Item.MUZL_028,DTK-1 Brake,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.SKS,,
+Id.Item.MUZL_029,Orpheus Max Brake,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.556;Item.Attachment.Muzzle.762x54mm;Item.Attachment.Muzzle.650,,
+Id.Item.MUZL_030,Three Port Brake,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.308,,
+Id.Item.MUZL_031,M500 Sabre Brake,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle;Item.Attachment.Muzzle.M500,,
+Id.Item.MUZL_032,RC-556 Suppressor,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.556,,
+Id.Item.MUZL_037,Eclipse Flash Hider,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.9mm,,
+Id.Item.MUZL_038,Slotted Flash Hider,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.LMG_02,,
+Id.Item.MUZL_039,Birdcage Flash Hider,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.545,,
+Id.Item.MUZL_040,SVD 7.62x54R Brake,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.SVDM,,
+Id.Item.MUZL_041,SRVV Brake,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.762x54mm,,
+Id.Item.MUZL_042,Deadeye Flash Hider,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.308;Item.Attachment.Muzzle.762x54mm;Item.Attachment.Muzzle.762x39mm,,
+Id.Item.MUZL_044,Improved Cylinder Choke,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.M500,,
+Id.Item.MUZL_045,Full Choke,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.M500,,
+Id.Item.MUZL_046,Super-45 Flash Hider,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.Vector,,
+Id.Item.MUZL_047,Ghost LITE Muzzle Brake,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.Vector,,
+Id.Item.MUZL_048,AMR 50 Cal Muzzle Brake,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.SR_04,,
+Id.Item.MUZL_049,.50 Cal Heavy Suppressor,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.SR_04,,
+Id.Item.MUZL_050,.45 ACP Pistol Compensator,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_026,,
+Id.Item.MUZL_051,AMP-9 9x19 Suppressor,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.MP9,,
+Id.Item.MUZL_052,AMP-9 Tactical Flash Hider,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.MP9,,
+Id.Item.MUZL_053,PP-19-01 Vityaz 9x19 Suppressor,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.SMG_03,,
+Id.Item.MUZL_054,PP-19 Vityaz Flash Hider,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.SMG_03,,
+Id.Item.MUZL_055,BMR-308 Flash Hider,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.RFB,,
+Id.Item.MUZL_056,BMR-308 Suppressor,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.RFB,,
+Id.Item.MUZL_057,Flow-Through .308 Suppressor,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.MK22,,
+Id.Item.MUZL_058,QD-5 Suppressor,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_028,,
+Id.Item.MUZL_059,MP5 Flash Hider,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_028,,
+Id.Item.MUZL_060,Suppressor T8L1 Scout,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_030,,
+Id.Item.MUZL_061,FAL Flash Hider,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_030,,
+Id.Item.MUZL_062,STRELIX Suppressor,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_035,,
+Id.Item.MZL_04,GOL Multi-Caliber Suppressor,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.Suppressor,,
+Id.Item.MZL_05,SG Multi-Caliber Suppressor,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.Suppressor,,
+Id.Item.MZL_06,12 Gauge Suppressor,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.Suppressor,,
+Id.Item.MZL_07,AR Multi-Caliber Suppressor,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.Suppressor,,
+Id.Item.MZL_08,Hexagon 762 Suppressor,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.SKS;Item.Attachment.Muzzle.762x54mm;Item.Attachment.Muzzle.Suppressor,,
+Id.Item.MZL_09,PBS-4 Suppressor,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.AK74M;Item.Attachment.Muzzle.Suppressor,,
+Id.Item.MZL_10,TGP-A Suppressor 5.45,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.AK74M;Item.Attachment.Muzzle.Suppressor,,
+Id.Item.OPT_08,2.5x Combat Optic,Sight,Item.Context.Equippable;Item.Attachment.Sight.Short,,
+Id.Item.PGRP_003,FAL Pistol Grip,Grip,Item.Attachment.Grip.WEPN_030,,
+Id.Item.PGRP_006,AK-12 Pistol Grip,Grip,Item.Attachment.Grip,,
+Id.Item.PGRP_007,AK74 Archangel OPFOR Pistol Grip,Grip,Item.Attachment.Grip,,
+Id.Item.PGRP_008,AK74 KGB MG47 Grip,Grip,Item.Attachment.Grip,,
+Id.Item.PGRP_009,AK74 AGS-74 PRO Sniper Pistol Grip,Grip,Item.Attachment.Grip,,
+Id.Item.PGRP_010,Galil Pistol Grip,Grip,Item.Attachment.Grip.WEPN_029,,
+Id.Item.PGRP_041,Id.Item.PGRP_041,Grip,Item.Attachment.Grip.WEPN_035,,
+ID.Item.Pistol_01_BRL_07,ID.Item.Pistol_01_BRL_07,Barrel,Item.Attachment.Barrel.Glock,,
+ID.Item.Pistol_01_GRP_01,ID.Item.Pistol_01_GRP_01,Grip,Item.Attachment.Pistolgrip.Glock,,
+ID.Item.Pistol_01_HGD_02,ID.Item.Pistol_01_HGD_02,Handguard,Item.Attachment.Handguard.Glock,,
+ID.Item.Pistol_01_STK_01,ID.Item.Pistol_01_STK_01,Stock,Item.Attachment.Stock.Glock,,
+ID.Item.PWSCQB74Muzzle,CQB 74 Brake,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.AK74M,,
+Id.Item.RFBBarrel,Id.Item.RFBBarrel,Barrel,Item.Attachment.Barrel,,
+Id.Item.RFBMagazine,FAL 10 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Standard,10,308Win
+Id.Item.RK6ForeGrip,RK6 Tactical Foregrip,Grip,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Context.Animation.Archetype.Foregrip.BumpStop,,
+Id.Item.SGHT_009,Kobra Reflex,Sight,Item.Context.Equippable;Item.Attachment.Sight.Short,,
+Id.Item.SGHT_011,1x-6x LPVO Short Dot,Sight,Item.Attachment.Sight;Item.Context.Equippable,,
+Id.Item.SGHT_016,Four Reticle Reflex,Sight,Item.Context.Equippable;Item.Attachment.Sight.Short,,
+Id.Item.SGHT_023,OKP 7 Reflex,Sight,Item.Context.Equippable;Item.Attachment.Sight.Short,,
+Id.Item.SGHT_025,Mini Reflex Sight,Sight,Item.Context.Equippable,,
+Id.Item.SGHT_026,Tricon 1.5x Compact Prism Scope,Sight,Item.Context.Equippable;Item.Attachment.Sight.Short,,
+Id.Item.SGHT_027,Vektor Frenix-X Micro Reflex Sight,Sight,Item.Context.Equippable;Item.Attachment.Sight.Short,,
+Id.Item.SGHT_028,CQ-2x Prism Combat Scope,Sight,Item.Context.Equippable;Item.Attachment.Sight.Short,,
+Id.Item.SGHT_029,3x Tactical Prism Scope,Sight,Item.Context.Equippable;Item.Attachment.Sight.Medium,,
+Id.Item.SGHT_030,4x Combat Prism Scope with Reflex,Sight,Item.Context.Equippable;Item.Attachment.Sight.Medium,,
+Id.Item.SGHT_031,6x Precision Rifle Scope,Sight,Item.Attachment.Sight;Item.Context.Equippable,,
+Id.Item.SGHT_032,Frontier 2.5x-10x Precision Scope,Sight,Item.Context.Equippable;Item.Attachment.Sight.Long,,
+Id.Item.SGHT_033,CGM4 Scope,Sight,Item.Context.Equippable;Item.Attachment.Sight.Short,,
+Id.Item.SGHT_034,PGO-7,Sight,Item.Context.Equippable,,
+Id.Item.SGHT_036,6x Marksman Scope + Reflex,Sight,Item.Attachment.Sight;Item.Context.Equippable,,
+Id.Item.SGHT_037,MMGL Sight,Sight,Item.Context.Equippable;Item.Attachment.Sight.Short,,
+ID.Item.SKSBarrel,ID.Item.SKSBarrel,Barrel,Item.Attachment.Barrel,,
+Id.Item.SKSExtendedMag,SKS Extended Mag,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Extended,20,762mm
+Id.Item.SKSHandguard,Id.Item.SKSHandguard,Handguard,Item.Attachment.Handguard,,
+Id.Item.SKSMagazine,SKS Internal Mag,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Internal,10,762mm
+ID.Item.SMG_01_BRL_03,ID.Item.SMG_01_BRL_03,Barrel,Item.Attachment.Barrel.Vector,,
+ID.Item.SMG_01_HGD_01,ID.Item.SMG_01_HGD_01,Handguard,Item.Attachment.Handguard.Vector,,
+ID.Item.SMG_01_STK_05,RS2 Slim,Stock,Item.Attachment.Stock.Vector,,
+Id.Item.SMG_03Barrel,Id.Item.SMG_03Barrel,Barrel,Item.Attachment.Barrel,,
+Id.Item.SMG_03Magazine,PP-19 Vityaz 30 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Extended,30,9mm
+Id.Item.SMG_03PistolGrip,Id.Item.SMG_03PistolGrip,Grip,Item.Attachment.Grip,,
+Id.Item.SMG_03Stock,Id.Item.SMG_03Stock,Stock,Item.Attachment.Stock,,
+Id.Item.SniperScope10x,6-10x Scope MRAD,Sight,Item.Context.Equippable;Item.Attachment.Sight.Long,,
+ID.Item.SR_02_BRL_04,ID.Item.SR_02_BRL_04,Barrel,,,
+ID.Item.SR_02_GRP_02,ID.Item.SR_02_GRP_02,Grip,Item.Attachment.Grip.Mosin,,
+ID.Item.SR_02_STK_01,ID.Item.SR_02_STK_01,Stock,Item.Attachment.Stock.Mosin,,
+ID.Item.SR_04_BRL_05,ID.Item.SR_04_BRL_05,Barrel,Item.Attachment.Barrel.AX50,,
+ID.Item.SR_04_GRP_03,ID.Item.SR_04_GRP_03,Grip,Item.Attachment.Grip.AX50,,
+Id.Item.SR_04Barrel,Id.Item.SR_04Barrel,Barrel,Item.Attachment.Barrel,,
+Id.Item.SR_04Handguard,Id.Item.SR_04Handguard,Handguard,Item.Attachment.Handguard,,
+Id.Item.SR_04Magazine,AMR 50 5 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Small,5,50Cal
+Id.Item.SR_04Stock,Id.Item.SR_04Stock,Stock,Item.Attachment.Stock,,
+Id.Item.STANAGExtendedMagazine,STANAG 60 RND Magazine,Magazine,Item.Attachment.Magazine.AR;Item.Resource.Magazine.Extended,60,556mm
+Id.Item.STANAGMagazine,STANAG 30 RND Magazine,Magazine,Item.Attachment.Magazine.AR;Item.Resource.Magazine.Standard,30,556mm
+Id.Item.STANAGMagazine20rd,STANAG 20 RND Magazine,Magazine,Item.Attachment.Magazine.AR;Item.Resource.Magazine.Standard,20,556mm
+Id.Item.STOK_003,MP5 Stock,Stock,Item.Attachment.Stock.WEPN_028,,
+Id.Item.STOK_005,FAL Stock,Stock,Item.Attachment.Stock.WEPN_030,,
+Id.Item.STOK_006,AK74 Polymer Stock,Stock,Item.Attachment.Stock,,
+Id.Item.STOK_007,AK74u Steel Folding Stock,Stock,Item.Attachment.Stock,,
+Id.Item.STOK_008,RPK74 Wooden Stock,Stock,Item.Attachment.Stock,,
+Id.Item.STOK_009,AK74 Alpha Folding Stock,Stock,Item.Attachment.Stock,,
+Id.Item.STOK_010,AK74 Buffertube Stock,Stock,Item.Attachment.Stock,,
+Id.Item.STOK_011,AK74 Archangel OPFOR Stock,Stock,Item.Attachment.Stock,,
+Id.Item.STOK_012,AK-47 HERA CQR Stock,Stock,Item.Attachment.Stock,,
+Id.Item.STOK_013,Galil Stock,Stock,Item.Attachment.Stock.WEPN_029,,
+Id.Item.STOK_057,Scout Rifle Stock,Stock,Item.Attachment.Stock.WEPN_035,,
+Id.Item.SV98Barrel,Id.Item.SV98Barrel,Barrel,Item.Attachment.Barrel,,
+Id.Item.SV98ExtendedMagazine,SV98 Extended Mag,Magazine,Item.Attachment.Magazine,20,762x54mm
+Id.Item.SV98Magazine,SV98 10 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Small,10,762x54mm
+Id.Item.SV98Stock,SV98 Stock,Stock,Item.Attachment.Stock,,
+Id.Item.SVDMBarrel,SVDM Barrel,Barrel,Item.Attachment.Barrel,,
+Id.Item.SVDMHandguard,SVDM Handguard,Handguard,Item.Attachment.Handguard,,
+Id.Item.SVDMMagazine,SVDM Standard Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Small,10,762x54mm
+Id.Item.SVDMStock,SVDM Stock,Stock,Item.Attachment.Stock,,
+ID.Item.TAR21Barrel,ID.Item.TAR21Barrel,Barrel,Item.Attachment.Barrel.TAR21,,
+ID.Item.TAR21Mag,TAR21 Standard Mag,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Standard,30,556mm
+Id.Item.TRGR_002,AK74 Timney Drop-in Trigger,Handguard,Item.Attachment.Trigger,,
+Id.Item.TRGR_003,AK74 CMC Flat Trigger,Handguard,Item.Attachment.Trigger,,
+ID.Item.VectorBarrel,ID.Item.VectorBarrel,Barrel,Item.Attachment.Barrel,,
+ID.Item.VectorMagazine,Super-45 30 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Extended,30,45ACP
+ID.Item.VectorStock,ID.Item.VectorStock,Stock,Item.Attachment.Stock,,
+Id.Item.ZenitHandguard,Zenit Handguard,Handguard,Item.Attachment.Handguard.AK74M,,
+Id.Item.ZenitStock,Zenit Stock,Stock,Item.Attachment.Stock.AK74M,,

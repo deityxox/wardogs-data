@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Buildables",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1,
+      "description": "Version of this file's layout. It changes only when the layout does."
+    },
+    "gameBuild": {
+      "type": "string",
+      "description": "Steam build id the data was extracted from."
+    },
+    "units": {
+      "type": "string",
+      "const": "meters",
+      "description": "Unit of every distance in the file."
+    },
+    "buildables": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The game's buildable id, for example `Id.Buildable.Bunker`."
+          },
+          "name": {
+            "description": "Display name.",
+            "type": "string"
+          },
+          "icon": {
+            "description": "Path of the buildable's icon inside `assets/icons/` (the same folder as the item icons). Absent when the game has no icon for it.",
+            "type": "string"
+          },
+          "cost": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Building supplies it costs to place."
+          },
+          "maxHealth": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "description": "Hit points when fully built."
+          },
+          "repairSpeedMultiplier": {
+            "description": "How fast it repairs compared with the standard rate, when the game states one.",
+            "type": "number"
+          },
+          "maxStack": {
+            "description": "How many can be carried or placed as a stack, when the game states one.",
+            "type": "integer",
+            "exclusiveMinimum": 0,
+            "maximum": 9007199254740991
+          },
+          "damageEntity": {
+            "description": "The `entity` of its rules in damage.json, such as `Buildable.Bunker`.",
+            "type": "string"
+          },
+          "size": {
+            "description": "Size of the finished stage's bounding box as the game stores it: [x, y, z] in meters. Structures built in several pieces (a bunker with a floor and a roof) have a separate entry per piece.",
+            "type": "array",
+            "prefixItems": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "number"
+              },
+              {
+                "type": "number"
+              }
+            ],
+            "items": false,
+            "minItems": 3,
+            "maxItems": 3
+          },
+          "tools": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Build tools that offer it (`SmallHammer`, `MediumHammer`, `LargeHammer`)."
+          },
+          "placementRules": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Names of the placement conditions the game checks, such as `WithinFobBounds` or `SafeZone` (no building in a safe zone)."
+          }
+        },
+        "required": [
+          "id",
+          "cost",
+          "maxHealth",
+          "tools",
+          "placementRules"
+        ],
+        "additionalProperties": false,
+        "description": "One buildable structure."
+      },
+      "description": "Buildables, sorted by id."
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "gameBuild",
+    "units",
+    "buildables"
+  ],
+  "additionalProperties": false,
+  "description": "Structures players can build (fortifications, FOB parts, stations): cost, health, size, where they can be placed and how they take damage."
+}

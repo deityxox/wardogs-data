@@ -1,0 +1,459 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Player movement",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1,
+      "description": "Version of this file's layout. It changes only when the layout does."
+    },
+    "gameBuild": {
+      "type": "string",
+      "description": "Steam build id the data was extracted from."
+    },
+    "units": {
+      "type": "string",
+      "const": "meters",
+      "description": "Unit of every distance in the file. Speeds are meters per second."
+    },
+    "stances": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "`Stand`, `Crouch` or `Prone`."
+          },
+          "capsuleHalfHeight": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "description": "Half the height of the player's collision capsule, in meters."
+          },
+          "capsuleRadius": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "description": "Radius of the player's collision capsule, in meters."
+          },
+          "eyeHeight": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "description": "Height of the camera above the ground, in meters."
+          },
+          "staminaCost": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Stamina it costs to change into this stance, as stored."
+          },
+          "maxSpeedMultiplier": {
+            "description": "Multiplier on the player's top speed while in this stance. Absent when the game gives the stance no explicit multiplier.",
+            "type": "number"
+          }
+        },
+        "required": [
+          "name",
+          "capsuleHalfHeight",
+          "capsuleRadius",
+          "eyeHeight",
+          "staminaCost"
+        ],
+        "additionalProperties": false,
+        "description": "One stance."
+      },
+      "description": "Stand, crouch and prone, in that order."
+    },
+    "stanceTransitions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "from": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Stance changed from."
+          },
+          "to": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Stance changed to."
+          },
+          "seconds": {
+            "type": "number",
+            "minimum": 0,
+            "description": "How long the change takes."
+          }
+        },
+        "required": [
+          "from",
+          "to",
+          "seconds"
+        ],
+        "additionalProperties": false
+      },
+      "description": "How long each stance change takes."
+    },
+    "ground": {
+      "type": "object",
+      "properties": {
+        "minSpeed": {
+          "description": "The game's `MinSpeed`, in meters per second.",
+          "type": "number",
+          "minimum": 0
+        },
+        "backMaxSpeedScale": {
+          "description": "Multiplier on top speed when moving backward.",
+          "type": "number"
+        },
+        "strafeMaxSpeedScale": {
+          "description": "Multiplier on top speed when moving sideways.",
+          "type": "number"
+        },
+        "forwardStrafeScale": {
+          "description": "Multiplier when moving forward and sideways at once, as stored.",
+          "type": "number"
+        },
+        "forwardStrafeScaleSprinting": {
+          "description": "The same while sprinting, as stored.",
+          "type": "number"
+        },
+        "slowWalk": {
+          "type": "object",
+          "propertyNames": {
+            "type": "string"
+          },
+          "additionalProperties": {
+            "type": "number"
+          },
+          "description": "The slow-walk settings and the fraction of speed each gives, by name (`Slow`, `Moderate`, `Fast`)."
+        },
+        "leanTime": {
+          "description": "Seconds to lean out.",
+          "type": "number"
+        },
+        "unleanTime": {
+          "description": "Seconds to come back from a lean.",
+          "type": "number"
+        },
+        "blockSprintTime": {
+          "description": "Seconds sprinting is blocked after being interrupted, as stored.",
+          "type": "number"
+        },
+        "blockTacticalSprintTime": {
+          "description": "Seconds tactical sprinting is blocked after being interrupted, as stored.",
+          "type": "number"
+        },
+        "minStartTacticalSprint": {
+          "description": "Fraction of stamina needed to start a tactical sprint, as stored.",
+          "type": "number"
+        }
+      },
+      "required": [
+        "slowWalk"
+      ],
+      "additionalProperties": false,
+      "description": "Walking and running."
+    },
+    "jump": {
+      "type": "object",
+      "properties": {
+        "velocity": {
+          "description": "Upward speed of a jump, in meters per second.",
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "maxStamina": {
+          "description": "Jump stamina pool, as stored.",
+          "type": "number"
+        },
+        "staminaCost": {
+          "description": "Stamina one jump costs, as stored.",
+          "type": "number"
+        },
+        "staminaRegenPerSecond": {
+          "description": "Jump stamina regained per second, as stored.",
+          "type": "number"
+        },
+        "cooldown": {
+          "description": "Seconds between jumps.",
+          "type": "number"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Jumping."
+    },
+    "falling": {
+      "type": "object",
+      "properties": {
+        "maxSpeed": {
+          "description": "Top horizontal speed in the air, in meters per second.",
+          "type": "number"
+        },
+        "airControl": {
+          "description": "Fraction of ground control the player has in the air, as stored.",
+          "type": "number"
+        },
+        "terminalSpeed": {
+          "description": "Fastest fall speed, in meters per second.",
+          "type": "number"
+        },
+        "landingDamage": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "speed": {
+                "type": "number",
+                "description": "Landing speed in meters per second."
+              },
+              "damage": {
+                "type": "number",
+                "description": "Damage taken at that speed."
+              }
+            },
+            "required": [
+              "speed",
+              "damage"
+            ],
+            "additionalProperties": false
+          },
+          "description": "Fall damage by landing speed: no damage below the first point, rising linearly between points. The curve's x axis is in the game's speed unit (centimeters per second) and is published in meters per second."
+        }
+      },
+      "required": [
+        "landingDamage"
+      ],
+      "additionalProperties": false,
+      "description": "Falling."
+    },
+    "ladder": {
+      "type": "object",
+      "properties": {
+        "climbUpMaxSpeed": {
+          "description": "Fastest climb up, in meters per second.",
+          "type": "number"
+        },
+        "climbDownMaxSpeed": {
+          "description": "Fastest climb down, in meters per second.",
+          "type": "number"
+        },
+        "slideDownSpeed": {
+          "description": "Speed of sliding down a ladder, in meters per second.",
+          "type": "number"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Ladders."
+    },
+    "bodyDragging": {
+      "type": "object",
+      "properties": {
+        "backMaxSpeedScale": {
+          "description": "Multiplier on top speed when moving backward while dragging a body.",
+          "type": "number"
+        },
+        "strafeMaxSpeedScale": {
+          "description": "Multiplier on top speed when moving sideways while dragging a body.",
+          "type": "number"
+        },
+        "forwardStrafeScale": {
+          "description": "Multiplier when moving forward and sideways at once while dragging a body, as stored.",
+          "type": "number"
+        },
+        "backwardStrafeScale": {
+          "description": "Multiplier when moving backward and sideways at once while dragging a body, as stored.",
+          "type": "number"
+        }
+      },
+      "additionalProperties": false,
+      "description": "The same scales while dragging a body."
+    },
+    "stamina": {
+      "type": "object",
+      "properties": {
+        "regenPerSecond": {
+          "description": "Stamina regained per second, as stored.",
+          "type": "number"
+        },
+        "regenDelay": {
+          "description": "Seconds before regeneration starts.",
+          "type": "number"
+        },
+        "depletedRegenDelay": {
+          "description": "Seconds before regeneration starts after the stamina ran out.",
+          "type": "number"
+        },
+        "stanceRegenPerSecond": {
+          "description": "Stamina regained per second by the stance stamina pool, as stored.",
+          "type": "number"
+        },
+        "stanceRegenDelay": {
+          "description": "Seconds before the stance pool regenerates.",
+          "type": "number"
+        },
+        "stanceCooldown": {
+          "description": "Seconds between stance changes.",
+          "type": "number"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Stamina regeneration. The base pool size and the sprint cost are not in the files the client holds."
+    },
+    "slopes": {
+      "type": "object",
+      "properties": {
+        "maxWalkableAngle": {
+          "description": "Steepest slope that can be walked, in degrees.",
+          "type": "number"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Slopes."
+    },
+    "friction": {
+      "description": "The game's ground friction, as stored.",
+      "type": "number"
+    },
+    "swimming": {
+      "type": "object",
+      "properties": {
+        "waterAcceleration": {
+          "description": "Acceleration in water, in meters per second squared.",
+          "type": "number"
+        },
+        "inputDeceleration": {
+          "description": "Deceleration without input in water, in meters per second squared.",
+          "type": "number"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Swimming."
+    },
+    "vaulting": {
+      "type": "object",
+      "properties": {
+        "vaultDistance": {
+          "description": "Farthest obstacle distance for a vault, in meters.",
+          "type": "number"
+        },
+        "baseTraversalSpeed": {
+          "description": "Speed of the vault, in meters per second.",
+          "type": "number"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Vaulting over low obstacles."
+    },
+    "mantling": {
+      "type": "object",
+      "properties": {
+        "maxHeightAboveLedge": {
+          "description": "Highest the ledge may be above the player's reach to scale over, in meters.",
+          "type": "number"
+        },
+        "forwardOnlyHeight": {
+          "description": "Highest ledge that can be mantled when moving straight forward, in meters.",
+          "type": "number"
+        },
+        "maxTargetFloorHeight": {
+          "description": "Greatest height of the floor to land on, in meters.",
+          "type": "number"
+        },
+        "maxWallWidth": {
+          "description": "Widest wall that can be scaled over, in meters.",
+          "type": "number"
+        },
+        "maxWallAngle": {
+          "description": "Steepest wall angle, in degrees.",
+          "type": "number"
+        },
+        "baseScaleOverSpeed": {
+          "description": "Speed of scaling over, in meters per second.",
+          "type": "number"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Mantling over ledges."
+    },
+    "climbing": {
+      "type": "object",
+      "properties": {
+        "maxLedgeLookAngle": {
+          "description": "Widest angle between the view and a ledge for a climb, in degrees.",
+          "type": "number"
+        },
+        "baseTraversalSpeed": {
+          "description": "Climbing speed, in meters per second.",
+          "type": "number"
+        },
+        "baseScaleOverSpeed": {
+          "description": "Speed of scaling over the top, in meters per second.",
+          "type": "number"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Climbing up walls."
+    },
+    "parachute": {
+      "type": "object",
+      "properties": {
+        "minFallHeight": {
+          "description": "Least height above the ground to open a parachute, in meters.",
+          "type": "number"
+        },
+        "gliderAcceleration": {
+          "description": "Forward acceleration while gliding, in meters per second squared.",
+          "type": "number"
+        },
+        "pullUpDragAcceleration": {
+          "description": "Braking acceleration when pulling up, in meters per second squared.",
+          "type": "number"
+        },
+        "pullUpStaminaPerSecond": {
+          "description": "Stamina a pull-up uses per second, as stored.",
+          "type": "number"
+        },
+        "pullUpStaminaRegenPerSecond": {
+          "description": "Stamina regained per second while not pulling up, as stored.",
+          "type": "number"
+        },
+        "minPitch": {
+          "description": "Lowest pitch, in degrees.",
+          "type": "number"
+        },
+        "maxPitch": {
+          "description": "Highest pitch, in degrees.",
+          "type": "number"
+        },
+        "maxRoll": {
+          "description": "Largest roll, in degrees.",
+          "type": "number"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Parachuting."
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "gameBuild",
+    "units",
+    "stances",
+    "stanceTransitions",
+    "ground",
+    "jump",
+    "falling",
+    "ladder",
+    "bodyDragging",
+    "stamina",
+    "slopes",
+    "swimming",
+    "vaulting",
+    "mantling",
+    "climbing",
+    "parachute"
+  ],
+  "additionalProperties": false,
+  "description": "How the player moves: stance sizes and speeds, jumping, falling and fall damage, ladders, body dragging, stamina regeneration and the traversal moves. The base top speed is not in the client files (the data holds only multipliers of it), so speeds are given as multipliers."
+}

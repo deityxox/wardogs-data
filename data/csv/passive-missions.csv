@@ -1,0 +1,16 @@
+mission,tier,challenge,name,objective,target,reward_currency,reward_amount
+EarnAnyRoleXp,1,EarnRoleXp.1,Earn Role XP,RoleXpEarned,500,Intel,100
+EarnAnyRoleXp,2,EarnRoleXp.2,Earn Role XP,RoleXpEarned,500,Intel,200
+EarnAnyRoleXp,3,EarnRoleXp.3,Earn Role XP,RoleXpEarned,500,Intel,300
+EarnAnyRoleXp,4,EarnRoleXp.4,Earn Role XP,RoleXpEarned,500,Intel,400
+EarnAnyRoleXp,5,EarnRoleXp.5,Earn Role XP,RoleXpEarned,500,Intel,500
+EarnCash,1,EarnCash.1,Earn Cash,CashEarned,5000,Intel,100
+EarnCash,2,EarnCash.2,Earn Cash,CashEarned,12000,Intel,200
+EarnCash,3,EarnCash.3,Earn Cash,CashEarned,30000,Intel,300
+EarnCash,4,EarnCash.4,Earn Cash,CashEarned,80000,Intel,400
+EarnCash,5,EarnCash.5,Earn Cash,CashEarned,200000,Intel,500
+TimePlayed,1,TimePlayed.1,Time Played,TimePlayed,1800,Intel,100
+TimePlayed,2,TimePlayed.2,Time Played,TimePlayed,1800,Intel,200
+TimePlayed,3,TimePlayed.3,Time Played,TimePlayed,1800,Intel,300
+TimePlayed,4,TimePlayed.4,Time Played,TimePlayed,1800,Intel,400
+TimePlayed,5,TimePlayed.5,Time Played,TimePlayed,1800,Intel,500

@@ -1,0 +1,45 @@
+table,item,item_name,amount,weight,sub_items
+AbandonedTower,Id.Item.Bandage,Bandage,3,1,Id.Item.M67Grenade*2@100%;Id.Item.BasicRedDot*1@100%
+AbandonedTower,Id.Item.3xScope,Spitfire 3X,1,1,Id.Item.RK6ForeGrip*1@100%
+AbandonedTower,Id.Item.SuperBandage,Individual First Aid Kit,2,1,Id.Item.StimPen*3@100%;Id.Item.SGHT_009*1@100%
+AbandonedTower,Id.Item.Bandage,Bandage,5,1,Id.Item.Resuscitator.Standard*2@100%;ID.Item.SmokeGrenade.White*2@100%
+Armor,Id.Item.LightArmor,Level 1 Armor,1,1,
+Bandage,Id.Item.Bandage,Bandage,1,1,
+Defib.Cheap,Id.Item.Defibrillator.Cheap,,1,1,
+Helmet,Id.Item.LightHelmet,Level 1 Helmet,1,1,
+Sniper,Id.Item.Mosin,Mosin Nagant,1,1,ID.Item.RangeFinder*1@100%
+SniperOnly.HighValue,Id.Item.Mosin,Mosin Nagant,1,1,Id.Item.4xElcanSpectr*1@100%;Id.Item.762x54mm.Tracer*10@100%;Id.Item.762x54mm.Tracer*10@100%
+SniperOnly.HighValue,Id.Item.SV98,SV98,1,1,Id.Item.SGHT_030*1@100%;Id.Item.SV98Magazine*1@100%;Id.Item.SV98Magazine*1@100%;Id.Item.Bandage*1@25%
+SniperOnly.HighValue,Id.Item.MK22,MK22,1,1,Id.Item.SGHT_036*1@100%;Id.Item.MK22Mag*1@100%;Id.Item.MK22Mag*1@100%
+SniperOnly.HighValue,Id.Item.SR_04,AMR 50,1,1,Id.Item.SGHT_029*1@100%;Id.Item.SR_04Magazine*1@100%;Id.Item.SR_04Magazine*1@100%;Id.Item.Bandage*1@25%
+SniperOnly.HighValue,Id.Item.GhillieArmor,Ghillie Suit,1,0.5,Id.Item.GhillieHelmet*1@100%;ID.Item.InfraredRangeFinder*1@100%;Id.Item.Bandage*1@25%
+SniperOnly.LowValue,Id.Item.Mosin,Mosin Nagant,1,0.25,Id.Item.4xElcanSpectr*1@100%;Id.Item.762x54mm.Tracer*10@100%;Id.Item.762x54mm.Tracer*10@100%
+SniperOnly.LowValue,Id.Item.10xScopeMoa,6-10x Scope MOA,1,0.5,Id.Item.SR_04Magazine*1@50%;Id.Item.WEPN_027*1@25%
+SniperOnly.LowValue,Id.Item.SniperScope10x,6-10x Scope MRAD,1,0.5,ID.Item.RangeFinder*1@50%;Id.Item.MUZL_022*1@50%;Id.Item.Bandage*1@100%;Id.Item.SV98Magazine*1@50%
+SniperOnly.LowValue,Id.Item.10xScopeMoa,6-10x Scope MOA,1,0.5,ID.Item.RangeFinder*1@50%;Id.Item.SV98*1@50%
+SniperOnly.LowValue,Id.Item.SGHT_036,6x Marksman Scope + Reflex,1,0.5,Id.Item.WEPN_027*1@50%;Id.Item.Bandage*1@100%;Id.Item.SV98Magazine*1@50%
+SniperOnly.LowValue,Id.Item.SGHT_031,6x Precision Rifle Scope,1,0.5,Id.Item.Glock17*1@50%
+SniperOnly.LowValue,Id.Item.SGHT_031,6x Precision Rifle Scope,1,0.5,Id.Item.MUZL_025*1@50%;Id.Item.FGRP_009*1@25%;Id.Item.MK22*1@25%
+SniperOnly.LowValue,Id.Item.SGHT_011,1x-6x LPVO Short Dot,1,0.5,Id.Item.FGRP_013*1@25%;ID.Item.RangeFinder*1@50%;Id.Item.SR_04Magazine*1@50%
+SniperOnly.LowValue,Id.Item.SGHT_032,Frontier 2.5x-10x Precision Scope,1,0.5,Id.Item.FGRP_013*1@25%;Id.Item.SuperBandage*1@100%;Id.Item.SR_04*1@25%
+SniperOnly.MiddleValue,Id.Item.Mosin,Mosin Nagant,1,0.25,Id.Item.4xElcanSpectr*1@100%;Id.Item.762x54mm.Tracer*10@100%;Id.Item.762x54mm.Tracer*10@100%
+SniperOnly.MiddleValue,Id.Item.SV98,SV98,1,0.25,Id.Item.SGHT_030*1@100%;Id.Item.SV98Magazine*1@100%;Id.Item.SV98Magazine*1@100%
+SniperOnly.MiddleValue,Id.Item.MK22,MK22,1,0.25,Id.Item.SGHT_036*1@100%;Id.Item.MK22Mag*1@100%;Id.Item.MK22Mag*1@100%
+SniperOnly.MiddleValue,Id.Item.SR_04,AMR 50,1,0.25,Id.Item.SGHT_029*1@100%;Id.Item.SR_04Magazine*1@100%;Id.Item.SR_04Magazine*1@100%
+SniperOnly.MiddleValue,Id.Item.GhillieArmor,Ghillie Suit,1,0.05,Id.Item.GhillieHelmet*1@100%;ID.Item.InfraredRangeFinder*1@100%
+SniperOnly.MiddleValue,Id.Item.10xScopeMoa,6-10x Scope MOA,1,1,Id.Item.Mosin*1@25%
+SniperOnly.MiddleValue,Id.Item.SniperScope10x,6-10x Scope MRAD,1,1,ID.Item.RangeFinder*1@50%;Id.Item.MUZL_022*1@50%;Id.Item.Bandage*1@100%
+SniperOnly.MiddleValue,Id.Item.10xScopeMoa,6-10x Scope MOA,1,1,ID.Item.RangeFinder*1@50%
+SniperOnly.MiddleValue,Id.Item.SGHT_036,6x Marksman Scope + Reflex,1,1,Id.Item.WEPN_027*1@50%
+SniperOnly.MiddleValue,Id.Item.SGHT_031,6x Precision Rifle Scope,1,1,Id.Item.Mosin*1@50%
+SniperOnly.MiddleValue,Id.Item.SGHT_031,6x Precision Rifle Scope,1,1,Id.Item.MUZL_025*1@50%;Id.Item.FGRP_009*1@25%;Id.Item.Mosin*1@25%
+SniperOnly.MiddleValue,Id.Item.SGHT_011,1x-6x LPVO Short Dot,1,1,Id.Item.MUZL_022*1@50%;Id.Item.FGRP_013*1@25%;ID.Item.RangeFinder*1@50%
+SniperOnly.MiddleValue,Id.Item.SGHT_032,Frontier 2.5x-10x Precision Scope,1,1,Id.Item.FGRP_013*1@25%;Id.Item.SuperBandage*1@100%
+Test,Id.Item.SV98,SV98,1,0.8,Id.Item.SniperScope10x*1@100%;Id.Item.SV98Magazine*1@100%;Id.Item.SV98Magazine*1@100%
+Tower,Id.Item.FOB,Forward Operating Base,1,0.5,
+Tower,Id.Item.SV98,SV98,1,0.8,Id.Item.SniperScope10x*1@100%;Id.Item.SV98Magazine*1@100%;Id.Item.SV98Magazine*1@100%
+Tower,Id.Item.M249,M249 SAW,1,1,Id.Item.MAGZ_062*1@100%;Id.Item.FGRP_012*1@100%;Id.Item.EotechHoloSight*1@100%
+Tower,Id.Item.MedKit.Standard,Medical Bag,1,0.8,Id.Item.Defibrillator.Standard*1@100%;Id.Item.Battery*1@100%;Id.Item.Battery*1@100%;Id.Item.StimPen*3@100%;ID.Item.SmokeGrenade.White*1@100%
+Tower,Id.Item.M500,M500,1,1,Id.Item.12g.RifledSlug*30@100%;Id.Item.C4Explosive*3@100%;Id.Item.C4Trigger*1@100%;Id.Item.M67Grenade*2@100%;Id.Item.Claymore*1@100%
+Tower,ID.Item.RepairTool.Drill.Heavy,Heavy Drill,1,0.5,Id.Item.LargeBattery*1@100%;Id.Item.FuelCan*1@100%;Id.Item.WEPN_028*1@100%;Id.Item.MAGZ_004*1@100%;Id.Item.MAGZ_004*1@100%
+Weapon,Id.Item.AK74M,AK74,1,1,

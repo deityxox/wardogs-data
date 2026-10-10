@@ -1,0 +1,197 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ammunition ballistics",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1,
+      "description": "Version of this file's layout. It changes only when the layout does."
+    },
+    "gameBuild": {
+      "type": "string",
+      "description": "Steam build id the data was extracted from."
+    },
+    "units": {
+      "type": "string",
+      "const": "meters",
+      "description": "Unit of every distance in the file. Speeds are meters per second."
+    },
+    "projectiles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Projectile id from the game, for example `Item.Caliber.556mm`."
+          },
+          "asset": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Path of the projectile data asset inside the game files."
+          },
+          "damage": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Damage of one hit before distance falloff, armor and hit location."
+          },
+          "damageType": {
+            "description": "Damage type tag, for example `Meta.Damage.Bullet.556mm`.",
+            "type": "string"
+          },
+          "damageContext": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Extra damage context tags, for example the body parts the type is tuned for."
+          },
+          "massKg": {
+            "description": "Projectile mass in kilograms.",
+            "type": "number",
+            "minimum": 0
+          },
+          "diameterMm": {
+            "description": "Projectile diameter in millimeters.",
+            "type": "number",
+            "minimum": 0
+          },
+          "lengthMm": {
+            "description": "Projectile length in millimeters.",
+            "type": "number",
+            "minimum": 0
+          },
+          "drag": {
+            "description": "Aerodynamic drag: the coefficient and, when the game names one, the drag model it comes from (such as G7).",
+            "type": "object",
+            "properties": {
+              "coefficient": {
+                "description": "Drag coefficient.",
+                "type": "number"
+              },
+              "model": {
+                "description": "Name of the drag model (a row of the game's drag table), for example `G7 (Boat Tail)`.",
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "typicalSpeed": {
+            "description": "The speed the game treats as typical for the projectile. Weapons set their own muzzle velocity.",
+            "type": "number",
+            "minimum": 0
+          },
+          "penetration": {
+            "description": "How the projectile behaves against surfaces. Absent when the game defines nothing.",
+            "type": "object",
+            "properties": {
+              "penetrates": {
+                "description": "False when the projectile never passes through surfaces. Absent when the game does not say.",
+                "type": "boolean"
+              },
+              "penetratesThinSurfaces": {
+                "description": "True when the projectile always passes through thin surfaces.",
+                "type": "boolean"
+              },
+              "exitSpeedMultiplier": {
+                "description": "Fraction of the speed kept after passing through a surface.",
+                "type": "number"
+              },
+              "effectivenessMultiplier": {
+                "description": "Multiplier on how well the projectile penetrates, as stored.",
+                "type": "number"
+              },
+              "ricochetMinAngle": {
+                "description": "Impact angle in degrees above which the projectile ricochets.",
+                "type": "number"
+              }
+            },
+            "additionalProperties": false
+          },
+          "explosive": {
+            "description": "Area damage. Absent for projectiles that do none.",
+            "type": "object",
+            "properties": {
+              "radius": {
+                "description": "Distance at which damage has fallen to its minimum.",
+                "type": "number",
+                "minimum": 0
+              },
+              "effectiveRadius": {
+                "description": "Distance within which full damage applies.",
+                "type": "number",
+                "minimum": 0
+              },
+              "falloff": {
+                "description": "How fast explosive damage falls with distance, as stored.",
+                "type": "number"
+              },
+              "minimumDamage": {
+                "description": "Least damage inside the radius.",
+                "type": "number",
+                "minimum": 0
+              },
+              "bluntDamage": {
+                "description": "Blunt (non-penetrating) damage of the explosion.",
+                "type": "number",
+                "minimum": 0
+              }
+            },
+            "additionalProperties": false
+          },
+          "suppression": {
+            "description": "Suppression a near miss causes.",
+            "type": "number",
+            "minimum": 0
+          },
+          "propulsion": {
+            "description": "Set for rockets and missiles that keep accelerating or steer after launch.",
+            "type": "object",
+            "properties": {
+              "thrustSpeed": {
+                "description": "Speed in meters per second the motor accelerates the projectile to.",
+                "type": "number"
+              },
+              "fuel": {
+                "description": "Motor fuel, as stored.",
+                "type": "number"
+              },
+              "guided": {
+                "description": "True when the projectile steers after launch.",
+                "type": "boolean"
+              }
+            },
+            "additionalProperties": false
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Ammo items (ids from items.json) that fire this projectile."
+          }
+        },
+        "required": [
+          "id",
+          "asset",
+          "damage",
+          "damageContext",
+          "items"
+        ],
+        "additionalProperties": false,
+        "description": "Ammunition ballistics: one entry per projectile definition. Several ammo items can share one (the armor-piercing and hollow-point variants of a caliber use the same definition and differ in the damage rules, which are not extracted). Distances are meters, speeds meters per second, mass kilograms, size millimeters."
+      },
+      "description": "One entry per projectile definition, sorted by id."
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "gameBuild",
+    "units",
+    "projectiles"
+  ],
+  "additionalProperties": false,
+  "description": "Ammunition ballistics: damage, size, drag, penetration and explosive data per projectile, with the ammo items that fire each one."
+}

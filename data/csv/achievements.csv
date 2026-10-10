@@ -1,0 +1,11 @@
+id,steam_id,name,description,thresholds
+Combat.DefibrillatorKill,ACH_COMBAT_DEFIBRILLATOR_KILL,Defibrillator Kill,Kill an enemy with the defibrillator.,
+Combat.LongShot,ACH_COMBAT_LONG_SHOT,Long Shot,,DistanceThreshold=95000
+Combat.RicochetKill,ACH_COMBAT_RICOCHET_KILL,Ricochet Kill,Kill an enemy with a ricocheted projectile.,
+Economy.LoadoutSpend,ACH_ECONOMY_LOADOUT_SPEND,Loadout Spender,,CashThreshold=100000
+Economy.SingleLifeProfit,ACH_ECONOMY_SINGLE_LIFE_PROFIT,Single Life Profit,,CashThreshold=100000
+Economy.TopCashEarner,ACH_ECONOMY_TOP_CASH_EARNER,Top Cash Earner,,
+Match.CleanSweep,ACH_MATCH_CLEAN_SWEEP,Clean Sweep,Win a KOTH match without the opposing faction scoring.,
+Survival.ControlZoneSurvivor,ACH_SURVIVAL_CONTROL_ZONE_SURVIVOR,Control Zone Survivor,,RequiredSeconds=3600
+Tutorial.Completed,ACH_TUTORIAL_COMPLETED,Complete The Tutorial,,
+Tutorial.PunchKristopher,ACH_TUTORIAL_PUNCH_KRISTOPHER,Punch Kristopher,,

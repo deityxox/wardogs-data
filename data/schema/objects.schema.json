@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Placed gameplay objects",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1,
+      "description": "Version of this file's layout. It changes only when the layout does."
+    },
+    "world": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Name of the world (level) the objects are in."
+    },
+    "gameBuild": {
+      "type": "string",
+      "description": "Steam build id the data was extracted from."
+    },
+    "units": {
+      "type": "string",
+      "const": "meters",
+      "description": "Unit of every distance in the file."
+    },
+    "count": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 9007199254740991,
+      "description": "Number of objects."
+    },
+    "objects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{12}$",
+            "description": "Stable id derived from the placed actor's name and the level it is in."
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "equipment-vendor",
+              "vehicle-vendor",
+              "garage-vendor",
+              "safe-zone",
+              "safe-zone-camera",
+              "spawn-manager",
+              "spawn-volume",
+              "vehicle-deployment-board",
+              "fuel-refill"
+            ],
+            "description": "What the object is: a shop (`equipment-vendor`, `vehicle-vendor`, `garage-vendor`), a team `safe-zone` with its `safe-zone-camera`, a team `spawn-manager`, a `spawn-volume` that vehicles appear in, a `vehicle-deployment-board` or a `fuel-refill` crate."
+          },
+          "class": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Blueprint class of the actor."
+          },
+          "position": {
+            "type": "array",
+            "prefixItems": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "number"
+              },
+              {
+                "type": "number"
+              }
+            ],
+            "items": false,
+            "minItems": 3,
+            "maxItems": 3,
+            "description": "Position: [x, y, z] in meters."
+          },
+          "yaw": {
+            "description": "Heading in degrees. Absent when the object is not rotated.",
+            "type": "number"
+          },
+          "scale": {
+            "description": "Actor scale as stored. For a safe zone this sizes its trigger box. Absent when the game leaves it at 1.",
+            "type": "array",
+            "prefixItems": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "number"
+              },
+              {
+                "type": "number"
+              }
+            ],
+            "items": false,
+            "minItems": 3,
+            "maxItems": 3
+          },
+          "faction": {
+            "description": "The team the object belongs to (`Alpha` or `Bravo`). Absent for neutral objects.",
+            "type": "string"
+          },
+          "tags": {
+            "description": "Tags the object applies to people inside it (safe zones).",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "allowedVehicles": {
+            "description": "Vehicle ids a spawn volume may spawn (see items.json).",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "disallowedVehicles": {
+            "description": "Vehicle ids and vehicle families a spawn volume never spawns.",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "class",
+          "position"
+        ],
+        "additionalProperties": false,
+        "description": "A placed gameplay object."
+      },
+      "description": "Objects, sorted by kind and then position."
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "world",
+    "gameBuild",
+    "units",
+    "count",
+    "objects"
+  ],
+  "additionalProperties": false,
+  "description": "Gameplay objects placed in one world: shops, safe zones, spawn managers and volumes, vehicle deployment boards and fuel refills. Coordinates are the same as in map.json."
+}

@@ -1,0 +1,273 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Vehicle stats",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1,
+      "description": "Version of this file's layout. It changes only when the layout does."
+    },
+    "gameBuild": {
+      "type": "string",
+      "description": "Steam build id the data was extracted from."
+    },
+    "vehicles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Vehicle variant id from items.json."
+          },
+          "name": {
+            "description": "Display name, as in items.json (the game's UI table). Absent when the game has none.",
+            "type": "string"
+          },
+          "asset": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Path of the vehicle stats asset inside the game files."
+          },
+          "maxSpeed": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Top speed as shown in the vehicle shop (km/h)."
+          },
+          "maxFuel": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Fuel tank size in liters."
+          },
+          "fuelEconomy": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Fuel use as shown in the shop, in liters per kilometer (the shop rounds `1 / kmPerLiter` to one decimal)."
+          },
+          "seats": {
+            "type": "integer",
+            "exclusiveMinimum": 0,
+            "maximum": 9007199254740991,
+            "description": "Number of seats."
+          },
+          "weapons": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Names of the weapons listed in the shop."
+          },
+          "weaponIcons": {
+            "description": "Icon of each weapon in `weapons` that the game has one for, by weapon name: a path inside `assets/icons/`. The game's UI tables name the vehicle's weapon extensions with the same names.",
+            "type": "object",
+            "propertyNames": {
+              "type": "string"
+            },
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "counterMeasures": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Names of the countermeasures listed in the shop."
+          },
+          "damageEntity": {
+            "description": "The `entity` of this vehicle's damage rules in damage.json, such as `Vehicle.Land.Wheeled.Humvee.Default`. Variants of one platform can share it.",
+            "type": "string"
+          },
+          "health": {
+            "description": "Vehicle health. Absent when the vehicle has no gameplay systems asset.",
+            "type": "object",
+            "properties": {
+              "initial": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "description": "Hit points of a new vehicle."
+              },
+              "criticalThreshold": {
+                "description": "Health at or below which the vehicle is in a critical state, as stored.",
+                "type": "number"
+              },
+              "bleedOutTime": {
+                "description": "Seconds a vehicle in the critical state lasts before it is destroyed, as stored.",
+                "type": "number"
+              }
+            },
+            "required": [
+              "initial"
+            ],
+            "additionalProperties": false
+          },
+          "kmPerLiter": {
+            "description": "Distance in kilometers one liter of fuel lasts, as stored (`1 / kmPerLiter` is liters per kilometer).",
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "destroyedExplosion": {
+            "description": "The explosion when the vehicle is destroyed.",
+            "type": "object",
+            "properties": {
+              "radius": {
+                "description": "Distance in meters at which the wreck's explosion damage reaches its minimum.",
+                "type": "number",
+                "minimum": 0
+              },
+              "effectiveRadius": {
+                "description": "Distance in meters within which the wreck's explosion does full damage.",
+                "type": "number",
+                "minimum": 0
+              },
+              "falloff": {
+                "description": "How fast the explosion's damage falls with distance, as stored.",
+                "type": "number"
+              }
+            },
+            "additionalProperties": false
+          },
+          "mass": {
+            "description": "Mass of the vehicle body as the game's physics stores it (kg). Wheeled vehicles and helicopters only: tracked vehicles store no body mass in their files (no mass override in the blueprint's body; the track and sprocket masses are in `tracks`), so none is published.",
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "engine": {
+            "description": "Engine of a wheeled or tracked vehicle. Helicopters have no engine curve in the data read.",
+            "type": "object",
+            "properties": {
+              "torqueCurve": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "rpm": {
+                      "type": "number",
+                      "description": "Engine speed of this key."
+                    },
+                    "torque": {
+                      "type": "number",
+                      "description": "Torque at that speed, as stored."
+                    }
+                  },
+                  "required": [
+                    "rpm",
+                    "torque"
+                  ],
+                  "additionalProperties": false
+                },
+                "description": "Engine torque by engine speed, as the keys of the game's curve (rpm and torque as stored, sorted by rpm). The game interpolates between keys."
+              },
+              "torqueScale": {
+                "description": "Multiplier on the curve's torque. Absent when the game leaves it at its default.",
+                "type": "number"
+              },
+              "frictionTorque": {
+                "description": "Engine braking torque, as stored. Absent when the game leaves it at its default.",
+                "type": "number"
+              },
+              "idleRpm": {
+                "description": "Idle speed. Absent when the game leaves it at its default.",
+                "type": "number"
+              },
+              "limitRpm": {
+                "description": "Rev limiter speed. Absent when the game leaves it at its default.",
+                "type": "number"
+              },
+              "inertia": {
+                "description": "Engine inertia, as stored.",
+                "type": "number"
+              },
+              "boostScale": {
+                "description": "Torque multiplier while boosting, as stored.",
+                "type": "number"
+              },
+              "extraPowerRatio": {
+                "description": "Extra power multiplier of a tracked vehicle's engine, as stored.",
+                "type": "number"
+              }
+            },
+            "required": [
+              "torqueCurve"
+            ],
+            "additionalProperties": false
+          },
+          "transmission": {
+            "description": "Gearbox of a wheeled or tracked vehicle.",
+            "type": "object",
+            "properties": {
+              "gearRatios": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "description": "Gear ratios in the order the game stores them. A wheeled vehicle's last entry is reverse; tracked vehicles list some entries the game does not document, so read them with care."
+              },
+              "finalGearRatio": {
+                "description": "Final drive ratio (a tracked vehicle's differential ratio).",
+                "type": "number"
+              },
+              "changeTime": {
+                "description": "Time a gear change takes, as stored.",
+                "type": "number"
+              },
+              "clutchTime": {
+                "description": "Clutch engagement time, as stored.",
+                "type": "number"
+              },
+              "gearUpRatio": {
+                "description": "Engine load at which an automatic gearbox shifts up, as stored.",
+                "type": "number"
+              },
+              "gearDownRatio": {
+                "description": "Engine load at which an automatic gearbox shifts down, as stored.",
+                "type": "number"
+              }
+            },
+            "required": [
+              "gearRatios"
+            ],
+            "additionalProperties": false
+          },
+          "tracks": {
+            "description": "Masses of a tracked vehicle's track parts, when the game sets them.",
+            "type": "object",
+            "properties": {
+              "trackMass": {
+                "description": "Mass of the track, as stored. Absent when the game leaves it at its default.",
+                "type": "number"
+              },
+              "sprocketMass": {
+                "description": "Mass of a drive sprocket, as stored. Absent when the game leaves it at its default.",
+                "type": "number"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "asset",
+          "maxSpeed",
+          "maxFuel",
+          "fuelEconomy",
+          "seats",
+          "weapons",
+          "counterMeasures"
+        ],
+        "additionalProperties": false,
+        "description": "One vehicle variant."
+      },
+      "description": "One entry per vehicle variant, sorted by id."
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "gameBuild",
+    "vehicles"
+  ],
+  "additionalProperties": false,
+  "description": "Vehicle statistics as the game shows them in the vehicle shop. Ids are vehicle items in items.json."
+}

@@ -1,0 +1,13 @@
+id,name,slot,damage_context,covered_locations,durability,damage_reduction_new,damage_reduction_worn,density_new,density_worn
+Id.Item.GhillieArmor,Ghillie Suit,Armor,Armor.Ghillie,,,,,,
+Id.Item.GhillieArmor.Dead,Ghillie Suit (Dead),Armor,Armor.Ghillie,,,,,,
+Id.Item.GhillieHelmet,Ghillie Headwear,Helmet,Helmet.Ghillie,,,,,,
+Id.Item.GhillieHelmet.Dead,Ghillie Headwear (Dead),Helmet,Helmet.Ghillie,,,,,,
+Id.Item.HeavyArmor,Level 3 Armor,Armor,Armor.Heavy,Torso.Lower;Torso.Middle;Torso.Upper,250,55,55,100,60
+Id.Item.HeavyHelmet,Level 3 Helmet,Helmet,Helmet.Heavy,Head;Neck,180,55,55,100,60
+Id.Item.LightArmor,Level 1 Armor,Armor,Armor.Light,Torso.Lower;Torso.Middle;Torso.Upper,200,30,30,50,20
+Id.Item.LightHelmet,Level 1 Helmet,Helmet,Helmet.Light,Head,80,30,30,50,20
+Id.Item.MediumArmor,Level 2 Armor,Armor,Armor.Medium,Torso.Lower;Torso.Middle;Torso.Upper,220,40,40,60,30
+Id.Item.MediumHelmet,Level 2 Helmet,Helmet,Helmet.Medium,Head,100,40,40,60,30
+Id.Item.SuperHeavyArmor,Level 4 Armor,Armor,Armor.SuperHeavy,Torso.Lower;Torso.Middle;Torso.Upper;Pelvis;Arm.Upper,300,65,65,130,100
+Id.Item.SuperHeavyHelmet,Level 4 Helmet,Helmet,Helmet.SuperHeavy,Head;Neck,200,65,65,130,100

@@ -1,0 +1,1266 @@
+{
+  "schemaVersion": 1,
+  "gameBuild": "25677108",
+  "vehicles": [
+    {
+      "id": "Vehicle.Variant.Air.Rotary.Havoc.Default",
+      "name": "Havoc",
+      "asset": "Plugins/GameFeatures/Vehicles/ROT_02/Content/Data/DA_ROT_02_Stats",
+      "maxSpeed": 400,
+      "maxFuel": 130,
+      "fuelEconomy": 4.4,
+      "seats": 2,
+      "weapons": [
+        "2A42 Autocannon",
+        "B-13 Rocket Pods"
+      ],
+      "weaponIcons": {
+        "2A42 Autocannon": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_WPN_AutoCannon.png",
+        "B-13 Rocket Pods": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_WPN_RocketPod.png"
+      },
+      "counterMeasures": [
+        "Flares"
+      ],
+      "damageEntity": "Vehicle.Air.Rotary.Havoc",
+      "health": {
+        "initial": 800,
+        "criticalThreshold": 80,
+        "bleedOutTime": 15
+      },
+      "kmPerLiter": 0.225,
+      "destroyedExplosion": {
+        "radius": 13,
+        "effectiveRadius": 6.5,
+        "falloff": 0.6
+      },
+      "mass": 7500
+    },
+    {
+      "id": "Vehicle.Variant.Air.Rotary.Littlebird.Default",
+      "name": "MH-6",
+      "asset": "Plugins/GameFeatures/Vehicles/ROT_03/Content/Data/DA_ROT_03_Stats",
+      "maxSpeed": 350,
+      "maxFuel": 105,
+      "fuelEconomy": 4.4,
+      "seats": 6,
+      "weapons": [],
+      "counterMeasures": [
+        "Flares"
+      ],
+      "damageEntity": "Vehicle.Air.Rotary.LittleBird",
+      "health": {
+        "initial": 400,
+        "criticalThreshold": 40,
+        "bleedOutTime": 15
+      },
+      "kmPerLiter": 0.225,
+      "destroyedExplosion": {
+        "radius": 9,
+        "effectiveRadius": 4.5,
+        "falloff": 0.6
+      },
+      "mass": 722
+    },
+    {
+      "id": "Vehicle.Variant.Air.Rotary.Littlebird.MountedMachineGuns",
+      "name": "AH-6M [Miniguns]",
+      "asset": "Plugins/GameFeatures/Vehicles/ROT_03_WeaponVariants/Content/Data/WeaponVariants/DA_ROT_03_MachineGuns_Stats",
+      "maxSpeed": 350,
+      "maxFuel": 105,
+      "fuelEconomy": 4.4,
+      "seats": 2,
+      "weapons": [
+        "Two M134D Miniguns"
+      ],
+      "counterMeasures": [
+        "Flares"
+      ],
+      "damageEntity": "Vehicle.Air.Rotary.LittleBird",
+      "health": {
+        "initial": 400,
+        "criticalThreshold": 40,
+        "bleedOutTime": 15
+      },
+      "kmPerLiter": 0.225,
+      "destroyedExplosion": {
+        "radius": 9,
+        "effectiveRadius": 4.5,
+        "falloff": 0.6
+      },
+      "mass": 722
+    },
+    {
+      "id": "Vehicle.Variant.Air.Rotary.Littlebird.RocketPods",
+      "name": "AH-6R [Rockets]",
+      "asset": "Plugins/GameFeatures/Vehicles/ROT_03_WeaponVariants/Content/Data/WeaponVariants/DA_ROT_03_RocketPods_Stats",
+      "maxSpeed": 350,
+      "maxFuel": 105,
+      "fuelEconomy": 4.4,
+      "seats": 2,
+      "weapons": [
+        "B-13 Rocket Pods"
+      ],
+      "weaponIcons": {
+        "B-13 Rocket Pods": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_WPN_RocketPod.png"
+      },
+      "counterMeasures": [
+        "Flares"
+      ],
+      "damageEntity": "Vehicle.Air.Rotary.LittleBird",
+      "health": {
+        "initial": 400,
+        "criticalThreshold": 40,
+        "bleedOutTime": 15
+      },
+      "kmPerLiter": 0.225,
+      "destroyedExplosion": {
+        "radius": 9,
+        "effectiveRadius": 4.5,
+        "falloff": 0.6
+      },
+      "mass": 722
+    },
+    {
+      "id": "Vehicle.Variant.Air.Rotary.ROT_04.Default",
+      "name": "Z20 Lakota",
+      "asset": "Plugins/GameFeatures/Vehicles/ROT_04/Content/Data/DA_ROT_04_Stats",
+      "maxSpeed": 445,
+      "maxFuel": 120,
+      "fuelEconomy": 4.4,
+      "seats": 13,
+      "weapons": [],
+      "counterMeasures": [
+        "Flares"
+      ],
+      "damageEntity": "Vehicle.Air.Rotary.ROT_04",
+      "health": {
+        "initial": 600,
+        "criticalThreshold": 60,
+        "bleedOutTime": 15
+      },
+      "kmPerLiter": 0.225,
+      "destroyedExplosion": {
+        "radius": 14,
+        "effectiveRadius": 7,
+        "falloff": 0.6
+      },
+      "mass": 9500
+    },
+    {
+      "id": "Vehicle.Variant.Air.Rotary.ROT_04.MountedMachineGuns",
+      "name": "Z20 Lakota [Miniguns]",
+      "asset": "Plugins/GameFeatures/Vehicles/ROT_04_MachineGun/Content/Data/MachineGun/DA_ROT_04_MachineGun_Stats",
+      "maxSpeed": 445,
+      "maxFuel": 120,
+      "fuelEconomy": 4.4,
+      "seats": 13,
+      "weapons": [
+        "Two M134D Miniguns"
+      ],
+      "counterMeasures": [
+        "Flares"
+      ],
+      "damageEntity": "Vehicle.Air.Rotary.ROT_04",
+      "health": {
+        "initial": 600,
+        "criticalThreshold": 60,
+        "bleedOutTime": 15
+      },
+      "kmPerLiter": 0.225,
+      "destroyedExplosion": {
+        "radius": 14,
+        "effectiveRadius": 7,
+        "falloff": 0.6
+      },
+      "mass": 9500
+    },
+    {
+      "id": "Vehicle.Variant.Land.Tracked.TNK_01.AntiAir",
+      "name": "Flakpanzer Gepard",
+      "asset": "Plugins/GameFeatures/Vehicles/TNK_01/Content/Data/AntiAir/DA_TNK_03_Stats",
+      "maxSpeed": 65,
+      "maxFuel": 110,
+      "fuelEconomy": 10,
+      "seats": 2,
+      "weapons": [
+        "Duel 35mm Oerlikon GDF Cannons"
+      ],
+      "weaponIcons": {
+        "Duel 35mm Oerlikon GDF Cannons": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_WPN_TankTurret.png"
+      },
+      "counterMeasures": [
+        "Smoke"
+      ],
+      "damageEntity": "Vehicle.Land.Tracked.TNK_01.AntiAir",
+      "health": {
+        "initial": 800,
+        "criticalThreshold": 80,
+        "bleedOutTime": 15
+      },
+      "kmPerLiter": 0.1,
+      "destroyedExplosion": {
+        "radius": 12,
+        "effectiveRadius": 6,
+        "falloff": 0.6
+      },
+      "engine": {
+        "torqueCurve": [
+          {
+            "rpm": 1400,
+            "torque": 1800
+          },
+          {
+            "rpm": 2000,
+            "torque": 1650
+          },
+          {
+            "rpm": 3000,
+            "torque": 1200
+          },
+          {
+            "rpm": 3100,
+            "torque": 0
+          }
+        ],
+        "extraPowerRatio": 16
+      },
+      "transmission": {
+        "gearRatios": [
+          1.5,
+          1.2,
+          0,
+          1.2,
+          1.2,
+          1.1,
+          0.8
+        ],
+        "finalGearRatio": 5
+      },
+      "tracks": {
+        "trackMass": 700,
+        "sprocketMass": 1000
+      }
+    },
+    {
+      "id": "Vehicle.Variant.Land.Tracked.TNK_01.Artillery",
+      "name": "SPH-2",
+      "asset": "Plugins/GameFeatures/Vehicles/TNK_01/Content/Data/Artillery/DA_TNK_02_Stats",
+      "maxSpeed": 65,
+      "maxFuel": 105,
+      "fuelEconomy": 8,
+      "seats": 3,
+      "weapons": [
+        "L52 Cannon",
+        "M249 Machine Gun"
+      ],
+      "weaponIcons": {
+        "L52 Cannon": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_WPN_ArtTurret.png",
+        "M249 Machine Gun": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_WPN_MachineGun.png"
+      },
+      "counterMeasures": [],
+      "damageEntity": "Vehicle.Land.Tracked.TNK_01.Artillery",
+      "health": {
+        "initial": 650,
+        "criticalThreshold": 65,
+        "bleedOutTime": 15
+      },
+      "kmPerLiter": 0.125,
+      "destroyedExplosion": {
+        "radius": 12,
+        "effectiveRadius": 6,
+        "falloff": 0.6
+      },
+      "engine": {
+        "torqueCurve": [
+          {
+            "rpm": 1400,
+            "torque": 1800
+          },
+          {
+            "rpm": 2000,
+            "torque": 1650
+          },
+          {
+            "rpm": 3000,
+            "torque": 1200
+          },
+          {
+            "rpm": 3100,
+            "torque": 0
+          }
+        ],
+        "boostScale": 2,
+        "extraPowerRatio": 7.5
+      },
+      "transmission": {
+        "gearRatios": [
+          1.8,
+          2.16,
+          4.35,
+          0,
+          3.485,
+          2.787,
+          2.2,
+          1.978,
+          1.55,
+          1.25
+        ],
+        "finalGearRatio": 6,
+        "changeTime": 1000
+      }
+    },
+    {
+      "id": "Vehicle.Variant.Land.Tracked.TNK_01.Heavy",
+      "name": "L2A6",
+      "asset": "Plugins/GameFeatures/Vehicles/TNK_01/Content/Data/Heavy/DA_TNK_01_Stats",
+      "maxSpeed": 65,
+      "maxFuel": 110,
+      "fuelEconomy": 8,
+      "seats": 3,
+      "weapons": [
+        "M249 Machine Gun",
+        "L55A1 Cannon",
+        "MG3A1 Coaxial Gun"
+      ],
+      "weaponIcons": {
+        "M249 Machine Gun": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_WPN_MachineGun.png",
+        "L55A1 Cannon": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_WPN_TankTurret.png",
+        "MG3A1 Coaxial Gun": "UI/Features/HUD/Vehicles/Vehicle_HUD_Materials/Textures/T_UI_MainGun_Active.png"
+      },
+      "counterMeasures": [
+        "Smoke"
+      ],
+      "damageEntity": "Vehicle.Land.Tracked.TNK_01.Heavy",
+      "health": {
+        "initial": 800,
+        "criticalThreshold": 80,
+        "bleedOutTime": 15
+      },
+      "kmPerLiter": 0.125,
+      "destroyedExplosion": {
+        "radius": 12,
+        "effectiveRadius": 6,
+        "falloff": 0.6
+      },
+      "engine": {
+        "torqueCurve": [
+          {
+            "rpm": 1400,
+            "torque": 1800
+          },
+          {
+            "rpm": 2000,
+            "torque": 1650
+          },
+          {
+            "rpm": 3000,
+            "torque": 1200
+          },
+          {
+            "rpm": 3100,
+            "torque": 0
+          }
+        ],
+        "boostScale": 2,
+        "extraPowerRatio": 7.5
+      },
+      "transmission": {
+        "gearRatios": [
+          1.8,
+          2.16,
+          4.35,
+          0,
+          3.485,
+          2.787,
+          2.2,
+          1.978,
+          1.55,
+          1.25
+        ],
+        "finalGearRatio": 6,
+        "changeTime": 1000
+      }
+    },
+    {
+      "id": "Vehicle.Variant.Land.Wheeled.Bobcat.Default",
+      "name": "Bobcat",
+      "asset": "Plugins/GameFeatures/Vehicles/WHL_01/Content/Data/DA_WHL_01_Stats",
+      "maxSpeed": 75,
+      "maxFuel": 18,
+      "fuelEconomy": 2.2,
+      "seats": 2,
+      "weapons": [],
+      "counterMeasures": [],
+      "damageEntity": "Vehicle.Land.Wheeled.Bobcat",
+      "health": {
+        "initial": 200,
+        "criticalThreshold": 20,
+        "bleedOutTime": 15
+      },
+      "kmPerLiter": 0.45,
+      "destroyedExplosion": {
+        "falloff": 0.6
+      },
+      "mass": 250,
+      "engine": {
+        "torqueCurve": [
+          {
+            "rpm": 1200,
+            "torque": 14.5
+          },
+          {
+            "rpm": 2000,
+            "torque": 18
+          },
+          {
+            "rpm": 3000,
+            "torque": 26
+          },
+          {
+            "rpm": 3620,
+            "torque": 30
+          },
+          {
+            "rpm": 5000,
+            "torque": 33
+          },
+          {
+            "rpm": 6000,
+            "torque": 25
+          },
+          {
+            "rpm": 7000,
+            "torque": 20
+          }
+        ],
+        "frictionTorque": 15,
+        "idleRpm": 1200,
+        "limitRpm": 7000,
+        "inertia": 0.2,
+        "boostScale": 1.2
+      },
+      "transmission": {
+        "gearRatios": [
+          4.2,
+          2.8,
+          1.9,
+          1.5,
+          1.3,
+          6
+        ],
+        "finalGearRatio": 9.5,
+        "changeTime": 75,
+        "clutchTime": 150,
+        "gearUpRatio": 85,
+        "gearDownRatio": 65
+      }
+    },
+    {
+      "id": "Vehicle.Variant.Land.Wheeled.DuneBuggy.Default",
+      "name": "Dune Buggy",
+      "asset": "Plugins/GameFeatures/Vehicles/WHL_06/Content/Data/DA_WHL_06_DuneBuggy_Stats",
+      "maxSpeed": 130,
+      "maxFuel": 68,
+      "fuelEconomy": 5,
+      "seats": 3,
+      "weapons": [],
+      "counterMeasures": [],
+      "damageEntity": "Vehicle.Land.Wheeled.DuneBuggy",
+      "health": {
+        "initial": 400,
+        "criticalThreshold": 40,
+        "bleedOutTime": 15
+      },
+      "kmPerLiter": 0.2,
+      "destroyedExplosion": {
+        "radius": 8,
+        "effectiveRadius": 4,
+        "falloff": 0.6
+      },
+      "mass": 550,
+      "engine": {
+        "torqueCurve": [
+          {
+            "rpm": 0,
+            "torque": 0
+          },
+          {
+            "rpm": 1200,
+            "torque": 180
+          },
+          {
+            "rpm": 2500,
+            "torque": 320
+          },
+          {
+            "rpm": 4200,
+            "torque": 480
+          },
+          {
+            "rpm": 5500,
+            "torque": 250
+          },
+          {
+            "rpm": 6500,
+            "torque": 100
+          }
+        ],
+        "torqueScale": 0.35,
+        "frictionTorque": 75,
+        "idleRpm": 800,
+        "inertia": 0.65,
+        "boostScale": 1.03
+      },
+      "transmission": {
+        "gearRatios": [
+          4.8,
+          3.6,
+          2.7,
+          2.15,
+          1.98,
+          6
+        ],
+        "finalGearRatio": 4.3,
+        "changeTime": 200,
+        "clutchTime": 30,
+        "gearUpRatio": 85,
+        "gearDownRatio": 60
+      }
+    },
+    {
+      "id": "Vehicle.Variant.Land.Wheeled.Humvee.Default",
+      "name": "Humvee",
+      "asset": "Plugins/GameFeatures/Vehicles/WHL_05/Content/Data/DA_WHL_05_Humvee_Stats",
+      "maxSpeed": 113.2291,
+      "maxFuel": 65,
+      "fuelEconomy": 3.3,
+      "seats": 4,
+      "weapons": [],
+      "counterMeasures": [],
+      "damageEntity": "Vehicle.Land.Wheeled.Humvee.Default",
+      "health": {
+        "initial": 500,
+        "criticalThreshold": 50,
+        "bleedOutTime": 15
+      },
+      "kmPerLiter": 0.3,
+      "destroyedExplosion": {
+        "radius": 10,
+        "effectiveRadius": 5,
+        "falloff": 0.6
+      },
+      "mass": 7250,
+      "engine": {
+        "torqueCurve": [
+          {
+            "rpm": 800,
+            "torque": 850
+          },
+          {
+            "rpm": 1200,
+            "torque": 1000
+          },
+          {
+            "rpm": 1600,
+            "torque": 1200
+          },
+          {
+            "rpm": 2000,
+            "torque": 1350
+          },
+          {
+            "rpm": 2500,
+            "torque": 1450
+          },
+          {
+            "rpm": 3000,
+            "torque": 1500
+          },
+          {
+            "rpm": 3550,
+            "torque": 1335
+          },
+          {
+            "rpm": 4000,
+            "torque": 650
+          }
+        ],
+        "frictionTorque": 75,
+        "idleRpm": 700,
+        "limitRpm": 4000,
+        "inertia": 1.3,
+        "boostScale": 1.03
+      },
+      "transmission": {
+        "gearRatios": [
+          3.6,
+          2.4,
+          1.7,
+          1.35,
+          1.12,
+          3.6
+        ],
+        "finalGearRatio": 6.54,
+        "changeTime": 200,
+        "clutchTime": 180,
+        "gearUpRatio": 85
+      }
+    },
+    {
+      "id": "Vehicle.Variant.Land.Wheeled.Humvee.MachineGun",
+      "name": "Humvee [M249]",
+      "asset": "Plugins/GameFeatures/Vehicles/WHL_05_RingTurret/Content/Data/RingTurretHumvee/DA_WHL_05_Humvee_RingTurretStats",
+      "maxSpeed": 113.2291,
+      "maxFuel": 65,
+      "fuelEconomy": 3.3,
+      "seats": 5,
+      "weapons": [
+        "M249 Machine Gun"
+      ],
+      "weaponIcons": {
+        "M249 Machine Gun": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_WPN_MachineGun.png"
+      },
+      "counterMeasures": [],
+      "damageEntity": "Vehicle.Land.Wheeled.Humvee.MachineGun",
+      "health": {
+        "initial": 500,
+        "criticalThreshold": 50,
+        "bleedOutTime": 15
+      },
+      "kmPerLiter": 0.3,
+      "destroyedExplosion": {
+        "radius": 10,
+        "effectiveRadius": 5,
+        "falloff": 0.6
+      },
+      "mass": 7250,
+      "engine": {
+        "torqueCurve": [
+          {
+            "rpm": 800,
+            "torque": 850
+          },
+          {
+            "rpm": 1200,
+            "torque": 1000
+          },
+          {
+            "rpm": 1600,
+            "torque": 1200
+          },
+          {
+            "rpm": 2000,
+            "torque": 1350
+          },
+          {
+            "rpm": 2500,
+            "torque": 1450
+          },
+          {
+            "rpm": 3000,
+            "torque": 1500
+          },
+          {
+            "rpm": 3550,
+            "torque": 1335
+          },
+          {
+            "rpm": 4000,
+            "torque": 650
+          }
+        ],
+        "frictionTorque": 75,
+        "idleRpm": 700,
+        "limitRpm": 4000,
+        "inertia": 1.3,
+        "boostScale": 1.03
+      },
+      "transmission": {
+        "gearRatios": [
+          3.6,
+          2.4,
+          1.7,
+          1.35,
+          1.12,
+          3.6
+        ],
+        "finalGearRatio": 6.54,
+        "changeTime": 200,
+        "clutchTime": 180,
+        "gearUpRatio": 85
+      }
+    },
+    {
+      "id": "Vehicle.Variant.Land.Wheeled.Humvee.Minigun",
+      "name": "Humvee [Minigun]",
+      "asset": "Plugins/GameFeatures/Vehicles/WHL_05_Minigun/Content/Data/MinigunHumvee/DA_WHL_05_Humvee_MinigunStats",
+      "maxSpeed": 113.2291,
+      "maxFuel": 65,
+      "fuelEconomy": 3.3,
+      "seats": 5,
+      "weapons": [
+        "M134D Minigun"
+      ],
+      "weaponIcons": {
+        "M134D Minigun": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_WPN_MiniGun.png"
+      },
+      "counterMeasures": [],
+      "damageEntity": "Vehicle.Land.Wheeled.Humvee.Minigun",
+      "health": {
+        "initial": 500,
+        "criticalThreshold": 50,
+        "bleedOutTime": 15
+      },
+      "kmPerLiter": 0.3,
+      "destroyedExplosion": {
+        "radius": 10,
+        "effectiveRadius": 5,
+        "falloff": 0.6
+      },
+      "mass": 7250,
+      "engine": {
+        "torqueCurve": [
+          {
+            "rpm": 800,
+            "torque": 850
+          },
+          {
+            "rpm": 1200,
+            "torque": 1000
+          },
+          {
+            "rpm": 1600,
+            "torque": 1200
+          },
+          {
+            "rpm": 2000,
+            "torque": 1350
+          },
+          {
+            "rpm": 2500,
+            "torque": 1450
+          },
+          {
+            "rpm": 3000,
+            "torque": 1500
+          },
+          {
+            "rpm": 3550,
+            "torque": 1335
+          },
+          {
+            "rpm": 4000,
+            "torque": 650
+          }
+        ],
+        "frictionTorque": 75,
+        "idleRpm": 700,
+        "limitRpm": 4000,
+        "inertia": 1.3,
+        "boostScale": 1.03
+      },
+      "transmission": {
+        "gearRatios": [
+          3.6,
+          2.4,
+          1.7,
+          1.35,
+          1.12,
+          3.6
+        ],
+        "finalGearRatio": 6.54,
+        "changeTime": 200,
+        "clutchTime": 180,
+        "gearUpRatio": 85
+      }
+    },
+    {
+      "id": "Vehicle.Variant.Land.Wheeled.Kodiak.Default",
+      "name": "Kodiak",
+      "asset": "Plugins/GameFeatures/Vehicles/WHL_02/Content/Data/DA_WHL_02_Stats",
+      "maxSpeed": 154,
+      "maxFuel": 50,
+      "fuelEconomy": 2.9,
+      "seats": 4,
+      "weapons": [],
+      "counterMeasures": [],
+      "damageEntity": "Vehicle.Land.Wheeled.Patriot.Kodiak",
+      "health": {
+        "initial": 400,
+        "criticalThreshold": 40,
+        "bleedOutTime": 15
+      },
+      "kmPerLiter": 0.35,
+      "destroyedExplosion": {
+        "radius": 10,
+        "effectiveRadius": 5,
+        "falloff": 0.6
+      },
+      "mass": 2750,
+      "engine": {
+        "torqueCurve": [
+          {
+            "rpm": -0.5,
+            "torque": 6.9642056e-8
+          },
+          {
+            "rpm": 0,
+            "torque": 0
+          },
+          {
+            "rpm": 950,
+            "torque": 275
+          },
+          {
+            "rpm": 5500,
+            "torque": 475
+          },
+          {
+            "rpm": 9000,
+            "torque": 350
+          }
+        ],
+        "torqueScale": 0.6,
+        "frictionTorque": 75,
+        "inertia": 0.4,
+        "boostScale": 1.03
+      },
+      "transmission": {
+        "gearRatios": [
+          6,
+          3.1,
+          2.45,
+          1.7,
+          1.3,
+          6
+        ],
+        "finalGearRatio": 5.5,
+        "changeTime": 50,
+        "gearUpRatio": 85,
+        "gearDownRatio": 75
+      }
+    },
+    {
+      "id": "Vehicle.Variant.Land.Wheeled.Kodiak.MachineGun",
+      "name": "Kodiak [M249]",
+      "asset": "Plugins/GameFeatures/Vehicles/WHL_02_RingTurret/Content/Data/WHL_02_SUV_RingTurret/DA_WHL_02_SUV_Stats",
+      "maxSpeed": 154,
+      "maxFuel": 50,
+      "fuelEconomy": 2.9,
+      "seats": 5,
+      "weapons": [
+        "M249 Machine Gun"
+      ],
+      "weaponIcons": {
+        "M249 Machine Gun": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_WPN_MachineGun.png"
+      },
+      "counterMeasures": [],
+      "damageEntity": "Vehicle.Land.Wheeled.Patriot.Kodiak",
+      "health": {
+        "initial": 400,
+        "criticalThreshold": 40,
+        "bleedOutTime": 15
+      },
+      "kmPerLiter": 0.35,
+      "destroyedExplosion": {
+        "radius": 10,
+        "effectiveRadius": 5,
+        "falloff": 0.6
+      },
+      "mass": 2750,
+      "engine": {
+        "torqueCurve": [
+          {
+            "rpm": -0.5,
+            "torque": 6.9642056e-8
+          },
+          {
+            "rpm": 0,
+            "torque": 0
+          },
+          {
+            "rpm": 950,
+            "torque": 275
+          },
+          {
+            "rpm": 5500,
+            "torque": 475
+          },
+          {
+            "rpm": 9000,
+            "torque": 350
+          }
+        ],
+        "torqueScale": 0.6,
+        "frictionTorque": 75,
+        "inertia": 0.4,
+        "boostScale": 1.03
+      },
+      "transmission": {
+        "gearRatios": [
+          6,
+          3.1,
+          2.45,
+          1.7,
+          1.3,
+          6
+        ],
+        "finalGearRatio": 5.5,
+        "changeTime": 50,
+        "gearUpRatio": 85,
+        "gearDownRatio": 75
+      }
+    },
+    {
+      "id": "Vehicle.Variant.Land.Wheeled.Kodiak.Pickup",
+      "name": "Kodiak [Pickup]",
+      "asset": "Plugins/GameFeatures/Vehicles/WHL_02/Content/Data/WHL_02_Pickup/DA_WHL_02_Pickup_Stats",
+      "maxSpeed": 154,
+      "maxFuel": 50,
+      "fuelEconomy": 2.9,
+      "seats": 6,
+      "weapons": [],
+      "counterMeasures": [],
+      "damageEntity": "Vehicle.Land.Wheeled.Patriot.Kodiak",
+      "health": {
+        "initial": 400,
+        "criticalThreshold": 40,
+        "bleedOutTime": 15
+      },
+      "kmPerLiter": 0.35,
+      "destroyedExplosion": {
+        "radius": 10,
+        "effectiveRadius": 5,
+        "falloff": 0.6
+      },
+      "mass": 2750,
+      "engine": {
+        "torqueCurve": [
+          {
+            "rpm": -0.5,
+            "torque": 6.9642056e-8
+          },
+          {
+            "rpm": 0,
+            "torque": 0
+          },
+          {
+            "rpm": 950,
+            "torque": 275
+          },
+          {
+            "rpm": 5500,
+            "torque": 475
+          },
+          {
+            "rpm": 9000,
+            "torque": 350
+          }
+        ],
+        "torqueScale": 0.6,
+        "frictionTorque": 75,
+        "inertia": 0.4,
+        "boostScale": 1.03
+      },
+      "transmission": {
+        "gearRatios": [
+          6,
+          3.1,
+          2.45,
+          1.7,
+          1.3,
+          6
+        ],
+        "finalGearRatio": 5.5,
+        "changeTime": 50,
+        "gearUpRatio": 85,
+        "gearDownRatio": 75
+      }
+    },
+    {
+      "id": "Vehicle.Variant.Land.Wheeled.Ural.Attack",
+      "name": "Ural Defender [M249]",
+      "asset": "Plugins/GameFeatures/Vehicles/WHL_07_ArmouredBattle/Content/Data/ArmouredBattleUral/DA_WHL_07_Battle_Stats",
+      "maxSpeed": 79,
+      "maxFuel": 85,
+      "fuelEconomy": 4,
+      "seats": 3,
+      "weapons": [],
+      "counterMeasures": [],
+      "damageEntity": "Vehicle.Land.Wheeled.Ural",
+      "health": {
+        "initial": 700,
+        "criticalThreshold": 70,
+        "bleedOutTime": 15
+      },
+      "kmPerLiter": 0.25,
+      "destroyedExplosion": {
+        "radius": 12.5,
+        "effectiveRadius": 6.25,
+        "falloff": 0.6
+      },
+      "mass": 10000,
+      "engine": {
+        "torqueCurve": [
+          {
+            "rpm": 600,
+            "torque": 200
+          },
+          {
+            "rpm": 800,
+            "torque": 550
+          },
+          {
+            "rpm": 1000,
+            "torque": 820
+          },
+          {
+            "rpm": 1100,
+            "torque": 880
+          },
+          {
+            "rpm": 1200,
+            "torque": 900
+          },
+          {
+            "rpm": 1300,
+            "torque": 880
+          },
+          {
+            "rpm": 1500,
+            "torque": 860
+          },
+          {
+            "rpm": 1700,
+            "torque": 840
+          },
+          {
+            "rpm": 1800.5,
+            "torque": 820
+          },
+          {
+            "rpm": 1900,
+            "torque": 800
+          },
+          {
+            "rpm": 2100,
+            "torque": 740
+          },
+          {
+            "rpm": 2300,
+            "torque": 650
+          }
+        ],
+        "torqueScale": 2,
+        "idleRpm": 650,
+        "limitRpm": 2600,
+        "inertia": 1,
+        "boostScale": 1.03
+      },
+      "transmission": {
+        "gearRatios": [
+          5.62,
+          2.89,
+          1.64,
+          1.25,
+          1.1,
+          3.25
+        ],
+        "finalGearRatio": 7.32,
+        "changeTime": 40,
+        "gearUpRatio": 85,
+        "gearDownRatio": 70
+      }
+    },
+    {
+      "id": "Vehicle.Variant.Land.Wheeled.Ural.Battle",
+      "name": "Ural Defender",
+      "asset": "Plugins/GameFeatures/Vehicles/WHL_07/Content/Data/DA_WHL_07_Stats",
+      "maxSpeed": 79,
+      "maxFuel": 85,
+      "fuelEconomy": 4,
+      "seats": 3,
+      "weapons": [],
+      "counterMeasures": [],
+      "damageEntity": "Vehicle.Land.Wheeled.Ural",
+      "health": {
+        "initial": 700,
+        "criticalThreshold": 70,
+        "bleedOutTime": 15
+      },
+      "kmPerLiter": 0.25,
+      "destroyedExplosion": {
+        "radius": 12.5,
+        "effectiveRadius": 6.25,
+        "falloff": 0.6
+      },
+      "mass": 10000,
+      "engine": {
+        "torqueCurve": [
+          {
+            "rpm": 600,
+            "torque": 200
+          },
+          {
+            "rpm": 800,
+            "torque": 550
+          },
+          {
+            "rpm": 1000,
+            "torque": 820
+          },
+          {
+            "rpm": 1100,
+            "torque": 880
+          },
+          {
+            "rpm": 1200,
+            "torque": 900
+          },
+          {
+            "rpm": 1300,
+            "torque": 880
+          },
+          {
+            "rpm": 1500,
+            "torque": 860
+          },
+          {
+            "rpm": 1700,
+            "torque": 840
+          },
+          {
+            "rpm": 1800.5,
+            "torque": 820
+          },
+          {
+            "rpm": 1900,
+            "torque": 800
+          },
+          {
+            "rpm": 2100,
+            "torque": 740
+          },
+          {
+            "rpm": 2300,
+            "torque": 650
+          }
+        ],
+        "torqueScale": 2,
+        "idleRpm": 650,
+        "limitRpm": 2600,
+        "inertia": 1,
+        "boostScale": 1.03
+      },
+      "transmission": {
+        "gearRatios": [
+          5.62,
+          2.89,
+          1.64,
+          1.25,
+          1.1,
+          3.25
+        ],
+        "finalGearRatio": 7.32,
+        "changeTime": 40,
+        "gearUpRatio": 85,
+        "gearDownRatio": 70
+      }
+    },
+    {
+      "id": "Vehicle.Variant.Land.Wheeled.Ural.Default",
+      "name": "Ural",
+      "asset": "Plugins/GameFeatures/Vehicles/WHL_07/Content/Data/DA_WHL_07_Stats",
+      "maxSpeed": 79,
+      "maxFuel": 85,
+      "fuelEconomy": 4,
+      "seats": 3,
+      "weapons": [],
+      "counterMeasures": [],
+      "damageEntity": "Vehicle.Land.Wheeled.Ural",
+      "health": {
+        "initial": 700,
+        "criticalThreshold": 70,
+        "bleedOutTime": 15
+      },
+      "kmPerLiter": 0.25,
+      "destroyedExplosion": {
+        "radius": 12.5,
+        "effectiveRadius": 6.25,
+        "falloff": 0.6
+      },
+      "mass": 10000,
+      "engine": {
+        "torqueCurve": [
+          {
+            "rpm": 600,
+            "torque": 200
+          },
+          {
+            "rpm": 800,
+            "torque": 550
+          },
+          {
+            "rpm": 1000,
+            "torque": 820
+          },
+          {
+            "rpm": 1100,
+            "torque": 880
+          },
+          {
+            "rpm": 1200,
+            "torque": 900
+          },
+          {
+            "rpm": 1300,
+            "torque": 880
+          },
+          {
+            "rpm": 1500,
+            "torque": 860
+          },
+          {
+            "rpm": 1700,
+            "torque": 840
+          },
+          {
+            "rpm": 1800.5,
+            "torque": 820
+          },
+          {
+            "rpm": 1900,
+            "torque": 800
+          },
+          {
+            "rpm": 2100,
+            "torque": 740
+          },
+          {
+            "rpm": 2300,
+            "torque": 650
+          }
+        ],
+        "torqueScale": 2,
+        "idleRpm": 650,
+        "limitRpm": 2600,
+        "inertia": 1,
+        "boostScale": 1.03
+      },
+      "transmission": {
+        "gearRatios": [
+          5.62,
+          2.89,
+          1.64,
+          1.25,
+          1.1,
+          3.25
+        ],
+        "finalGearRatio": 7.32,
+        "changeTime": 40,
+        "gearUpRatio": 85,
+        "gearDownRatio": 70
+      }
+    }
+  ]
+}

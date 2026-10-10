@@ -1,0 +1,197 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Equipment",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1,
+      "description": "Version of this file's layout. It changes only when the layout does."
+    },
+    "gameBuild": {
+      "type": "string",
+      "description": "Steam build id the data was extracted from."
+    },
+    "armor": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Item id from items.json."
+          },
+          "name": {
+            "description": "Display name, as in items.json (the game's UI table). Absent when the game has none.",
+            "type": "string"
+          },
+          "slot": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Equipment slot: `Armor` (body) or `Helmet`."
+          },
+          "damageContext": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The target tag damage rules use for this piece, such as `Armor.Heavy` or `Helmet.SuperHeavy` (see `target` in damage.json). The `Meta.Damage.` prefix is dropped."
+          },
+          "coveredLocations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Body parts the piece protects, such as `Torso.Upper` or `Head`."
+          },
+          "durability": {
+            "description": "Hit points of the armor before it is spent.",
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "stages": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "damageReduction": {
+                  "type": "number",
+                  "description": "Percent of damage the armor absorbs at this stage."
+                },
+                "thickness": {
+                  "type": "number",
+                  "description": "Plate thickness at this stage, as stored."
+                },
+                "density": {
+                  "type": "number",
+                  "description": "Plate density at this stage, as stored."
+                }
+              },
+              "required": [
+                "damageReduction",
+                "thickness",
+                "density"
+              ],
+              "additionalProperties": false
+            },
+            "description": "How protection changes as the armor wears down, from new to nearly spent."
+          },
+          "modifiers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "attribute": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Attribute, for example `Weapon.AimTime` (the game's `Attribute.Gameplay.*` tag without the prefix)."
+                },
+                "op": {
+                  "type": "string",
+                  "enum": [
+                    "multiplyCompound",
+                    "multiply",
+                    "add",
+                    "override"
+                  ],
+                  "description": "How the value combines: `multiplyCompound` and `multiply` scale the attribute (1.1 is +10%), `add` adds, `override` replaces. Several `multiplyCompound` modifiers multiply together."
+                },
+                "value": {
+                  "type": "number",
+                  "description": "The number applied. For `multiply` and `multiplyCompound`, 1.1 means +10%."
+                }
+              },
+              "required": [
+                "attribute",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false,
+              "description": "One change an attachment makes to a gameplay attribute."
+            },
+            "description": "Changes the piece makes to the wearer's attributes (speed, stamina and so on). Plain numbers only."
+          }
+        },
+        "required": [
+          "id",
+          "slot",
+          "damageContext",
+          "coveredLocations",
+          "stages",
+          "modifiers"
+        ],
+        "additionalProperties": false,
+        "description": "One armor or helmet item."
+      },
+      "description": "Armor and helmets, sorted by item id."
+    },
+    "weightClasses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Weight class: `Lightest`, `Light`, `Medium`, `Heavy`, `SuperHeavy`."
+          },
+          "minWeightKg": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Carried weight in kilograms from which the class applies."
+          },
+          "modifiers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "attribute": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Attribute, for example `Weapon.AimTime` (the game's `Attribute.Gameplay.*` tag without the prefix)."
+                },
+                "op": {
+                  "type": "string",
+                  "enum": [
+                    "multiplyCompound",
+                    "multiply",
+                    "add",
+                    "override"
+                  ],
+                  "description": "How the value combines: `multiplyCompound` and `multiply` scale the attribute (1.1 is +10%), `add` adds, `override` replaces. Several `multiplyCompound` modifiers multiply together."
+                },
+                "value": {
+                  "type": "number",
+                  "description": "The number applied. For `multiply` and `multiplyCompound`, 1.1 means +10%."
+                }
+              },
+              "required": [
+                "attribute",
+                "op",
+                "value"
+              ],
+              "additionalProperties": false,
+              "description": "One change an attachment makes to a gameplay attribute."
+            },
+            "description": "Changes to the player while in this class (speed, jump, stamina regeneration, aim sway, aim time)."
+          }
+        },
+        "required": [
+          "name",
+          "minWeightKg",
+          "modifiers"
+        ],
+        "additionalProperties": false,
+        "description": "A tier of carried weight and what it does to the player."
+      },
+      "description": "Carried-weight tiers, lightest first. Item weights are in items.json."
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "gameBuild",
+    "armor",
+    "weightClasses"
+  ],
+  "additionalProperties": false,
+  "description": "Worn protection and the effect of carried weight."
+}

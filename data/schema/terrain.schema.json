@@ -1,0 +1,199 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Terrain heightmap metadata",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1,
+      "description": "Version of this file's layout. It changes only when the layout does."
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z-]+$",
+      "description": "Short id of the world, also its folder name under `data/maps`."
+    },
+    "world": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Name of the world (level) the terrain belongs to."
+    },
+    "gameBuild": {
+      "type": "string",
+      "description": "Steam build id the data was extracted from."
+    },
+    "units": {
+      "type": "string",
+      "const": "meters",
+      "description": "Unit of every distance in the file."
+    },
+    "bounds": {
+      "type": "object",
+      "properties": {
+        "min": {
+          "type": "array",
+          "prefixItems": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "number"
+            }
+          ],
+          "items": false,
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "Minimum corner: [x, y] in meters."
+        },
+        "max": {
+          "type": "array",
+          "prefixItems": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "number"
+            }
+          ],
+          "items": false,
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "Maximum corner: [x, y] in meters."
+        }
+      },
+      "required": [
+        "min",
+        "max"
+      ],
+      "additionalProperties": false,
+      "description": "Area the heightmap covers, as world X and Y. Pixel (0, 0) is the minimum corner."
+    },
+    "zRange": {
+      "type": "object",
+      "properties": {
+        "min": {
+          "type": "number",
+          "description": "World Z in meters of pixel value 0."
+        },
+        "max": {
+          "type": "number",
+          "description": "World Z in meters of pixel value 65535."
+        }
+      },
+      "required": [
+        "min",
+        "max"
+      ],
+      "additionalProperties": false,
+      "description": "World Z of pixel value 0 and of pixel value 65535."
+    },
+    "heightmap": {
+      "type": "object",
+      "properties": {
+        "file": {
+          "type": "string",
+          "const": "heightmap.png",
+          "description": "File name inside the release's map folder."
+        },
+        "width": {
+          "type": "integer",
+          "exclusiveMinimum": 0,
+          "maximum": 9007199254740991,
+          "description": "Image width in pixels."
+        },
+        "height": {
+          "type": "integer",
+          "exclusiveMinimum": 0,
+          "maximum": 9007199254740991,
+          "description": "Image height in pixels."
+        },
+        "bitDepth": {
+          "type": "number",
+          "const": 16,
+          "description": "Bits per pixel."
+        },
+        "metersPerPixel": {
+          "type": "array",
+          "prefixItems": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "number"
+            }
+          ],
+          "items": false,
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "World meters per pixel along X and Y. Rows increase with world Y."
+        },
+        "encoding": {
+          "type": "string",
+          "const": "z = zRange.min + value / 65535 * (zRange.max - zRange.min)",
+          "description": "How to turn a pixel value into a height."
+        }
+      },
+      "required": [
+        "file",
+        "width",
+        "height",
+        "bitDepth",
+        "metersPerPixel",
+        "encoding"
+      ],
+      "additionalProperties": false,
+      "description": "The 16-bit grayscale height image."
+    },
+    "check": {
+      "type": "object",
+      "properties": {
+        "buildings": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9007199254740991,
+          "description": "Buildings used in the check."
+        },
+        "medianOffset": {
+          "type": "number",
+          "description": "Median offset in meters."
+        },
+        "p5Offset": {
+          "type": "number",
+          "description": "5th percentile offset in meters."
+        },
+        "p95Offset": {
+          "type": "number",
+          "description": "95th percentile offset in meters."
+        },
+        "fractionWithin5m": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Share of buildings whose base is within 5 m of the terrain."
+        }
+      },
+      "required": [
+        "buildings",
+        "medianOffset",
+        "p5Offset",
+        "p95Offset",
+        "fractionWithin5m"
+      ],
+      "additionalProperties": false,
+      "description": "Self-check against the buildings: base of each building minus the terrain height under its centre."
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "id",
+    "world",
+    "gameBuild",
+    "units",
+    "bounds",
+    "zRange",
+    "heightmap",
+    "check"
+  ],
+  "additionalProperties": false,
+  "description": "Metadata for a world's baked terrain height image (a release asset, `heightmap.png`). All distances are meters."
+}

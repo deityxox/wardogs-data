@@ -1,0 +1,670 @@
+{
+  "schemaVersion": 1,
+  "gameBuild": "25677108",
+  "units": "meters",
+  "buildables": [
+    {
+      "id": "Id.Buildable.AirRaidShelter",
+      "name": "Indirect Fire Shelter",
+      "icon": "Buildables/Data/Buildables/AirRaidShelter/T_UI_Buildable_AirRaidShelter_BC.png",
+      "cost": 100,
+      "maxHealth": 5000,
+      "repairSpeedMultiplier": 6.67,
+      "maxStack": 1,
+      "damageEntity": "Buildable.AirRaidShelter",
+      "size": [
+        7.5,
+        7.5,
+        4.6
+      ],
+      "tools": [
+        "LargeHammer"
+      ],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds",
+        "SafeZone"
+      ]
+    },
+    {
+      "id": "Id.Buildable.AirRaidShelter.Ceiling",
+      "name": "Air Raid Shelter Floor",
+      "icon": "Buildables/Data/Buildables/AirRaidShelter/T_UI_Buildable_AirRaidShelter_BC.png",
+      "cost": 10,
+      "maxHealth": 2250,
+      "repairSpeedMultiplier": 0.67,
+      "maxStack": 1,
+      "damageEntity": "Buildable.AirRaidShelter",
+      "size": [
+        7.11,
+        7.23,
+        3.16
+      ],
+      "tools": [],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds"
+      ]
+    },
+    {
+      "id": "Id.Buildable.AirRaidShelter.Floor",
+      "name": "Air Raid Shelter Floor",
+      "icon": "Buildables/Data/Buildables/AirRaidShelter/T_UI_Buildable_AirRaidShelter_BC.png",
+      "cost": 10,
+      "maxHealth": 2250,
+      "repairSpeedMultiplier": 0.67,
+      "maxStack": 1,
+      "damageEntity": "Buildable.AirRaidShelter",
+      "size": [
+        7.29,
+        7.42,
+        0.1
+      ],
+      "tools": [],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds"
+      ]
+    },
+    {
+      "id": "Id.Buildable.BarbedWire",
+      "name": "Barbed Wire",
+      "icon": "Buildables/Data/Buildables/BarbedWire/T_UI_Buildable_BarbedWire.png",
+      "cost": 7,
+      "maxHealth": 250,
+      "repairSpeedMultiplier": 0.47,
+      "maxStack": 100,
+      "damageEntity": "Buildable.BarbedWire",
+      "size": [
+        2.06,
+        2.75,
+        1.53
+      ],
+      "tools": [
+        "LargeHammer",
+        "MediumHammer",
+        "SmallHammer"
+      ],
+      "placementRules": [
+        "SafeZone",
+        "WithinLadderBounds",
+        "NotInsideEnemyFobBounds"
+      ]
+    },
+    {
+      "id": "Id.Buildable.BremmerWall",
+      "name": "Bremer Wall",
+      "icon": "UI/Shared/Icons/Buildables/T_UI_Buidable_Bremerwall.png",
+      "cost": 15,
+      "maxHealth": 6500,
+      "maxStack": 1,
+      "damageEntity": "Buildable.BremmerWall",
+      "size": [
+        1.59,
+        1.61,
+        5.1
+      ],
+      "tools": [
+        "LargeHammer"
+      ],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds",
+        "SafeZone"
+      ]
+    },
+    {
+      "id": "Id.Buildable.Bunker",
+      "name": "Bunker",
+      "icon": "Buildables/Data/Buildables/SandbagWall/T_UI_Buildable_SandbagWall.png",
+      "cost": 100,
+      "maxHealth": 5000,
+      "repairSpeedMultiplier": 6.67,
+      "damageEntity": "Buildable.Bunker",
+      "size": [
+        1.5,
+        1.5,
+        3
+      ],
+      "tools": [
+        "LargeHammer"
+      ],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds",
+        "SafeZone"
+      ]
+    },
+    {
+      "id": "Id.Buildable.Bunker.Floor",
+      "name": "Bunker",
+      "icon": "Buildables/Data/Buildables/SandbagWall/T_UI_Buildable_SandbagWall.png",
+      "cost": 10,
+      "maxHealth": 2250,
+      "repairSpeedMultiplier": 0.67,
+      "damageEntity": "Buildable.Bunker",
+      "size": [
+        5.97,
+        5.95,
+        0.09
+      ],
+      "tools": [],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds"
+      ]
+    },
+    {
+      "id": "Id.Buildable.Bunker.Roof",
+      "name": "Bunker",
+      "icon": "Buildables/Data/Buildables/SandbagWall/T_UI_Buildable_SandbagWall.png",
+      "cost": 10,
+      "maxHealth": 2250,
+      "repairSpeedMultiplier": 0.67,
+      "damageEntity": "Buildable.Bunker",
+      "size": [
+        7.5,
+        7.34,
+        3.26
+      ],
+      "tools": [],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds"
+      ]
+    },
+    {
+      "id": "Id.Buildable.CamoNetTent",
+      "name": "Recon Tent",
+      "icon": "Buildables/Data/Buildables/CamoNetTent/T_UI_Buidable_camonettent_512x512_BC.png",
+      "cost": 7,
+      "maxHealth": 300,
+      "repairSpeedMultiplier": 0.47,
+      "maxStack": 100,
+      "damageEntity": "Buildable.CamoTent",
+      "size": [
+        2.12,
+        3.42,
+        0.95
+      ],
+      "tools": [
+        "LargeHammer",
+        "MediumHammer",
+        "SmallHammer"
+      ],
+      "placementRules": [
+        "SafeZone",
+        "WithinLadderBounds",
+        "NotInsideEnemyFobBounds"
+      ]
+    },
+    {
+      "id": "Id.Buildable.CrowsNest",
+      "name": "Recon Tower",
+      "icon": "Buildables/Data/Buildables/CrowsNest/T_UI_Buidable_Crowsnest_BC.png",
+      "cost": 100,
+      "maxHealth": 5000,
+      "repairSpeedMultiplier": 6.67,
+      "damageEntity": "Buildable.CrowsNest",
+      "size": [
+        1.5,
+        1.5,
+        3
+      ],
+      "tools": [
+        "LargeHammer"
+      ],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds",
+        "SafeZone"
+      ]
+    },
+    {
+      "id": "Id.Buildable.CrowsNest.BaseFloor",
+      "name": "CrowsNest",
+      "cost": 10,
+      "maxHealth": 2250,
+      "repairSpeedMultiplier": 0.67,
+      "damageEntity": "Buildable.CrowsNest",
+      "size": [
+        2.97,
+        6.18,
+        0.13
+      ],
+      "tools": [],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds"
+      ]
+    },
+    {
+      "id": "Id.Buildable.CrowsNest.FirstFloor",
+      "name": "CrowsNest",
+      "cost": 10,
+      "maxHealth": 2250,
+      "repairSpeedMultiplier": 0.67,
+      "damageEntity": "Buildable.CrowsNest",
+      "size": [
+        6.32,
+        6.27,
+        3.83
+      ],
+      "tools": [],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds"
+      ]
+    },
+    {
+      "id": "Id.Buildable.CrowsNest.Roof",
+      "name": "CrowsNest",
+      "cost": 10,
+      "maxHealth": 2250,
+      "repairSpeedMultiplier": 0.67,
+      "damageEntity": "Buildable.CrowsNest",
+      "size": [
+        7.33,
+        7.54,
+        3.16
+      ],
+      "tools": [],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds"
+      ]
+    },
+    {
+      "id": "Id.Buildable.Door",
+      "name": "Door",
+      "icon": "Buildables/Data/Buildables/BarrierDoor/T_UI_Buidable_Door_512x512.png",
+      "cost": 22,
+      "maxHealth": 500,
+      "repairSpeedMultiplier": 1.47,
+      "damageEntity": "Buildable.Door",
+      "size": [
+        4.45,
+        1.68,
+        4
+      ],
+      "tools": [
+        "LargeHammer",
+        "MediumHammer"
+      ],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds"
+      ]
+    },
+    {
+      "id": "Id.Buildable.Door.TopSegment",
+      "name": "Door",
+      "cost": 22,
+      "maxHealth": 500,
+      "repairSpeedMultiplier": 1.47,
+      "damageEntity": "Buildable.Door",
+      "size": [
+        4.45,
+        1.68,
+        4
+      ],
+      "tools": [],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds"
+      ]
+    },
+    {
+      "id": "Id.Buildable.FOB",
+      "name": "Forward Operating Base",
+      "icon": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_FOB_Textured_512x512_TEMP.png",
+      "cost": 30,
+      "maxHealth": 15000,
+      "repairSpeedMultiplier": 2,
+      "maxStack": 1,
+      "damageEntity": "Buildable.FOB",
+      "size": [
+        3.67,
+        3.67,
+        13.07
+      ],
+      "tools": [],
+      "placementRules": [
+        "Fob",
+        "SafeZone",
+        "WithinLadderBounds"
+      ]
+    },
+    {
+      "id": "Id.Buildable.Gate",
+      "name": "Gate",
+      "icon": "Buildables/Data/Buildables/HBlock_Gate_6x2/t_ui_icon_hesco_gate.png",
+      "cost": 85,
+      "maxHealth": 5320,
+      "repairSpeedMultiplier": 5.67,
+      "damageEntity": "Buildable.HescoGate",
+      "size": [
+        1.58,
+        9.08,
+        3.77
+      ],
+      "tools": [
+        "LargeHammer",
+        "MediumHammer"
+      ],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds"
+      ]
+    },
+    {
+      "id": "Id.Buildable.Gate.Ramp",
+      "name": "Gate",
+      "cost": 85,
+      "maxHealth": 6500,
+      "repairSpeedMultiplier": 5.67,
+      "damageEntity": "Buildable.HescoGate",
+      "size": [
+        1.58,
+        9.08,
+        3.77
+      ],
+      "tools": [],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds"
+      ]
+    },
+    {
+      "id": "Id.Buildable.HBlock",
+      "name": "Hesco Block (Small)",
+      "icon": "Buildables/Data/Buildables/HBlock/T_UI_Buildable_HBlock.png",
+      "cost": 15,
+      "maxHealth": 1600,
+      "maxStack": 5,
+      "damageEntity": "Buildable.SmallHesco",
+      "size": [
+        1.6,
+        1.62,
+        1.6
+      ],
+      "tools": [
+        "LargeHammer",
+        "MediumHammer",
+        "SmallHammer"
+      ],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds",
+        "SafeZone"
+      ]
+    },
+    {
+      "id": "Id.Buildable.HBlockQuadWall",
+      "name": "Hesco Wall",
+      "icon": "Buildables/Data/Buildables/HBlock_QuadWall/t_ui_icon_hesco_quad.png",
+      "cost": 75,
+      "maxHealth": 4600,
+      "repairSpeedMultiplier": 5,
+      "damageEntity": "Buildable.QuadLargeHescoWall",
+      "size": [
+        1.5,
+        6,
+        3.11
+      ],
+      "tools": [
+        "LargeHammer",
+        "MediumHammer"
+      ],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds",
+        "SafeZone"
+      ]
+    },
+    {
+      "id": "Id.Buildable.Loudspeaker",
+      "name": "Loudspeaker",
+      "icon": "UI/Shared/Icons/Buildables/T_UI_Buidable_Speaker.png",
+      "cost": 100,
+      "maxHealth": 1000,
+      "repairSpeedMultiplier": 6.67,
+      "size": [
+        3.15,
+        3.33,
+        8.13
+      ],
+      "tools": [],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds",
+        "SafeZone"
+      ]
+    },
+    {
+      "id": "Id.Buildable.MistralAA",
+      "name": "Talon 9K-SAM",
+      "icon": "UI/Shared/Icons/Buildables/T_UI_Buidable_Mistral.png",
+      "cost": 1000,
+      "maxHealth": 3000,
+      "repairSpeedMultiplier": 66.67,
+      "maxStack": 6,
+      "size": [
+        3.56,
+        3.27,
+        2.26
+      ],
+      "tools": [],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds",
+        "SafeZone"
+      ]
+    },
+    {
+      "id": "Id.Buildable.Mortar",
+      "name": "L81 Mortar",
+      "icon": "UI/Shared/Icons/Buildables/T_UI_Buidable_Mortor.png",
+      "cost": 150,
+      "maxHealth": 3000,
+      "repairSpeedMultiplier": 10,
+      "maxStack": 6,
+      "damageEntity": "Vehicle.Stationary.Mortar",
+      "size": [
+        4.82,
+        4.55,
+        1.51
+      ],
+      "tools": [],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds",
+        "SafeZone"
+      ]
+    },
+    {
+      "id": "Id.Buildable.Phalanx",
+      "name": "Vanguard CIWS",
+      "icon": "UI/Shared/Icons/Buildables/T_UI_Buidable_Phalanx.png",
+      "cost": 1500,
+      "maxHealth": 5000,
+      "repairSpeedMultiplier": 100,
+      "maxStack": 6,
+      "size": [
+        6.48,
+        6.68,
+        6.71
+      ],
+      "tools": [],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds",
+        "SafeZone"
+      ]
+    },
+    {
+      "id": "Id.Buildable.Radio",
+      "name": "Builder's Radio",
+      "icon": "UI/Shared/Icons/Buildables/T_UI_Buidable_Radio.png",
+      "cost": 20,
+      "maxHealth": 1000,
+      "repairSpeedMultiplier": 1.33,
+      "maxStack": 6,
+      "damageEntity": "Buildable.Radio",
+      "size": [
+        1.94,
+        3.41,
+        2.44
+      ],
+      "tools": [
+        "LargeHammer",
+        "MediumHammer",
+        "SmallHammer"
+      ],
+      "placementRules": [
+        "WithinFobBounds",
+        "LimitedByFOBCondition",
+        "WithinLadderBounds",
+        "SafeZone"
+      ]
+    },
+    {
+      "id": "Id.Buildable.RefuelStation",
+      "name": "Refuel Station",
+      "cost": 200,
+      "maxHealth": 1600,
+      "repairSpeedMultiplier": 13.33,
+      "maxStack": 100,
+      "damageEntity": "Buildable.RefuelStation",
+      "size": [
+        3.07,
+        3.26,
+        3.16
+      ],
+      "tools": [
+        "LargeHammer"
+      ],
+      "placementRules": [
+        "WithinFobBounds",
+        "LimitedByFOBCondition",
+        "WithinLadderBounds",
+        "SafeZone"
+      ]
+    },
+    {
+      "id": "Id.Buildable.RepairStation",
+      "name": "Repair Station",
+      "cost": 200,
+      "maxHealth": 1600,
+      "repairSpeedMultiplier": 13.33,
+      "maxStack": 100,
+      "damageEntity": "Buildable.RepairStation",
+      "size": [
+        3.43,
+        3.88,
+        1.91
+      ],
+      "tools": [
+        "LargeHammer"
+      ],
+      "placementRules": [
+        "WithinFobBounds",
+        "LimitedByFOBCondition",
+        "WithinLadderBounds",
+        "SafeZone"
+      ]
+    },
+    {
+      "id": "Id.Buildable.SandbagWall",
+      "name": "Sandbag Wall",
+      "icon": "Buildables/Data/Buildables/SandbagWall/T_UI_Buildable_SandbagWall.png",
+      "cost": 15,
+      "maxHealth": 735,
+      "maxStack": 100,
+      "damageEntity": "Buildable.SandbagWall",
+      "size": [
+        2.96,
+        0.3,
+        1.05
+      ],
+      "tools": [
+        "LargeHammer",
+        "MediumHammer",
+        "SmallHammer"
+      ],
+      "placementRules": [
+        "SafeZone",
+        "WithinLadderBounds",
+        "NotInsideEnemyFobBounds"
+      ]
+    },
+    {
+      "id": "Id.Buildable.STN_05",
+      "name": "Stingray",
+      "cost": 150,
+      "maxHealth": 3000,
+      "repairSpeedMultiplier": 10,
+      "maxStack": 6,
+      "damageEntity": "Vehicle.Stationary.STN_05",
+      "size": [
+        4.82,
+        4.55,
+        1.51
+      ],
+      "tools": [],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds",
+        "SafeZone"
+      ]
+    },
+    {
+      "id": "Id.Buildable.TallHBlock",
+      "name": "Hesco Block (Large)",
+      "icon": "Buildables/Data/Buildables/TallHBlock/T_UI_Buildable_TallHBlock.png",
+      "cost": 22,
+      "maxHealth": 2250,
+      "repairSpeedMultiplier": 1.47,
+      "damageEntity": "Buildable.LargeHesco",
+      "size": [
+        1.54,
+        1.55,
+        3.12
+      ],
+      "tools": [
+        "LargeHammer",
+        "MediumHammer"
+      ],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds",
+        "SafeZone"
+      ]
+    },
+    {
+      "id": "Id.Buildable.TankTrap",
+      "name": "Hedgehog",
+      "icon": "Buildables/Data/Buildables/TankTrap/T_UI_Buildable_TankTrap.png",
+      "cost": 22,
+      "maxHealth": 4500,
+      "repairSpeedMultiplier": 1.47,
+      "maxStack": 100,
+      "damageEntity": "Buildable.TankTrap",
+      "size": [
+        2.19,
+        2.12,
+        1.87
+      ],
+      "tools": [
+        "LargeHammer",
+        "MediumHammer",
+        "SmallHammer"
+      ],
+      "placementRules": [
+        "SafeZone",
+        "WithinLadderBounds",
+        "NotInsideEnemyFobBounds"
+      ]
+    }
+  ]
+}

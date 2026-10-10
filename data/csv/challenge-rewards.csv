@@ -1,0 +1,470 @@
+reward,resource,formula,inputs
+Buildables.BuildableDamaged,Currency.Cash,BaseValue * AlignmentModifier,BaseValue;AlignmentModifier
+Buildables.BuildableDestroyed.AirRaidShelter,Currency.Cash,(BaseValue * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * BuildProgress * AssistCurve * AssistScalar) + (BaseValue * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * BuildProgress * AssistCurve * AssistScalar),BaseValue;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar;BuildProgress
+Buildables.BuildableDestroyed.AirRaidShelter,XP.Role,(BaseReward),BaseReward
+Buildables.BuildableDestroyed.BarbedWire,Currency.Cash,(BaseValue * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * BuildProgress * AssistCurve * AssistScalar) + (BaseValue * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * BuildProgress * AssistCurve * AssistScalar),BaseValue;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar;BuildProgress
+Buildables.BuildableDestroyed.BarbedWire,XP.Role,(BaseReward),BaseReward
+Buildables.BuildableDestroyed.BremmerWall,Currency.Cash,(BaseValue * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * BuildProgress * AssistCurve * AssistScalar) + (BaseValue * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * BuildProgress * AssistCurve * AssistScalar),BaseValue;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar;BuildProgress
+Buildables.BuildableDestroyed.BremmerWall,XP.Role,(BaseReward),BaseReward
+Buildables.BuildableDestroyed.Bunker,Currency.Cash,(BaseValue * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * BuildProgress * AssistCurve * AssistScalar) + (BaseValue * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * BuildProgress * AssistCurve * AssistScalar),BaseValue;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar;BuildProgress
+Buildables.BuildableDestroyed.Bunker,XP.Role,(BaseReward),BaseReward
+Buildables.BuildableDestroyed.CamoNetTent,Currency.Cash,(BaseValue * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * BuildProgress * AssistCurve * AssistScalar) + (BaseValue * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * BuildProgress * AssistCurve * AssistScalar),BaseValue;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar;BuildProgress
+Buildables.BuildableDestroyed.CamoNetTent,XP.Role,(BaseReward),BaseReward
+Buildables.BuildableDestroyed.CrowsNest,Currency.Cash,(BaseValue * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * BuildProgress * AssistCurve * AssistScalar) + (BaseValue * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * BuildProgress * AssistCurve * AssistScalar),BaseValue;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar;BuildProgress
+Buildables.BuildableDestroyed.CrowsNest,XP.Role,(BaseReward),BaseReward
+Buildables.BuildableDestroyed.FloorBoard,Currency.Cash,(BaseValue * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * BuildProgress * AssistCurve * AssistScalar) + (BaseValue * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * BuildProgress * AssistCurve * AssistScalar),BaseValue;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar;BuildProgress
+Buildables.BuildableDestroyed.FloorBoard,XP.Role,(BaseReward),BaseReward
+Buildables.BuildableDestroyed.FOB,Currency.Cash,(BaseValue * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * BuildProgress * AssistCurve * AssistScalar) + (BaseValue * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * BuildProgress * AssistCurve * AssistScalar),BaseValue;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar;BuildProgress
+Buildables.BuildableDestroyed.FOB,XP.Role,(BaseReward),BaseReward
+Buildables.BuildableDestroyed.Gate,Currency.Cash,(BaseValue * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * BuildProgress * AssistCurve * AssistScalar) + (BaseValue * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * BuildProgress * AssistCurve * AssistScalar),BaseValue;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar;BuildProgress
+Buildables.BuildableDestroyed.Gate,XP.Role,(BaseReward),BaseReward
+Buildables.BuildableDestroyed.HBlock,Currency.Cash,(BaseValue * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * BuildProgress * AssistCurve * AssistScalar) + (BaseValue * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * BuildProgress * AssistCurve * AssistScalar),BaseValue;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar;BuildProgress
+Buildables.BuildableDestroyed.HBlock,XP.Role,(BaseReward),BaseReward
+Buildables.BuildableDestroyed.HBlockQuadWall,Currency.Cash,(BaseValue * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * BuildProgress * AssistCurve * AssistScalar) + (BaseValue * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * BuildProgress * AssistCurve * AssistScalar),BaseValue;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar;BuildProgress
+Buildables.BuildableDestroyed.HBlockQuadWall,XP.Role,(BaseReward),BaseReward
+Buildables.BuildableDestroyed.HotZoneMagnet,Currency.Cash,(BaseValue * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * BuildProgress * AssistCurve * AssistScalar) + (BaseValue * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * BuildProgress * AssistCurve * AssistScalar),BaseValue;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar;BuildProgress
+Buildables.BuildableDestroyed.HotZoneMagnet,XP.Role,(BaseReward),BaseReward
+Buildables.BuildableDestroyed.Radio,Currency.Cash,(BaseValue * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * BuildProgress * AssistCurve * AssistScalar) + (BaseValue * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * BuildProgress * AssistCurve * AssistScalar),BaseValue;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar;BuildProgress
+Buildables.BuildableDestroyed.Radio,XP.Role,(BaseReward),BaseReward
+Buildables.BuildableDestroyed.Ramp,Currency.Cash,(BaseValue * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * BuildProgress * AssistCurve * AssistScalar) + (BaseValue * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * BuildProgress * AssistCurve * AssistScalar),BaseValue;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar;BuildProgress
+Buildables.BuildableDestroyed.Ramp,XP.Role,(BaseReward),BaseReward
+Buildables.BuildableDestroyed.RepairStation,Currency.Cash,(BaseValue * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * BuildProgress * AssistCurve * AssistScalar) + (BaseValue * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * BuildProgress * AssistCurve * AssistScalar),BaseValue;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar;BuildProgress
+Buildables.BuildableDestroyed.RepairStation,XP.Role,(BaseReward),BaseReward
+Buildables.BuildableDestroyed.SandbagWall,Currency.Cash,(BaseValue * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * BuildProgress * AssistCurve * AssistScalar) + (BaseValue * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * BuildProgress * AssistCurve * AssistScalar),BaseValue;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar;BuildProgress
+Buildables.BuildableDestroyed.SandbagWall,XP.Role,(BaseReward),BaseReward
+Buildables.BuildableDestroyed.TallHBlock,Currency.Cash,(BaseValue * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * BuildProgress * AssistCurve * AssistScalar) + (BaseValue * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * BuildProgress * AssistCurve * AssistScalar),BaseValue;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar;BuildProgress
+Buildables.BuildableDestroyed.TallHBlock,XP.Role,(BaseReward),BaseReward
+Buildables.BuildableDestroyed.TankTrap,Currency.Cash,(BaseValue * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * BuildProgress * AssistCurve * AssistScalar) + (BaseValue * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * BuildProgress * AssistCurve * AssistScalar),BaseValue;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar;BuildProgress
+Buildables.BuildableDestroyed.TankTrap,XP.Role,(BaseReward),BaseReward
+Buildables.BuildableDestroyed.WindowBoard,Currency.Cash,(BaseValue * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * BuildProgress * AssistCurve * AssistScalar) + (BaseValue * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * BuildProgress * AssistCurve * AssistScalar),BaseValue;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar;BuildProgress
+Buildables.BuildableDestroyed.WindowBoard,XP.Role,(BaseReward),BaseReward
+Buildables.BuildableFinished,Currency.Cash,((BuildCost * BaseReward) * InstigatorZoneModifier) + SchematicOwnerModifier,BaseReward;SchematicOwnerModifier;InstigatorZoneModifier;BuildCost
+Buildables.BuildableFinished,XP.Role,BuildCost * BaseReward,BaseReward;BuildCost
+Buildables.Building,Currency.Cash,BuildAmount * BaseReward * InstigatorZoneModifier,BuildAmount;BaseReward;InstigatorZoneModifier
+Buildables.Building,XP.Role,BuildAmount * BaseReward,BaseReward;BuildAmount
+Buildables.BuildSuppliesConsumed.Instigator,Currency.Cash,DefaultValue  * InstigatorZoneModifier,DefaultValue;InstigatorZoneModifier
+Buildables.BuildSuppliesConsumed.Instigator,XP.Role,(BaseReward),BaseReward
+Buildables.BuildSuppliesConsumed.Owner,Currency.Cash,DefaultValue * BuildSuppliesDeposited  * InstigatorZoneModifier,DefaultValue;BuildSuppliesDeposited;InstigatorZoneModifier
+Buildables.BuildSuppliesConsumed.Owner,XP.Role,BaseReward * BuildSuppliesDeposited * InstigatorZoneModifier,BaseReward;BuildSuppliesDeposited;InstigatorZoneModifier
+Buildables.BuildSuppliesDeposited.Interactor,Currency.Cash,DefaultValue * BuildSuppliesDeposited * InstigatorZoneModifier,DefaultValue;InstigatorZoneModifier;BuildSuppliesDeposited
+Buildables.BuildSuppliesDeposited.Interactor,XP.Role,BaseReward  * BuildSuppliesDeposited  * InstigatorZoneModifier,BaseReward;BuildSuppliesDeposited;InstigatorZoneModifier
+Buildables.BuildSuppliesDeposited.Owner,Currency.Cash,DefaultValue * BuildSuppliesDeposited * InstigatorZoneModifier,DefaultValue;BuildSuppliesDeposited;InstigatorZoneModifier
+Buildables.BuildSuppliesDeposited.Owner,XP.Role,BaseReward * BuildSuppliesDeposited  * InstigatorZoneModifier,BaseReward;BuildSuppliesDeposited;InstigatorZoneModifier
+Buildables.FOBHacked,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseValue * InstigatorZoneModifier)",BaseValue;InstigatorZoneModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Buildables.FOBHacked,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseValue)",BaseValue;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Buildables.FOBOwnerPayed,Currency.Cash,DefaultValue * CashSpent,DefaultValue;CashSpent
+Buildables.SchematicPlaced,Currency.Cash,DefaultValue * InstigatorZoneModifier,DefaultValue;InstigatorZoneModifier
+DeployOnVehicle,Currency.Cash,BaseReward,BaseReward
+DeploySupplyCrate,Currency.Cash,BaseReward * TargetZoneModifier,BaseReward;TargetZoneModifier
+DeploySupplyCrate,XP.Role,(BaseReward * TargetZoneModifier),BaseReward;TargetZoneModifier
+DestroySupplyCrate.Free,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier ,BaseReward;AlignmentModifier;TargetZoneModifier
+DestroySupplyCrate.Free,XP.Role,(BaseReward),BaseReward
+DestroySupplyCrate.Large,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier ,BaseReward;AlignmentModifier;TargetZoneModifier
+DestroySupplyCrate.Large,XP.Role,(BaseReward),BaseReward
+DestroySupplyCrate.Large.Armoured,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier ,BaseReward;AlignmentModifier;TargetZoneModifier
+DestroySupplyCrate.Large.Armoured,XP.Role,(BaseReward),BaseReward
+DestroySupplyCrate.Pallet,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier ,BaseReward;AlignmentModifier;TargetZoneModifier
+DestroySupplyCrate.Pallet,XP.Role,(BaseReward),BaseReward
+DestroySupplyCrate.Small,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier ,BaseReward;AlignmentModifier;TargetZoneModifier
+DestroySupplyCrate.Small,XP.Role,(BaseReward),BaseReward
+DestroySupplyCrate.Small.Armoured,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier ,BaseReward;AlignmentModifier;TargetZoneModifier
+DestroySupplyCrate.Small.Armoured,XP.Role,(BaseReward),BaseReward
+DestroyThrowable,Currency.Cash,(BaseReward * ZoneModifier) * AlignmentModifier ,BaseReward;ZoneModifier;AlignmentModifier
+DestroyThrowable,XP.Role,(BaseReward),BaseReward
+DestroyVehicleSection.Blackhawk,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar
+DestroyVehicleSection.Blackhawk,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward) * AlignmentModifier)",BaseReward;AlignmentModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+DestroyVehicleSection.Bobcat,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar
+DestroyVehicleSection.Bobcat,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward) * AlignmentModifier)",BaseReward;AlignmentModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+DestroyVehicleSection.CrewAssist,Currency.Cash,BaseReward * CrewModifier,BaseReward;CrewModifier
+DestroyVehicleSection.CrewAssist,XP.Role,(BaseReward),BaseReward
+DestroyVehicleSection.DuneBuggy,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar
+DestroyVehicleSection.DuneBuggy,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward) * AlignmentModifier)",BaseReward;AlignmentModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+DestroyVehicleSection.Havoc,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar
+DestroyVehicleSection.Havoc,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward) * AlignmentModifier)",BaseReward;AlignmentModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+DestroyVehicleSection.Huey,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar
+DestroyVehicleSection.Huey,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward) * AlignmentModifier)",BaseReward;AlignmentModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+DestroyVehicleSection.Humvee,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar
+DestroyVehicleSection.Humvee,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward) * AlignmentModifier)",BaseReward;AlignmentModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+DestroyVehicleSection.Kodiak,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar
+DestroyVehicleSection.Kodiak,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward) * AlignmentModifier)",BaseReward;AlignmentModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+DestroyVehicleSection.LittleBird,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar
+DestroyVehicleSection.LittleBird,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward) * AlignmentModifier)",BaseReward;AlignmentModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+DestroyVehicleSection.LogisticAssist,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+DestroyVehicleSection.LogisticAssist,XP.Role,(BaseReward),BaseReward
+DestroyVehicleSection.ReviveAssist,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+DestroyVehicleSection.ReviveAssist,XP.Role,(BaseReward),BaseReward
+DestroyVehicleSection.SpawnVehicle,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar
+DestroyVehicleSection.SpawnVehicle,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+DestroyVehicleSection.SupplyCrateAssist,Currency.Cash,BaseReward * SupplyCrateModifier,BaseReward;SupplyCrateModifier
+DestroyVehicleSection.SupplyCrateAssist,XP.Role,(BaseReward),BaseReward
+DestroyVehicleSection.TNK_01.AntiAir,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar
+DestroyVehicleSection.TNK_01.AntiAir,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward) * AlignmentModifier)",BaseReward;AlignmentModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+DestroyVehicleSection.TNK_01.Artillery,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar
+DestroyVehicleSection.TNK_01.Artillery,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward) * AlignmentModifier)",BaseReward;AlignmentModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+DestroyVehicleSection.TNK_01.Heavy,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar
+DestroyVehicleSection.TNK_01.Heavy,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward) * AlignmentModifier)",BaseReward;AlignmentModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+DestroyVehicleSection.Ural,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistCurve;AssistScalar
+DestroyVehicleSection.Ural,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward) * AlignmentModifier)",BaseReward;AlignmentModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+EndOfMatchFactionReward.Bonus,Currency.Cash,(CashEarned) * PlacementModifier,CashEarned;PlacementModifier
+EndOfMatchFactionReward.Bonus,XP.Role.Driver,(XPEarned) * PlacementModifier,XPEarned;PlacementModifier
+EndOfMatchFactionReward.Bonus,XP.Role.Infantry,(XPEarned) * PlacementModifier,XPEarned;PlacementModifier
+EndOfMatchFactionReward.Bonus,XP.Role.Medic,(XPEarned) * PlacementModifier,XPEarned;PlacementModifier
+EndOfMatchFactionReward.Bonus,XP.Role.Pilot,(XPEarned) * PlacementModifier,XPEarned;PlacementModifier
+EndOfMatchFactionReward.Bonus,XP.Role.Recon,(XPEarned) * PlacementModifier,XPEarned;PlacementModifier
+EndOfMatchFactionReward.Bonus,XP.Role.Support,(XPEarned) * PlacementModifier,XPEarned;PlacementModifier
+EndOfMatchFactionReward.FirstPlace,Currency.Cash,1000,
+EndOfMatchFactionReward.SecondPlace,Currency.Cash,500,
+EndOfMatchFactionReward.ThirdPlace,Currency.Cash,250,
+HealPlayer,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseValue * InstigatorZoneModifier * InstigatorZoneWeight * ScaleFactor) + (BaseValue * TargetZoneModifier * TargetZoneWeight * ScaleFactor))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseValue;InstigatorZoneModifier;InstigatorZoneWeight;ScaleFactor;TargetZoneModifier;TargetZoneWeight
+HealPlayer,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+HealPlayer.AdrenalinePen,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseValue * InstigatorZoneModifier * InstigatorZoneWeight) + (BaseValue * TargetZoneModifier * TargetZoneWeight))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseValue;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight
+HealPlayer.AdrenalinePen,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+HealPlayer.Bandage,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseValue * InstigatorZoneModifier * InstigatorZoneWeight * ScaleFactor) + (BaseValue * TargetZoneModifier * TargetZoneWeight * ScaleFactor))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseValue;InstigatorZoneModifier;InstigatorZoneWeight;ScaleFactor;TargetZoneModifier;TargetZoneWeight
+HealPlayer.Bandage,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+HealPlayer.Defibrillator,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseValue * InstigatorZoneModifier * InstigatorZoneWeight * ScaleFactor) + (BaseValue * TargetZoneModifier * TargetZoneWeight * ScaleFactor))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseValue;InstigatorZoneModifier;InstigatorZoneWeight;ScaleFactor;TargetZoneModifier;TargetZoneWeight
+HealPlayer.Defibrillator,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+HealPlayer.LogisticAssist,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+HealPlayer.LogisticAssist,XP.Role,(BaseReward),BaseReward
+HealPlayer.LogisticAssist.AdrenalinePen,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+HealPlayer.LogisticAssist.AdrenalinePen,XP.Role,(BaseReward),BaseReward
+HealPlayer.LogisticAssist.Bandage,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+HealPlayer.LogisticAssist.Bandage,XP.Role,(BaseReward),BaseReward
+HealPlayer.LogisticAssist.Defibrillator,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+HealPlayer.LogisticAssist.Defibrillator,XP.Role,(BaseReward),BaseReward
+HealPlayer.LogisticAssist.MedKit,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+HealPlayer.LogisticAssist.MedKit,XP.Role,(BaseReward),BaseReward
+HealPlayer.LogisticAssist.StimPen,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+HealPlayer.LogisticAssist.StimPen,XP.Role,(BaseReward),BaseReward
+HealPlayer.LogisticAssist.SuperBandage,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+HealPlayer.LogisticAssist.SuperBandage,XP.Role,(BaseReward),BaseReward
+HealPlayer.MedKit,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseValue * InstigatorZoneModifier * InstigatorZoneWeight * ScaleFactor) + (BaseValue * TargetZoneModifier * TargetZoneWeight * ScaleFactor))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseValue;InstigatorZoneModifier;InstigatorZoneWeight;ScaleFactor;TargetZoneModifier;TargetZoneWeight
+HealPlayer.MedKit,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+HealPlayer.ReviveAssist,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+HealPlayer.ReviveAssist,XP.Role,(BaseReward),BaseReward
+HealPlayer.ReviveAssist.AdrenalinePen,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+HealPlayer.ReviveAssist.AdrenalinePen,XP.Role,(BaseReward),BaseReward
+HealPlayer.ReviveAssist.Bandage,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+HealPlayer.ReviveAssist.Bandage,XP.Role,(BaseReward),BaseReward
+HealPlayer.ReviveAssist.Defibrillator,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+HealPlayer.ReviveAssist.Defibrillator,XP.Role,(BaseReward),BaseReward
+HealPlayer.ReviveAssist.MedKit,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+HealPlayer.ReviveAssist.MedKit,XP.Role,(BaseReward),BaseReward
+HealPlayer.ReviveAssist.StimPen,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+HealPlayer.ReviveAssist.StimPen,XP.Role,(BaseReward),BaseReward
+HealPlayer.ReviveAssist.SuperBandage,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+HealPlayer.ReviveAssist.SuperBandage,XP.Role,(BaseReward),BaseReward
+HealPlayer.StimPen,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseValue * InstigatorZoneModifier * InstigatorZoneWeight) + (BaseValue * TargetZoneModifier * TargetZoneWeight))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseValue;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight
+HealPlayer.StimPen,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+HealPlayer.SuperBandage,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseValue * InstigatorZoneModifier * InstigatorZoneWeight * ScaleFactor) + (BaseValue * TargetZoneModifier * TargetZoneWeight * ScaleFactor))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseValue;InstigatorZoneModifier;InstigatorZoneWeight;ScaleFactor;TargetZoneModifier;TargetZoneWeight
+HealPlayer.SuperBandage,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+HealPlayer.SupplyCrateAssist,Currency.Cash,BaseReward * SupplyCrateModifier,BaseReward;SupplyCrateModifier
+HealPlayer.SupplyCrateAssist,XP.Role,(BaseReward),BaseReward
+HotZoneMagnet.MagnetActivated,Currency.Cash,(BaseReward),BaseReward
+HotZoneMagnet.MagnetActivated,XP.Role,(BaseReward),BaseReward
+HotZoneMagnet.MagnetDeactivated,Currency.Cash,(BaseReward),BaseReward
+HotZoneMagnet.TowerCaptured,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward * HostileModifier)",BaseReward;HostileModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+HotZoneMagnet.TowerCaptured,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+PassengerSurvived,Currency.Cash,BaseReward * ZoneModifier,BaseReward;ZoneModifier
+PassengerSurvived,XP.Role,(BaseReward),BaseReward
+PlayerDelivered,Currency.Cash,(BaseReward * ZoneModifier) * (PlayerCount),BaseReward;ZoneModifier;PlayerCount
+PlayerDelivered,XP.Role,(BaseReward),BaseReward
+PlayerKill,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((((BaseReward + (clamp(KillStreak - 1, 0, KillStreakMax) * KillStreakValue)) * InstigatorZoneModifier * InstigatorWeight) + ((BaseReward + (clamp(KillStreak - 1, 0, KillStreakMax) * KillStreakValue)) * TargetZoneModifier * TargetWeight)) * DistanceToTarget * RevengeModifier * KillStreakStoppedModifier) * FriendlyModifier * pow(CrewPenaltyModifier, clamp(CrewCount - 1, 0, CrewCountMax))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseReward;InstigatorZoneModifier;InstigatorWeight;TargetZoneModifier;TargetWeight;DistanceToTarget;RevengeModifier;FriendlyModifier;KillStreakStoppedModifier;KillStreak;KillStreakMax;KillStreakValue;CrewPenaltyModifier;CrewCount;CrewCountMax
+PlayerKill,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+PlayerKill.Assist,Currency.Cash,(TotalRewardSelector * AssistScalingModifierSelector * CurveValueSelector) + (TotalRewardSelector * AssistBaseModifierSelector),TotalRewardSelector;AssistScalingModifierSelector;CurveValueSelector;AssistBaseModifierSelector
+PlayerKill.Assist,XP.Role,(BaseReward),BaseReward
+PlayerKill.Assist.CrewAssist,Currency.Cash,BaseReward * CrewModifier,BaseReward;CrewModifier
+PlayerKill.Assist.CrewAssist,XP.Role,(BaseReward),BaseReward
+PlayerKill.Assist.FOBSuppliedAssist,Currency.Cash,BaseReward * FOBSuppliedModifier,BaseReward;FOBSuppliedModifier
+PlayerKill.Assist.FOBSuppliedAssist,XP.Role,(BaseReward),BaseReward
+PlayerKill.Assist.LogisticAssist,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+PlayerKill.Assist.LogisticAssist,XP.Role,(BaseReward),BaseReward
+PlayerKill.Assist.ReviveAssist,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+PlayerKill.Assist.ReviveAssist,XP.Role,(BaseReward),BaseReward
+PlayerKill.Assist.SupplyCrateAssist,Currency.Cash,BaseReward * SupplyCrateModifier,BaseReward;SupplyCrateModifier
+PlayerKill.Assist.SupplyCrateAssist,XP.Role,(BaseReward),BaseReward
+PlayerKill.CrewAssist,Currency.Cash,BaseReward * CrewModifier,BaseReward;CrewModifier
+PlayerKill.CrewAssist,XP.Role,(BaseReward),BaseReward
+PlayerKill.FOBSuppliedAssist,Currency.Cash,BaseReward * FOBSuppliedModifier,BaseReward;FOBSuppliedModifier
+PlayerKill.FOBSuppliedAssist,XP.Role,(BaseReward),BaseReward
+PlayerKill.LogisticAssist,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+PlayerKill.LogisticAssist,XP.Role,(BaseReward),BaseReward
+PlayerKill.ReviveAssist,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+PlayerKill.ReviveAssist,XP.Role,(BaseReward),BaseReward
+PlayerKill.SupplyCrateAssist,Currency.Cash,BaseReward * SupplyCrateModifier,BaseReward;SupplyCrateModifier
+PlayerKill.SupplyCrateAssist,XP.Role,(BaseReward),BaseReward
+PurchaseFromSupplyCrate,Currency.Cash,PurchaseValue * MarkupMultiplier,PurchaseValue;MarkupMultiplier
+PurchaseFromSupplyCrate,XP.Role,PurchaseValue,PurchaseValue
+ReceivePreTip,Currency.Cash,(BaseReward) * PreTipValue,BaseReward;PreTipValue
+ReceiveTip,Currency.Cash,BaseReward,BaseReward
+RefuelVehicle,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseRewardValue * ZoneModifier * HostilityModifier)",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseRewardValue;ZoneModifier;HostilityModifier
+RefuelVehicle,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward) * HostilityModifier)",BaseReward;HostilityModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+RepairVehicle.Drill.Heavy,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseRewardValue * ZoneModifier * HostilityModifier * OwnerModifier)",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseRewardValue;ZoneModifier;HostilityModifier;OwnerModifier
+RepairVehicle.Drill.Heavy,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward) * HostilityModifier)",BaseReward;HostilityModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+RepairVehicle.Drill.Light,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseRewardValue * ZoneModifier * HostilityModifier * OwnerModifier)",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseRewardValue;ZoneModifier;HostilityModifier;OwnerModifier
+RepairVehicle.Drill.Light,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward) * HostilityModifier)",BaseReward;HostilityModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+RepairVehicle.Wrench.Standard,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseRewardValue * ZoneModifier * HostilityModifier * OwnerModifier)",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseRewardValue;ZoneModifier;HostilityModifier;OwnerModifier
+RepairVehicle.Wrench.Standard,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseReward) * HostilityModifier)",BaseReward;HostilityModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+RevivePlayer,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseValue * InstigatorZoneModifier * InstigatorZoneWeight * AssistScalar) + (BaseValue * TargetZoneModifier * TargetZoneWeight * AssistScalar))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseValue;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight;AssistScalar
+RevivePlayer,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward * AssistScalar)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;AssistScalar
+RevivePlayer.AdrenalinePen,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseValue * InstigatorZoneModifier * InstigatorZoneWeight) + (BaseValue * TargetZoneModifier * TargetZoneWeight))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseValue;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight
+RevivePlayer.AdrenalinePen,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+RevivePlayer.Defibrillator,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseValue * InstigatorZoneModifier * InstigatorZoneWeight) + (BaseValue * TargetZoneModifier * TargetZoneWeight))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseValue;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight
+RevivePlayer.Defibrillator,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+RevivePlayer.LogisticAssist,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+RevivePlayer.LogisticAssist,XP.Role,(BaseReward),BaseReward
+RevivePlayer.LogisticAssist.AdrenalinePen,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+RevivePlayer.LogisticAssist.AdrenalinePen,XP.Role,(BaseReward),BaseReward
+RevivePlayer.LogisticAssist.Defibrilator,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+RevivePlayer.LogisticAssist.Defibrilator,XP.Role,(BaseReward),BaseReward
+RevivePlayer.LogisticAssist.Medkit,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+RevivePlayer.LogisticAssist.Medkit,XP.Role,(BaseReward),BaseReward
+RevivePlayer.LogisticAssist.Resuscitator,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+RevivePlayer.LogisticAssist.Resuscitator,XP.Role,(BaseReward),BaseReward
+RevivePlayer.LogisticAssist.StimPen,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+RevivePlayer.LogisticAssist.StimPen,XP.Role,(BaseReward),BaseReward
+RevivePlayer.Medkit,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseValue * InstigatorZoneModifier * InstigatorZoneWeight) + (BaseValue * TargetZoneModifier * TargetZoneWeight))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseValue;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight
+RevivePlayer.Medkit,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+RevivePlayer.Resuscitator.Cheap,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseValue * InstigatorZoneModifier * InstigatorZoneWeight) + (BaseValue * TargetZoneModifier * TargetZoneWeight))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseValue;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight
+RevivePlayer.Resuscitator.Cheap,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+RevivePlayer.Resuscitator.Standard,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseValue * InstigatorZoneModifier * InstigatorZoneWeight) + (BaseValue * TargetZoneModifier * TargetZoneWeight))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseValue;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight
+RevivePlayer.Resuscitator.Standard,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+RevivePlayer.ReviveAssist,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+RevivePlayer.ReviveAssist,XP.Role,(BaseReward),BaseReward
+RevivePlayer.ReviveAssist.AdrenalinePen,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+RevivePlayer.ReviveAssist.AdrenalinePen,XP.Role,(BaseReward),BaseReward
+RevivePlayer.ReviveAssist.Defibrilator,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+RevivePlayer.ReviveAssist.Defibrilator,XP.Role,(BaseReward),BaseReward
+RevivePlayer.ReviveAssist.Medkit,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+RevivePlayer.ReviveAssist.Medkit,XP.Role,(BaseReward),BaseReward
+RevivePlayer.ReviveAssist.Resuscitator,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+RevivePlayer.ReviveAssist.Resuscitator,XP.Role,(BaseReward),BaseReward
+RevivePlayer.ReviveAssist.StimPen,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+RevivePlayer.ReviveAssist.StimPen,XP.Role,(BaseReward),BaseReward
+RevivePlayer.StimPen,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * ((BaseValue * InstigatorZoneModifier * InstigatorZoneWeight) + (BaseValue * TargetZoneModifier * TargetZoneWeight))",LastVictimCount;LastVictimCountMax;LastVictimReductionModifier;BaseValue;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight
+RevivePlayer.StimPen,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+RevivePlayer.SupplyCrateAssist,Currency.Cash,BaseReward * SupplyCrateModifier,BaseReward;SupplyCrateModifier
+RevivePlayer.SupplyCrateAssist,XP.Role,(BaseReward),BaseReward
+RevivePlayer.TargetInObjective,Currency.Cash,(BaseValue * InstigatorZoneModifier * InstigatorZoneWeight) + (BaseValue * TargetZoneModifier * TargetZoneWeight),BaseValue;InstigatorZoneModifier;InstigatorZoneWeight;TargetZoneModifier;TargetZoneWeight
+SafeZoneEntered,Currency.Cash,"BaseReward * max(PlayersSurvivedMin, PlayersSurvivedCount)",BaseReward;PlayersSurvivedCount;PlayersSurvivedMin
+SafeZoneEntered,XP.Role,"(BaseReward * max(PlayersSurvivedMin, PlayersSurvivedCount))",BaseReward;PlayersSurvivedCount;PlayersSurvivedMin
+SendPreTip,Currency.Cash,(BaseReward) * PreTipValue,BaseReward;PreTipValue
+SendTip,Currency.Cash,0 - BaseReward,BaseReward
+Spotting.Added.ATMine,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward * AlignmentModifier * TargetZoneModifier)",BaseReward;AlignmentModifier;TargetZoneModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.ATMine,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.Blackhawk,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward * AlignmentModifier * TargetZoneModifier)",BaseReward;AlignmentModifier;TargetZoneModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.Blackhawk,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.Bobcat,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward * AlignmentModifier * TargetZoneModifier)",BaseReward;AlignmentModifier;TargetZoneModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.Bobcat,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.BuildableHotZoneMagnet,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward * AlignmentModifier * TargetZoneModifier)",BaseReward;AlignmentModifier;TargetZoneModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.BuildableHotZoneMagnet,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.Claymore,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward * AlignmentModifier * TargetZoneModifier)",BaseReward;AlignmentModifier;TargetZoneModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.Claymore,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.DuneBuggy,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward * AlignmentModifier * TargetZoneModifier)",BaseReward;AlignmentModifier;TargetZoneModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.DuneBuggy,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.FOB,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward * AlignmentModifier * TargetZoneModifier)",BaseReward;AlignmentModifier;TargetZoneModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.FOB,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.Havoc,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward * AlignmentModifier * TargetZoneModifier)",BaseReward;AlignmentModifier;TargetZoneModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.Havoc,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.Huey,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward * AlignmentModifier * TargetZoneModifier)",BaseReward;AlignmentModifier;TargetZoneModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.Huey,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.Humvee,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward * AlignmentModifier * TargetZoneModifier)",BaseReward;AlignmentModifier;TargetZoneModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.Humvee,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.Kodiak,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward * AlignmentModifier * TargetZoneModifier)",BaseReward;AlignmentModifier;TargetZoneModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.Kodiak,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.LittleBird,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward * AlignmentModifier * TargetZoneModifier)",BaseReward;AlignmentModifier;TargetZoneModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.LittleBird,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.MistralAA,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward * AlignmentModifier * TargetZoneModifier)",BaseReward;AlignmentModifier;TargetZoneModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.MistralAA,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.Mortar,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward * AlignmentModifier * TargetZoneModifier)",BaseReward;AlignmentModifier;TargetZoneModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.Mortar,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.Phalanx,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward * AlignmentModifier * TargetZoneModifier)",BaseReward;AlignmentModifier;TargetZoneModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.Phalanx,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.Player,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward * AlignmentModifier * TargetZoneModifier)",BaseReward;AlignmentModifier;TargetZoneModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.Player,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.SpawnVehicle,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward * AlignmentModifier * TargetZoneModifier)",BaseReward;AlignmentModifier;TargetZoneModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.SpawnVehicle,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.SupplyCrate,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward * AlignmentModifier * TargetZoneModifier)",BaseReward;AlignmentModifier;TargetZoneModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.SupplyCrate,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.TNK_01.AntiAir,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward * AlignmentModifier * TargetZoneModifier)",BaseReward;AlignmentModifier;TargetZoneModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.TNK_01.AntiAir,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.TNK_01.Artillery,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward * AlignmentModifier * TargetZoneModifier)",BaseReward;AlignmentModifier;TargetZoneModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.TNK_01.Artillery,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.TNK_01.Heavy,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward * AlignmentModifier * TargetZoneModifier)",BaseReward;AlignmentModifier;TargetZoneModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.TNK_01.Heavy,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.Ural,Currency.Cash,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward * AlignmentModifier * TargetZoneModifier)",BaseReward;AlignmentModifier;TargetZoneModifier;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Added.Ural,XP.Role,"(1 - (clamp(LastVictimCount, 0, LastVictimCountMax) * LastVictimReductionModifier)) * (BaseReward)",BaseReward;LastVictimCount;LastVictimCountMax;LastVictimReductionModifier
+Spotting.Removed.ATMine,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier * DestroyedByTeamModifier,BaseReward;AlignmentModifier;TargetZoneModifier;DestroyedByTeamModifier
+Spotting.Removed.ATMine,XP.Role,(BaseReward),BaseReward
+Spotting.Removed.Blackhawk,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier * DestroyedByTeamModifier,BaseReward;AlignmentModifier;TargetZoneModifier;DestroyedByTeamModifier
+Spotting.Removed.Blackhawk,XP.Role,(BaseReward),BaseReward
+Spotting.Removed.Bobcat,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier * DestroyedByTeamModifier,BaseReward;AlignmentModifier;TargetZoneModifier;DestroyedByTeamModifier
+Spotting.Removed.Bobcat,XP.Role,(BaseReward),BaseReward
+Spotting.Removed.BuildableHotZoneMagnet,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier * DestroyedByTeamModifier,BaseReward;AlignmentModifier;TargetZoneModifier;DestroyedByTeamModifier
+Spotting.Removed.BuildableHotZoneMagnet,XP.Role,(BaseReward),BaseReward
+Spotting.Removed.Claymore,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier * DestroyedByTeamModifier,BaseReward;AlignmentModifier;TargetZoneModifier;DestroyedByTeamModifier
+Spotting.Removed.Claymore,XP.Role,(BaseReward),BaseReward
+Spotting.Removed.DuneBuggy,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier * DestroyedByTeamModifier,BaseReward;AlignmentModifier;TargetZoneModifier;DestroyedByTeamModifier
+Spotting.Removed.DuneBuggy,XP.Role,(BaseReward),BaseReward
+Spotting.Removed.FOB,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier * DestroyedByTeamModifier,BaseReward;AlignmentModifier;TargetZoneModifier;DestroyedByTeamModifier
+Spotting.Removed.FOB,XP.Role,(BaseReward),BaseReward
+Spotting.Removed.Havoc,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier * DestroyedByTeamModifier,BaseReward;AlignmentModifier;TargetZoneModifier;DestroyedByTeamModifier
+Spotting.Removed.Havoc,XP.Role,(BaseReward),BaseReward
+Spotting.Removed.Huey,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier * DestroyedByTeamModifier,BaseReward;AlignmentModifier;TargetZoneModifier;DestroyedByTeamModifier
+Spotting.Removed.Huey,XP.Role,(BaseReward),BaseReward
+Spotting.Removed.Humvee,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier * DestroyedByTeamModifier,BaseReward;AlignmentModifier;TargetZoneModifier;DestroyedByTeamModifier
+Spotting.Removed.Humvee,XP.Role,(BaseReward),BaseReward
+Spotting.Removed.Kodiak,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier * DestroyedByTeamModifier,BaseReward;AlignmentModifier;TargetZoneModifier;DestroyedByTeamModifier
+Spotting.Removed.Kodiak,XP.Role,(BaseReward),BaseReward
+Spotting.Removed.LittleBird,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier * DestroyedByTeamModifier,BaseReward;AlignmentModifier;TargetZoneModifier;DestroyedByTeamModifier
+Spotting.Removed.LittleBird,XP.Role,(BaseReward),BaseReward
+Spotting.Removed.MistralAA,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier * DestroyedByTeamModifier,BaseReward;AlignmentModifier;TargetZoneModifier;DestroyedByTeamModifier
+Spotting.Removed.MistralAA,XP.Role,(BaseReward),BaseReward
+Spotting.Removed.Mortar,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier * DestroyedByTeamModifier,BaseReward;AlignmentModifier;TargetZoneModifier;DestroyedByTeamModifier
+Spotting.Removed.Mortar,XP.Role,(BaseReward),BaseReward
+Spotting.Removed.Phalanx,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier * DestroyedByTeamModifier,BaseReward;AlignmentModifier;TargetZoneModifier;DestroyedByTeamModifier
+Spotting.Removed.Phalanx,XP.Role,(BaseReward),BaseReward
+Spotting.Removed.Player,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier * DestroyedByTeamModifier,BaseReward;AlignmentModifier;TargetZoneModifier;DestroyedByTeamModifier
+Spotting.Removed.Player,XP.Role,(BaseReward),BaseReward
+Spotting.Removed.SpawnVehicle,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier * DestroyedByTeamModifier,BaseReward;AlignmentModifier;TargetZoneModifier;DestroyedByTeamModifier
+Spotting.Removed.SpawnVehicle,XP.Role,(BaseReward),BaseReward
+Spotting.Removed.SupplyCrate,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier * DestroyedByTeamModifier,BaseReward;AlignmentModifier;TargetZoneModifier;DestroyedByTeamModifier
+Spotting.Removed.SupplyCrate,XP.Role,(BaseReward),BaseReward
+Spotting.Removed.TNK_01.AntiAir,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier * DestroyedByTeamModifier,BaseReward;AlignmentModifier;TargetZoneModifier;DestroyedByTeamModifier
+Spotting.Removed.TNK_01.AntiAir,XP.Role,(BaseReward),BaseReward
+Spotting.Removed.TNK_01.Artillery,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier * DestroyedByTeamModifier,BaseReward;AlignmentModifier;TargetZoneModifier;DestroyedByTeamModifier
+Spotting.Removed.TNK_01.Artillery,XP.Role,(BaseReward),BaseReward
+Spotting.Removed.TNK_01.Heavy,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier * DestroyedByTeamModifier,BaseReward;AlignmentModifier;TargetZoneModifier;DestroyedByTeamModifier
+Spotting.Removed.TNK_01.Heavy,XP.Role,(BaseReward),BaseReward
+Spotting.Removed.Ural,Currency.Cash,BaseReward * AlignmentModifier * TargetZoneModifier * DestroyedByTeamModifier,BaseReward;AlignmentModifier;TargetZoneModifier;DestroyedByTeamModifier
+Spotting.Removed.Ural,XP.Role,(BaseReward),BaseReward
+SupplyCrateDestroyed,Currency.Cash,BaseReward,BaseReward
+SupplyPalletDropped,Currency.Cash,BaseReward * TargetZoneModifier,BaseReward;TargetZoneModifier
+SupplyPalletDropped,XP.Role,(BaseReward * TargetZoneModifier),BaseReward;TargetZoneModifier
+Test,Currency.Cash,BaseRewardModifier,BaseRewardModifier
+VehicleAirborne,Currency.Cash,BaseReward * ElapsedAirTime,BaseReward;ElapsedAirTime
+VehicleDestroyed.Blackhawk,Currency.Cash,"(BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar * CrewScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar * CrewScalar) * pow(CrewPenaltyModifier, clamp(CrewCount - 1, 0, CrewCountMax))",BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;AssistCurve;AssistScalar;CrewScalar;TargetZoneModifier;TargetZoneWeight;CrewPenaltyModifier;CrewCount;CrewCountMax
+VehicleDestroyed.Blackhawk,XP.Role,(BaseReward) * AlignmentModifier,BaseReward;AlignmentModifier
+VehicleDestroyed.Bobcat,Currency.Cash,"(BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar * CrewScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar * CrewScalar) * pow(CrewPenaltyModifier, clamp(CrewCount - 1, 0, CrewCountMax))",BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;AssistCurve;AssistScalar;CrewScalar;TargetZoneModifier;TargetZoneWeight;CrewPenaltyModifier;CrewCount;CrewCountMax
+VehicleDestroyed.Bobcat,XP.Role,(BaseReward) * AlignmentModifier,BaseReward;AlignmentModifier
+VehicleDestroyed.CrewAssist,Currency.Cash,BaseReward * CrewModifier,BaseReward;CrewModifier
+VehicleDestroyed.CrewAssist,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.DuneBuggy,Currency.Cash,"(BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar * CrewScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar * CrewScalar) * pow(CrewPenaltyModifier, clamp(CrewCount - 1, 0, CrewCountMax))",BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;AssistCurve;AssistScalar;CrewScalar;TargetZoneModifier;TargetZoneWeight;CrewPenaltyModifier;CrewCount;CrewCountMax
+VehicleDestroyed.DuneBuggy,XP.Role,(BaseReward) * AlignmentModifier,BaseReward;AlignmentModifier
+VehicleDestroyed.FOBSuppliedAssist,Currency.Cash,BaseReward * FOBSuppliedAssistModifier,BaseReward;FOBSuppliedAssistModifier
+VehicleDestroyed.FOBSuppliedAssist,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.FOBSuppliedAssist.Blackhawk,Currency.Cash,BaseReward * FOBSuppliedAssistModifier,BaseReward;FOBSuppliedAssistModifier
+VehicleDestroyed.FOBSuppliedAssist.Blackhawk,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.FOBSuppliedAssist.Bobcat,Currency.Cash,BaseReward * FOBSuppliedAssistModifier,BaseReward;FOBSuppliedAssistModifier
+VehicleDestroyed.FOBSuppliedAssist.Bobcat,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.FOBSuppliedAssist.DuneBuggy,Currency.Cash,BaseReward * FOBSuppliedAssistModifier,BaseReward;FOBSuppliedAssistModifier
+VehicleDestroyed.FOBSuppliedAssist.DuneBuggy,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.FOBSuppliedAssist.Havoc,Currency.Cash,BaseReward * FOBSuppliedAssistModifier,BaseReward;FOBSuppliedAssistModifier
+VehicleDestroyed.FOBSuppliedAssist.Havoc,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.FOBSuppliedAssist.Huey,Currency.Cash,BaseReward * FOBSuppliedAssistModifier,BaseReward;FOBSuppliedAssistModifier
+VehicleDestroyed.FOBSuppliedAssist.Huey,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.FOBSuppliedAssist.Humvee,Currency.Cash,BaseReward * FOBSuppliedAssistModifier,BaseReward;FOBSuppliedAssistModifier
+VehicleDestroyed.FOBSuppliedAssist.Humvee,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.FOBSuppliedAssist.Kodiak,Currency.Cash,BaseReward * FOBSuppliedAssistModifier,BaseReward;FOBSuppliedAssistModifier
+VehicleDestroyed.FOBSuppliedAssist.Kodiak,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.FOBSuppliedAssist.LittleBird,Currency.Cash,BaseReward * FOBSuppliedAssistModifier,BaseReward;FOBSuppliedAssistModifier
+VehicleDestroyed.FOBSuppliedAssist.LittleBird,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.FOBSuppliedAssist.SpawnVehicle,Currency.Cash,BaseReward * FOBSuppliedAssistModifier,BaseReward;FOBSuppliedAssistModifier
+VehicleDestroyed.FOBSuppliedAssist.SpawnVehicle,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.FOBSuppliedAssist.TNK_01.AntiAir,Currency.Cash,BaseReward * FOBSuppliedAssistModifier,BaseReward;FOBSuppliedAssistModifier
+VehicleDestroyed.FOBSuppliedAssist.TNK_01.AntiAir,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.FOBSuppliedAssist.TNK_01.Artillery,Currency.Cash,BaseReward * FOBSuppliedAssistModifier,BaseReward;FOBSuppliedAssistModifier
+VehicleDestroyed.FOBSuppliedAssist.TNK_01.Artillery,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.FOBSuppliedAssist.TNK_01.Heavy,Currency.Cash,BaseReward * FOBSuppliedAssistModifier,BaseReward;FOBSuppliedAssistModifier
+VehicleDestroyed.FOBSuppliedAssist.TNK_01.Heavy,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.FOBSuppliedAssist.Ural,Currency.Cash,BaseReward * FOBSuppliedAssistModifier,BaseReward;FOBSuppliedAssistModifier
+VehicleDestroyed.FOBSuppliedAssist.Ural,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.Havoc,Currency.Cash,"((BaseReward + (clamp(KillStreak - 1, 0, KillStreakMax) * KillStreakValue)) * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar * CrewScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar * CrewScalar) * pow(CrewPenaltyModifier, clamp(CrewCount - 1, 0, CrewCountMax))",BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;AssistCurve;AssistScalar;CrewScalar;TargetZoneModifier;TargetZoneWeight;KillStreak;KillStreakMax;KillStreakValue;CrewPenaltyModifier;CrewCount;CrewCountMax
+VehicleDestroyed.Havoc,XP.Role,(BaseReward) * AlignmentModifier,BaseReward;AlignmentModifier
+VehicleDestroyed.Huey,Currency.Cash,"(BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar * CrewScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar * CrewScalar) * pow(CrewPenaltyModifier, clamp(CrewCount - 1, 0, CrewCountMax))",BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;AssistCurve;AssistScalar;CrewScalar;TargetZoneModifier;TargetZoneWeight;CrewPenaltyModifier;CrewCount;CrewCountMax
+VehicleDestroyed.Huey,XP.Role,(BaseReward) * AlignmentModifier,BaseReward;AlignmentModifier
+VehicleDestroyed.Humvee,Currency.Cash,"(BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar * CrewScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar * CrewScalar) * pow(CrewPenaltyModifier, clamp(CrewCount - 1, 0, CrewCountMax))",BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;AssistCurve;AssistScalar;CrewScalar;TargetZoneModifier;TargetZoneWeight;CrewPenaltyModifier;CrewCount;CrewCountMax
+VehicleDestroyed.Humvee,XP.Role,(BaseReward) * AlignmentModifier,BaseReward;AlignmentModifier
+VehicleDestroyed.Kodiak,Currency.Cash,"(BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar * CrewScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar * CrewScalar) * pow(CrewPenaltyModifier, clamp(CrewCount - 1, 0, CrewCountMax))",BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;AssistCurve;AssistScalar;CrewScalar;TargetZoneModifier;TargetZoneWeight;CrewPenaltyModifier;CrewCount;CrewCountMax
+VehicleDestroyed.Kodiak,XP.Role,(BaseReward) * AlignmentModifier,BaseReward;AlignmentModifier
+VehicleDestroyed.LittleBird,Currency.Cash,"(BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar * CrewScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar * CrewScalar) * pow(CrewPenaltyModifier, clamp(CrewCount - 1, 0, CrewCountMax))",BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;AssistCurve;AssistScalar;CrewScalar;TargetZoneModifier;TargetZoneWeight;CrewPenaltyModifier;CrewCount;CrewCountMax
+VehicleDestroyed.LittleBird,XP.Role,(BaseReward) * AlignmentModifier,BaseReward;AlignmentModifier
+VehicleDestroyed.LogisticAssist,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+VehicleDestroyed.LogisticAssist,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.LogisticAssist.Blackhawk,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+VehicleDestroyed.LogisticAssist.Blackhawk,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.LogisticAssist.Bobcat,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+VehicleDestroyed.LogisticAssist.Bobcat,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.LogisticAssist.DuneBuggy,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+VehicleDestroyed.LogisticAssist.DuneBuggy,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.LogisticAssist.Havoc,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+VehicleDestroyed.LogisticAssist.Havoc,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.LogisticAssist.Huey,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+VehicleDestroyed.LogisticAssist.Huey,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.LogisticAssist.Humvee,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+VehicleDestroyed.LogisticAssist.Humvee,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.LogisticAssist.Kodiak,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+VehicleDestroyed.LogisticAssist.Kodiak,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.LogisticAssist.Littlebird,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+VehicleDestroyed.LogisticAssist.Littlebird,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.LogisticAssist.SpawnVehicle,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+VehicleDestroyed.LogisticAssist.SpawnVehicle,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.LogisticAssist.TNK_01.AntiAir,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+VehicleDestroyed.LogisticAssist.TNK_01.AntiAir,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.LogisticAssist.TNK_01.Artillery,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+VehicleDestroyed.LogisticAssist.TNK_01.Artillery,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.LogisticAssist.TNK_01.Heavy,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+VehicleDestroyed.LogisticAssist.TNK_01.Heavy,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.LogisticAssist.Ural,Currency.Cash,BaseReward * LogisticAssistModifier,BaseReward;LogisticAssistModifier
+VehicleDestroyed.LogisticAssist.Ural,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.Loudspeaker,Currency.Cash,"(BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar * CrewScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar * CrewScalar) * pow(CrewPenaltyModifier, clamp(CrewCount - 1, 0, CrewCountMax))",BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;AssistCurve;AssistScalar;CrewScalar;TargetZoneModifier;TargetZoneWeight;CrewPenaltyModifier;CrewCount;CrewCountMax
+VehicleDestroyed.Loudspeaker,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.MistralAA,Currency.Cash,"(BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar * CrewScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar * CrewScalar) * pow(CrewPenaltyModifier, clamp(CrewCount - 1, 0, CrewCountMax))",BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;AssistCurve;AssistScalar;CrewScalar;TargetZoneModifier;TargetZoneWeight;CrewPenaltyModifier;CrewCount;CrewCountMax
+VehicleDestroyed.MistralAA,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.Mortar,Currency.Cash,"(BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar * CrewScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar * CrewScalar) * pow(CrewPenaltyModifier, clamp(CrewCount - 1, 0, CrewCountMax))",BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;AssistCurve;AssistScalar;CrewScalar;TargetZoneModifier;TargetZoneWeight;CrewPenaltyModifier;CrewCount;CrewCountMax
+VehicleDestroyed.Mortar,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.Phalanx,Currency.Cash,"(BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar * CrewScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar * CrewScalar) * pow(CrewPenaltyModifier, clamp(CrewCount - 1, 0, CrewCountMax))",BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;AssistCurve;AssistScalar;CrewScalar;TargetZoneModifier;TargetZoneWeight;CrewPenaltyModifier;CrewCount;CrewCountMax
+VehicleDestroyed.Phalanx,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.ReviveAssist,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+VehicleDestroyed.ReviveAssist,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.ReviveAssist.Blackhawk,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+VehicleDestroyed.ReviveAssist.Blackhawk,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.ReviveAssist.Bobcat,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+VehicleDestroyed.ReviveAssist.Bobcat,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.ReviveAssist.DuneBuggy,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+VehicleDestroyed.ReviveAssist.DuneBuggy,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.ReviveAssist.Havoc,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+VehicleDestroyed.ReviveAssist.Havoc,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.ReviveAssist.Huey,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+VehicleDestroyed.ReviveAssist.Huey,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.ReviveAssist.Humvee,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+VehicleDestroyed.ReviveAssist.Humvee,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.ReviveAssist.Kodiak,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+VehicleDestroyed.ReviveAssist.Kodiak,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.ReviveAssist.LittleBird,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+VehicleDestroyed.ReviveAssist.LittleBird,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.ReviveAssist.SpawnVehicle,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+VehicleDestroyed.ReviveAssist.SpawnVehicle,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.ReviveAssist.TNK_01.AntiAir,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+VehicleDestroyed.ReviveAssist.TNK_01.AntiAir,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.ReviveAssist.TNK_01.Artillery,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+VehicleDestroyed.ReviveAssist.TNK_01.Artillery,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.ReviveAssist.TNK_01.Heavy,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+VehicleDestroyed.ReviveAssist.TNK_01.Heavy,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.ReviveAssist.Ural,Currency.Cash,BaseReward * ReviveAssistModifier,BaseReward;ReviveAssistModifier
+VehicleDestroyed.ReviveAssist.Ural,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.SpawnVehicle,Currency.Cash,"(BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar * CrewScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar * CrewScalar) * FactionScoreScalar * pow(CrewPenaltyModifier, clamp(CrewCount - 1, 0, CrewCountMax))",BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;AssistCurve;AssistScalar;CrewScalar;TargetZoneModifier;TargetZoneWeight;FactionScoreScalar;CrewPenaltyModifier;CrewCount;CrewCountMax
+VehicleDestroyed.SpawnVehicle,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.SupplyCrateAssist,Currency.Cash,BaseReward * SupplyCrateModifier,BaseReward;SupplyCrateModifier
+VehicleDestroyed.SupplyCrateAssist,XP.Role,(BaseReward),BaseReward
+VehicleDestroyed.TNK_01.AntiAir,Currency.Cash,"((BaseReward + (clamp(KillStreak - 1, 0, KillStreakMax) * KillStreakValue)) * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar * CrewScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar * CrewScalar) * pow(CrewPenaltyModifier, clamp(CrewCount - 1, 0, CrewCountMax))",BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;AssistCurve;AssistScalar;CrewScalar;TargetZoneModifier;TargetZoneWeight;KillStreak;KillStreakMax;KillStreakValue;CrewPenaltyModifier;CrewCount;CrewCountMax
+VehicleDestroyed.TNK_01.AntiAir,XP.Role,(BaseReward) * AlignmentModifier,BaseReward;AlignmentModifier
+VehicleDestroyed.TNK_01.Artillery,Currency.Cash,"((BaseReward + (clamp(KillStreak - 1, 0, KillStreakMax) * KillStreakValue)) * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar * CrewScalar) + ((BaseReward + (clamp(KillStreak - 1, 0, KillStreakMax) * KillStreakValue)) * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar * CrewScalar) * pow(CrewPenaltyModifier, clamp(CrewCount - 1, 0, CrewCountMax))",BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;AssistCurve;AssistScalar;CrewScalar;TargetZoneModifier;TargetZoneWeight;KillStreak;KillStreakMax;KillStreakValue;CrewPenaltyModifier;CrewCount;CrewCountMax
+VehicleDestroyed.TNK_01.Artillery,XP.Role,(BaseReward) * AlignmentModifier,BaseReward;AlignmentModifier
+VehicleDestroyed.TNK_01.Heavy,Currency.Cash,"((BaseReward + (clamp(KillStreak - 1, 0, KillStreakMax) * KillStreakValue)) * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar * CrewScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar * CrewScalar) * pow(CrewPenaltyModifier, clamp(CrewCount - 1, 0, CrewCountMax))",BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;AssistCurve;AssistScalar;CrewScalar;TargetZoneModifier;TargetZoneWeight;KillStreak;KillStreakMax;KillStreakValue;CrewPenaltyModifier;CrewCount;CrewCountMax
+VehicleDestroyed.TNK_01.Heavy,XP.Role,(BaseReward) * AlignmentModifier,BaseReward;AlignmentModifier
+VehicleDestroyed.Ural,Currency.Cash,"(BaseReward * AlignmentModifier * InstigatorZoneModifier * InstigatorZoneWeight * AssistCurve * AssistScalar * CrewScalar) + (BaseReward * AlignmentModifier * TargetZoneModifier * TargetZoneWeight * AssistCurve * AssistScalar * CrewScalar) * pow(CrewPenaltyModifier, clamp(CrewCount - 1, 0, CrewCountMax))",BaseReward;AlignmentModifier;InstigatorZoneModifier;InstigatorZoneWeight;AssistCurve;AssistScalar;CrewScalar;TargetZoneModifier;TargetZoneWeight;CrewPenaltyModifier;CrewCount;CrewCountMax
+VehicleDestroyed.Ural,XP.Role,(BaseReward) * AlignmentModifier,BaseReward;AlignmentModifier
+VehicleFlyThrough,Currency.Cash,BaseReward * RepeatActionCount,BaseReward;RepeatActionCount
+ZoneEntry,Currency.Cash,RewardValue,RewardValue
+ZoneEntry,XP.Role,(BaseReward),BaseReward
+ZonePresence,Currency.Cash,"RewardValue + (clamp(HotZoneStreak - 1, 0, HotZoneStreakMax) * HotZoneStreakValue)",RewardValue;HotZoneStreak;HotZoneStreakMax;HotZoneStreakValue

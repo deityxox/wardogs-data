@@ -1,0 +1,6394 @@
+{
+  "schemaVersion": 1,
+  "world": "Kavkazi",
+  "gameBuild": "25677108",
+  "units": "meters",
+  "shape": "axis-aligned bounding box",
+  "count": 399,
+  "buildings": [
+    {
+      "id": "e78bdbc09893",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -12464.55,
+        -11846.92,
+        -726.83
+      ],
+      "max": [
+        -12443.04,
+        -11821.23,
+        -717.52
+      ],
+      "parts": 52
+    },
+    {
+      "id": "0dc9f8a6ef52",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -12463.76,
+        -11692.03,
+        -737.98
+      ],
+      "max": [
+        -12442.05,
+        -11666.33,
+        -728.67
+      ],
+      "parts": 52
+    },
+    {
+      "id": "166c86c92049",
+      "kind": "house",
+      "class": "B_Residential_House_01_C",
+      "min": [
+        -12446.14,
+        -11789.65,
+        -726.82
+      ],
+      "max": [
+        -12430.45,
+        -11769.45,
+        -713.55
+      ],
+      "parts": 67
+    },
+    {
+      "id": "29e4f854a0c7",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_03a_C",
+      "min": [
+        -12410.77,
+        -11789.4,
+        -731.21
+      ],
+      "max": [
+        -12402.37,
+        -11779.46,
+        -727.06
+      ],
+      "parts": 2
+    },
+    {
+      "id": "470d5b619f1e",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -12407.31,
+        -11774.11,
+        -732.55
+      ],
+      "max": [
+        -12390.28,
+        -11757.92,
+        -723.73
+      ],
+      "parts": 38
+    },
+    {
+      "id": "9b0c048f1859",
+      "kind": "house",
+      "class": "B_Residential_House_04_C",
+      "min": [
+        -12348.81,
+        -11862.19,
+        -735.23
+      ],
+      "max": [
+        -12326.02,
+        -11840.03,
+        -721.97
+      ],
+      "parts": 70
+    },
+    {
+      "id": "5a31da44a12a",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_03a_C",
+      "min": [
+        -12337.84,
+        -11828.05,
+        -734.13
+      ],
+      "max": [
+        -12327.94,
+        -11819.26,
+        -729.98
+      ],
+      "parts": 2
+    },
+    {
+      "id": "a9f3b753c302",
+      "kind": "house",
+      "class": "B_Residential_House_05_C",
+      "min": [
+        -12313.88,
+        -11965.42,
+        -723.93
+      ],
+      "max": [
+        -12291.21,
+        -11942.68,
+        -710.66
+      ],
+      "parts": 69
+    },
+    {
+      "id": "24e81fab6b7d",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -12259.74,
+        -11966.63,
+        -726.18
+      ],
+      "max": [
+        -12238.45,
+        -11944.46,
+        -716.41
+      ],
+      "parts": 48
+    },
+    {
+      "id": "6d8c31b70b85",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -12233.79,
+        -11645.44,
+        -738.29
+      ],
+      "max": [
+        -12212.51,
+        -11624.43,
+        -728.52
+      ],
+      "parts": 48
+    },
+    {
+      "id": "23587182bf10",
+      "kind": "house",
+      "class": "B_Residential_House_01_C",
+      "min": [
+        -12228.17,
+        -11542.76,
+        -734.24
+      ],
+      "max": [
+        -12208.29,
+        -11518.93,
+        -720.97
+      ],
+      "parts": 67
+    },
+    {
+      "id": "52179ffb77e2",
+      "kind": "house",
+      "class": "B_Residential_House_01_C",
+      "min": [
+        -12084.92,
+        -11724.46,
+        -732.82
+      ],
+      "max": [
+        -12068.02,
+        -11702.82,
+        -719.55
+      ],
+      "parts": 67
+    },
+    {
+      "id": "da1e8e39bbaa",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -12030.95,
+        -11741.19,
+        -727.59
+      ],
+      "max": [
+        -12013.35,
+        -11721.49,
+        -717.82
+      ],
+      "parts": 48
+    },
+    {
+      "id": "17af751103c4",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -11660.49,
+        -11804.55,
+        -704.45
+      ],
+      "max": [
+        -11638.1,
+        -11784.54,
+        -694.68
+      ],
+      "parts": 48
+    },
+    {
+      "id": "4e890e3dc5bd",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -11631.43,
+        -11726.46,
+        -709.29
+      ],
+      "max": [
+        -11616.72,
+        -11710.99,
+        -700.47
+      ],
+      "parts": 38
+    },
+    {
+      "id": "700f09a68ea5",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -11619.52,
+        -11695.9,
+        -712.64
+      ],
+      "max": [
+        -11599.03,
+        -11672.64,
+        -699.37
+      ],
+      "parts": 67
+    },
+    {
+      "id": "3eb214c9c2d6",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_Hut_01a_C",
+      "min": [
+        -11552.66,
+        -11558.2,
+        -732.67
+      ],
+      "max": [
+        -11537,
+        -11544.09,
+        -726.3
+      ],
+      "parts": 10
+    },
+    {
+      "id": "b451a9dc9dbd",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_03a_C",
+      "min": [
+        -11551.57,
+        -11513.34,
+        -736.63
+      ],
+      "max": [
+        -11537.37,
+        -11502.65,
+        -730.47
+      ],
+      "parts": 8
+    },
+    {
+      "id": "697569dbc316",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_Hut_01a_C",
+      "min": [
+        -11534.2,
+        -11546.82,
+        -733.5
+      ],
+      "max": [
+        -11518.58,
+        -11532.67,
+        -726.51
+      ],
+      "parts": 10
+    },
+    {
+      "id": "92ccd43be2dc",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_03a_C",
+      "min": [
+        -11533.97,
+        -11515.57,
+        -736.76
+      ],
+      "max": [
+        -11519.78,
+        -11504.89,
+        -730.6
+      ],
+      "parts": 8
+    },
+    {
+      "id": "4e3097cf062e",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_Hut_01a_C",
+      "min": [
+        -11532.78,
+        -11625.9,
+        -722.01
+      ],
+      "max": [
+        -11519.59,
+        -11617.19,
+        -715.72
+      ],
+      "parts": 10
+    },
+    {
+      "id": "364c0a73250c",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -11513.39,
+        -11697.96,
+        -713.53
+      ],
+      "max": [
+        -11494.12,
+        -11674.25,
+        -700.26
+      ],
+      "parts": 67
+    },
+    {
+      "id": "cf2f98b56949",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_03a_C",
+      "min": [
+        -11502.15,
+        -11566.59,
+        -732.82
+      ],
+      "max": [
+        -11490.49,
+        -11551.8,
+        -726.17
+      ],
+      "parts": 8
+    },
+    {
+      "id": "05fe62588e4b",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_Hut_01a_C",
+      "min": [
+        -11470.14,
+        -11492.21,
+        -737.29
+      ],
+      "max": [
+        -11454.8,
+        -11479.42,
+        -731.13
+      ],
+      "parts": 10
+    },
+    {
+      "id": "76dfaec13eb8",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -11448.2,
+        -11781.19,
+        -721.94
+      ],
+      "max": [
+        -11431.09,
+        -11763.8,
+        -713.13
+      ],
+      "parts": 38
+    },
+    {
+      "id": "7d9e5ec5100e",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -11390.16,
+        -11711,
+        -729.2
+      ],
+      "max": [
+        -11366.86,
+        -11693.69,
+        -719.89
+      ],
+      "parts": 52
+    },
+    {
+      "id": "ae461955c4c2",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -11337.05,
+        -11410.58,
+        -740.3
+      ],
+      "max": [
+        -11321.14,
+        -11394.59,
+        -731.48
+      ],
+      "parts": 38
+    },
+    {
+      "id": "8d83e14ea6d1",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -11312.52,
+        -11409.26,
+        -739.89
+      ],
+      "max": [
+        -11295.02,
+        -11390.51,
+        -730.12
+      ],
+      "parts": 48
+    },
+    {
+      "id": "564bbf072f9b",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_Hut_02a_C",
+      "min": [
+        -11286.31,
+        -11474.69,
+        -732.25
+      ],
+      "max": [
+        -11276.65,
+        -11467.17,
+        -726.04
+      ],
+      "parts": 7
+    },
+    {
+      "id": "854db6b75e95",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -11278.23,
+        -11744.77,
+        -742.94
+      ],
+      "max": [
+        -11262.35,
+        -11728.25,
+        -734.13
+      ],
+      "parts": 38
+    },
+    {
+      "id": "f16182d264ff",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -11175.25,
+        -11875.04,
+        -754.39
+      ],
+      "max": [
+        -11149.47,
+        -11851.55,
+        -741.12
+      ],
+      "parts": 67
+    },
+    {
+      "id": "8defe02d0314",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_Hut_02a_C",
+      "min": [
+        -11174.93,
+        -11533.76,
+        -736.49
+      ],
+      "max": [
+        -11165.58,
+        -11528.67,
+        -729.4
+      ],
+      "parts": 7
+    },
+    {
+      "id": "9f0d17c2c18f",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -11145.62,
+        -11760.87,
+        -759.44
+      ],
+      "max": [
+        -11125.81,
+        -11738.7,
+        -749.67
+      ],
+      "parts": 48
+    },
+    {
+      "id": "27c4af9d9725",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -11120.08,
+        -11831.9,
+        -757.93
+      ],
+      "max": [
+        -11102.95,
+        -11815.58,
+        -749.11
+      ],
+      "parts": 38
+    },
+    {
+      "id": "dd6c63396079",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -11113.39,
+        -11778.3,
+        -759.99
+      ],
+      "max": [
+        -11089.88,
+        -11752.42,
+        -746.72
+      ],
+      "parts": 67
+    },
+    {
+      "id": "5a4632ab1144",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -11006,
+        -10633.16,
+        -878.09
+      ],
+      "max": [
+        -10990.09,
+        -10617.48,
+        -869.27
+      ],
+      "parts": 38
+    },
+    {
+      "id": "7d0c6f3bf612",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -10996.13,
+        -11752.61,
+        -764.64
+      ],
+      "max": [
+        -10978.56,
+        -11736.92,
+        -754.87
+      ],
+      "parts": 48
+    },
+    {
+      "id": "b2bc4cc4ff40",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -10950.8,
+        -11750.51,
+        -764.95
+      ],
+      "max": [
+        -10926.46,
+        -11727.56,
+        -751.68
+      ],
+      "parts": 67
+    },
+    {
+      "id": "935cb87ad78e",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_02a_C",
+      "min": [
+        -10907.29,
+        -11742.89,
+        -765.15
+      ],
+      "max": [
+        -10898.83,
+        -11732.56,
+        -761.56
+      ],
+      "parts": 2
+    },
+    {
+      "id": "79f11577ee68",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -10901.58,
+        -11725.08,
+        -766.81
+      ],
+      "max": [
+        -10877.36,
+        -11702.19,
+        -753.54
+      ],
+      "parts": 67
+    },
+    {
+      "id": "5ad74b8119cf",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -10827.81,
+        -11336.57,
+        -738.91
+      ],
+      "max": [
+        -10804.4,
+        -11311.11,
+        -725.64
+      ],
+      "parts": 67
+    },
+    {
+      "id": "b6feac99836d",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_Hut_02a_C",
+      "min": [
+        -10693.63,
+        -11389.55,
+        -743.38
+      ],
+      "max": [
+        -10688.93,
+        -11380.29,
+        -735.82
+      ],
+      "parts": 7
+    },
+    {
+      "id": "ea137cbda3c7",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -10517.08,
+        -11709.77,
+        -795.47
+      ],
+      "max": [
+        -10503.73,
+        -11695.05,
+        -786.65
+      ],
+      "parts": 38
+    },
+    {
+      "id": "26bd3d24eda9",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -10374.71,
+        -11745.28,
+        -812.29
+      ],
+      "max": [
+        -10357.42,
+        -11729.79,
+        -802.52
+      ],
+      "parts": 48
+    },
+    {
+      "id": "a0217eb0aed1",
+      "kind": "house",
+      "class": "B_Residential_House_04_C",
+      "min": [
+        -10353.47,
+        -11699.47,
+        -814.09
+      ],
+      "max": [
+        -10334.21,
+        -11676.69,
+        -800.83
+      ],
+      "parts": 70
+    },
+    {
+      "id": "0af339d7215f",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -10290.48,
+        -11681.95,
+        -819.17
+      ],
+      "max": [
+        -10265.43,
+        -11658.69,
+        -805.9
+      ],
+      "parts": 67
+    },
+    {
+      "id": "a66036093011",
+      "kind": "house",
+      "class": "B_Residential_House_04_C",
+      "min": [
+        -10288.22,
+        -10909.98,
+        -866.65
+      ],
+      "max": [
+        -10270.36,
+        -10887.48,
+        -853.39
+      ],
+      "parts": 70
+    },
+    {
+      "id": "dc5f061fd1de",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -10261.3,
+        -11717.2,
+        -819.91
+      ],
+      "max": [
+        -10244.43,
+        -11701,
+        -811.09
+      ],
+      "parts": 38
+    },
+    {
+      "id": "77e6493c489c",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_Hut_01a_C",
+      "min": [
+        -10174.94,
+        -11158.75,
+        -841.4
+      ],
+      "max": [
+        -10159.33,
+        -11144.09,
+        -835.24
+      ],
+      "parts": 10
+    },
+    {
+      "id": "9e228463e35b",
+      "kind": "house",
+      "class": "B_Residential_House_01_C",
+      "min": [
+        -10172.73,
+        -11668.75,
+        -825.36
+      ],
+      "max": [
+        -10152.06,
+        -11648.97,
+        -812.09
+      ],
+      "parts": 67
+    },
+    {
+      "id": "f7105ef0bd06",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -10167.69,
+        -11052.27,
+        -853.5
+      ],
+      "max": [
+        -10150.81,
+        -11035.75,
+        -844.68
+      ],
+      "parts": 38
+    },
+    {
+      "id": "4d06a375f36b",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_02a_C",
+      "min": [
+        -10138.63,
+        -11596.03,
+        -828.58
+      ],
+      "max": [
+        -10130.13,
+        -11585.69,
+        -824.99
+      ],
+      "parts": 2
+    },
+    {
+      "id": "1b163cd5b64b",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -10123.95,
+        -11598.77,
+        -830.98
+      ],
+      "max": [
+        -10098.48,
+        -11578.66,
+        -821.68
+      ],
+      "parts": 52
+    },
+    {
+      "id": "4e4909ade12f",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -10086.17,
+        -10621.9,
+        -922.66
+      ],
+      "max": [
+        -10066,
+        -10599.33,
+        -912.89
+      ],
+      "parts": 48
+    },
+    {
+      "id": "5683d585236d",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -10056.22,
+        -10636.15,
+        -924.08
+      ],
+      "max": [
+        -10038.72,
+        -10618.78,
+        -915.26
+      ],
+      "parts": 38
+    },
+    {
+      "id": "63441197428c",
+      "kind": "house",
+      "class": "B_Residential_House_04_C",
+      "min": [
+        -10026.81,
+        -10776.28,
+        -920.28
+      ],
+      "max": [
+        -10004.87,
+        -10752.78,
+        -907.02
+      ],
+      "parts": 70
+    },
+    {
+      "id": "3ae985bc3ee7",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -10007.21,
+        -10797.19,
+        -921.82
+      ],
+      "max": [
+        -9984.71,
+        -10775.9,
+        -912.05
+      ],
+      "parts": 48
+    },
+    {
+      "id": "f70e16f64733",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_01a_C",
+      "min": [
+        -9978.32,
+        -10835.44,
+        -919.8
+      ],
+      "max": [
+        -9969.21,
+        -10825.98,
+        -915.73
+      ],
+      "parts": 2
+    },
+    {
+      "id": "93652affec57",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_01a_C",
+      "min": [
+        -9972.39,
+        -10830.83,
+        -919.8
+      ],
+      "max": [
+        -9963.29,
+        -10821.37,
+        -915.73
+      ],
+      "parts": 2
+    },
+    {
+      "id": "3b1fffb12bb6",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_02a_C",
+      "min": [
+        -9929.48,
+        -11130.18,
+        -911.8
+      ],
+      "max": [
+        -9919.14,
+        -11122.96,
+        -907.24
+      ],
+      "parts": 2
+    },
+    {
+      "id": "8b47a2464a72",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_02a_C",
+      "min": [
+        -9928.19,
+        -11135.17,
+        -912.12
+      ],
+      "max": [
+        -9917.69,
+        -11127.95,
+        -906.85
+      ],
+      "parts": 2
+    },
+    {
+      "id": "2eb197613be4",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -9895.5,
+        -11146.74,
+        -913.99
+      ],
+      "max": [
+        -9873.1,
+        -11125.44,
+        -904.22
+      ],
+      "parts": 48
+    },
+    {
+      "id": "af9420569168",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_02a_C",
+      "min": [
+        -9838.87,
+        -11258.52,
+        -903.08
+      ],
+      "max": [
+        -9833.56,
+        -11249.35,
+        -899.48
+      ],
+      "parts": 1
+    },
+    {
+      "id": "3dbad7e20681",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -9832.67,
+        -11254.07,
+        -904.6
+      ],
+      "max": [
+        -9819.32,
+        -11239.35,
+        -895.78
+      ],
+      "parts": 38
+    },
+    {
+      "id": "be5e7eb64f79",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_01a_C",
+      "min": [
+        -9788.69,
+        -10946.36,
+        -927
+      ],
+      "max": [
+        -9781.93,
+        -10937.67,
+        -922.26
+      ],
+      "parts": 1
+    },
+    {
+      "id": "ef8ecee0e731",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_01a_C",
+      "min": [
+        -9782.07,
+        -11233.31,
+        -910.62
+      ],
+      "max": [
+        -9772.77,
+        -11223.98,
+        -906.55
+      ],
+      "parts": 1
+    },
+    {
+      "id": "1932e96115d3",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_01a_C",
+      "min": [
+        -9774.8,
+        -11226.28,
+        -910.56
+      ],
+      "max": [
+        -9765.32,
+        -11217.24,
+        -906.49
+      ],
+      "parts": 1
+    },
+    {
+      "id": "37c6230d9bec",
+      "kind": "house",
+      "class": "B_Residential_House_04_C",
+      "min": [
+        -9770.16,
+        -10966.39,
+        -929.61
+      ],
+      "max": [
+        -9753.1,
+        -10944.21,
+        -916.35
+      ],
+      "parts": 70
+    },
+    {
+      "id": "66367a232029",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -9733.48,
+        -10970.1,
+        -932.6
+      ],
+      "max": [
+        -9715.44,
+        -10946.67,
+        -923.29
+      ],
+      "parts": 52
+    },
+    {
+      "id": "080e123024ac",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -9718.95,
+        -10910.4,
+        -933.08
+      ],
+      "max": [
+        -9704.5,
+        -10894.85,
+        -924.26
+      ],
+      "parts": 38
+    },
+    {
+      "id": "a8e79da29903",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -9605.64,
+        -10974.83,
+        -939.44
+      ],
+      "max": [
+        -9592.29,
+        -10960.11,
+        -930.62
+      ],
+      "parts": 38
+    },
+    {
+      "id": "4618641a2128",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -9486.21,
+        -11008.26,
+        -942.17
+      ],
+      "max": [
+        -9468.18,
+        -10984.83,
+        -932.86
+      ],
+      "parts": 52
+    },
+    {
+      "id": "265538ff647e",
+      "kind": "house",
+      "class": "B_Residential_House_04_C",
+      "min": [
+        -9448.98,
+        -10987.28,
+        -943.43
+      ],
+      "max": [
+        -9426.27,
+        -10969.44,
+        -930.17
+      ],
+      "parts": 70
+    },
+    {
+      "id": "bde3c292caec",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_Hut_01a_C",
+      "min": [
+        -9423.09,
+        -11144.91,
+        -926.8
+      ],
+      "max": [
+        -9408.3,
+        -11129.22,
+        -919.75
+      ],
+      "parts": 10
+    },
+    {
+      "id": "a4dbc329d6ed",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_Hut_01a_C",
+      "min": [
+        -9389.87,
+        -11135.83,
+        -925.9
+      ],
+      "max": [
+        -9376.75,
+        -11127.22,
+        -919.74
+      ],
+      "parts": 10
+    },
+    {
+      "id": "1b364912af44",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -9320.53,
+        -11129.57,
+        -928.69
+      ],
+      "max": [
+        -9303.87,
+        -11112.26,
+        -919.87
+      ],
+      "parts": 38
+    },
+    {
+      "id": "5254d00f0814",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_Hut_02a_C",
+      "min": [
+        -9242.78,
+        -11196.97,
+        -922.99
+      ],
+      "max": [
+        -9238.22,
+        -11188.03,
+        -916.18
+      ],
+      "parts": 7
+    },
+    {
+      "id": "1a852c2c2fb6",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_02a_C",
+      "min": [
+        -9239.43,
+        -11253.05,
+        -919.39
+      ],
+      "max": [
+        -9226.29,
+        -11239.97,
+        -912.92
+      ],
+      "parts": 14
+    },
+    {
+      "id": "5bce320b5aaf",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_Hut_01a_C",
+      "min": [
+        -9198.58,
+        -11089.14,
+        -926.96
+      ],
+      "max": [
+        -9183.01,
+        -11074.36,
+        -920.16
+      ],
+      "parts": 10
+    },
+    {
+      "id": "c6aa60aca0fa",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -8952.57,
+        -11426.1,
+        -915.34
+      ],
+      "max": [
+        -8937.84,
+        -11410.45,
+        -906.58
+      ],
+      "parts": 38
+    },
+    {
+      "id": "87a4924cf9e7",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_02a_C",
+      "min": [
+        -8939.68,
+        -11300.16,
+        -933.43
+      ],
+      "max": [
+        -8929.39,
+        -11290.79,
+        -929.84
+      ],
+      "parts": 1
+    },
+    {
+      "id": "e9f6e233441b",
+      "kind": "house",
+      "class": "B_Residential_House_Abandoned_01_C",
+      "min": [
+        -8932.7,
+        -11574.5,
+        -902.47
+      ],
+      "max": [
+        -8912.08,
+        -11550.73,
+        -889.2
+      ],
+      "parts": 70
+    },
+    {
+      "id": "a3256d86d175",
+      "kind": "house",
+      "class": "B_Residential_House_04_C",
+      "min": [
+        -8851.75,
+        -11292.07,
+        -935.95
+      ],
+      "max": [
+        -8832.25,
+        -11269.26,
+        -922.69
+      ],
+      "parts": 70
+    },
+    {
+      "id": "578a4d0613c7",
+      "kind": "house",
+      "class": "B_Residential_House_Abandoned_01_C",
+      "min": [
+        -8809.52,
+        -11382.81,
+        -927
+      ],
+      "max": [
+        -8792.11,
+        -11362.76,
+        -913.73
+      ],
+      "parts": 70
+    },
+    {
+      "id": "932c0e0d967e",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_01a_C",
+      "min": [
+        -8803.06,
+        -11531.47,
+        -906.06
+      ],
+      "max": [
+        -8794.39,
+        -11521.95,
+        -902
+      ],
+      "parts": 2
+    },
+    {
+      "id": "be9c220ce5f1",
+      "kind": "house",
+      "class": "B_Residential_House_Abandoned_01_C",
+      "min": [
+        -8771.15,
+        -11633.68,
+        -922.61
+      ],
+      "max": [
+        -8751.17,
+        -11616.01,
+        -909.34
+      ],
+      "parts": 70
+    },
+    {
+      "id": "5821ca63aa4f",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_02a_C",
+      "min": [
+        -8766.42,
+        -11643.95,
+        -921.08
+      ],
+      "max": [
+        -8757.34,
+        -11638.79,
+        -917.49
+      ],
+      "parts": 2
+    },
+    {
+      "id": "638c2caf5eba",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -8693.2,
+        -11451.1,
+        -944.38
+      ],
+      "max": [
+        -8676.63,
+        -11433.83,
+        -935.56
+      ],
+      "parts": 38
+    },
+    {
+      "id": "e73337f36d84",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -8682.29,
+        -11466.95,
+        -944.96
+      ],
+      "max": [
+        -8656.75,
+        -11446.53,
+        -935.65
+      ],
+      "parts": 52
+    },
+    {
+      "id": "5b152f21788d",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -8673.26,
+        -11488.94,
+        -944.08
+      ],
+      "max": [
+        -8649.98,
+        -11463.85,
+        -930.81
+      ],
+      "parts": 67
+    },
+    {
+      "id": "3ed467e8fec7",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -8657.31,
+        -11511.99,
+        -944.15
+      ],
+      "max": [
+        -8636.21,
+        -11490.51,
+        -934.38
+      ],
+      "parts": 48
+    },
+    {
+      "id": "3b8fe3eff526",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -8654.48,
+        -11539.37,
+        -946.33
+      ],
+      "max": [
+        -8637.87,
+        -11522.08,
+        -937.51
+      ],
+      "parts": 38
+    },
+    {
+      "id": "a546e2986da4",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_01a_C",
+      "min": [
+        -8643.65,
+        -11547.64,
+        -946.66
+      ],
+      "max": [
+        -8634.85,
+        -11538.12,
+        -942.59
+      ],
+      "parts": 2
+    },
+    {
+      "id": "ca0ab55b71b4",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -8638.08,
+        -9493.38,
+        -941.87
+      ],
+      "max": [
+        -8618.06,
+        -9470.98,
+        -932.1
+      ],
+      "parts": 48
+    },
+    {
+      "id": "0df3b73a4dae",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -8631.92,
+        -11551.37,
+        -946.77
+      ],
+      "max": [
+        -8609.76,
+        -11525.69,
+        -937.46
+      ],
+      "parts": 52
+    },
+    {
+      "id": "e4140a2958e0",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -8622.2,
+        -9468.98,
+        -941.09
+      ],
+      "max": [
+        -8600.65,
+        -9443.34,
+        -927.82
+      ],
+      "parts": 67
+    },
+    {
+      "id": "b5efbbb3514f",
+      "kind": "house",
+      "class": "B_Residential_House_01_C",
+      "min": [
+        -8620.99,
+        -11574.45,
+        -947.5
+      ],
+      "max": [
+        -8601.31,
+        -11554.05,
+        -934.23
+      ],
+      "parts": 67
+    },
+    {
+      "id": "526de1b6cd3f",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -8620.42,
+        -11645.58,
+        -947.01
+      ],
+      "max": [
+        -8605.16,
+        -11631.28,
+        -938.19
+      ],
+      "parts": 38
+    },
+    {
+      "id": "75a2f9c2d4ae",
+      "kind": "house",
+      "class": "B_Residential_House_01_C",
+      "min": [
+        -8618.71,
+        -11699.7,
+        -947.8
+      ],
+      "max": [
+        -8598.6,
+        -11683.94,
+        -934.53
+      ],
+      "parts": 67
+    },
+    {
+      "id": "70aa021c92f4",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -8617.44,
+        -9707.58,
+        -939.87
+      ],
+      "max": [
+        -8601.24,
+        -9690.72,
+        -931.05
+      ],
+      "parts": 38
+    },
+    {
+      "id": "2d1b30494666",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -8613.51,
+        -11621.09,
+        -947.98
+      ],
+      "max": [
+        -8591.15,
+        -11598.47,
+        -934.71
+      ],
+      "parts": 67
+    },
+    {
+      "id": "4bfb07b9983e",
+      "kind": "house",
+      "class": "B_Residential_House_04_C",
+      "min": [
+        -8608.45,
+        -9444,
+        -940.88
+      ],
+      "max": [
+        -8585.02,
+        -9423.5,
+        -927.62
+      ],
+      "parts": 70
+    },
+    {
+      "id": "53a259d1d452",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -8603.62,
+        -11663.34,
+        -947.96
+      ],
+      "max": [
+        -8579.87,
+        -11644.19,
+        -934.69
+      ],
+      "parts": 67
+    },
+    {
+      "id": "655deefff2b9",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -8600.07,
+        -11594.91,
+        -947.88
+      ],
+      "max": [
+        -8583.94,
+        -11578.53,
+        -939.07
+      ],
+      "parts": 38
+    },
+    {
+      "id": "44cade6ad1dd",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -8593.43,
+        -9545.93,
+        -940.24
+      ],
+      "max": [
+        -8573.3,
+        -9525.49,
+        -930.47
+      ],
+      "parts": 48
+    },
+    {
+      "id": "f894149a5eb5",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -8592.17,
+        -11689.17,
+        -947.28
+      ],
+      "max": [
+        -8576.7,
+        -11666.3,
+        -937.97
+      ],
+      "parts": 52
+    },
+    {
+      "id": "16700f66de1b",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -8590.61,
+        -11499.7,
+        -948.86
+      ],
+      "max": [
+        -8571.37,
+        -11474.5,
+        -939.55
+      ],
+      "parts": 52
+    },
+    {
+      "id": "ae83fe8e8ec1",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_Hut_01a_C",
+      "min": [
+        -8590.58,
+        -10861.27,
+        -940.7
+      ],
+      "max": [
+        -8577.69,
+        -10845.9,
+        -934.54
+      ],
+      "parts": 10
+    },
+    {
+      "id": "39849e81c2f9",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_03a_C",
+      "min": [
+        -8584.24,
+        -11639.04,
+        -948.97
+      ],
+      "max": [
+        -8575.51,
+        -11634.29,
+        -944.82
+      ],
+      "parts": 2
+    },
+    {
+      "id": "869db475d5e2",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_03b_C",
+      "min": [
+        -8584.24,
+        -11634.49,
+        -948.97
+      ],
+      "max": [
+        -8575.51,
+        -11629.74,
+        -944.82
+      ],
+      "parts": 2
+    },
+    {
+      "id": "30833529f637",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -8583.6,
+        -9567.22,
+        -940.18
+      ],
+      "max": [
+        -8562.61,
+        -9545.99,
+        -930.41
+      ],
+      "parts": 48
+    },
+    {
+      "id": "87703b5cc984",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -8579.68,
+        -10801.34,
+        -932.05
+      ],
+      "max": [
+        -8557.58,
+        -10775.65,
+        -922.74
+      ],
+      "parts": 52
+    },
+    {
+      "id": "29c2a134da43",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -8573.69,
+        -11528.36,
+        -950.79
+      ],
+      "max": [
+        -8549.21,
+        -11505.34,
+        -937.52
+      ],
+      "parts": 67
+    },
+    {
+      "id": "ca5cbc8e8082",
+      "kind": "shop",
+      "class": "B_Shop_03_C",
+      "min": [
+        -8569.39,
+        -10734.01,
+        -921.41
+      ],
+      "max": [
+        -8550.14,
+        -10714.06,
+        -912.71
+      ],
+      "parts": 29
+    },
+    {
+      "id": "7a92ae19228c",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -8566.6,
+        -9592.76,
+        -939.5
+      ],
+      "max": [
+        -8549.17,
+        -9568.77,
+        -930.19
+      ],
+      "parts": 52
+    },
+    {
+      "id": "510a47c96bb5",
+      "kind": "house",
+      "class": "B_Residential_House_01_C",
+      "min": [
+        -8564.18,
+        -11556.4,
+        -950.59
+      ],
+      "max": [
+        -8545.25,
+        -11537.51,
+        -937.32
+      ],
+      "parts": 67
+    },
+    {
+      "id": "eb7e982014ba",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_01a_C",
+      "min": [
+        -8562.55,
+        -10929.79,
+        -941.98
+      ],
+      "max": [
+        -8533.99,
+        -10899.47,
+        -933.74
+      ],
+      "parts": 12
+    },
+    {
+      "id": "d0e021c875a5",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_02a_C",
+      "min": [
+        -8558.12,
+        -11632.56,
+        -949.15
+      ],
+      "max": [
+        -8548.65,
+        -11626.67,
+        -945.56
+      ],
+      "parts": 2
+    },
+    {
+      "id": "fdb1dc19b024",
+      "kind": "shop",
+      "class": "B_Shop_02_C",
+      "min": [
+        -8553.66,
+        -10739.01,
+        -921.38
+      ],
+      "max": [
+        -8538.44,
+        -10724.43,
+        -912.37
+      ],
+      "parts": 22
+    },
+    {
+      "id": "8ed3fa8f3e09",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_01a_C",
+      "min": [
+        -8551.38,
+        -11717.93,
+        -949.13
+      ],
+      "max": [
+        -8543.15,
+        -11712.37,
+        -945.06
+      ],
+      "parts": 2
+    },
+    {
+      "id": "4d105536673d",
+      "kind": "house",
+      "class": "B_Residential_House_04_C",
+      "min": [
+        -8551.23,
+        -11604.07,
+        -950.63
+      ],
+      "max": [
+        -8528.66,
+        -11585.92,
+        -937.37
+      ],
+      "parts": 70
+    },
+    {
+      "id": "20399b9cff01",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_03b_C",
+      "min": [
+        -8551.07,
+        -11722.83,
+        -949.41
+      ],
+      "max": [
+        -8541.71,
+        -11717.24,
+        -944.75
+      ],
+      "parts": 2
+    },
+    {
+      "id": "0b225a2f72b1",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Scrapyard_01a_C",
+      "min": [
+        -8549.91,
+        -11144.57,
+        -948.08
+      ],
+      "max": [
+        -8514.73,
+        -11116.72,
+        -938.47
+      ],
+      "parts": 6
+    },
+    {
+      "id": "cc81d1cc7530",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -8547.87,
+        -11578.4,
+        -950.18
+      ],
+      "max": [
+        -8531.98,
+        -11562.77,
+        -941.37
+      ],
+      "parts": 38
+    },
+    {
+      "id": "fc083e498e73",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -8547.32,
+        -11660.46,
+        -950.31
+      ],
+      "max": [
+        -8523.54,
+        -11641.39,
+        -937.04
+      ],
+      "parts": 67
+    },
+    {
+      "id": "b81738c21c2b",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_03b_C",
+      "min": [
+        -8546.77,
+        -11698.13,
+        -949.46
+      ],
+      "max": [
+        -8542.02,
+        -11689.4,
+        -945.31
+      ],
+      "parts": 2
+    },
+    {
+      "id": "04b210dc3a70",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -8545.44,
+        -11687.64,
+        -950.74
+      ],
+      "max": [
+        -8526.36,
+        -11663.86,
+        -937.47
+      ],
+      "parts": 67
+    },
+    {
+      "id": "f9b847862a3f",
+      "kind": "house",
+      "class": "B_Residential_House_01_C",
+      "min": [
+        -8544.27,
+        -11625.78,
+        -950.62
+      ],
+      "max": [
+        -8524.92,
+        -11609.12,
+        -937.35
+      ],
+      "parts": 67
+    },
+    {
+      "id": "3af2a7a4b21b",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_02a_C",
+      "min": [
+        -8544.2,
+        -11546.56,
+        -949.43
+      ],
+      "max": [
+        -8527.71,
+        -11530.05,
+        -943.21
+      ],
+      "parts": 14
+    },
+    {
+      "id": "350c3863116d",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -8542.95,
+        -10803.24,
+        -926.16
+      ],
+      "max": [
+        -8527.49,
+        -10780.19,
+        -916.85
+      ],
+      "parts": 52
+    },
+    {
+      "id": "af4280232716",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_03a_C",
+      "min": [
+        -8542.22,
+        -11698.18,
+        -949.46
+      ],
+      "max": [
+        -8537.36,
+        -11689.39,
+        -945.31
+      ],
+      "parts": 2
+    },
+    {
+      "id": "3c9513096d0a",
+      "kind": "shop",
+      "class": "B_Shop_01_C",
+      "min": [
+        -8535.48,
+        -10754.71,
+        -921.45
+      ],
+      "max": [
+        -8511.09,
+        -10727.76,
+        -911.11
+      ],
+      "parts": 28
+    },
+    {
+      "id": "24a1b964bd7e",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_02a_C",
+      "min": [
+        -8534.27,
+        -11024.74,
+        -948.14
+      ],
+      "max": [
+        -8516.42,
+        -11006.88,
+        -941.92
+      ],
+      "parts": 14
+    },
+    {
+      "id": "521463af71ae",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_02a_C",
+      "min": [
+        -8527.21,
+        -11160.7,
+        -948.13
+      ],
+      "max": [
+        -8509.36,
+        -11142.84,
+        -941.91
+      ],
+      "parts": 14
+    },
+    {
+      "id": "cd5926cd100f",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -8518.43,
+        -8400.68,
+        -906.05
+      ],
+      "max": [
+        -8503.17,
+        -8384.95,
+        -897.23
+      ],
+      "parts": 38
+    },
+    {
+      "id": "4d79b8c59442",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -8509.95,
+        -8470.39,
+        -902.91
+      ],
+      "max": [
+        -8493.46,
+        -8446.84,
+        -893.61
+      ],
+      "parts": 52
+    },
+    {
+      "id": "bb67203afc17",
+      "kind": "house",
+      "class": "B_Residential_House_01_C",
+      "min": [
+        -8507.26,
+        -10883.83,
+        -932.8
+      ],
+      "max": [
+        -8487.12,
+        -10861.28,
+        -919.53
+      ],
+      "parts": 67
+    },
+    {
+      "id": "2cd2d5c06601",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -8505.05,
+        -8501.12,
+        -901.06
+      ],
+      "max": [
+        -8485.04,
+        -8481.71,
+        -891.29
+      ],
+      "parts": 48
+    },
+    {
+      "id": "e48aceb0bc53",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Scrapyard_01a_C",
+      "min": [
+        -8504.31,
+        -11180.44,
+        -948.39
+      ],
+      "max": [
+        -8476.46,
+        -11145.26,
+        -938.78
+      ],
+      "parts": 6
+    },
+    {
+      "id": "4a5ccabaea83",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -8497.56,
+        -8523.68,
+        -900.18
+      ],
+      "max": [
+        -8479.66,
+        -8504.66,
+        -890.41
+      ],
+      "parts": 48
+    },
+    {
+      "id": "c64df5ea57d1",
+      "kind": "house",
+      "class": "B_Residential_House_05_C",
+      "min": [
+        -8488.74,
+        -10694.54,
+        -914.18
+      ],
+      "max": [
+        -8468.67,
+        -10674.65,
+        -900.91
+      ],
+      "parts": 69
+    },
+    {
+      "id": "bfc5a9ffcf46",
+      "kind": "house",
+      "class": "B_Residential_House_04_C",
+      "min": [
+        -8487.69,
+        -10903.97,
+        -932.14
+      ],
+      "max": [
+        -8464.3,
+        -10881.95,
+        -918.88
+      ],
+      "parts": 70
+    },
+    {
+      "id": "57b013a452dc",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -8485.22,
+        -8384.47,
+        -905.64
+      ],
+      "max": [
+        -8464.73,
+        -8363.83,
+        -895.87
+      ],
+      "parts": 48
+    },
+    {
+      "id": "6649169f578e",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_01a_C",
+      "min": [
+        -8478.55,
+        -10627.27,
+        -913.25
+      ],
+      "max": [
+        -8472.67,
+        -10618.85,
+        -909.18
+      ],
+      "parts": 2
+    },
+    {
+      "id": "005f4a8ec455",
+      "kind": "house",
+      "class": "B_Residential_House_01_C",
+      "min": [
+        -8468.17,
+        -8815.4,
+        -885.94
+      ],
+      "max": [
+        -8447.3,
+        -8795.55,
+        -872.67
+      ],
+      "parts": 67
+    },
+    {
+      "id": "24a01a30a9b4",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -8461.71,
+        -8852.79,
+        -887.12
+      ],
+      "max": [
+        -8441.08,
+        -8832.3,
+        -877.35
+      ],
+      "parts": 48
+    },
+    {
+      "id": "78a4fcbc48f8",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_02a_C",
+      "min": [
+        -8460.11,
+        -11310.7,
+        -948.13
+      ],
+      "max": [
+        -8442.26,
+        -11292.84,
+        -941.91
+      ],
+      "parts": 14
+    },
+    {
+      "id": "4ff5fbefe0dc",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -8459.71,
+        -8880.4,
+        -886.79
+      ],
+      "max": [
+        -8442.65,
+        -8863.45,
+        -877.98
+      ],
+      "parts": 38
+    },
+    {
+      "id": "f90a94bb8c8f",
+      "kind": "house",
+      "class": "B_Residential_House_04_C",
+      "min": [
+        -8457,
+        -10636.27,
+        -915.12
+      ],
+      "max": [
+        -8435.34,
+        -10619.85,
+        -901.86
+      ],
+      "parts": 70
+    },
+    {
+      "id": "92ed8bae322c",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -8452.07,
+        -10753.29,
+        -918.35
+      ],
+      "max": [
+        -8429.76,
+        -10729.18,
+        -909.04
+      ],
+      "parts": 52
+    },
+    {
+      "id": "d8b366f21d12",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_02a_C",
+      "min": [
+        -8448.25,
+        -10726.22,
+        -917.02
+      ],
+      "max": [
+        -8440.09,
+        -10715.93,
+        -913.43
+      ],
+      "parts": 2
+    },
+    {
+      "id": "bfd553166ae4",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_Hut_01a_C",
+      "min": [
+        -8448.11,
+        -11175.63,
+        -946.03
+      ],
+      "max": [
+        -8434.14,
+        -11160.01,
+        -939.87
+      ],
+      "parts": 10
+    },
+    {
+      "id": "982572bab614",
+      "kind": "house",
+      "class": "B_Residential_House_04_C",
+      "min": [
+        -8445.84,
+        -10704.41,
+        -913.32
+      ],
+      "max": [
+        -8428.6,
+        -10682.08,
+        -900.06
+      ],
+      "parts": 70
+    },
+    {
+      "id": "f10986882462",
+      "kind": "house",
+      "class": "B_Residential_House_04_C",
+      "min": [
+        -8438.8,
+        -8363.94,
+        -905.33
+      ],
+      "max": [
+        -8417.21,
+        -8341.25,
+        -892.03
+      ],
+      "parts": 70
+    },
+    {
+      "id": "f23dc98a85b7",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -8428.5,
+        -10757.99,
+        -918.62
+      ],
+      "max": [
+        -8408.04,
+        -10733.48,
+        -905.35
+      ],
+      "parts": 67
+    },
+    {
+      "id": "5a4e886f2d0c",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_01a_C",
+      "min": [
+        -8426.4,
+        -10931.74,
+        -930.44
+      ],
+      "max": [
+        -8397.43,
+        -10908.17,
+        -922.2
+      ],
+      "parts": 12
+    },
+    {
+      "id": "45cf338876d0",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -8423.64,
+        -9864.7,
+        -954.18
+      ],
+      "max": [
+        -8399.66,
+        -9843.06,
+        -944.87
+      ],
+      "parts": 52
+    },
+    {
+      "id": "1f99a952bc6e",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_02a_C",
+      "min": [
+        -8411.38,
+        -10863.7,
+        -929.56
+      ],
+      "max": [
+        -8401.9,
+        -10853.44,
+        -925.97
+      ],
+      "parts": 2
+    },
+    {
+      "id": "665071302628",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -8410.62,
+        -8917.24,
+        -888.01
+      ],
+      "max": [
+        -8389.15,
+        -8896.14,
+        -878.24
+      ],
+      "parts": 48
+    },
+    {
+      "id": "29a77faccf40",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -8408.32,
+        -9710.86,
+        -950.68
+      ],
+      "max": [
+        -8391.5,
+        -9694.45,
+        -941.86
+      ],
+      "parts": 38
+    },
+    {
+      "id": "3db0c4ae8f0e",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -8408.05,
+        -10766.58,
+        -918.03
+      ],
+      "max": [
+        -8391.27,
+        -10749.58,
+        -909.21
+      ],
+      "parts": 38
+    },
+    {
+      "id": "6e9fcdd20f17",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -8404.76,
+        -10719.69,
+        -914.93
+      ],
+      "max": [
+        -8382.79,
+        -10700.06,
+        -905.15
+      ],
+      "parts": 48
+    },
+    {
+      "id": "0aefcb6f1f37",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -8399.06,
+        -10872.07,
+        -930.41
+      ],
+      "max": [
+        -8377.12,
+        -10846.38,
+        -921.1
+      ],
+      "parts": 52
+    },
+    {
+      "id": "91ef52641afc",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -8397.81,
+        -10297.48,
+        -955.19
+      ],
+      "max": [
+        -8372.11,
+        -10275.7,
+        -945.88
+      ],
+      "parts": 52
+    },
+    {
+      "id": "262337f7d122",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_01a_C",
+      "min": [
+        -8397.05,
+        -8925.08,
+        -887.15
+      ],
+      "max": [
+        -8388.59,
+        -8915.57,
+        -883.08
+      ],
+      "parts": 1
+    },
+    {
+      "id": "53d189243439",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -8392.42,
+        -9789.74,
+        -951.65
+      ],
+      "max": [
+        -8373.56,
+        -9768.62,
+        -941.88
+      ],
+      "parts": 48
+    },
+    {
+      "id": "98803f0a3f11",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -8389.83,
+        -8949.95,
+        -888.77
+      ],
+      "max": [
+        -8368.53,
+        -8927.75,
+        -878.99
+      ],
+      "parts": 48
+    },
+    {
+      "id": "7f863cbb4179",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_03a_C",
+      "min": [
+        -8388.93,
+        -11279.18,
+        -948.13
+      ],
+      "max": [
+        -8374.57,
+        -11263.31,
+        -941.97
+      ],
+      "parts": 8
+    },
+    {
+      "id": "271c990a1c26",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -8381.57,
+        -10318.29,
+        -955.33
+      ],
+      "max": [
+        -8355.33,
+        -10294.81,
+        -942.03
+      ],
+      "parts": 67
+    },
+    {
+      "id": "332f2e5f2c1c",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -8380.67,
+        -10655.14,
+        -916.96
+      ],
+      "max": [
+        -8358.69,
+        -10635.51,
+        -907.19
+      ],
+      "parts": 48
+    },
+    {
+      "id": "afa96617525c",
+      "kind": "apartment",
+      "class": "B_Apartment_Building_01_B_C",
+      "min": [
+        -8380,
+        -11518.3,
+        -951.39
+      ],
+      "max": [
+        -8341.74,
+        -11469.19,
+        -917.73
+      ],
+      "parts": 93
+    },
+    {
+      "id": "f3d0c3ee11a7",
+      "kind": "house",
+      "class": "B_Residential_House_01_C",
+      "min": [
+        -8373.81,
+        -10269.01,
+        -955.16
+      ],
+      "max": [
+        -8350.44,
+        -10248.7,
+        -941.89
+      ],
+      "parts": 67
+    },
+    {
+      "id": "de0923868a84",
+      "kind": "house",
+      "class": "B_Residential_House_01_C",
+      "min": [
+        -8373.21,
+        -10836.42,
+        -929.23
+      ],
+      "max": [
+        -8357.52,
+        -10816.21,
+        -915.96
+      ],
+      "parts": 67
+    },
+    {
+      "id": "27f05a94d8c5",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_01a_C",
+      "min": [
+        -8368.05,
+        -11321,
+        -948.07
+      ],
+      "max": [
+        -8340.68,
+        -11290.73,
+        -939.83
+      ],
+      "parts": 12
+    },
+    {
+      "id": "2e4ee2e4d232",
+      "kind": "house",
+      "class": "B_Residential_House_04_C",
+      "min": [
+        -8366.12,
+        -10790.37,
+        -927.07
+      ],
+      "max": [
+        -8343.88,
+        -10773.44,
+        -913.81
+      ],
+      "parts": 70
+    },
+    {
+      "id": "131ab8de3514",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_02a_C",
+      "min": [
+        -8363.29,
+        -10768.56,
+        -925.82
+      ],
+      "max": [
+        -8353.92,
+        -10762.85,
+        -922.23
+      ],
+      "parts": 2
+    },
+    {
+      "id": "92b630b69896",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_Hut_01a_C",
+      "min": [
+        -8357.66,
+        -11257.12,
+        -948.05
+      ],
+      "max": [
+        -8343.73,
+        -11241.5,
+        -941.89
+      ],
+      "parts": 10
+    },
+    {
+      "id": "4081c60b6dc6",
+      "kind": "apartment",
+      "class": "B_Apartment_Building_01_C_C",
+      "min": [
+        -8356.49,
+        -11455.6,
+        -951.32
+      ],
+      "max": [
+        -8308.47,
+        -11417.34,
+        -925.66
+      ],
+      "parts": 98
+    },
+    {
+      "id": "ad6aa058de60",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -8356.15,
+        -9811.32,
+        -952.35
+      ],
+      "max": [
+        -8336.99,
+        -9787.78,
+        -943.04
+      ],
+      "parts": 52
+    },
+    {
+      "id": "e6de5d3cd4b7",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -8355.4,
+        -10256.14,
+        -956.51
+      ],
+      "max": [
+        -8334.14,
+        -10233.58,
+        -946.74
+      ],
+      "parts": 48
+    },
+    {
+      "id": "53f5c70c7c0f",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_01a_C",
+      "min": [
+        -8355.1,
+        -10825.89,
+        -928.38
+      ],
+      "max": [
+        -8349.84,
+        -10817.85,
+        -924.31
+      ],
+      "parts": 2
+    },
+    {
+      "id": "3b94653e2825",
+      "kind": "warehouse",
+      "class": "B_Warehouse_02a_C",
+      "min": [
+        -8343.82,
+        -10982.76,
+        -944.57
+      ],
+      "max": [
+        -8316.52,
+        -10952.5,
+        -936.46
+      ],
+      "parts": 13
+    },
+    {
+      "id": "5ea85b7926a9",
+      "kind": "apartment",
+      "class": "B_Apartment_Building_01_A_C",
+      "min": [
+        -8342.49,
+        -11621.8,
+        -943.55
+      ],
+      "max": [
+        -8298.82,
+        -11571.14,
+        -901.89
+      ],
+      "parts": 100
+    },
+    {
+      "id": "cce3ae82cccd",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -8340.89,
+        -9749.92,
+        -950.66
+      ],
+      "max": [
+        -8322.4,
+        -9729.22,
+        -940.89
+      ],
+      "parts": 48
+    },
+    {
+      "id": "8daac5094e7c",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -8335.92,
+        -9806.13,
+        -952.35
+      ],
+      "max": [
+        -8312.41,
+        -9787.41,
+        -943.04
+      ],
+      "parts": 52
+    },
+    {
+      "id": "091b7e5dc161",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_03a_C",
+      "min": [
+        -8318.88,
+        -10950.16,
+        -946.42
+      ],
+      "max": [
+        -8305.47,
+        -10934.57,
+        -940.26
+      ],
+      "parts": 8
+    },
+    {
+      "id": "103ebef803f0",
+      "kind": "house",
+      "class": "B_Residential_House_04_C",
+      "min": [
+        -8310.22,
+        -9754.89,
+        -950.94
+      ],
+      "max": [
+        -8291.41,
+        -9731.7,
+        -937.65
+      ],
+      "parts": 70
+    },
+    {
+      "id": "9a76a27caaa2",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -8303.87,
+        -9813.97,
+        -952.81
+      ],
+      "max": [
+        -8286.53,
+        -9798.41,
+        -943.04
+      ],
+      "parts": 48
+    },
+    {
+      "id": "79d1aa4b531a",
+      "kind": "apartment",
+      "class": "B_Apartment_Building_01_B_C",
+      "min": [
+        -8289.27,
+        -11593.05,
+        -943.45
+      ],
+      "max": [
+        -8245.59,
+        -11541.54,
+        -909.79
+      ],
+      "parts": 93
+    },
+    {
+      "id": "614e492a87b4",
+      "kind": "house",
+      "class": "B_Residential_House_04_C",
+      "min": [
+        -8288.03,
+        -11348.95,
+        -942.48
+      ],
+      "max": [
+        -8265.54,
+        -11326.68,
+        -929.22
+      ],
+      "parts": 70
+    },
+    {
+      "id": "3f9f9ec8ca3a",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -8270.95,
+        -9753.15,
+        -951.82
+      ],
+      "max": [
+        -8253.02,
+        -9734.1,
+        -942.05
+      ],
+      "parts": 48
+    },
+    {
+      "id": "b0b61b0bfb52",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -8264.72,
+        -11389.28,
+        -942.24
+      ],
+      "max": [
+        -8247.5,
+        -11372.78,
+        -933.42
+      ],
+      "parts": 38
+    },
+    {
+      "id": "1b54f8626902",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_01a_C",
+      "min": [
+        -8264.18,
+        -11370.64,
+        -941.45
+      ],
+      "max": [
+        -8255.74,
+        -11361.13,
+        -937.38
+      ],
+      "parts": 1
+    },
+    {
+      "id": "dd2fa87a61f0",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_02a_C",
+      "min": [
+        -8259.51,
+        -11399.73,
+        -941.35
+      ],
+      "max": [
+        -8249.13,
+        -11391.55,
+        -937.48
+      ],
+      "parts": 1
+    },
+    {
+      "id": "1dd591c61c02",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_03a_C",
+      "min": [
+        -8258.5,
+        -11615.98,
+        -940.5
+      ],
+      "max": [
+        -8250.09,
+        -11606.05,
+        -936.35
+      ],
+      "parts": 2
+    },
+    {
+      "id": "b963cb854182",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -8258.37,
+        -11333.76,
+        -943.33
+      ],
+      "max": [
+        -8233.09,
+        -11310.46,
+        -934.02
+      ],
+      "parts": 52
+    },
+    {
+      "id": "d52278cf4dee",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_03a_C",
+      "min": [
+        -8254.5,
+        -11613.68,
+        -940.52
+      ],
+      "max": [
+        -8246.09,
+        -11603.75,
+        -936.37
+      ],
+      "parts": 2
+    },
+    {
+      "id": "045c0a4ff4a1",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_02a_C",
+      "min": [
+        -8253.1,
+        -11634.01,
+        -940.33
+      ],
+      "max": [
+        -8244.2,
+        -11623.65,
+        -936.74
+      ],
+      "parts": 1
+    },
+    {
+      "id": "fac43a279e31",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_01a_C",
+      "min": [
+        -8252.65,
+        -11545.93,
+        -941.23
+      ],
+      "max": [
+        -8244.17,
+        -11536.42,
+        -937.16
+      ],
+      "parts": 2
+    },
+    {
+      "id": "13ff57a98e8a",
+      "kind": "house",
+      "class": "B_Residential_House_04_C",
+      "min": [
+        -8250.9,
+        -9797.25,
+        -951.88
+      ],
+      "max": [
+        -8232.32,
+        -9774.58,
+        -938.62
+      ],
+      "parts": 70
+    },
+    {
+      "id": "23cfdd535079",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_02a_C",
+      "min": [
+        -8248.74,
+        -11544.27,
+        -941.24
+      ],
+      "max": [
+        -8239.84,
+        -11533.92,
+        -937.65
+      ],
+      "parts": 1
+    },
+    {
+      "id": "d7fb4ade331c",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_03b_C",
+      "min": [
+        -8247.52,
+        -11557.41,
+        -941.27
+      ],
+      "max": [
+        -8237.58,
+        -11549,
+        -937.12
+      ],
+      "parts": 2
+    },
+    {
+      "id": "7a672c2fe753",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -8246.95,
+        -11373.51,
+        -942.61
+      ],
+      "max": [
+        -8228.91,
+        -11357.4,
+        -932.84
+      ],
+      "parts": 48
+    },
+    {
+      "id": "f533d222569d",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_02a_C",
+      "min": [
+        -8246.67,
+        -11609.29,
+        -940.7
+      ],
+      "max": [
+        -8237.83,
+        -11598.93,
+        -937.11
+      ],
+      "parts": 2
+    },
+    {
+      "id": "92e187eb88ef",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_02a_C",
+      "min": [
+        -8246.39,
+        -11630.13,
+        -940.77
+      ],
+      "max": [
+        -8237.48,
+        -11619.78,
+        -937.17
+      ],
+      "parts": 1
+    },
+    {
+      "id": "91d9aacffadb",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -8245.55,
+        -11425.19,
+        -942.54
+      ],
+      "max": [
+        -8228.5,
+        -11401.93,
+        -933.23
+      ],
+      "parts": 52
+    },
+    {
+      "id": "dfed111d2b04",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_03a_C",
+      "min": [
+        -8245.29,
+        -11561.39,
+        -941.26
+      ],
+      "max": [
+        -8235.36,
+        -11552.98,
+        -937.11
+      ],
+      "parts": 1
+    },
+    {
+      "id": "99bcd808b7b4",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_03b_C",
+      "min": [
+        -8243.06,
+        -11565.37,
+        -941.25
+      ],
+      "max": [
+        -8233.13,
+        -11556.96,
+        -937.1
+      ],
+      "parts": 2
+    },
+    {
+      "id": "a1f2d93a9527",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_02a_C",
+      "min": [
+        -8242.57,
+        -11606.99,
+        -940.75
+      ],
+      "max": [
+        -8233.73,
+        -11596.64,
+        -937.16
+      ],
+      "parts": 2
+    },
+    {
+      "id": "715d1449a8ad",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_01a_C",
+      "min": [
+        -8242.12,
+        -11627.53,
+        -941.03
+      ],
+      "max": [
+        -8233.63,
+        -11618.02,
+        -936.96
+      ],
+      "parts": 2
+    },
+    {
+      "id": "caf3b73d309d",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_03a_C",
+      "min": [
+        -8240.83,
+        -11569.35,
+        -941.22
+      ],
+      "max": [
+        -8230.9,
+        -11560.93,
+        -937.07
+      ],
+      "parts": 2
+    },
+    {
+      "id": "c0e3da459e3b",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_03b_C",
+      "min": [
+        -8240.35,
+        -11539.62,
+        -941.25
+      ],
+      "max": [
+        -8231.87,
+        -11529.69,
+        -937.1
+      ],
+      "parts": 2
+    },
+    {
+      "id": "10f36fe29bce",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_03a_C",
+      "min": [
+        -8238.61,
+        -11573.31,
+        -941.21
+      ],
+      "max": [
+        -8228.67,
+        -11564.9,
+        -937.06
+      ],
+      "parts": 1
+    },
+    {
+      "id": "9d4daa4abe46",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_03a_C",
+      "min": [
+        -8238.25,
+        -11625.08,
+        -941.09
+      ],
+      "max": [
+        -8229.78,
+        -11615.15,
+        -936.94
+      ],
+      "parts": 2
+    },
+    {
+      "id": "c4a749af4899",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_03b_C",
+      "min": [
+        -8238.15,
+        -11604.66,
+        -941.1
+      ],
+      "max": [
+        -8229.74,
+        -11594.73,
+        -936.95
+      ],
+      "parts": 2
+    },
+    {
+      "id": "a044941628c0",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_01a_C",
+      "min": [
+        -8236.64,
+        -11536.68,
+        -941.26
+      ],
+      "max": [
+        -8228.15,
+        -11527.17,
+        -937.19
+      ],
+      "parts": 1
+    },
+    {
+      "id": "e11006f1b1e8",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_02a_C",
+      "min": [
+        -8234.37,
+        -11623.06,
+        -941.16
+      ],
+      "max": [
+        -8225.47,
+        -11612.7,
+        -937.56
+      ],
+      "parts": 1
+    },
+    {
+      "id": "454d09b387df",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_03b_C",
+      "min": [
+        -8234.15,
+        -11602.36,
+        -941.25
+      ],
+      "max": [
+        -8225.74,
+        -11592.43,
+        -937.1
+      ],
+      "parts": 2
+    },
+    {
+      "id": "0df73615e5da",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -8232,
+        -9736.97,
+        -952.17
+      ],
+      "max": [
+        -8215.68,
+        -9720.84,
+        -943.36
+      ],
+      "parts": 38
+    },
+    {
+      "id": "a1b4ec2ae4d2",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_02a_C",
+      "min": [
+        -8231.26,
+        -11547.36,
+        -941.3
+      ],
+      "max": [
+        -8220.9,
+        -11538.52,
+        -937.7
+      ],
+      "parts": 2
+    },
+    {
+      "id": "c9becadd6862",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_03a_C",
+      "min": [
+        -8228.86,
+        -11551.18,
+        -941.38
+      ],
+      "max": [
+        -8218.93,
+        -11542.77,
+        -937.23
+      ],
+      "parts": 2
+    },
+    {
+      "id": "2b166ce72bbf",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_02a_C",
+      "min": [
+        -8228.26,
+        -9716.72,
+        -951.73
+      ],
+      "max": [
+        -8218.44,
+        -9710.04,
+        -948.14
+      ],
+      "parts": 1
+    },
+    {
+      "id": "fc6961355451",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_02a_C",
+      "min": [
+        -8227.33,
+        -11598.24,
+        -941.34
+      ],
+      "max": [
+        -8218.43,
+        -11587.89,
+        -937.74
+      ],
+      "parts": 1
+    },
+    {
+      "id": "12ecadb0ce0d",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_01a_C",
+      "min": [
+        -8226.7,
+        -9748.19,
+        -950.75
+      ],
+      "max": [
+        -8219.21,
+        -9738.96,
+        -946.62
+      ],
+      "parts": 1
+    },
+    {
+      "id": "a7ed73b0248c",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_03a_C",
+      "min": [
+        -8226.65,
+        -11555.11,
+        -941.39
+      ],
+      "max": [
+        -8216.72,
+        -11546.7,
+        -937.24
+      ],
+      "parts": 1
+    },
+    {
+      "id": "433580b14876",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_02a_C",
+      "min": [
+        -8223.17,
+        -11595.84,
+        -941.34
+      ],
+      "max": [
+        -8214.27,
+        -11585.49,
+        -937.74
+      ],
+      "parts": 1
+    },
+    {
+      "id": "5f133176ec47",
+      "kind": "market",
+      "class": "B_MarketBuilding_03_C",
+      "min": [
+        -8222.82,
+        -11472.14,
+        -938.8
+      ],
+      "max": [
+        -8164.36,
+        -11428.45,
+        -929.6
+      ],
+      "parts": 50
+    },
+    {
+      "id": "23dbb3c0450f",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_02a_C",
+      "min": [
+        -8222.36,
+        -11563.05,
+        -941.3
+      ],
+      "max": [
+        -8212.01,
+        -11554.21,
+        -937.7
+      ],
+      "parts": 2
+    },
+    {
+      "id": "71b77681c6c2",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_03a_C",
+      "min": [
+        -8219.94,
+        -11566.9,
+        -941.17
+      ],
+      "max": [
+        -8210.01,
+        -11558.48,
+        -937.02
+      ],
+      "parts": 1
+    },
+    {
+      "id": "95b42a047061",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -8219.17,
+        -10349.97,
+        -952.97
+      ],
+      "max": [
+        -8197.98,
+        -10328.28,
+        -943.2
+      ],
+      "parts": 48
+    },
+    {
+      "id": "6e9a0104ae6c",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_01a_C",
+      "min": [
+        -8217.17,
+        -11570.67,
+        -941.44
+      ],
+      "max": [
+        -8207.66,
+        -11562.24,
+        -937.37
+      ],
+      "parts": 2
+    },
+    {
+      "id": "1218d1a38d59",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_01a_C",
+      "min": [
+        -8216.57,
+        -11611.86,
+        -941.43
+      ],
+      "max": [
+        -8207.05,
+        -11603.37,
+        -937.36
+      ],
+      "parts": 2
+    },
+    {
+      "id": "1ae11ed33501",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -8215.6,
+        -11409.88,
+        -942.65
+      ],
+      "max": [
+        -8194.09,
+        -11388.76,
+        -932.88
+      ],
+      "parts": 48
+    },
+    {
+      "id": "8ca5c2cae2c6",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -8214.88,
+        -10541.48,
+        -950.65
+      ],
+      "max": [
+        -8190.97,
+        -10522.57,
+        -937.38
+      ],
+      "parts": 67
+    },
+    {
+      "id": "dc212e92b8f5",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_01a_C",
+      "min": [
+        -8214.07,
+        -11616.16,
+        -941.43
+      ],
+      "max": [
+        -8204.55,
+        -11607.67,
+        -937.36
+      ],
+      "parts": 2
+    },
+    {
+      "id": "522f861a9d8e",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_02a_C",
+      "min": [
+        -8208.99,
+        -11586.81,
+        -941.33
+      ],
+      "max": [
+        -8198.64,
+        -11577.97,
+        -937.74
+      ],
+      "parts": 1
+    },
+    {
+      "id": "0ac987f1bf77",
+      "kind": "house",
+      "class": "B_Residential_House_01_C",
+      "min": [
+        -8207.34,
+        -10372.61,
+        -952.13
+      ],
+      "max": [
+        -8187.36,
+        -10351.26,
+        -938.86
+      ],
+      "parts": 67
+    },
+    {
+      "id": "d591e1d30397",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_02a_C",
+      "min": [
+        -8206.78,
+        -11590.92,
+        -941.31
+      ],
+      "max": [
+        -8196.43,
+        -11582.08,
+        -937.72
+      ],
+      "parts": 2
+    },
+    {
+      "id": "b923d38bfc2b",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_03a_C",
+      "min": [
+        -8204.37,
+        -11594.77,
+        -941.32
+      ],
+      "max": [
+        -8194.44,
+        -11586.36,
+        -937.17
+      ],
+      "parts": 1
+    },
+    {
+      "id": "e87bd9796330",
+      "kind": "house",
+      "class": "B_Residential_House_01_C",
+      "min": [
+        -8202.63,
+        -11326.94,
+        -942.11
+      ],
+      "max": [
+        -8181.39,
+        -11310.5,
+        -928.84
+      ],
+      "parts": 67
+    },
+    {
+      "id": "3f7393ff96a5",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_02a_C",
+      "min": [
+        -8202.37,
+        -11362.48,
+        -941.52
+      ],
+      "max": [
+        -8193.22,
+        -11352.06,
+        -937.73
+      ],
+      "parts": 2
+    },
+    {
+      "id": "e266d77b145e",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_03a_C",
+      "min": [
+        -8202.15,
+        -11598.75,
+        -941.32
+      ],
+      "max": [
+        -8192.22,
+        -11590.34,
+        -937.17
+      ],
+      "parts": 2
+    },
+    {
+      "id": "00b37262e289",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_03a_C",
+      "min": [
+        -8199.96,
+        -11602.64,
+        -941.35
+      ],
+      "max": [
+        -8190.03,
+        -11594.22,
+        -937.2
+      ],
+      "parts": 1
+    },
+    {
+      "id": "1da5c352d484",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_01a_C",
+      "min": [
+        -8197.19,
+        -11606.4,
+        -941.5
+      ],
+      "max": [
+        -8187.68,
+        -11597.97,
+        -937.43
+      ],
+      "parts": 2
+    },
+    {
+      "id": "0de69798cf7b",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_01a_C",
+      "min": [
+        -8194.72,
+        -11341.57,
+        -941.01
+      ],
+      "max": [
+        -8185.2,
+        -11333.05,
+        -936.94
+      ],
+      "parts": 1
+    },
+    {
+      "id": "cd1af73b5da2",
+      "kind": "market",
+      "class": "B_MarketBuilding_06_C",
+      "min": [
+        -8192.72,
+        -11540.42,
+        -934.74
+      ],
+      "max": [
+        -8161.39,
+        -11504.7,
+        -930.32
+      ],
+      "parts": 24
+    },
+    {
+      "id": "e23a433a32f3",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -8191.96,
+        -11373.76,
+        -942.39
+      ],
+      "max": [
+        -8166.92,
+        -11350.2,
+        -933.08
+      ],
+      "parts": 52
+    },
+    {
+      "id": "c7691a61485e",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_01a_C",
+      "min": [
+        -8181.59,
+        -11387.15,
+        -941.28
+      ],
+      "max": [
+        -8173.11,
+        -11377.64,
+        -937.21
+      ],
+      "parts": 1
+    },
+    {
+      "id": "baa06c5c4871",
+      "kind": "market",
+      "class": "BP_Market_Building_01a_C",
+      "min": [
+        -8174.86,
+        -11475.82,
+        -939
+      ],
+      "max": [
+        -8109.4,
+        -11410.63,
+        -929.58
+      ],
+      "parts": 69
+    },
+    {
+      "id": "718db5b15045",
+      "kind": "market",
+      "class": "BP_MarketBuilding_05a_C",
+      "min": [
+        -8172.98,
+        -11554.45,
+        -933.85
+      ],
+      "max": [
+        -8152.45,
+        -11531.18,
+        -929.63
+      ],
+      "parts": 16
+    },
+    {
+      "id": "faa2efae7d5c",
+      "kind": "house",
+      "class": "B_Residential_House_01_C",
+      "min": [
+        -8171.58,
+        -13093.58,
+        -905.95
+      ],
+      "max": [
+        -8151.59,
+        -13072.22,
+        -892.68
+      ],
+      "parts": 67
+    },
+    {
+      "id": "0d20a22f99e9",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -8168.58,
+        -11386.68,
+        -941.55
+      ],
+      "max": [
+        -8151.99,
+        -11369.4,
+        -932.73
+      ],
+      "parts": 38
+    },
+    {
+      "id": "d9a09bfa62df",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -8168.26,
+        -11331.29,
+        -942.02
+      ],
+      "max": [
+        -8146.75,
+        -11310.17,
+        -932.25
+      ],
+      "parts": 48
+    },
+    {
+      "id": "25d16239ee3a",
+      "kind": "market",
+      "class": "BP_MarketBuilding_04a_C",
+      "min": [
+        -8156.45,
+        -11550.32,
+        -933.83
+      ],
+      "max": [
+        -8131.15,
+        -11529.05,
+        -929.61
+      ],
+      "parts": 16
+    },
+    {
+      "id": "da096d2ad233",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -8154.34,
+        -13139.15,
+        -906.78
+      ],
+      "max": [
+        -8133.64,
+        -13113.55,
+        -897.47
+      ],
+      "parts": 52
+    },
+    {
+      "id": "c3da7fe9c190",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -8152.69,
+        -11368.87,
+        -942.33
+      ],
+      "max": [
+        -8126.9,
+        -11345.38,
+        -929.06
+      ],
+      "parts": 67
+    },
+    {
+      "id": "4f808cd37ce2",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_01a_C",
+      "min": [
+        -8148.13,
+        -11280.4,
+        -940.97
+      ],
+      "max": [
+        -8138.61,
+        -11271.92,
+        -936.9
+      ],
+      "parts": 2
+    },
+    {
+      "id": "03ec882b8cd4",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_01a_C",
+      "min": [
+        -8141.22,
+        -11598.14,
+        -935.1
+      ],
+      "max": [
+        -8132.68,
+        -11588.62,
+        -931.03
+      ],
+      "parts": 2
+    },
+    {
+      "id": "d5e9a771b84d",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -8141.17,
+        -11587.86,
+        -935.97
+      ],
+      "max": [
+        -8115.61,
+        -11564.43,
+        -922.7
+      ],
+      "parts": 67
+    },
+    {
+      "id": "04e3db0cbbe4",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_01a_C",
+      "min": [
+        -8140.83,
+        -11293.04,
+        -940.99
+      ],
+      "max": [
+        -8131.32,
+        -11284.55,
+        -936.92
+      ],
+      "parts": 2
+    },
+    {
+      "id": "006ac73ba437",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_03b_C",
+      "min": [
+        -8138.33,
+        -11296.75,
+        -940.74
+      ],
+      "max": [
+        -8128.39,
+        -11288.27,
+        -936.59
+      ],
+      "parts": 2
+    },
+    {
+      "id": "52e51f3346d8",
+      "kind": "warehouse",
+      "class": "B_Warehouse_02a_C",
+      "min": [
+        -8137.19,
+        -10826.61,
+        -938.46
+      ],
+      "max": [
+        -8107.46,
+        -10796.76,
+        -930.35
+      ],
+      "parts": 13
+    },
+    {
+      "id": "a0b8482c5190",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_02a_C",
+      "min": [
+        -8136.43,
+        -11301.08,
+        -940.87
+      ],
+      "max": [
+        -8126.07,
+        -11292.18,
+        -937.27
+      ],
+      "parts": 1
+    },
+    {
+      "id": "a1c93ae79049",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -8135.54,
+        -13172.13,
+        -906.83
+      ],
+      "max": [
+        -8113.29,
+        -13150.82,
+        -897.06
+      ],
+      "parts": 48
+    },
+    {
+      "id": "90e24f77f6f0",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_02a_C",
+      "min": [
+        -8131,
+        -11310.33,
+        -940.76
+      ],
+      "max": [
+        -8120.65,
+        -11301.43,
+        -937.16
+      ],
+      "parts": 2
+    },
+    {
+      "id": "80f266ef4d2f",
+      "kind": "house",
+      "class": "B_Residential_House_Abandoned_01_C",
+      "min": [
+        -8130.39,
+        -11952.62,
+        -876.69
+      ],
+      "max": [
+        -8109.54,
+        -11929.02,
+        -863.42
+      ],
+      "parts": 70
+    },
+    {
+      "id": "c00f9168a689",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_01a_C",
+      "min": [
+        -8128.56,
+        -11314.3,
+        -940.87
+      ],
+      "max": [
+        -8119.05,
+        -11305.81,
+        -936.81
+      ],
+      "parts": 2
+    },
+    {
+      "id": "a3224d198434",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -8126.15,
+        -8026.8,
+        -881
+      ],
+      "max": [
+        -8107.81,
+        -8006.28,
+        -871.23
+      ],
+      "parts": 48
+    },
+    {
+      "id": "dd0fe9225e4f",
+      "kind": "market",
+      "class": "B_MarketBuilding_02_C",
+      "min": [
+        -8125.9,
+        -11525.67,
+        -934.16
+      ],
+      "max": [
+        -8076.82,
+        -11482.7,
+        -929.74
+      ],
+      "parts": 19
+    },
+    {
+      "id": "18606af34a0d",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_01a_C",
+      "min": [
+        -8124.99,
+        -11276.59,
+        -940.96
+      ],
+      "max": [
+        -8115.48,
+        -11268.11,
+        -936.89
+      ],
+      "parts": 1
+    },
+    {
+      "id": "f2e3b024532d",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_02a_C",
+      "min": [
+        -8123.67,
+        -11281.1,
+        -940.82
+      ],
+      "max": [
+        -8113.31,
+        -11272.2,
+        -937.23
+      ],
+      "parts": 2
+    },
+    {
+      "id": "437769308bf1",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_02a_C",
+      "min": [
+        -8121.26,
+        -11285.11,
+        -940.83
+      ],
+      "max": [
+        -8110.91,
+        -11276.2,
+        -937.23
+      ],
+      "parts": 1
+    },
+    {
+      "id": "4390963b861c",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_02a_C",
+      "min": [
+        -8118.85,
+        -11289.12,
+        -940.79
+      ],
+      "max": [
+        -8108.5,
+        -11280.21,
+        -937.2
+      ],
+      "parts": 2
+    },
+    {
+      "id": "6f2b984ede02",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -8113.51,
+        -11419.01,
+        -941.6
+      ],
+      "max": [
+        -8093.01,
+        -11393.46,
+        -932.3
+      ],
+      "parts": 52
+    },
+    {
+      "id": "4a2bdcc2596d",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -8111.38,
+        -11351.76,
+        -942.22
+      ],
+      "max": [
+        -8090.86,
+        -11326.2,
+        -932.91
+      ],
+      "parts": 52
+    },
+    {
+      "id": "e307674f815f",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -8110.26,
+        -13104.49,
+        -906.85
+      ],
+      "max": [
+        -8088.95,
+        -13078.81,
+        -897.54
+      ],
+      "parts": 52
+    },
+    {
+      "id": "a64a48c1ccd5",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -8102.21,
+        -11571.83,
+        -935.94
+      ],
+      "max": [
+        -8076.56,
+        -11548.37,
+        -922.67
+      ],
+      "parts": 67
+    },
+    {
+      "id": "e43a672e1f29",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -8088.49,
+        -12705.56,
+        -917.8
+      ],
+      "max": [
+        -8066.47,
+        -12684.28,
+        -908.03
+      ],
+      "parts": 48
+    },
+    {
+      "id": "55cba32c6dba",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_02a_C",
+      "min": [
+        -8079.12,
+        -11583.58,
+        -934.66
+      ],
+      "max": [
+        -8061.07,
+        -11565.52,
+        -928.43
+      ],
+      "parts": 14
+    },
+    {
+      "id": "3c96b8164794",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -8078.64,
+        -11560.65,
+        -936.53
+      ],
+      "max": [
+        -8052.81,
+        -11537.15,
+        -923.26
+      ],
+      "parts": 67
+    },
+    {
+      "id": "debbe80d42aa",
+      "kind": "house",
+      "class": "B_Residential_House_01_C",
+      "min": [
+        -8075.22,
+        -11411.51,
+        -942.09
+      ],
+      "max": [
+        -8052.45,
+        -11391.4,
+        -928.82
+      ],
+      "parts": 67
+    },
+    {
+      "id": "625cbb7a1036",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -8060.39,
+        -12753.29,
+        -914.17
+      ],
+      "max": [
+        -8041,
+        -12728.04,
+        -904.86
+      ],
+      "parts": 52
+    },
+    {
+      "id": "59f57533c676",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -8051.89,
+        -11444.29,
+        -940.27
+      ],
+      "max": [
+        -8029.93,
+        -11423.03,
+        -930.5
+      ],
+      "parts": 48
+    },
+    {
+      "id": "6d0807e1bdb5",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_01a_C",
+      "min": [
+        -8050.36,
+        -11526.93,
+        -934.59
+      ],
+      "max": [
+        -8040.85,
+        -11517.99,
+        -930.51
+      ],
+      "parts": 2
+    },
+    {
+      "id": "7f1895daee19",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_03b_C",
+      "min": [
+        -8047.39,
+        -11530.34,
+        -934.47
+      ],
+      "max": [
+        -8037.55,
+        -11521.31,
+        -930.31
+      ],
+      "parts": 2
+    },
+    {
+      "id": "37de8eb4d90b",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_02a_C",
+      "min": [
+        -8045.02,
+        -11534.41,
+        -934.34
+      ],
+      "max": [
+        -8034.75,
+        -11524.94,
+        -930.73
+      ],
+      "parts": 1
+    },
+    {
+      "id": "700657409511",
+      "kind": "house",
+      "class": "B_Residential_House_01_C",
+      "min": [
+        -8040.94,
+        -12783.99,
+        -913.13
+      ],
+      "max": [
+        -8020.61,
+        -12760.52,
+        -899.84
+      ],
+      "parts": 67
+    },
+    {
+      "id": "dded81d4412f",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -8026.79,
+        -11554.31,
+        -934.44
+      ],
+      "max": [
+        -8007.54,
+        -11530.59,
+        -921.17
+      ],
+      "parts": 67
+    },
+    {
+      "id": "6cd78982230d",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -8024.96,
+        -11511.81,
+        -935.55
+      ],
+      "max": [
+        -8009.49,
+        -11488.93,
+        -926.24
+      ],
+      "parts": 52
+    },
+    {
+      "id": "db512bee68f3",
+      "kind": "house",
+      "class": "B_Residential_House_01_C",
+      "min": [
+        -8012.53,
+        -8382.55,
+        -892.35
+      ],
+      "max": [
+        -7993.34,
+        -8365.44,
+        -879.08
+      ],
+      "parts": 67
+    },
+    {
+      "id": "122cbbe56040",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_Hut_01a_C",
+      "min": [
+        -8010.97,
+        -9228.59,
+        -917.89
+      ],
+      "max": [
+        -7997.71,
+        -9213.11,
+        -911.73
+      ],
+      "parts": 10
+    },
+    {
+      "id": "3c8136099851",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -8009.71,
+        -11493.83,
+        -936.74
+      ],
+      "max": [
+        -7986.22,
+        -11467.59,
+        -923.47
+      ],
+      "parts": 67
+    },
+    {
+      "id": "4502db3365aa",
+      "kind": "house",
+      "class": "B_Residential_House_04_C",
+      "min": [
+        -7999.53,
+        -7910.14,
+        -871.41
+      ],
+      "max": [
+        -7977.43,
+        -7893.64,
+        -858.11
+      ],
+      "parts": 70
+    },
+    {
+      "id": "593c014ae5dd",
+      "kind": "house",
+      "class": "B_Residential_House_05_C",
+      "min": [
+        -7998.73,
+        -11548.44,
+        -934.34
+      ],
+      "max": [
+        -7978.75,
+        -11529.91,
+        -921.07
+      ],
+      "parts": 69
+    },
+    {
+      "id": "fba2ce07a0bd",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -7994.55,
+        -7762.29,
+        -860.44
+      ],
+      "max": [
+        -7971.31,
+        -7737.3,
+        -847.13
+      ],
+      "parts": 67
+    },
+    {
+      "id": "c70889bc5217",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -7982.76,
+        -11504.03,
+        -935.16
+      ],
+      "max": [
+        -7965.68,
+        -11486.92,
+        -926.34
+      ],
+      "parts": 38
+    },
+    {
+      "id": "f8fabff0272c",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -7966.13,
+        -11511.74,
+        -934.68
+      ],
+      "max": [
+        -7942.89,
+        -11487.57,
+        -925.37
+      ],
+      "parts": 52
+    },
+    {
+      "id": "6cc3fdec89a4",
+      "kind": "house",
+      "class": "B_Residential_House_Abandoned_01_C",
+      "min": [
+        -7960.09,
+        -10522.67,
+        -899.38
+      ],
+      "max": [
+        -7938.51,
+        -10498.14,
+        -886.11
+      ],
+      "parts": 70
+    },
+    {
+      "id": "0d0b9823f5fd",
+      "kind": "house",
+      "class": "B_Residential_House_04_C",
+      "min": [
+        -7869.89,
+        -7418.43,
+        -844.88
+      ],
+      "max": [
+        -7848.99,
+        -7394.84,
+        -831.62
+      ],
+      "parts": 70
+    },
+    {
+      "id": "7d7a7ac270e4",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -7848.3,
+        -7430.9,
+        -844.77
+      ],
+      "max": [
+        -7822.17,
+        -7408.85,
+        -831.5
+      ],
+      "parts": 67
+    },
+    {
+      "id": "8dc4698bfa50",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -7821.84,
+        -7452.25,
+        -845.13
+      ],
+      "max": [
+        -7801.28,
+        -7429.55,
+        -835.36
+      ],
+      "parts": 48
+    },
+    {
+      "id": "06233dfcc527",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -7811.01,
+        -7476.35,
+        -844.09
+      ],
+      "max": [
+        -7788.34,
+        -7455.9,
+        -834.32
+      ],
+      "parts": 48
+    },
+    {
+      "id": "cad46aea08ec",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -7745.27,
+        -7278.11,
+        -844.55
+      ],
+      "max": [
+        -7730.06,
+        -7262.03,
+        -835.73
+      ],
+      "parts": 38
+    },
+    {
+      "id": "96b1bec230e5",
+      "kind": "house",
+      "class": "B_Residential_House_01_C",
+      "min": [
+        -7738.71,
+        -7476.97,
+        -843.11
+      ],
+      "max": [
+        -7715.33,
+        -7456.65,
+        -829.84
+      ],
+      "parts": 67
+    },
+    {
+      "id": "589761dd06e7",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -7724.99,
+        -7281.23,
+        -844.73
+      ],
+      "max": [
+        -7701.47,
+        -7262.33,
+        -835.43
+      ],
+      "parts": 52
+    },
+    {
+      "id": "b1cca19db3d9",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -7719.93,
+        -7459.14,
+        -844.59
+      ],
+      "max": [
+        -7698.89,
+        -7436.4,
+        -834.82
+      ],
+      "parts": 48
+    },
+    {
+      "id": "4514229631c3",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -7700.8,
+        -7476.22,
+        -845.07
+      ],
+      "max": [
+        -7683.35,
+        -7458.75,
+        -836.25
+      ],
+      "parts": 38
+    },
+    {
+      "id": "21ccd54e2955",
+      "kind": "house",
+      "class": "B_Residential_House_04_C",
+      "min": [
+        -7691.3,
+        -7297.13,
+        -845.1
+      ],
+      "max": [
+        -7668.94,
+        -7274.75,
+        -831.84
+      ],
+      "parts": 70
+    },
+    {
+      "id": "a1f806f7abaa",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -7682.59,
+        -7321.18,
+        -845.99
+      ],
+      "max": [
+        -7661.55,
+        -7299.86,
+        -836.22
+      ],
+      "parts": 48
+    },
+    {
+      "id": "e7003937ac63",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -7670.31,
+        -7431.25,
+        -845.12
+      ],
+      "max": [
+        -7652.86,
+        -7413.79,
+        -836.3
+      ],
+      "parts": 38
+    },
+    {
+      "id": "406cdbfa7d75",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -7658.79,
+        -7275.72,
+        -845.84
+      ],
+      "max": [
+        -7637.51,
+        -7253.66,
+        -836.07
+      ],
+      "parts": 48
+    },
+    {
+      "id": "b558ae26ff80",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_02a_C",
+      "min": [
+        -7658.62,
+        -7474.22,
+        -843.93
+      ],
+      "max": [
+        -7640.2,
+        -7455.76,
+        -837.71
+      ],
+      "parts": 14
+    },
+    {
+      "id": "7116f4251fae",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -7642.99,
+        -7461.93,
+        -845.41
+      ],
+      "max": [
+        -7621.92,
+        -7439.2,
+        -835.64
+      ],
+      "parts": 48
+    },
+    {
+      "id": "7909e0c4e6b1",
+      "kind": "house",
+      "class": "B_Residential_House_04_C",
+      "min": [
+        -7642.53,
+        -7365.8,
+        -845.26
+      ],
+      "max": [
+        -7620.56,
+        -7342.34,
+        -832
+      ],
+      "parts": 70
+    },
+    {
+      "id": "f52f61f96e08",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_01a_C",
+      "min": [
+        -7639.78,
+        -11207.48,
+        -918.46
+      ],
+      "max": [
+        -7611.66,
+        -11185.59,
+        -910.22
+      ],
+      "parts": 12
+    },
+    {
+      "id": "f130ab1cefbe",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -7636.3,
+        -7309.71,
+        -845.71
+      ],
+      "max": [
+        -7618.81,
+        -7292.57,
+        -836.89
+      ],
+      "parts": 38
+    },
+    {
+      "id": "009d7d8af28a",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -7630.06,
+        -7442.93,
+        -845.34
+      ],
+      "max": [
+        -7607.36,
+        -7422.37,
+        -835.57
+      ],
+      "parts": 48
+    },
+    {
+      "id": "6517b66e85fc",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -7616.8,
+        -7417.54,
+        -846.06
+      ],
+      "max": [
+        -7591.16,
+        -7395.13,
+        -836.75
+      ],
+      "parts": 52
+    },
+    {
+      "id": "087dce7e3b6a",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_03a_C",
+      "min": [
+        -7616.17,
+        -7313.37,
+        -845.39
+      ],
+      "max": [
+        -7600.86,
+        -7297.52,
+        -839.23
+      ],
+      "parts": 8
+    },
+    {
+      "id": "7b1777eebdc8",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -7587.1,
+        -11184.42,
+        -920.15
+      ],
+      "max": [
+        -7563.64,
+        -11168.03,
+        -910.84
+      ],
+      "parts": 52
+    },
+    {
+      "id": "5dd9c7e5c228",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_01a_C",
+      "min": [
+        -7581.16,
+        -11359.15,
+        -916.42
+      ],
+      "max": [
+        -7554.37,
+        -11339.53,
+        -908.18
+      ],
+      "parts": 12
+    },
+    {
+      "id": "00185afe2a2a",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -7555.6,
+        -7378.36,
+        -846.54
+      ],
+      "max": [
+        -7539.16,
+        -7362.62,
+        -837.72
+      ],
+      "parts": 38
+    },
+    {
+      "id": "368d22dfa243",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -7535.99,
+        -11330.62,
+        -918
+      ],
+      "max": [
+        -7520.39,
+        -11316.1,
+        -909.18
+      ],
+      "parts": 38
+    },
+    {
+      "id": "feba2492aef5",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_02a_C",
+      "min": [
+        -7534.68,
+        -7378.33,
+        -845.34
+      ],
+      "max": [
+        -7519.87,
+        -7363.61,
+        -839.12
+      ],
+      "parts": 14
+    },
+    {
+      "id": "c3c4da2d0207",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -7520.79,
+        -7398.88,
+        -846.26
+      ],
+      "max": [
+        -7501.94,
+        -7382.05,
+        -836.49
+      ],
+      "parts": 48
+    },
+    {
+      "id": "9e0e1bcb3860",
+      "kind": "warehouse",
+      "class": "BP_Warehouse_Small_01a_C",
+      "min": [
+        -7497.84,
+        -10659.55,
+        -920.82
+      ],
+      "max": [
+        -7468.75,
+        -10635.71,
+        -912.58
+      ],
+      "parts": 12
+    },
+    {
+      "id": "c9a71c8f3cd9",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_02a_C",
+      "min": [
+        -7456.14,
+        -10968.98,
+        -941.06
+      ],
+      "max": [
+        -7446.21,
+        -10962.04,
+        -937.46
+      ],
+      "parts": 2
+    },
+    {
+      "id": "a30000b2d030",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_02a_C",
+      "min": [
+        -7455,
+        -10964.31,
+        -941.08
+      ],
+      "max": [
+        -7445.07,
+        -10957.37,
+        -937.48
+      ],
+      "parts": 1
+    },
+    {
+      "id": "981d03610494",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_03a_C",
+      "min": [
+        -7451.93,
+        -10658.09,
+        -920.98
+      ],
+      "max": [
+        -7442.16,
+        -10650.89,
+        -916.83
+      ],
+      "parts": 2
+    },
+    {
+      "id": "5115da488997",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_03a_C",
+      "min": [
+        -7450.53,
+        -10653.76,
+        -920.98
+      ],
+      "max": [
+        -7440.76,
+        -10646.56,
+        -916.83
+      ],
+      "parts": 1
+    },
+    {
+      "id": "39bc621ab3f6",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_03b_C",
+      "min": [
+        -7449.13,
+        -10649.43,
+        -920.98
+      ],
+      "max": [
+        -7439.36,
+        -10642.23,
+        -916.83
+      ],
+      "parts": 2
+    },
+    {
+      "id": "00a4dbab84d3",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_03a_C",
+      "min": [
+        -7447.71,
+        -10645.05,
+        -920.98
+      ],
+      "max": [
+        -7437.95,
+        -10637.85,
+        -916.83
+      ],
+      "parts": 2
+    },
+    {
+      "id": "eb58ba5377ce",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -7445.96,
+        -10981.91,
+        -938.86
+      ],
+      "max": [
+        -7430.44,
+        -10965.62,
+        -930.04
+      ],
+      "parts": 38
+    },
+    {
+      "id": "c0946555b818",
+      "kind": "house",
+      "class": "B_Residential_House_Madrid_03_C",
+      "min": [
+        -7443.64,
+        -10949.47,
+        -941.25
+      ],
+      "max": [
+        -7426.44,
+        -10929.25,
+        -927.97
+      ],
+      "parts": 53
+    },
+    {
+      "id": "e66980d3f1f5",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -7412.29,
+        -11005.98,
+        -930.91
+      ],
+      "max": [
+        -7394.45,
+        -10986.01,
+        -921.14
+      ],
+      "parts": 48
+    },
+    {
+      "id": "c25cc9d9a01b",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -7408.03,
+        -10973.26,
+        -932.12
+      ],
+      "max": [
+        -7388.62,
+        -10949.71,
+        -922.81
+      ],
+      "parts": 52
+    },
+    {
+      "id": "e29d27023972",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -7406.34,
+        -11166.33,
+        -923.93
+      ],
+      "max": [
+        -7381.89,
+        -11147.45,
+        -910.66
+      ],
+      "parts": 67
+    },
+    {
+      "id": "3ca581e4491b",
+      "kind": "house",
+      "class": "B_Residential_House_01_C",
+      "min": [
+        -7377.79,
+        -11132.18,
+        -926.16
+      ],
+      "max": [
+        -7355.45,
+        -11112.05,
+        -912.89
+      ],
+      "parts": 67
+    },
+    {
+      "id": "7506cf38c8e7",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -7372.79,
+        -11047.44,
+        -929.67
+      ],
+      "max": [
+        -7349.27,
+        -11028.58,
+        -920.36
+      ],
+      "parts": 52
+    },
+    {
+      "id": "2f5bd62ea860",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_01a_C",
+      "min": [
+        -7369.29,
+        -10984.05,
+        -931.17
+      ],
+      "max": [
+        -7362.59,
+        -10975.17,
+        -927.1
+      ],
+      "parts": 1
+    },
+    {
+      "id": "b4d8f980a7d3",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -7364.72,
+        -11181.41,
+        -922.5
+      ],
+      "max": [
+        -7345.67,
+        -11157.88,
+        -913.19
+      ],
+      "parts": 52
+    },
+    {
+      "id": "ac445c4aa5af",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_02a_C",
+      "min": [
+        -7363.05,
+        -10950.34,
+        -932.02
+      ],
+      "max": [
+        -7356.38,
+        -10940.52,
+        -928.42
+      ],
+      "parts": 2
+    },
+    {
+      "id": "b3cb3fbd4c66",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -7359.87,
+        -11095.18,
+        -926.34
+      ],
+      "max": [
+        -7337.83,
+        -11075.49,
+        -916.57
+      ],
+      "parts": 48
+    },
+    {
+      "id": "285ba5759c10",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -7359.42,
+        -10974.28,
+        -933.12
+      ],
+      "max": [
+        -7335.94,
+        -10957.87,
+        -923.82
+      ],
+      "parts": 52
+    },
+    {
+      "id": "d300dc50261e",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_03a_C",
+      "min": [
+        -7358.58,
+        -11108.99,
+        -924.85
+      ],
+      "max": [
+        -7348.92,
+        -11102.11,
+        -920.7
+      ],
+      "parts": 2
+    },
+    {
+      "id": "d9e9cc472ae1",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -7356.08,
+        -10998.31,
+        -932.4
+      ],
+      "max": [
+        -7338.41,
+        -10982.28,
+        -922.63
+      ],
+      "parts": 48
+    },
+    {
+      "id": "8b5b291a23f5",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -7348.2,
+        -10849.45,
+        -935.03
+      ],
+      "max": [
+        -7325.32,
+        -10833.99,
+        -925.72
+      ],
+      "parts": 52
+    },
+    {
+      "id": "dea0be50eea4",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -7338.11,
+        -10867.18,
+        -935.31
+      ],
+      "max": [
+        -7323.27,
+        -10853.61,
+        -926.49
+      ],
+      "parts": 38
+    },
+    {
+      "id": "aa3f7ef8b925",
+      "kind": "house",
+      "class": "B_Residential_House_01_C",
+      "min": [
+        -7270.17,
+        -11341.62,
+        -900.44
+      ],
+      "max": [
+        -7249.28,
+        -11325.53,
+        -887.17
+      ],
+      "parts": 67
+    },
+    {
+      "id": "678e70ecfd7d",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -7102.39,
+        -14532.36,
+        -868.77
+      ],
+      "max": [
+        -7079.49,
+        -14506.87,
+        -859.46
+      ],
+      "parts": 52
+    },
+    {
+      "id": "2d6f99e693af",
+      "kind": "house",
+      "class": "B_Residential_House_04_C",
+      "min": [
+        -7088.98,
+        -14608.49,
+        -871.5
+      ],
+      "max": [
+        -7066.82,
+        -14585.56,
+        -858.24
+      ],
+      "parts": 70
+    },
+    {
+      "id": "6b50d764c084",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_03a_C",
+      "min": [
+        -7073.52,
+        -14763.11,
+        -865.77
+      ],
+      "max": [
+        -7064.24,
+        -14757.24,
+        -861.62
+      ],
+      "parts": 2
+    },
+    {
+      "id": "7121081f6c0f",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -7068.69,
+        -14663.78,
+        -870.72
+      ],
+      "max": [
+        -7045.21,
+        -14643.82,
+        -857.45
+      ],
+      "parts": 67
+    },
+    {
+      "id": "4bbff4840fd1",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -7065.7,
+        -14723.31,
+        -867.72
+      ],
+      "max": [
+        -7050.28,
+        -14700.41,
+        -858.41
+      ],
+      "parts": 52
+    },
+    {
+      "id": "a2bb889089c6",
+      "kind": "house",
+      "class": "B_Residential_House_01_C",
+      "min": [
+        -7065.18,
+        -14779.41,
+        -867.13
+      ],
+      "max": [
+        -7045.7,
+        -14762.93,
+        -853.86
+      ],
+      "parts": 67
+    },
+    {
+      "id": "9e5f88f08548",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -7061.98,
+        -14567.55,
+        -870.09
+      ],
+      "max": [
+        -7044.52,
+        -14550.55,
+        -861.27
+      ],
+      "parts": 38
+    },
+    {
+      "id": "a0f00e92f967",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -7060.43,
+        -14695.51,
+        -867.06
+      ],
+      "max": [
+        -7045.25,
+        -14681.36,
+        -858.24
+      ],
+      "parts": 38
+    },
+    {
+      "id": "fcaec140a7ff",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -7053.36,
+        -14823.69,
+        -867.17
+      ],
+      "max": [
+        -7034.06,
+        -14798.47,
+        -857.86
+      ],
+      "parts": 52
+    },
+    {
+      "id": "939ceae0e775",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -7038.02,
+        -14839.87,
+        -867.17
+      ],
+      "max": [
+        -7016.48,
+        -14818.74,
+        -857.4
+      ],
+      "parts": 48
+    },
+    {
+      "id": "3c4cbe370c0d",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -7033.62,
+        -14600.6,
+        -870.46
+      ],
+      "max": [
+        -7012.16,
+        -14579.5,
+        -860.69
+      ],
+      "parts": 48
+    },
+    {
+      "id": "297aeab29348",
+      "kind": "house",
+      "class": "B_Residential_House_03_C",
+      "min": [
+        -7019.29,
+        -14623.42,
+        -870.39
+      ],
+      "max": [
+        -6996.41,
+        -14599.22,
+        -857.12
+      ],
+      "parts": 67
+    },
+    {
+      "id": "ccb2fac7b3ea",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -7007.24,
+        -14652.28,
+        -870.12
+      ],
+      "max": [
+        -6985.1,
+        -14626.6,
+        -860.81
+      ],
+      "parts": 52
+    },
+    {
+      "id": "e427b74fcbf0",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -6906.88,
+        -14961.45,
+        -863.91
+      ],
+      "max": [
+        -6890.83,
+        -14944.83,
+        -855.09
+      ],
+      "parts": 38
+    },
+    {
+      "id": "7b4f74e1e824",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_02a_C",
+      "min": [
+        -6880.9,
+        -14901.37,
+        -861.52
+      ],
+      "max": [
+        -6873.13,
+        -14891.17,
+        -857.93
+      ],
+      "parts": 2
+    },
+    {
+      "id": "808274cda1fd",
+      "kind": "house",
+      "class": "B_Residential_House_01_C",
+      "min": [
+        -6866.14,
+        -14908.52,
+        -860.22
+      ],
+      "max": [
+        -6847.46,
+        -14885.4,
+        -846.95
+      ],
+      "parts": 67
+    },
+    {
+      "id": "bb6a49f332b2",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -6822.99,
+        -14923.54,
+        -864.04
+      ],
+      "max": [
+        -6803.59,
+        -14906.21,
+        -854.27
+      ],
+      "parts": 48
+    },
+    {
+      "id": "e425b447e596",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -6708.87,
+        -10166.84,
+        -920.1
+      ],
+      "max": [
+        -6684.74,
+        -10144.37,
+        -910.79
+      ],
+      "parts": 52
+    },
+    {
+      "id": "8a02df145a13",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -6705.08,
+        -10189.92,
+        -921.58
+      ],
+      "max": [
+        -6684.21,
+        -10171.27,
+        -911.81
+      ],
+      "parts": 48
+    },
+    {
+      "id": "18f48d4cd43b",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_01a_C",
+      "min": [
+        -6634.51,
+        -11109.65,
+        -927.16
+      ],
+      "max": [
+        -6625.36,
+        -11102.37,
+        -923.09
+      ],
+      "parts": 1
+    },
+    {
+      "id": "da7e2803074a",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -6611.18,
+        -11134.97,
+        -928.62
+      ],
+      "max": [
+        -6591.31,
+        -11115.79,
+        -918.85
+      ],
+      "parts": 48
+    },
+    {
+      "id": "d8d0b6fe147f",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -6591.47,
+        -11126.01,
+        -928.71
+      ],
+      "max": [
+        -6569.57,
+        -11100.31,
+        -919.4
+      ],
+      "parts": 52
+    },
+    {
+      "id": "f1dee0a36098",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_02a_C",
+      "min": [
+        -6576.5,
+        -11099.97,
+        -926.98
+      ],
+      "max": [
+        -6566.34,
+        -11092.35,
+        -923.38
+      ],
+      "parts": 2
+    },
+    {
+      "id": "6cf66e7b9344",
+      "kind": "house",
+      "class": "B_Residential_House_01_C",
+      "min": [
+        -6541.56,
+        -11114.61,
+        -927.42
+      ],
+      "max": [
+        -6522.99,
+        -11095.83,
+        -914.15
+      ],
+      "parts": 67
+    },
+    {
+      "id": "39aaea5cecd0",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -6372.46,
+        -10997.79,
+        -929.67
+      ],
+      "max": [
+        -6349.18,
+        -10973.62,
+        -920.37
+      ],
+      "parts": 52
+    },
+    {
+      "id": "dc0284335190",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -6090.36,
+        -11005.45,
+        -889.9
+      ],
+      "max": [
+        -6071.95,
+        -10981.97,
+        -880.59
+      ],
+      "parts": 52
+    },
+    {
+      "id": "463659d903c5",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_01a_C",
+      "min": [
+        -6068.6,
+        -10913.87,
+        -889.87
+      ],
+      "max": [
+        -6059.48,
+        -10906.64,
+        -885.74
+      ],
+      "parts": 1
+    },
+    {
+      "id": "0cf97ed13f00",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -6046.59,
+        -10921.96,
+        -888.09
+      ],
+      "max": [
+        -6024.43,
+        -10900.66,
+        -878.32
+      ],
+      "parts": 48
+    },
+    {
+      "id": "456efede3a3e",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -6024.39,
+        -10910,
+        -886.33
+      ],
+      "max": [
+        -6003.72,
+        -10884.41,
+        -877.02
+      ],
+      "parts": 52
+    },
+    {
+      "id": "171b24452f59",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -5783.52,
+        -10400.65,
+        -927.63
+      ],
+      "max": [
+        -5757.87,
+        -10379.64,
+        -918.32
+      ],
+      "parts": 52
+    },
+    {
+      "id": "4543a61062eb",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -5637.73,
+        -10715.54,
+        -907.83
+      ],
+      "max": [
+        -5616.34,
+        -10689.85,
+        -898.52
+      ],
+      "parts": 52
+    },
+    {
+      "id": "07402541c32f",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_01a_C",
+      "min": [
+        -5605.53,
+        -10708.69,
+        -906.24
+      ],
+      "max": [
+        -5596.05,
+        -10700.41,
+        -902.17
+      ],
+      "parts": 1
+    },
+    {
+      "id": "4918c261a35c",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -5601.84,
+        -10670.38,
+        -906.64
+      ],
+      "max": [
+        -5584.57,
+        -10653.25,
+        -897.82
+      ],
+      "parts": 38
+    },
+    {
+      "id": "ce11524d383b",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_01a_C",
+      "min": [
+        -5589.73,
+        -10655.77,
+        -905.63
+      ],
+      "max": [
+        -5580.21,
+        -10647.24,
+        -901.56
+      ],
+      "parts": 1
+    },
+    {
+      "id": "f864712801bc",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -5578.11,
+        -10680.33,
+        -907.09
+      ],
+      "max": [
+        -5559.19,
+        -10656.81,
+        -897.78
+      ],
+      "parts": 52
+    },
+    {
+      "id": "7e73f83d4437",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_02a_C",
+      "min": [
+        -5555.84,
+        -10667.87,
+        -905.51
+      ],
+      "max": [
+        -5545.4,
+        -10659.03,
+        -901.66
+      ],
+      "parts": 2
+    },
+    {
+      "id": "8615da679fae",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -4872.6,
+        -10865.24,
+        -882.36
+      ],
+      "max": [
+        -4854.76,
+        -10848.96,
+        -872.59
+      ],
+      "parts": 48
+    },
+    {
+      "id": "2113e6b139cd",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -4833.43,
+        -10850.27,
+        -882.17
+      ],
+      "max": [
+        -4809.82,
+        -10833.69,
+        -872.87
+      ],
+      "parts": 52
+    },
+    {
+      "id": "d6d6fc050a54",
+      "kind": "house",
+      "class": "B_Residential_House_01_C",
+      "min": [
+        -4781.82,
+        -10850.63,
+        -881.45
+      ],
+      "max": [
+        -4764.42,
+        -10828.55,
+        -868.18
+      ],
+      "parts": 67
+    },
+    {
+      "id": "306bf10acf93",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -4759.31,
+        -10940.77,
+        -881.21
+      ],
+      "max": [
+        -4735.57,
+        -10915.95,
+        -871.9
+      ],
+      "parts": 52
+    },
+    {
+      "id": "ac3b5055a288",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_01a_C",
+      "min": [
+        -4758.22,
+        -10843.74,
+        -880.1
+      ],
+      "max": [
+        -4749.71,
+        -10834.22,
+        -876.04
+      ],
+      "parts": 1
+    },
+    {
+      "id": "50a62e1c6f1c",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_03_C",
+      "min": [
+        -4726.51,
+        -10868.47,
+        -880.58
+      ],
+      "max": [
+        -4711.38,
+        -10852.45,
+        -871.76
+      ],
+      "parts": 38
+    },
+    {
+      "id": "e52ff0e07c28",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -4694.29,
+        -10873.42,
+        -880.29
+      ],
+      "max": [
+        -4670.77,
+        -10854.61,
+        -870.98
+      ],
+      "parts": 52
+    },
+    {
+      "id": "4a575d8e37b6",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -4675.01,
+        -10928.21,
+        -880.13
+      ],
+      "max": [
+        -4657.28,
+        -10908.36,
+        -870.36
+      ],
+      "parts": 48
+    },
+    {
+      "id": "9d881d915e52",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -4645.93,
+        -10931.12,
+        -879.81
+      ],
+      "max": [
+        -4626.95,
+        -10907.59,
+        -870.5
+      ],
+      "parts": 52
+    },
+    {
+      "id": "7b4ff07b875d",
+      "kind": "garage",
+      "class": "BP_Garage_Closed_02a_C",
+      "min": [
+        -4604.35,
+        -10900.94,
+        -877.43
+      ],
+      "max": [
+        -4594.16,
+        -10893.2,
+        -873.84
+      ],
+      "parts": 2
+    },
+    {
+      "id": "70b95bb66071",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -4590.75,
+        -10899.23,
+        -878.66
+      ],
+      "max": [
+        -4575.29,
+        -10876.35,
+        -869.35
+      ],
+      "parts": 52
+    },
+    {
+      "id": "7eeec81fe255",
+      "kind": "garage",
+      "class": "BP_Garage_Openable_01a_C",
+      "min": [
+        -4572.15,
+        -10907.26,
+        -876.56
+      ],
+      "max": [
+        -4562.85,
+        -10899.62,
+        -872.49
+      ],
+      "parts": 1
+    },
+    {
+      "id": "bb9c82b703a2",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_01_C",
+      "min": [
+        -4566.94,
+        -10901.68,
+        -877.39
+      ],
+      "max": [
+        -4548.01,
+        -10880.49,
+        -867.62
+      ],
+      "parts": 48
+    },
+    {
+      "id": "0f3a9bb172e1",
+      "kind": "bungalow",
+      "class": "B_Residential_Bungalow_02_C",
+      "min": [
+        -4431.09,
+        -10935.78,
+        -882.17
+      ],
+      "max": [
+        -4409.48,
+        -10911.8,
+        -872.86
+      ],
+      "parts": 52
+    }
+  ]
+}

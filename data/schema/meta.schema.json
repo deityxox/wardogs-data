@@ -1,0 +1,257 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Meta game",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1,
+      "description": "Version of this file's layout. It changes only when the layout does."
+    },
+    "gameBuild": {
+      "type": "string",
+      "description": "Steam build id the data was extracted from."
+    },
+    "currencies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Currency id: the game's tag without the `Attribute.Meta.Currency.` prefix: `Cash` or `GoldBars`."
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Name shown in the game."
+          },
+          "initialBalance": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Balance a new profile starts with."
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "initialBalance"
+        ],
+        "additionalProperties": false,
+        "description": "One currency of the meta game."
+      },
+      "description": "Currencies, sorted by id."
+    },
+    "currentSeason": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 9007199254740991,
+      "description": "The season number the game files declare as current. The season definition list and the gold bar exchange rates are empty in the files."
+    },
+    "goldMarket": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Offer id: the game's tag without the `Meta.Cosmetic.` prefix, for example `DigitalWood.M4`. The same id as the skin or emote in cosmetics.json."
+          },
+          "category": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The set the offer belongs to, for example `DigitalWood` or `Emote` (the `set` of the cosmetic)."
+          },
+          "entity": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The item, vehicle variant or emote the offer is for: an `id` from items.json or vehicles.json, or the emote's id."
+          },
+          "goldBars": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Price in gold bars."
+          },
+          "gridIndex": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991,
+            "description": "Position of the tile in the market grid of its category."
+          },
+          "tile": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Tile size in the market: `HERO_TILE`, `LARGE_SQUARE`, `SMALL_SQUARE` or `SMALL_RECTANGLE`."
+          },
+          "expiration": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The game's expiration rule for the offer: `NO_EXPIRATION` or `EXPIRATION_NO_END_TIME`."
+          },
+          "expirationTime": {
+            "description": "The time stored with the offer, UTC, when the game stores one. The game labels the offers that carry one `EXPIRATION_NO_END_TIME`, so it may be unused.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "category",
+          "entity",
+          "goldBars",
+          "gridIndex",
+          "tile",
+          "expiration"
+        ],
+        "additionalProperties": false,
+        "description": "One cosmetic offered for gold bars."
+      },
+      "description": "Cosmetics sold for gold bars, sorted by id."
+    },
+    "passiveMissions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Mission id: the game's tag without the `Mission.Passive.` prefix: `EarnCash`, `EarnAnyRoleXp` or `TimePlayed`."
+          },
+          "difficultyWeight": {
+            "type": "number",
+            "description": "The game's difficulty weight for the mission."
+          },
+          "challenges": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Challenge id: the game's tag without the `Challenges.Challenge.Mission.Passive.` prefix, for example `EarnCash.3`. The number is the tier."
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Name shown in the game."
+                },
+                "description": {
+                  "description": "Description shown in the game; `X` stands for the target.",
+                  "type": "string"
+                },
+                "objective": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "What is counted: the game's objective tag without the `Challenges.Objective.` prefix: `CashEarned`, `RoleXpEarned` or `TimePlayed`."
+                },
+                "target": {
+                  "type": "number",
+                  "exclusiveMinimum": 0,
+                  "description": "The amount of the objective to complete the challenge. Time is in seconds. Whether the amount accumulates over the tiers or counts again for each is not stated in the data."
+                },
+                "reward": {
+                  "type": "object",
+                  "properties": {
+                    "currency": {
+                      "type": "string",
+                      "minLength": 1,
+                      "description": "Currency paid, without the `Attribute.Meta.Currency.` prefix. `Intel` is not in the currency table."
+                    },
+                    "amount": {
+                      "type": "number",
+                      "minimum": 0,
+                      "description": "Amount paid."
+                    }
+                  },
+                  "required": [
+                    "currency",
+                    "amount"
+                  ],
+                  "additionalProperties": false,
+                  "description": "What completing the challenge pays."
+                }
+              },
+              "required": [
+                "id",
+                "name",
+                "objective",
+                "target",
+                "reward"
+              ],
+              "additionalProperties": false,
+              "description": "One tier of a passive mission."
+            },
+            "description": "The mission's tiers, in the game's order."
+          }
+        },
+        "required": [
+          "id",
+          "difficultyWeight",
+          "challenges"
+        ],
+        "additionalProperties": false,
+        "description": "A passive mission: a long-running goal that pays Intel at each tier."
+      },
+      "description": "Passive missions, sorted by id."
+    },
+    "achievements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Achievement id: the game's tag without the `Achievement.` prefix, for example `Combat.LongShot`."
+          },
+          "steamId": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The achievement's id on Steam."
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Name shown in the game."
+          },
+          "description": {
+            "description": "What the achievement asks for, in the game's words. The game words only some of them.",
+            "type": "string"
+          },
+          "thresholds": {
+            "description": "The numbers the game sets for the achievement's condition, by the game's parameter name, as stored: `CashThreshold` (cash), `RequiredSeconds` (seconds), `DistanceThreshold` (game units, which are centimeters). Absent for achievements with no such number.",
+            "type": "object",
+            "propertyNames": {
+              "type": "string"
+            },
+            "additionalProperties": {
+              "type": "number"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "steamId",
+          "name"
+        ],
+        "additionalProperties": false,
+        "description": "One achievement. The conditions themselves are in the game's logic; only the numbers they take are in the data."
+      },
+      "description": "Achievements, sorted by id."
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "gameBuild",
+    "currencies",
+    "currentSeason",
+    "goldMarket",
+    "passiveMissions",
+    "achievements"
+  ],
+  "additionalProperties": false,
+  "description": "The meta game around matches: currencies and starting balances, the gold bar market, passive missions and achievements."
+}

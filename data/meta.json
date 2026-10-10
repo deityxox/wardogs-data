@@ -1,0 +1,452 @@
+{
+  "schemaVersion": 1,
+  "gameBuild": "25677108",
+  "currencies": [
+    {
+      "id": "Cash",
+      "name": "Cash",
+      "initialBalance": 10000
+    },
+    {
+      "id": "GoldBars",
+      "name": "Gold Bars",
+      "initialBalance": 0
+    }
+  ],
+  "currentSeason": 1,
+  "goldMarket": [
+    {
+      "id": "BlackAndGold.AK74",
+      "category": "BlackAndGold",
+      "entity": "Id.Item.AK74M",
+      "goldBars": 30,
+      "gridIndex": 0,
+      "tile": "HERO_TILE",
+      "expiration": "EXPIRATION_NO_END_TIME",
+      "expirationTime": "2026-12-31T00:00:00.000Z"
+    },
+    {
+      "id": "DigitalWood.GGX17",
+      "category": "DigitalWood",
+      "entity": "Id.Item.Glock17",
+      "goldBars": 5,
+      "gridIndex": 0,
+      "tile": "LARGE_SQUARE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "DigitalWood.M4",
+      "category": "DigitalWood",
+      "entity": "Id.Item.M4",
+      "goldBars": 10,
+      "gridIndex": 3,
+      "tile": "SMALL_RECTANGLE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "DigitalWood.SportsParachute",
+      "category": "DigitalWood",
+      "entity": "Id.Item.Parachute.Sport",
+      "goldBars": 15,
+      "gridIndex": 1,
+      "tile": "SMALL_SQUARE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "DigitalWood.SV98",
+      "category": "DigitalWood",
+      "entity": "Id.Item.SV98",
+      "goldBars": 10,
+      "gridIndex": 2,
+      "tile": "SMALL_RECTANGLE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "Emote.Middle_Finger",
+      "category": "Emote",
+      "entity": "Id.Emote.Middle_Finger",
+      "goldBars": 5,
+      "gridIndex": 0,
+      "tile": "LARGE_SQUARE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "Emote.RockPaperScissors",
+      "category": "Emote",
+      "entity": "Id.Emote.RockPaperScissors",
+      "goldBars": 5,
+      "gridIndex": 1,
+      "tile": "SMALL_SQUARE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "Emote.Shh",
+      "category": "Emote",
+      "entity": "Id.Emote.Shh",
+      "goldBars": 5,
+      "gridIndex": 2,
+      "tile": "SMALL_SQUARE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "TwoToneDesert.A91",
+      "category": "TwoToneDesert",
+      "entity": "Id.Item.A91",
+      "goldBars": 5,
+      "gridIndex": 5,
+      "tile": "SMALL_SQUARE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "TwoToneDesert.AX50",
+      "category": "TwoToneDesert",
+      "entity": "Id.Item.SR_04",
+      "goldBars": 15,
+      "gridIndex": 10,
+      "tile": "SMALL_RECTANGLE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "TwoToneDesert.Bobcat",
+      "category": "TwoToneDesert",
+      "entity": "Vehicle.Variant.Land.Wheeled.Bobcat.Default",
+      "goldBars": 5,
+      "gridIndex": 0,
+      "tile": "SMALL_SQUARE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "TwoToneDesert.Bushmaster",
+      "category": "TwoToneDesert",
+      "entity": "Id.Item.WEPN_033",
+      "goldBars": 5,
+      "gridIndex": 11,
+      "tile": "SMALL_SQUARE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "TwoToneDesert.DuneBuggy",
+      "category": "TwoToneDesert",
+      "entity": "Vehicle.Variant.Land.Wheeled.DuneBuggy.Default",
+      "goldBars": 10,
+      "gridIndex": 1,
+      "tile": "SMALL_RECTANGLE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "TwoToneDesert.Humvee",
+      "category": "TwoToneDesert",
+      "entity": "Vehicle.Variant.Land.Wheeled.Humvee.Default",
+      "goldBars": 10,
+      "gridIndex": 2,
+      "tile": "LARGE_SQUARE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "TwoToneDesert.KH2002",
+      "category": "TwoToneDesert",
+      "entity": "Id.Item.KH2002",
+      "goldBars": 5,
+      "gridIndex": 6,
+      "tile": "SMALL_SQUARE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "TwoToneDesert.Littlebird",
+      "category": "TwoToneDesert",
+      "entity": "Vehicle.Variant.Air.Rotary.Littlebird.Default",
+      "goldBars": 15,
+      "gridIndex": 3,
+      "tile": "LARGE_SQUARE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "TwoToneDesert.M249",
+      "category": "TwoToneDesert",
+      "entity": "Id.Item.M249",
+      "goldBars": 15,
+      "gridIndex": 9,
+      "tile": "SMALL_RECTANGLE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "TwoToneDesert.M4",
+      "category": "TwoToneDesert",
+      "entity": "Id.Item.M4",
+      "goldBars": 10,
+      "gridIndex": 8,
+      "tile": "LARGE_SQUARE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "TwoToneDesert.M500",
+      "category": "TwoToneDesert",
+      "entity": "Id.Item.M500",
+      "goldBars": 10,
+      "gridIndex": 12,
+      "tile": "SMALL_SQUARE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "TwoToneDesert.MP9",
+      "category": "TwoToneDesert",
+      "entity": "Id.Item.MP9",
+      "goldBars": 10,
+      "gridIndex": 7,
+      "tile": "SMALL_RECTANGLE",
+      "expiration": "NO_EXPIRATION"
+    }
+  ],
+  "passiveMissions": [
+    {
+      "id": "EarnAnyRoleXp",
+      "difficultyWeight": 1,
+      "challenges": [
+        {
+          "id": "EarnRoleXp.1",
+          "name": "Earn Role XP",
+          "description": "Earn Role XP",
+          "objective": "RoleXpEarned",
+          "target": 500,
+          "reward": {
+            "currency": "Intel",
+            "amount": 100
+          }
+        },
+        {
+          "id": "EarnRoleXp.2",
+          "name": "Earn Role XP",
+          "description": "Earn Role XP",
+          "objective": "RoleXpEarned",
+          "target": 500,
+          "reward": {
+            "currency": "Intel",
+            "amount": 200
+          }
+        },
+        {
+          "id": "EarnRoleXp.3",
+          "name": "Earn Role XP",
+          "description": "Earn Role XP",
+          "objective": "RoleXpEarned",
+          "target": 500,
+          "reward": {
+            "currency": "Intel",
+            "amount": 300
+          }
+        },
+        {
+          "id": "EarnRoleXp.4",
+          "name": "Earn Role XP",
+          "description": "Earn Role XP",
+          "objective": "RoleXpEarned",
+          "target": 500,
+          "reward": {
+            "currency": "Intel",
+            "amount": 400
+          }
+        },
+        {
+          "id": "EarnRoleXp.5",
+          "name": "Earn Role XP",
+          "description": "Earn Role XP",
+          "objective": "RoleXpEarned",
+          "target": 500,
+          "reward": {
+            "currency": "Intel",
+            "amount": 500
+          }
+        }
+      ]
+    },
+    {
+      "id": "EarnCash",
+      "difficultyWeight": 1,
+      "challenges": [
+        {
+          "id": "EarnCash.1",
+          "name": "Earn Cash",
+          "description": "Earn X Cash",
+          "objective": "CashEarned",
+          "target": 5000,
+          "reward": {
+            "currency": "Intel",
+            "amount": 100
+          }
+        },
+        {
+          "id": "EarnCash.2",
+          "name": "Earn Cash",
+          "description": "Earn X Cash",
+          "objective": "CashEarned",
+          "target": 12000,
+          "reward": {
+            "currency": "Intel",
+            "amount": 200
+          }
+        },
+        {
+          "id": "EarnCash.3",
+          "name": "Earn Cash",
+          "description": "Earn X Cash",
+          "objective": "CashEarned",
+          "target": 30000,
+          "reward": {
+            "currency": "Intel",
+            "amount": 300
+          }
+        },
+        {
+          "id": "EarnCash.4",
+          "name": "Earn Cash",
+          "description": "Earn X Cash",
+          "objective": "CashEarned",
+          "target": 80000,
+          "reward": {
+            "currency": "Intel",
+            "amount": 400
+          }
+        },
+        {
+          "id": "EarnCash.5",
+          "name": "Earn Cash",
+          "description": "Earn X Cash",
+          "objective": "CashEarned",
+          "target": 200000,
+          "reward": {
+            "currency": "Intel",
+            "amount": 500
+          }
+        }
+      ]
+    },
+    {
+      "id": "TimePlayed",
+      "difficultyWeight": 1,
+      "challenges": [
+        {
+          "id": "TimePlayed.1",
+          "name": "Time Played",
+          "description": "Time Played",
+          "objective": "TimePlayed",
+          "target": 1800,
+          "reward": {
+            "currency": "Intel",
+            "amount": 100
+          }
+        },
+        {
+          "id": "TimePlayed.2",
+          "name": "Time Played",
+          "description": "Time Played",
+          "objective": "TimePlayed",
+          "target": 1800,
+          "reward": {
+            "currency": "Intel",
+            "amount": 200
+          }
+        },
+        {
+          "id": "TimePlayed.3",
+          "name": "Time Played",
+          "description": "Time Played",
+          "objective": "TimePlayed",
+          "target": 1800,
+          "reward": {
+            "currency": "Intel",
+            "amount": 300
+          }
+        },
+        {
+          "id": "TimePlayed.4",
+          "name": "Time Played",
+          "description": "Time Played",
+          "objective": "TimePlayed",
+          "target": 1800,
+          "reward": {
+            "currency": "Intel",
+            "amount": 400
+          }
+        },
+        {
+          "id": "TimePlayed.5",
+          "name": "Time Played",
+          "description": "Time Played",
+          "objective": "TimePlayed",
+          "target": 1800,
+          "reward": {
+            "currency": "Intel",
+            "amount": 500
+          }
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": "Combat.DefibrillatorKill",
+      "steamId": "ACH_COMBAT_DEFIBRILLATOR_KILL",
+      "name": "Defibrillator Kill",
+      "description": "Kill an enemy with the defibrillator."
+    },
+    {
+      "id": "Combat.LongShot",
+      "steamId": "ACH_COMBAT_LONG_SHOT",
+      "name": "Long Shot",
+      "thresholds": {
+        "DistanceThreshold": 95000
+      }
+    },
+    {
+      "id": "Combat.RicochetKill",
+      "steamId": "ACH_COMBAT_RICOCHET_KILL",
+      "name": "Ricochet Kill",
+      "description": "Kill an enemy with a ricocheted projectile."
+    },
+    {
+      "id": "Economy.LoadoutSpend",
+      "steamId": "ACH_ECONOMY_LOADOUT_SPEND",
+      "name": "Loadout Spender",
+      "thresholds": {
+        "CashThreshold": 100000
+      }
+    },
+    {
+      "id": "Economy.SingleLifeProfit",
+      "steamId": "ACH_ECONOMY_SINGLE_LIFE_PROFIT",
+      "name": "Single Life Profit",
+      "thresholds": {
+        "CashThreshold": 100000
+      }
+    },
+    {
+      "id": "Economy.TopCashEarner",
+      "steamId": "ACH_ECONOMY_TOP_CASH_EARNER",
+      "name": "Top Cash Earner"
+    },
+    {
+      "id": "Match.CleanSweep",
+      "steamId": "ACH_MATCH_CLEAN_SWEEP",
+      "name": "Clean Sweep",
+      "description": "Win a KOTH match without the opposing faction scoring."
+    },
+    {
+      "id": "Survival.ControlZoneSurvivor",
+      "steamId": "ACH_SURVIVAL_CONTROL_ZONE_SURVIVOR",
+      "name": "Control Zone Survivor",
+      "thresholds": {
+        "RequiredSeconds": 3600
+      }
+    },
+    {
+      "id": "Tutorial.Completed",
+      "steamId": "ACH_TUTORIAL_COMPLETED",
+      "name": "Complete The Tutorial"
+    },
+    {
+      "id": "Tutorial.PunchKristopher",
+      "steamId": "ACH_TUTORIAL_PUNCH_KRISTOPHER",
+      "name": "Punch Kristopher"
+    }
+  ]
+}

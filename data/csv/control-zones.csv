@@ -1,0 +1,16 @@
+world,config,mode,placement,weight,x,y,z,shape,radius_m,half_height_m,hot_zone_radius_m
+Kavkazi,DA_ControlZoneConfig_Bakurani,Standard,default,,-8360.6725,-11233.121,-951.6,Cylinder,500,170,85
+Kavkazi,DA_ControlZoneConfig_Bakurani,Standard,ZoneAlternator.Bakurani.Default.Circle,2,-8360.6725,-11233.121,-951.6,Cylinder,500,170,85
+Kavkazi,DA_ControlZoneConfig_Bakurani,Standard,ZoneAlternator.Bakurani.Farmland.Circle,1,-8214.826,-10988.704,-951.6,Cylinder,500,170,85
+Kavkazi,DA_ControlZoneConfig_Bakurani,Standard,ZoneAlternator.Bakurani.Lumberyard.Circle,1,-8102.317,-11232.8,-951.6,Cylinder,500,170,85
+Kavkazi,DA_ControlZoneConfig_SniperShowdown_Bakurani,SniperShowdown,default,,-6726.881,-11170.976,-951.6,Cylinder,350,170,75
+Europe,DA_ControlZone_Config_Europe,Standard,default,,-6383.4056,-6207.8406,-933.9295,Cylinder,550,150,85
+Europe,DA_ControlZone_Config_Europe,Standard,ZoneAlternator.Ozeti.Default.Circle,1,-6198.2656,-6166.7094,-933.9295,Cylinder,550,150,85
+Europe,DA_ControlZone_Config_Europe,Standard,ZoneAlternator.Ozeti.Farmland.Circle,0,-6729.351,-6169.2244,-933.9295,Cylinder,550,150,85
+Europe,DA_ControlZone_Config_Europe,Standard,ZoneAlternator.Ozeti.Church.Circle,1,-6036.972,-6136.3056,-882.9494,Cylinder,550,150,85
+Europe,DA_ControlZone_Config_Europe,Standard,ZoneAlternator.Ozeti.River.Circle,1,-6425.6406,-6054.3556,-937.3572,Cylinder,550,150,85
+NorthAmerica,DA_ControlZone_Config_NorthAmerica,Standard,default,,-1127.2751,-2112.3694,36.4091,,500,500,85
+NorthAmerica,DA_ControlZone_Config_NorthAmerica,Standard,ZoneAlternator.Zestafona.Default.Circle,1,-1127.2751,-2112.3694,36.4091,Ellipse,500,500,85
+NorthAmerica,DA_ControlZone_Config_NorthAmerica,Standard,ZoneAlternator.Zestafona.SmallFactory.Circle,0,-1075.6092,-2357.5142,36.4091,Ellipse,500,500,85
+NorthAmerica,DA_ControlZone_Config_NorthAmerica,Standard,ZoneAlternator.Zestafona.WaterTreatment.Circle,1,-1192.8796,-1839.581,36.4091,Ellipse,500,500,85
+NorthAmerica,DA_ControlZone_Config_NorthAmerica,Standard,ZoneAlternator.Zestafona.Houses.Circle,1,-1298.4862,-2210.92,36.4091,Ellipse,500,500,85

@@ -1,0 +1,315 @@
+tag,text,source
+Attribute.Meta.XP.Role.Driver,DRIVER,Roles
+Attribute.Meta.XP.Role.Infantry,ASSAULT,Roles
+Attribute.Meta.XP.Role.Medic,MEDIC,Roles
+Attribute.Meta.XP.Role.Pilot,PILOT,Roles
+Attribute.Meta.XP.Role.Recon,RECON,Roles
+Attribute.Meta.XP.Role.Support,SUPPORT,Roles
+EventLog.Category.Damage,Damage,EventLog
+EventLog.Category.Damage.Dealt,Damage Dealt,EventLog
+EventLog.Category.Damage.Received,Damage Received,EventLog
+EventLog.Category.Healing,Healing,EventLog
+EventLog.Category.Misc,Misc,EventLog
+EventLog.Category.Reward,Cash,EventLog
+Id.Item.DroneProjectile,Stingray,Calibers
+Id.Item.MunitionsSupplies,Ammo Supplies,Calibers
+Id.Item.SparePartsSupplies,Spare Parts,Calibers
+Id.Vehicle.WeaponExtension.ROT_01.MountedMachineGun,Machine Gun,Categories
+Id.Vehicle.WeaponExtension.ROT_02.122mm,Rockets,Categories
+Id.Vehicle.WeaponExtension.ROT_02.30mmCannon,Cannon,Categories
+Id.Vehicle.WeaponExtension.ROT_03.MountedMachineGun,Machine Gun,Categories
+Id.Vehicle.WeaponExtension.ROT_03.RocketPods,Rockets,Categories
+Id.Vehicle.WeaponExtension.ROT_04.MountedMachineGun,Machine Gun,Categories
+Id.Vehicle.WeaponExtension.TNK_01.AntiAir,Cannon,Categories
+Id.Vehicle.WeaponExtension.TNK_01.Artillery,Artillery,Categories
+Id.Vehicle.WeaponExtension.TNK_01.Artillery.Sandbox,Artillery,Categories
+Id.Vehicle.WeaponExtension.TNK_01.Heavy,Heavy,Categories
+Id.Vehicle.WeaponExtension.TNK_01.MachineGun,Coaxial Gun,Categories
+Id.Vehicle.WeaponExtension.TNK_01.MountedMachineGun,Machine Gun,Categories
+Id.Vehicle.WeaponExtension.WHL_02.SUV.RingTurret,Machine Gun,Categories
+Id.Vehicle.WeaponExtension.WHL_05.RingMinigun,Minigun,Categories
+Id.Vehicle.WeaponExtension.WHL_05.RingTurret,Machine Gun,Categories
+Id.Vehicle.WeaponExtension.WHL_07.MachineGun,Machine Gun,Categories
+Input.NamedActions.ItemSmith.CollapseStats,Collapse Stats,Itemsmith
+Input.NamedActions.ItemSmith.ExpandStats,Expand Stats,Itemsmith
+Inventory.Slot.Armor,Armor,InventorySlots
+Inventory.Slot.Arms,Arms,InventorySlots
+Inventory.Slot.Backpack,Backpack,InventorySlots
+Inventory.Slot.Chest,Chest,InventorySlots
+Inventory.Slot.Eyewear,Eyewear,InventorySlots
+Inventory.Slot.Face,Face,InventorySlots
+Inventory.Slot.Feet,Feet,InventorySlots
+Inventory.Slot.FOB.BuildSuppliesContainer,Build Supplies,InventorySlots
+Inventory.Slot.FOB.FuelSuppliesContainer,Fuel Supplies,InventorySlots
+Inventory.Slot.FOB.MunitionSuppliesContainer,Ammo Supplies,InventorySlots
+Inventory.Slot.FOB.SparePartsSuppliesContainer,Mechanical Supplies,InventorySlots
+Inventory.Slot.Hair,Hair,InventorySlots
+Inventory.Slot.Hands,Hands,InventorySlots
+Inventory.Slot.Head,Head,InventorySlots
+Inventory.Slot.Helmet,Helmet,InventorySlots
+Inventory.Slot.Legs,Legs,InventorySlots
+Inventory.Slot.Melee,Melee,InventorySlots
+Inventory.Slot.Primary,Primary Weapon,InventorySlots
+Inventory.Slot.Secondary,Secondary Weapon,InventorySlots
+Inventory.Slot.Sidearm,Sidearm,InventorySlots
+Inventory.Slot.Specialist,Spec. Item,InventorySlots
+Inventory.Slot.Traversal,Traversal,InventorySlots
+Inventory.Slot.Vest,Tac-Vest,InventorySlots
+Item.Ammo,Ammo,InventorySlots
+Item.Ammo.Type.ArmorPiercing,AP,Ammunition
+Item.Ammo.Type.ArmorPiercing.Tracer,AP,Ammunition
+Item.Ammo.Type.Buckshot,BCK,Ammunition
+Item.Ammo.Type.FMJ,FMJ,Ammunition
+Item.Ammo.Type.FMJ.Tracer,FMJ,Ammunition
+Item.Ammo.Type.HollowPoint,HP,Ammunition
+Item.Ammo.Type.HollowPoint.Tracer,HP,Ammunition
+Item.Ammo.Type.Slug,SLG,Ammunition
+Item.Archetype.AR,Assault Rifle,Archetypes
+Item.Archetype.Bobblehead,Bobblehead,Archetypes
+Item.Archetype.Bow,Bow,Archetypes
+Item.Archetype.DMR,DMR,Archetypes
+Item.Archetype.Grenade,Grenade,Archetypes
+Item.Archetype.Launcher,Launcher,Archetypes
+Item.Archetype.LMG,LMG,Archetypes
+Item.Archetype.Melee,Melee,Archetypes
+Item.Archetype.Parachute,Parachute,Archetypes
+Item.Archetype.Pistol,Pistol,Archetypes
+Item.Archetype.Shotgun,Shotgun,Archetypes
+Item.Archetype.SMG,SMG,Archetypes
+Item.Archetype.Sniper,Sniper Rifle,Archetypes
+Item.Attachment.Barrel,BARREL,Components
+Item.Attachment.Barrel,Barrel,InventorySlots
+Item.Attachment.CantedSight,Canted Sight,InventorySlots
+Item.Attachment.Chamber,Chamber,InventorySlots
+Item.Attachment.Charm,Charm,InventorySlots
+Item.Attachment.DustCover,DUST COVER,Components
+Item.Attachment.Grip,GRIP,Components
+Item.Attachment.Grip,Grip,InventorySlots
+Item.Attachment.Handguard,HANDGUARD,Components
+Item.Attachment.Handguard,Handguard,InventorySlots
+Item.Attachment.Magazine,Magazine,InventorySlots
+Item.Attachment.Muzzle,Muzzle,InventorySlots
+Item.Attachment.Receiver,RECIEVER,Components
+Item.Attachment.Receiver,Receiver,InventorySlots
+Item.Attachment.Sight,Sight,InventorySlots
+Item.Attachment.SightMount,Sight Mount,InventorySlots
+Item.Attachment.Stock,STOCK,Components
+Item.Attachment.Stock,Stock,InventorySlots
+Item.Attachment.Trigger,TRIGGER,Components
+Item.Attachment.Underbarrel,Underbarrel,InventorySlots
+Item.Caliber.115mm,115mm,Calibers
+Item.Caliber.120x570mm,120mm HEAT-MP Shell,Calibers
+Item.Caliber.12g,12g,Calibers
+Item.Caliber.12g.RifledSlug,12g Rifled Slug,Calibers
+Item.Caliber.155mm,155mm HE Shell,Calibers
+Item.Caliber.20x102mm,20x102mm,Calibers
+Item.Caliber.308Win,.308 Win,Calibers
+Item.Caliber.30mm,30mm HE Cannon,Calibers
+Item.Caliber.338Nor,338Nor,Calibers
+Item.Caliber.35x228mm,35x228mm Anti-Air Cannon,Calibers
+Item.Caliber.40mm,40mm,Calibers
+Item.Caliber.45ACP,.45 ACP,Calibers
+Item.Caliber.45Colt,.45 Colt,Calibers
+Item.Caliber.50AE,50AE,Calibers
+Item.Caliber.50Cal,.50Cal,Calibers
+Item.Caliber.545mm,5.45x39mm,Calibers
+Item.Caliber.556mm,5.56x45mm,Calibers
+Item.Caliber.70mm,70mm,Calibers
+Item.Caliber.762mm,7.62x39mm,Calibers
+Item.Caliber.762x51mm,7.62x51mm,Calibers
+Item.Caliber.762x54mm,7.62x54mm,Calibers
+Item.Caliber.7mmBuck,12g 7mm Buckshot,Calibers
+Item.Caliber.84mm,84mm,Calibers
+Item.Caliber.93mm,93mm,Calibers
+Item.Caliber.9mm,9x19mm,Calibers
+Item.Category.Ammunition,Ammo,Categories
+Item.Category.Armor,Armor,Categories
+Item.Category.Attachment,Attachment,Categories
+Item.Category.Deployable,Deployable,Categories
+Item.Category.Health,Health,Categories
+Item.Category.Storage,Storage,Categories
+Item.Category.Throwable,Throwable,Categories
+Item.Category.Weapon.Melee,Melee Weapon,Categories
+Item.Category.Weapon.Ranged,Ranged Weapon,Categories
+Meta.Damage.AmmoModifier.ArmorPiercing,AP,Ammunition
+Meta.Damage.AmmoModifier.ArmorPiercing.Tracer,AP,Ammunition
+Meta.Damage.AmmoModifier.FMJ,FMJ,Ammunition
+Meta.Damage.AmmoModifier.HollowPoint,HP,Ammunition
+Meta.Damage.AmmoModifier.HollowPoint.Tracer,HP,Ammunition
+Meta.Damage.AmmoModifier.Tracer,FMJ,Ammunition
+Meta.Damage.DamageType.BackBlast,Backblast Damage,Damage
+Meta.Damage.DamageType.Dismantle,Melee Damage,Damage
+Meta.Damage.DamageType.Enviroment,Environmental Damage,Damage
+Meta.Damage.DamageType.Explosive,Explosive Damage,Damage
+Meta.Damage.DamageType.Fall,Fall Damage,Damage
+Meta.Damage.DamageType.Impact,Impact Damage,Damage
+Meta.Damage.DamageType.Melee,Melee Damage,Damage
+Meta.Damage.DamageType.Utility,Impact Damage,Damage
+Meta.Damage.Kinetic.Impact.Ricochet,ricocheted,Damage
+Meta.Role.Driver,DRIVER,Roles
+Meta.Role.Infantry,ASSAULT,Roles
+Meta.Role.Medic,MEDIC,Roles
+Meta.Role.Pilot,PILOT,Roles
+Meta.Role.Recon,RECON,Roles
+Meta.Role.Support,SUPPORT,Roles
+Meta.Role.Wardog,WARDOG,Roles
+Server.Descriptor.ChangeTeamDisabled,No Team Change,ServerTags
+Server.Descriptor.CommunityHosted,Community,ServerTags
+Server.Descriptor.DownedStateDisabled,No Downed State,ServerTags
+Server.Descriptor.GiveUpDisabled,No Give Up,ServerTags
+Server.Descriptor.Hardcore,Hardcore,ServerTags
+Server.Descriptor.InfantryOnly,Infantry Only,ServerTags
+Server.Descriptor.MaxPlayerCash,Max {Value},ServerTags
+Server.Descriptor.MaxPlayerLevel,Max Lvl {Value},ServerTags
+Server.Descriptor.MinPlayerCash,Min {Value},ServerTags
+Server.Descriptor.MinPlayerLevel,Min Lvl {Value},ServerTags
+Server.Descriptor.PlayerLootingDisabled,No Player Looting,ServerTags
+Server.Descriptor.RebuyDisabled,No Rebuy,ServerTags
+Server.Descriptor.ReducedHUD,Reduced HUD,ServerTags
+Server.Descriptor.ReducedHUD.CashFeed,Cash Feed,ServerTags
+Server.Descriptor.ReducedHUD.DynamicCrosshair,Dynamic Crosshair,ServerTags
+Server.Descriptor.ReducedHUD.HudAmmo,HUD Ammo,ServerTags
+Server.Descriptor.ReducedHUD.KillfeedSquadOnly,Killfeed (Squad Only),ServerTags
+Server.Descriptor.ReducedHUD.MinimapHealth,Minimap Health,ServerTags
+Server.Descriptor.ReducedHUD.QuickSlots,QuickSlots,ServerTags
+Server.Descriptor.ReturnToSpawnDisabled,No Return To Spawn,ServerTags
+Server.Descriptor.VaultDisabled,No Vault,ServerTags
+State.Player.Weight.Heavy,Heavy,PlayerStates
+State.Player.Weight.Heavy,HEAVY,Tooltips
+State.Player.Weight.Light,Light,PlayerStates
+State.Player.Weight.Light,LIGHT,Tooltips
+State.Player.Weight.Lightest,Lightest,PlayerStates
+State.Player.Weight.Lightest,LIGHTEST,Tooltips
+State.Player.Weight.Medium,Medium,PlayerStates
+State.Player.Weight.Medium,MEDIUM,Tooltips
+State.Player.Weight.SuperHeavy,Super Heavy,PlayerStates
+State.Player.Weight.SuperHeavy,SUPER HEAVY,Tooltips
+Tutorials.BuyingYourLoadout,Buying Your Loadout,Tutorials
+Tutorials.TheBasics,The Basics,Tutorials
+Tutorials.TravelToObjective,Travel To Objective,Tutorials
+Tutorials.UsingEquipment,Using Equipment,Tutorials
+Tutorials.Vehicles,Vehicles,Tutorials
+UI.Action.Feature.Inventory.Discard,Drop,Prompts
+UI.Action.Feature.Vendor.Destroy,Delete Item / Stack,Prompts
+UI.Action.Feature.Vendor.Purchase,Add to Loadout,Prompts
+UI.Action.Feature.Vendor.Refund,Remove from Loadout,Prompts
+UI.Features.ServerBrowser.Filter.GameMode.Standard,Standard,ServerTags
+UI.Item.Purchase.Requirement.Incomplete.Reason.TeamScore,Locked until match score reaches {Value},Tooltips
+UI.Scene.Frontend.Blackmarket,Black Market,SceneNames
+UI.Scene.Frontend.Blackmarket.Investments,Investments,SceneNames
+UI.Scene.Frontend.Blackmarket.Missions,Missions,SceneNames
+UI.Scene.Frontend.Blackmarket.Unlocks,Unlocks,SceneNames
+UI.Scene.Frontend.Career,Unlock,SceneNames
+UI.Scene.Frontend.Collection,Collection,SceneNames
+UI.Scene.Frontend.Customize,Customize,SceneNames
+UI.Scene.Frontend.DeploymentSelect,Deploy,SceneNames
+UI.Scene.Frontend.FindMatch,Server Browser,SceneNames
+UI.Scene.Frontend.GoldMarket,Gold Market,SceneNames
+UI.Scene.Frontend.Home,Play,SceneNames
+UI.Scene.Frontend.LearnToPlay,Learn To Play,SceneNames
+UI.Scene.Frontend.Loadouts,Loadouts,SceneNames
+UI.Scene.Frontend.Mailbox,Mailbox,SceneNames
+UI.Scene.Frontend.Progression,Progression,SceneNames
+UI.Scene.Frontend.Tutorials,Tutorials,SceneNames
+UI.Scene.Frontend.Vault,Vault,SceneNames
+UI.Scene.Frontend.Wardog,Wardog,SceneNames
+UI.Scene.Frontend.Wardog.Customize,Customize,SceneNames
+UI.Scene.Frontend.Wardog.Mastery.Roles,Role Mastery,SceneNames
+UI.Scene.Match.GameOver,Score,SceneNames
+UI.Scene.Match.GameOver.Scoreboard,Scoreboard,SceneNames
+UI.Scene.Match.GameOver.XPProgression,Progression,SceneNames
+UI.Scene.Match.Inventory,Inventory,SceneNames
+UI.Scene.Match.Scoreboard,Scoreboard,SceneNames
+UI.Scene.Match.VehicleSupplyCrate,Supply Crate,SceneNames
+UI.Scene.Match.Vendor.Equipment,Equipment Vendor,SceneNames
+UI.Scene.Match.Vendor.Garage,Garage Vendor,SceneNames
+UI.Scene.Match.Vendor.Vehicles,Vehicle Vendor,SceneNames
+UI.Scene.Shared.Settings,Settings,SceneNames
+UI.Tooltip.Layout.ItemDescription.Entry.Warning.Container.Empty,(Empty),Tooltips
+UI.Tooltip.Layout.ItemDescription.Entry.Warning.Container.Full,(Full),Tooltips
+UI.Tooltip.Layout.ItemDescription.Entry.Warning.Container.Partial,(Partial),Tooltips
+UI.Tooltip.Layout.ItemDescription.Entry.Warning.NonRefundable,Cannot refund purchased item,Tooltips
+Vehicle.Archetype.Air.Rotary,Rotary,Archetypes
+Vehicle.Archetype.Land.Tracked,Tracked,Archetypes
+Vehicle.Archetype.Land.Wheeled,Wheeled,Archetypes
+Vendor.Category.All,All,Categories
+Vendor.Category.Ammo,Ammo,Categories
+Vendor.Category.Ammo.Type.ArmorPiercing,Armor Piercing (AP),Categories
+Vendor.Category.Ammo.Type.ArmorPiercingTracer,Armor Piercing (AP),Categories
+Vendor.Category.Ammo.Type.Arrow,Arrow,Categories
+Vendor.Category.Ammo.Type.Cartridge,Cartridge,Categories
+Vendor.Category.Ammo.Type.FMJ,Standard (FMJ),Categories
+Vendor.Category.Ammo.Type.FMJTracer,Standard (FMJ),Categories
+Vendor.Category.Ammo.Type.HollowPoint,Flesh Damage (HP),Categories
+Vendor.Category.Ammo.Type.HollowPointTracer,Flesh Damage (HP),Categories
+Vendor.Category.Ammo.Type.Standard,Rockets,Categories
+Vendor.Category.Ammo.Type.Tracer,Tracer,Categories
+Vendor.Category.Attachment,Attachment,Categories
+Vendor.Category.Attachment.Barrel,Barrel,Categories
+Vendor.Category.Attachment.Barrel.FlashHider,Flash Hider,Categories
+Vendor.Category.Attachment.Bipod,Bipod,Categories
+Vendor.Category.Attachment.Grip,Grip,Categories
+Vendor.Category.Attachment.Grip.Angled,Angled,Categories
+Vendor.Category.Attachment.Grip.Vertical,Vertical,Categories
+Vendor.Category.Attachment.Magazine,Magazine,Categories
+Vendor.Category.Attachment.Sight,Sight,Categories
+Vendor.Category.Attachment.Sight.Canted,Canted,Categories
+Vendor.Category.Attachment.Sight.Range.Long,Long,Categories
+Vendor.Category.Attachment.Sight.Range.Medium,Medium,Categories
+Vendor.Category.Attachment.Sight.Range.Short,Short,Categories
+Vendor.Category.Attachment.Underbarrel,Underbarrel,Categories
+Vendor.Category.Blueprint,Blueprints,Categories
+Vendor.Category.Garage.Overview,Overview,Categories
+Vendor.Category.Garage.SupplyCrate,Supply Crate,Categories
+Vendor.Category.Garage.VehicleStorage,Vehicle Storage,Categories
+Vendor.Category.Gear,Gear,Categories
+Vendor.Category.Gear.Armor,Armor,Categories
+Vendor.Category.Gear.Backpack,Backpack,Categories
+Vendor.Category.Gear.Camouflage,Camouflage,Categories
+Vendor.Category.Gear.Headgear,Headgear,Categories
+Vendor.Category.Gear.Helmet,Helmet,Categories
+Vendor.Category.Gear.Traversal,Traversal,Categories
+Vendor.Category.Gear.Vest,Vest,Categories
+Vendor.Category.Magazine.Size,Magazine Size,Categories
+Vendor.Category.Magazine.Size.Extended,Extended,Categories
+Vendor.Category.Magazine.Size.Standard,Rockets,Categories
+Vendor.Category.Recommended,Recommended,Categories
+Vendor.Category.Sub.Vehicle.Air.Combat,Combat,Categories
+Vendor.Category.Sub.Vehicle.Air.Transport,Transport,Categories
+Vendor.Category.Sub.Vehicle.Land.Artillery,Artillery,Categories
+Vendor.Category.Sub.Vehicle.Land.Tank,Tank,Categories
+Vendor.Category.Sub.Vehicle.Land.Transport,Transport,Categories
+Vendor.Category.Sub.Vehicle.Logistics.FOB,FOB,Categories
+Vendor.Category.Sub.Vehicle.Logistics.Pallet,Supply Pallets,Categories
+Vendor.Category.Sub.Vehicle.SupplyCrate.Large,Large Crates,Categories
+Vendor.Category.Sub.Vehicle.SupplyCrate.Small,Small Crates,Categories
+Vendor.Category.Utility,Utility,Categories
+Vendor.Category.Utility.Type.Building,Building,Categories
+Vendor.Category.Utility.Type.Medical,Medical,Categories
+Vendor.Category.Utility.Type.Misc,Misc,Categories
+Vendor.Category.Utility.Type.Offensive,Tactical,Categories
+Vendor.Category.Utility.Type.Recon,Recon,Categories
+Vendor.Category.Utility.Type.Vehicle,Vehicle,Categories
+Vendor.Category.Vehicle,Vehicle,Categories
+Vendor.Category.Vehicle.Air,Air,Categories
+Vendor.Category.Vehicle.Ammo,Vehicle Ammo,Categories
+Vendor.Category.Vehicle.AmmoType,Ammo Type,Categories
+Vendor.Category.Vehicle.CounterMeasures,Counter Measures,Categories
+Vendor.Category.Vehicle.CounterMeasures.Flares,Flares,Categories
+Vendor.Category.Vehicle.Garage,Garage,Categories
+Vendor.Category.Vehicle.Land,Land,Categories
+Vendor.Category.Vehicle.Music,Music Tapes,Categories
+Vendor.Category.Vehicle.Sea,Sea,Categories
+Vendor.Category.Vehicle.SupplyCrate,Supply Crate,Categories
+Vendor.Category.Weapon,Weapon,Categories
+Vendor.Category.Weapon.Type.AssaultRifle,Assault Rifle,Categories
+Vendor.Category.Weapon.Type.Bow,Bows,Categories
+Vendor.Category.Weapon.Type.Drill,Drill,Categories
+Vendor.Category.Weapon.Type.Launcher,Launcher,Categories
+Vendor.Category.Weapon.Type.LMG,LMG,Categories
+Vendor.Category.Weapon.Type.MarksmanRifle,Marksman Rifle,Categories
+Vendor.Category.Weapon.Type.Pistol,Pistol,Categories
+Vendor.Category.Weapon.Type.Shotgun,Shotgun,Categories
+Vendor.Category.Weapon.Type.SMG,SMG,Categories
+Vendor.Category.Weapon.Type.Sniper,Sniper,Categories
+Vendor.Category.Weapon.Type.Tool,Tool,Categories

@@ -1,0 +1,8315 @@
+{
+  "type": "FeatureCollection",
+  "name": "NorthAmerica-buildings",
+  "coordinateSystem": "world meters (X, Y); not geographic",
+  "gameBuild": "25677108",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "bef0d4fde5de",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_01_C",
+        "minZ": 80.51,
+        "maxZ": 90.28,
+        "baseZ": 80.51,
+        "height": 9.77
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4353.92,
+              -4362.72
+            ],
+            [
+              -4332.76,
+              -4362.72
+            ],
+            [
+              -4332.76,
+              -4341.08
+            ],
+            [
+              -4353.92,
+              -4341.08
+            ],
+            [
+              -4353.92,
+              -4362.72
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "27dc76a185e0",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_01_C",
+        "minZ": 80.31,
+        "maxZ": 93.58,
+        "baseZ": 80.31,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4343.78,
+              -4305.07
+            ],
+            [
+              -4322.27,
+              -4305.07
+            ],
+            [
+              -4322.27,
+              -4285.05
+            ],
+            [
+              -4343.78,
+              -4285.05
+            ],
+            [
+              -4343.78,
+              -4305.07
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a0b124a454eb",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_01_C",
+        "minZ": 80.13,
+        "maxZ": 93.4,
+        "baseZ": 80.13,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4320.58,
+              -4440.95
+            ],
+            [
+              -4299.36,
+              -4440.95
+            ],
+            [
+              -4299.36,
+              -4421
+            ],
+            [
+              -4320.58,
+              -4421
+            ],
+            [
+              -4320.58,
+              -4440.95
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ab081925a4d7",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_01_C",
+        "minZ": 80.31,
+        "maxZ": 90.08,
+        "baseZ": 80.31,
+        "height": 9.77
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4237.31,
+              -4245.32
+            ],
+            [
+              -4215.76,
+              -4245.32
+            ],
+            [
+              -4215.76,
+              -4224.19
+            ],
+            [
+              -4237.31,
+              -4224.19
+            ],
+            [
+              -4237.31,
+              -4245.32
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1eefbbc15b38",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_01_C",
+        "minZ": 76.72,
+        "maxZ": 86.49,
+        "baseZ": 76.72,
+        "height": 9.77
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4237.14,
+              -3519.25
+            ],
+            [
+              -4214.83,
+              -3519.25
+            ],
+            [
+              -4214.83,
+              -3499.32
+            ],
+            [
+              -4237.14,
+              -3499.32
+            ],
+            [
+              -4237.14,
+              -3519.25
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "18f8980c5264",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_01_C",
+        "minZ": 78.39,
+        "maxZ": 91.66,
+        "baseZ": 78.39,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4116.73,
+              -4236.28
+            ],
+            [
+              -4096.83,
+              -4236.28
+            ],
+            [
+              -4096.83,
+              -4215.25
+            ],
+            [
+              -4116.73,
+              -4215.25
+            ],
+            [
+              -4116.73,
+              -4236.28
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "40ac82df3121",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_01_C",
+        "minZ": 78.11,
+        "maxZ": 87.88,
+        "baseZ": 78.11,
+        "height": 9.77
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4088.61,
+              -4279.26
+            ],
+            [
+              -4069.05,
+              -4279.26
+            ],
+            [
+              -4069.05,
+              -4257.37
+            ],
+            [
+              -4088.61,
+              -4257.37
+            ],
+            [
+              -4088.61,
+              -4279.26
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c0b20c877fb0",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_01_C",
+        "minZ": 77.21,
+        "maxZ": 86.98,
+        "baseZ": 77.21,
+        "height": 9.77
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3974.63,
+              -4277.95
+            ],
+            [
+              -3953.37,
+              -4277.95
+            ],
+            [
+              -3953.37,
+              -4256.94
+            ],
+            [
+              -3974.63,
+              -4256.94
+            ],
+            [
+              -3974.63,
+              -4277.95
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f19b4761ad49",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_01_C",
+        "minZ": 75.48,
+        "maxZ": 88.75,
+        "baseZ": 75.48,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3770.47,
+              -4221.56
+            ],
+            [
+              -3749.27,
+              -4221.56
+            ],
+            [
+              -3749.27,
+              -4201.62
+            ],
+            [
+              -3770.47,
+              -4201.62
+            ],
+            [
+              -3770.47,
+              -4221.56
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "7b93fa14b3a2",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_01_C",
+        "minZ": 75.09,
+        "maxZ": 84.86,
+        "baseZ": 75.09,
+        "height": 9.77
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3765.67,
+              -4077.76
+            ],
+            [
+              -3744.55,
+              -4077.76
+            ],
+            [
+              -3744.55,
+              -4056.25
+            ],
+            [
+              -3765.67,
+              -4056.25
+            ],
+            [
+              -3765.67,
+              -4077.76
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9b79b5976407",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_01_C",
+        "minZ": 75.06,
+        "maxZ": 84.83,
+        "baseZ": 75.06,
+        "height": 9.77
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3731.43,
+              -4134.87
+            ],
+            [
+              -3710.31,
+              -4134.87
+            ],
+            [
+              -3710.31,
+              -4113.36
+            ],
+            [
+              -3731.43,
+              -4113.36
+            ],
+            [
+              -3731.43,
+              -4134.87
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "690dd412b9c6",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_01_C",
+        "minZ": 75.13,
+        "maxZ": 88.4,
+        "baseZ": 75.13,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3708.22,
+              -4019.24
+            ],
+            [
+              -3684.86,
+              -4019.24
+            ],
+            [
+              -3684.86,
+              -4000.22
+            ],
+            [
+              -3708.22,
+              -4000.22
+            ],
+            [
+              -3708.22,
+              -4019.24
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "78122ec63733",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_01_C",
+        "minZ": 74.56,
+        "maxZ": 87.83,
+        "baseZ": 74.56,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3699.66,
+              -4115.4
+            ],
+            [
+              -3678.01,
+              -4115.4
+            ],
+            [
+              -3678.01,
+              -4095.34
+            ],
+            [
+              -3699.66,
+              -4095.34
+            ],
+            [
+              -3699.66,
+              -4115.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8b38198eaf86",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_01_C",
+        "minZ": 74.14,
+        "maxZ": 83.91,
+        "baseZ": 74.14,
+        "height": 9.77
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3635.12,
+              -4045.37
+            ],
+            [
+              -3618.34,
+              -4045.37
+            ],
+            [
+              -3618.34,
+              -4026.59
+            ],
+            [
+              -3635.12,
+              -4026.59
+            ],
+            [
+              -3635.12,
+              -4045.37
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0f334a7f7718",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_01_C",
+        "minZ": 76.96,
+        "maxZ": 86.73,
+        "baseZ": 76.96,
+        "height": 9.77
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3627.33,
+              -4425.17
+            ],
+            [
+              -3605.81,
+              -4425.17
+            ],
+            [
+              -3605.81,
+              -4404.06
+            ],
+            [
+              -3627.33,
+              -4404.06
+            ],
+            [
+              -3627.33,
+              -4425.17
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3499871e4f52",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_01_C",
+        "minZ": 73.15,
+        "maxZ": 82.92,
+        "baseZ": 73.15,
+        "height": 9.77
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3565.18,
+              -4038.65
+            ],
+            [
+              -3548.4,
+              -4038.65
+            ],
+            [
+              -3548.4,
+              -4019.87
+            ],
+            [
+              -3565.18,
+              -4019.87
+            ],
+            [
+              -3565.18,
+              -4038.65
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "45edaa1699ed",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_01_C",
+        "minZ": 69.96,
+        "maxZ": 79.73,
+        "baseZ": 69.96,
+        "height": 9.77
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3359.31,
+              -3920.81
+            ],
+            [
+              -3337.78,
+              -3920.81
+            ],
+            [
+              -3337.78,
+              -3899.69
+            ],
+            [
+              -3359.31,
+              -3899.69
+            ],
+            [
+              -3359.31,
+              -3920.81
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4f824985edcd",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_01_C",
+        "minZ": 68.82,
+        "maxZ": 78.59,
+        "baseZ": 68.82,
+        "height": 9.77
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3202.67,
+              -4172.21
+            ],
+            [
+              -3181.48,
+              -4172.21
+            ],
+            [
+              -3181.48,
+              -4150.47
+            ],
+            [
+              -3202.67,
+              -4150.47
+            ],
+            [
+              -3202.67,
+              -4172.21
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "7801ad009e34",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_01_C",
+        "minZ": 66.29,
+        "maxZ": 79.56,
+        "baseZ": 66.29,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3081.65,
+              -4369.57
+            ],
+            [
+              -3061.87,
+              -4369.57
+            ],
+            [
+              -3061.87,
+              -4348.91
+            ],
+            [
+              -3081.65,
+              -4348.91
+            ],
+            [
+              -3081.65,
+              -4369.57
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d844ce9b3cea",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_01_C",
+        "minZ": 75.25,
+        "maxZ": 88.52,
+        "baseZ": 75.25,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1777.55,
+              -674.81
+            ],
+            [
+              -1757.3,
+              -674.81
+            ],
+            [
+              -1757.3,
+              -651
+            ],
+            [
+              -1777.55,
+              -651
+            ],
+            [
+              -1777.55,
+              -674.81
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8db244c4cfd3",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_02a_C",
+        "minZ": 76.2,
+        "maxZ": 79.8,
+        "baseZ": 76.2,
+        "height": 3.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1756.14,
+              -673.65
+            ],
+            [
+              -1746.81,
+              -673.65
+            ],
+            [
+              -1746.81,
+              -663.35
+            ],
+            [
+              -1756.14,
+              -663.35
+            ],
+            [
+              -1756.14,
+              -673.65
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9646aa666428",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_03_C",
+        "minZ": 76.38,
+        "maxZ": 85.2,
+        "baseZ": 76.38,
+        "height": 8.82
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1713.94,
+              -598.14
+            ],
+            [
+              -1696.86,
+              -598.14
+            ],
+            [
+              -1696.86,
+              -580.7
+            ],
+            [
+              -1713.94,
+              -580.7
+            ],
+            [
+              -1713.94,
+              -598.14
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "86fd432d45d4",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Small_03a_C",
+        "minZ": 74.78,
+        "maxZ": 80.94,
+        "baseZ": 74.78,
+        "height": 6.16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1634.21,
+              -2023.46
+            ],
+            [
+              -1618.48,
+              -2023.46
+            ],
+            [
+              -1618.48,
+              -2009.63
+            ],
+            [
+              -1634.21,
+              -2009.63
+            ],
+            [
+              -1634.21,
+              -2023.46
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d2a7f8b46190",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_03_C",
+        "minZ": 75.8,
+        "maxZ": 84.62,
+        "baseZ": 75.8,
+        "height": 8.82
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1626.55,
+              426.56
+            ],
+            [
+              -1611.08,
+              426.56
+            ],
+            [
+              -1611.08,
+              440.92
+            ],
+            [
+              -1626.55,
+              440.92
+            ],
+            [
+              -1626.55,
+              426.56
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0d03cee49012",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_02a_C",
+        "minZ": 75.81,
+        "maxZ": 83.91,
+        "baseZ": 75.81,
+        "height": 8.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1606.29,
+              -2030.33
+            ],
+            [
+              -1576.65,
+              -2030.33
+            ],
+            [
+              -1576.65,
+              -2005.19
+            ],
+            [
+              -1606.29,
+              -2005.19
+            ],
+            [
+              -1606.29,
+              -2030.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "84b2d34e5e84",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_01_C",
+        "minZ": 72.96,
+        "maxZ": 82.73,
+        "baseZ": 72.96,
+        "height": 9.77
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1576.93,
+              433.4
+            ],
+            [
+              -1555.14,
+              433.4
+            ],
+            [
+              -1555.14,
+              454.61
+            ],
+            [
+              -1576.93,
+              454.61
+            ],
+            [
+              -1576.93,
+              433.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6cbe4f99f61f",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_01_C",
+        "minZ": 84.96,
+        "maxZ": 98.23,
+        "baseZ": 84.96,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1570.47,
+              -2296.79
+            ],
+            [
+              -1550.52,
+              -2296.79
+            ],
+            [
+              -1550.52,
+              -2277.29
+            ],
+            [
+              -1570.47,
+              -2277.29
+            ],
+            [
+              -1570.47,
+              -2296.79
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cad0e8a20932",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Small_03a_C",
+        "minZ": 76.2,
+        "maxZ": 82.36,
+        "baseZ": 76.2,
+        "height": 6.16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1557.21,
+              -1986.62
+            ],
+            [
+              -1541.48,
+              -1986.62
+            ],
+            [
+              -1541.48,
+              -1972.79
+            ],
+            [
+              -1557.21,
+              -1972.79
+            ],
+            [
+              -1557.21,
+              -1986.62
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ca69546c2263",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_01_C",
+        "minZ": 72.24,
+        "maxZ": 85.51,
+        "baseZ": 72.24,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1556.36,
+              404.58
+            ],
+            [
+              -1536.34,
+              404.58
+            ],
+            [
+              -1536.34,
+              426.08
+            ],
+            [
+              -1556.36,
+              426.08
+            ],
+            [
+              -1556.36,
+              404.58
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1f5d1b08b1f1",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_01_C",
+        "minZ": 86.66,
+        "maxZ": 99.93,
+        "baseZ": 86.66,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1541.72,
+              -2354.32
+            ],
+            [
+              -1521.94,
+              -2354.32
+            ],
+            [
+              -1521.94,
+              -2334.89
+            ],
+            [
+              -1541.72,
+              -2334.89
+            ],
+            [
+              -1541.72,
+              -2354.32
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "66bd899d0347",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_03_C",
+        "minZ": 83.87,
+        "maxZ": 92.69,
+        "baseZ": 83.87,
+        "height": 8.82
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1541.15,
+              -2282.15
+            ],
+            [
+              -1524.44,
+              -2282.15
+            ],
+            [
+              -1524.44,
+              -2265.96
+            ],
+            [
+              -1541.15,
+              -2265.96
+            ],
+            [
+              -1541.15,
+              -2282.15
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b6f632a9c9a5",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Small_03a_C",
+        "minZ": 76.98,
+        "maxZ": 83.14,
+        "baseZ": 76.98,
+        "height": 6.16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1530.33,
+              -2010.17
+            ],
+            [
+              -1516.57,
+              -2010.17
+            ],
+            [
+              -1516.57,
+              -1994.46
+            ],
+            [
+              -1530.33,
+              -1994.46
+            ],
+            [
+              -1530.33,
+              -2010.17
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c56b17e99ed0",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_02a_C",
+        "minZ": 87.51,
+        "maxZ": 91.1,
+        "baseZ": 87.51,
+        "height": 3.59
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1524.02,
+              -2345.29
+            ],
+            [
+              -1515.82,
+              -2345.29
+            ],
+            [
+              -1515.82,
+              -2335
+            ],
+            [
+              -1524.02,
+              -2335
+            ],
+            [
+              -1524.02,
+              -2345.29
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "e4fcc26a22d8",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_03_C",
+        "minZ": 86.55,
+        "maxZ": 95.37,
+        "baseZ": 86.55,
+        "height": 8.82
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1515.54,
+              -2344.6
+            ],
+            [
+              -1498.83,
+              -2344.6
+            ],
+            [
+              -1498.83,
+              -2328.41
+            ],
+            [
+              -1515.54,
+              -2328.41
+            ],
+            [
+              -1515.54,
+              -2344.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "da46db8b27ca",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_02a_C",
+        "minZ": 87.83,
+        "maxZ": 91.42,
+        "baseZ": 87.83,
+        "height": 3.59
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1509.42,
+              -2319.2
+            ],
+            [
+              -1501.23,
+              -2319.2
+            ],
+            [
+              -1501.23,
+              -2308.91
+            ],
+            [
+              -1509.42,
+              -2308.91
+            ],
+            [
+              -1509.42,
+              -2319.2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0628c57f407f",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_03_C",
+        "minZ": 79.54,
+        "maxZ": 88.35,
+        "baseZ": 79.54,
+        "height": 8.81
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1505.44,
+              -2118.6
+            ],
+            [
+              -1489.24,
+              -2118.6
+            ],
+            [
+              -1489.24,
+              -2101.71
+            ],
+            [
+              -1505.44,
+              -2101.71
+            ],
+            [
+              -1505.44,
+              -2118.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bb962402417b",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_05_C",
+        "minZ": 87.22,
+        "maxZ": 100.49,
+        "baseZ": 87.22,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1496.51,
+              -2335.94
+            ],
+            [
+              -1475.22,
+              -2335.94
+            ],
+            [
+              -1475.22,
+              -2314.41
+            ],
+            [
+              -1496.51,
+              -2314.41
+            ],
+            [
+              -1496.51,
+              -2335.94
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "65939081b3bd",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_05_C",
+        "minZ": 80.06,
+        "maxZ": 93.33,
+        "baseZ": 80.06,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1495.56,
+              -2146.42
+            ],
+            [
+              -1473.8,
+              -2146.42
+            ],
+            [
+              -1473.8,
+              -2124.87
+            ],
+            [
+              -1495.56,
+              -2124.87
+            ],
+            [
+              -1495.56,
+              -2146.42
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c4a4c279330c",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_03_C",
+        "minZ": 80.38,
+        "maxZ": 89.2,
+        "baseZ": 80.38,
+        "height": 8.82
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1478.96,
+              -2169.4
+            ],
+            [
+              -1462.76,
+              -2169.4
+            ],
+            [
+              -1462.76,
+              -2152.55
+            ],
+            [
+              -1478.96,
+              -2152.55
+            ],
+            [
+              -1478.96,
+              -2169.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "165fea63336e",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_05_C",
+        "minZ": 80.87,
+        "maxZ": 94.14,
+        "baseZ": 80.87,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1478.35,
+              -2257.62
+            ],
+            [
+              -1456.67,
+              -2257.62
+            ],
+            [
+              -1456.67,
+              -2235.73
+            ],
+            [
+              -1478.35,
+              -2235.73
+            ],
+            [
+              -1478.35,
+              -2257.62
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "285fd9504649",
+      "properties": {
+        "kind": "apartment",
+        "class": "B_Apartment_Building_01_A_C",
+        "minZ": 78.73,
+        "maxZ": 120.38,
+        "baseZ": 78.73,
+        "height": 41.65
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1473.9,
+              -2430.16
+            ],
+            [
+              -1423.62,
+              -2430.16
+            ],
+            [
+              -1423.62,
+              -2388.07
+            ],
+            [
+              -1473.9,
+              -2388.07
+            ],
+            [
+              -1473.9,
+              -2430.16
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6c83c5e21b43",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_01_C",
+        "minZ": 80.48,
+        "maxZ": 93.75,
+        "baseZ": 80.48,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1470.27,
+              -2196.43
+            ],
+            [
+              -1450.66,
+              -2196.43
+            ],
+            [
+              -1450.66,
+              -2176.23
+            ],
+            [
+              -1470.27,
+              -2176.23
+            ],
+            [
+              -1470.27,
+              -2196.43
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "948a1b87b1e1",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_01_C",
+        "minZ": 85.7,
+        "maxZ": 98.97,
+        "baseZ": 85.7,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1458.2,
+              -2312.77
+            ],
+            [
+              -1437.19,
+              -2312.77
+            ],
+            [
+              -1437.19,
+              -2292.88
+            ],
+            [
+              -1458.2,
+              -2292.88
+            ],
+            [
+              -1458.2,
+              -2312.77
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0c1d75820215",
+      "properties": {
+        "kind": "apartment",
+        "class": "B_Apartment_Building_01_C_C",
+        "minZ": 78.72,
+        "maxZ": 104.38,
+        "baseZ": 78.72,
+        "height": 25.66
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1456.1,
+              -2472.57
+            ],
+            [
+              -1405.92,
+              -2472.57
+            ],
+            [
+              -1405.92,
+              -2430.83
+            ],
+            [
+              -1456.1,
+              -2430.83
+            ],
+            [
+              -1456.1,
+              -2472.57
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "abfb842ac98c",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_02a_C",
+        "minZ": 83.05,
+        "maxZ": 86.64,
+        "baseZ": 83.05,
+        "height": 3.59
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1444.07,
+              -2251.29
+            ],
+            [
+              -1435.68,
+              -2251.29
+            ],
+            [
+              -1435.68,
+              -2240.97
+            ],
+            [
+              -1444.07,
+              -2240.97
+            ],
+            [
+              -1444.07,
+              -2251.29
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "db19c8478590",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_03_C",
+        "minZ": 81.41,
+        "maxZ": 90.23,
+        "baseZ": 81.41,
+        "height": 8.82
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1442.79,
+              -2238.36
+            ],
+            [
+              -1425.95,
+              -2238.36
+            ],
+            [
+              -1425.95,
+              -2222.16
+            ],
+            [
+              -1442.79,
+              -2222.16
+            ],
+            [
+              -1442.79,
+              -2238.36
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "97b15312162b",
+      "properties": {
+        "kind": "office",
+        "class": "B_Office_01_A_C",
+        "minZ": 78.62,
+        "maxZ": 96.28,
+        "baseZ": 78.62,
+        "height": 17.66
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1432.14,
+              -2130.71
+            ],
+            [
+              -1381.65,
+              -2130.71
+            ],
+            [
+              -1381.65,
+              -2088.6
+            ],
+            [
+              -1432.14,
+              -2088.6
+            ],
+            [
+              -1432.14,
+              -2130.71
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6a2b68492d38",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_05_C",
+        "minZ": 81.55,
+        "maxZ": 94.82,
+        "baseZ": 81.55,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1425.63,
+              -2294.36
+            ],
+            [
+              -1402.64,
+              -2294.36
+            ],
+            [
+              -1402.64,
+              -2271.57
+            ],
+            [
+              -1425.63,
+              -2271.57
+            ],
+            [
+              -1425.63,
+              -2294.36
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6e42cdb5b4f5",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_01a_C",
+        "minZ": 82.61,
+        "maxZ": 86.68,
+        "baseZ": 82.61,
+        "height": 4.07
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1421.09,
+              -2358.41
+            ],
+            [
+              -1413.04,
+              -2358.41
+            ],
+            [
+              -1413.04,
+              -2348.98
+            ],
+            [
+              -1421.09,
+              -2348.98
+            ],
+            [
+              -1421.09,
+              -2358.41
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "295f637e3f2f",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_03_C",
+        "minZ": 82.47,
+        "maxZ": 91.29,
+        "baseZ": 82.47,
+        "height": 8.82
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1417.18,
+              -2347.26
+            ],
+            [
+              -1400.32,
+              -2347.26
+            ],
+            [
+              -1400.32,
+              -2331.06
+            ],
+            [
+              -1417.18,
+              -2331.06
+            ],
+            [
+              -1417.18,
+              -2347.26
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9347bdb74991",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_03a_C",
+        "minZ": 81.57,
+        "maxZ": 85.72,
+        "baseZ": 81.57,
+        "height": 4.15
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1412.77,
+              -2393.44
+            ],
+            [
+              -1402.86,
+              -2393.44
+            ],
+            [
+              -1402.86,
+              -2385.51
+            ],
+            [
+              -1412.77,
+              -2385.51
+            ],
+            [
+              -1412.77,
+              -2393.44
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1de4c76786a1",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_02a_C",
+        "minZ": 81.54,
+        "maxZ": 85.14,
+        "baseZ": 81.54,
+        "height": 3.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1410.95,
+              -2397.76
+            ],
+            [
+              -1400.63,
+              -2397.76
+            ],
+            [
+              -1400.63,
+              -2389.42
+            ],
+            [
+              -1410.95,
+              -2389.42
+            ],
+            [
+              -1410.95,
+              -2397.76
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8b7ab103ac78",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Openable_03a_C",
+        "minZ": 81.54,
+        "maxZ": 85.69,
+        "baseZ": 81.54,
+        "height": 4.15
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1408.9,
+              -2401.79
+            ],
+            [
+              -1398.99,
+              -2401.79
+            ],
+            [
+              -1398.99,
+              -2393.86
+            ],
+            [
+              -1408.9,
+              -2393.86
+            ],
+            [
+              -1408.9,
+              -2401.79
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8a7410574caf",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_03b_C",
+        "minZ": 81.57,
+        "maxZ": 85.72,
+        "baseZ": 81.57,
+        "height": 4.15
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1407.09,
+              -2406.02
+            ],
+            [
+              -1397.18,
+              -2406.02
+            ],
+            [
+              -1397.18,
+              -2398.09
+            ],
+            [
+              -1407.09,
+              -2398.09
+            ],
+            [
+              -1407.09,
+              -2406.02
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3c9410752d9d",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_01a_C",
+        "minZ": 81.48,
+        "maxZ": 85.54,
+        "baseZ": 81.48,
+        "height": 4.06
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1403.01,
+              -2393.98
+            ],
+            [
+              -1393.59,
+              -2393.98
+            ],
+            [
+              -1393.59,
+              -2385.95
+            ],
+            [
+              -1403.01,
+              -2385.95
+            ],
+            [
+              -1403.01,
+              -2393.98
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "03816a3080e0",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_03b_C",
+        "minZ": 81.57,
+        "maxZ": 85.72,
+        "baseZ": 81.57,
+        "height": 4.15
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1401.46,
+              -2398.42
+            ],
+            [
+              -1391.55,
+              -2398.42
+            ],
+            [
+              -1391.55,
+              -2390.49
+            ],
+            [
+              -1401.46,
+              -2390.49
+            ],
+            [
+              -1401.46,
+              -2398.42
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c45e61cdd518",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_01a_C",
+        "minZ": 81.48,
+        "maxZ": 85.54,
+        "baseZ": 81.48,
+        "height": 4.06
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1401.05,
+              -2417.64
+            ],
+            [
+              -1391.63,
+              -2417.64
+            ],
+            [
+              -1391.63,
+              -2409.62
+            ],
+            [
+              -1401.05,
+              -2409.62
+            ],
+            [
+              -1401.05,
+              -2417.64
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ec876bc90355",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_03a_C",
+        "minZ": 81.57,
+        "maxZ": 85.72,
+        "baseZ": 81.57,
+        "height": 4.15
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1399.75,
+              -2422.18
+            ],
+            [
+              -1389.84,
+              -2422.18
+            ],
+            [
+              -1389.84,
+              -2414.26
+            ],
+            [
+              -1399.75,
+              -2414.26
+            ],
+            [
+              -1399.75,
+              -2422.18
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b867fece0d6e",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_03a_C",
+        "minZ": 81.57,
+        "maxZ": 85.72,
+        "baseZ": 81.57,
+        "height": 4.15
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1399.55,
+              -2402.6
+            ],
+            [
+              -1389.64,
+              -2402.6
+            ],
+            [
+              -1389.64,
+              -2394.67
+            ],
+            [
+              -1399.55,
+              -2394.67
+            ],
+            [
+              -1399.55,
+              -2402.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c3afaddf31b5",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_01_C",
+        "minZ": 81.54,
+        "maxZ": 94.81,
+        "baseZ": 81.54,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1398.42,
+              -2335.38
+            ],
+            [
+              -1378.32,
+              -2335.38
+            ],
+            [
+              -1378.32,
+              -2315.81
+            ],
+            [
+              -1398.42,
+              -2315.81
+            ],
+            [
+              -1398.42,
+              -2335.38
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1685bca4919a",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_01a_C",
+        "minZ": 81.48,
+        "maxZ": 85.54,
+        "baseZ": 81.48,
+        "height": 4.06
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1397.06,
+              -2426.5
+            ],
+            [
+              -1387.64,
+              -2426.5
+            ],
+            [
+              -1387.64,
+              -2418.49
+            ],
+            [
+              -1397.06,
+              -2418.49
+            ],
+            [
+              -1397.06,
+              -2426.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1d785cd93fb9",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_02a_C",
+        "minZ": 81.54,
+        "maxZ": 85.14,
+        "baseZ": 81.54,
+        "height": 3.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1395.79,
+              -2431.3
+            ],
+            [
+              -1385.47,
+              -2431.3
+            ],
+            [
+              -1385.47,
+              -2422.97
+            ],
+            [
+              -1395.79,
+              -2422.97
+            ],
+            [
+              -1395.79,
+              -2431.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "7a477b40aa5f",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_02a_C",
+        "minZ": 81.59,
+        "maxZ": 85.19,
+        "baseZ": 81.59,
+        "height": 3.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1394.26,
+              -2415.36
+            ],
+            [
+              -1383.95,
+              -2415.36
+            ],
+            [
+              -1383.95,
+              -2407.02
+            ],
+            [
+              -1394.26,
+              -2407.02
+            ],
+            [
+              -1394.26,
+              -2415.36
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bf0517e4a391",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_03a_C",
+        "minZ": 81.57,
+        "maxZ": 85.72,
+        "baseZ": 81.57,
+        "height": 4.15
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1393.75,
+              -2435.49
+            ],
+            [
+              -1383.84,
+              -2435.49
+            ],
+            [
+              -1383.84,
+              -2427.57
+            ],
+            [
+              -1393.75,
+              -2427.57
+            ],
+            [
+              -1393.75,
+              -2435.49
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "59dda0e8e122",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_03a_C",
+        "minZ": 81.57,
+        "maxZ": 85.72,
+        "baseZ": 81.57,
+        "height": 4.15
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1391.95,
+              -2419.38
+            ],
+            [
+              -1382.05,
+              -2419.38
+            ],
+            [
+              -1382.05,
+              -2411.46
+            ],
+            [
+              -1391.95,
+              -2411.46
+            ],
+            [
+              -1391.95,
+              -2419.38
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6d894dc0a878",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_03a_C",
+        "minZ": 82.7,
+        "maxZ": 92.94,
+        "baseZ": 82.7,
+        "height": 10.24
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1390.59,
+              -1499.87
+            ],
+            [
+              -1342.11,
+              -1499.87
+            ],
+            [
+              -1342.11,
+              -1422.72
+            ],
+            [
+              -1390.59,
+              -1422.72
+            ],
+            [
+              -1390.59,
+              -1499.87
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b6a98e1bce31",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_02a_C",
+        "minZ": 82.19,
+        "maxZ": 85.78,
+        "baseZ": 82.19,
+        "height": 3.59
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1390.57,
+              -2344.71
+            ],
+            [
+              -1380.26,
+              -2344.71
+            ],
+            [
+              -1380.26,
+              -2336.41
+            ],
+            [
+              -1390.57,
+              -2336.41
+            ],
+            [
+              -1390.57,
+              -2344.71
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "31a2b297459d",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Openable_02a_C",
+        "minZ": 81.53,
+        "maxZ": 85.13,
+        "baseZ": 81.53,
+        "height": 3.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1390.38,
+              -2378.17
+            ],
+            [
+              -1380.06,
+              -2378.17
+            ],
+            [
+              -1380.06,
+              -2369.84
+            ],
+            [
+              -1390.38,
+              -2369.84
+            ],
+            [
+              -1390.38,
+              -2378.17
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "02251d824dbe",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_03_C",
+        "minZ": 79.45,
+        "maxZ": 88.27,
+        "baseZ": 79.45,
+        "height": 8.82
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1388.67,
+              266.13
+            ],
+            [
+              -1371.31,
+              266.13
+            ],
+            [
+              -1371.31,
+              282.89
+            ],
+            [
+              -1388.67,
+              282.89
+            ],
+            [
+              -1388.67,
+              266.13
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ec10a68b9980",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_03b_C",
+        "minZ": 81.57,
+        "maxZ": 85.72,
+        "baseZ": 81.57,
+        "height": 4.15
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1388.41,
+              -2382.46
+            ],
+            [
+              -1378.5,
+              -2382.46
+            ],
+            [
+              -1378.5,
+              -2374.54
+            ],
+            [
+              -1388.41,
+              -2374.54
+            ],
+            [
+              -1388.41,
+              -2382.46
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c2782f1891c7",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Scrapyard_01a_C",
+        "minZ": 81.56,
+        "maxZ": 91.17,
+        "baseZ": 81.56,
+        "height": 9.61
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1387.44,
+              -2000.86
+            ],
+            [
+              -1351.92,
+              -2000.86
+            ],
+            [
+              -1351.92,
+              -1975.19
+            ],
+            [
+              -1387.44,
+              -1975.19
+            ],
+            [
+              -1387.44,
+              -2000.86
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ffad81c3a893",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_03a_C",
+        "minZ": 81.57,
+        "maxZ": 85.72,
+        "baseZ": 81.57,
+        "height": 4.15
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1386.28,
+              -2431.96
+            ],
+            [
+              -1376.37,
+              -2431.96
+            ],
+            [
+              -1376.37,
+              -2424.04
+            ],
+            [
+              -1386.28,
+              -2424.04
+            ],
+            [
+              -1386.28,
+              -2431.96
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "25304fc7b8c8",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_02a_C",
+        "minZ": 81.87,
+        "maxZ": 89.98,
+        "baseZ": 81.87,
+        "height": 8.11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1385.43,
+              -2097.78
+            ],
+            [
+              -1359.61,
+              -2097.78
+            ],
+            [
+              -1359.61,
+              -2067.9
+            ],
+            [
+              -1385.43,
+              -2067.9
+            ],
+            [
+              -1385.43,
+              -2097.78
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b270c099cc6a",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_01a_C",
+        "minZ": 81.48,
+        "maxZ": 85.54,
+        "baseZ": 81.48,
+        "height": 4.06
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1384.42,
+              -2436.82
+            ],
+            [
+              -1375,
+              -2436.82
+            ],
+            [
+              -1375,
+              -2428.81
+            ],
+            [
+              -1384.42,
+              -2428.81
+            ],
+            [
+              -1384.42,
+              -2436.82
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "51255794cc67",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_01a_C",
+        "minZ": 81.48,
+        "maxZ": 85.54,
+        "baseZ": 81.48,
+        "height": 4.06
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1384.14,
+              -2390.24
+            ],
+            [
+              -1374.72,
+              -2390.24
+            ],
+            [
+              -1374.72,
+              -2382.23
+            ],
+            [
+              -1384.14,
+              -2382.23
+            ],
+            [
+              -1384.14,
+              -2390.24
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1aa1c0cba417",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_03a_C",
+        "minZ": 81.57,
+        "maxZ": 85.72,
+        "baseZ": 81.57,
+        "height": 4.15
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1382.87,
+              -2394.74
+            ],
+            [
+              -1372.96,
+              -2394.74
+            ],
+            [
+              -1372.96,
+              -2386.82
+            ],
+            [
+              -1382.87,
+              -2386.82
+            ],
+            [
+              -1382.87,
+              -2394.74
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "632db7683efe",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_02a_C",
+        "minZ": 81.54,
+        "maxZ": 85.14,
+        "baseZ": 81.54,
+        "height": 3.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1380.99,
+              -2399.2
+            ],
+            [
+              -1370.68,
+              -2399.2
+            ],
+            [
+              -1370.68,
+              -2390.87
+            ],
+            [
+              -1380.99,
+              -2390.87
+            ],
+            [
+              -1380.99,
+              -2399.2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "acaf1dcc75bb",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Scrapyard_01a_C",
+        "minZ": 81.56,
+        "maxZ": 91.17,
+        "baseZ": 81.56,
+        "height": 9.61
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1379.37,
+              -2019.19
+            ],
+            [
+              -1343.85,
+              -2019.19
+            ],
+            [
+              -1343.85,
+              -1993.52
+            ],
+            [
+              -1379.37,
+              -1993.52
+            ],
+            [
+              -1379.37,
+              -2019.19
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "20712ebc6e6a",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Small_03a_C",
+        "minZ": 82.4,
+        "maxZ": 88.56,
+        "baseZ": 82.4,
+        "height": 6.16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1378.96,
+              -2160.13
+            ],
+            [
+              -1363.19,
+              -2160.13
+            ],
+            [
+              -1363.19,
+              -2144.64
+            ],
+            [
+              -1378.96,
+              -2144.64
+            ],
+            [
+              -1378.96,
+              -2160.13
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "88f2d977ed20",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_03a_C",
+        "minZ": 81.57,
+        "maxZ": 85.72,
+        "baseZ": 81.57,
+        "height": 4.15
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1378.95,
+              -2403.42
+            ],
+            [
+              -1369.04,
+              -2403.42
+            ],
+            [
+              -1369.04,
+              -2395.51
+            ],
+            [
+              -1378.95,
+              -2395.51
+            ],
+            [
+              -1378.95,
+              -2403.42
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "47e0e7df8b36",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_03a_C",
+        "minZ": 81.57,
+        "maxZ": 85.72,
+        "baseZ": 81.57,
+        "height": 4.15
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1377.06,
+              -2407.62
+            ],
+            [
+              -1367.15,
+              -2407.62
+            ],
+            [
+              -1367.15,
+              -2399.7
+            ],
+            [
+              -1377.06,
+              -2399.7
+            ],
+            [
+              -1377.06,
+              -2407.62
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ad245091703e",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_03b_C",
+        "minZ": 81.57,
+        "maxZ": 85.72,
+        "baseZ": 81.57,
+        "height": 4.15
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1375.18,
+              -2411.82
+            ],
+            [
+              -1365.27,
+              -2411.82
+            ],
+            [
+              -1365.27,
+              -2403.9
+            ],
+            [
+              -1375.18,
+              -2403.9
+            ],
+            [
+              -1375.18,
+              -2411.82
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0ddedadbb841",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Openable_01a_C",
+        "minZ": 81.43,
+        "maxZ": 85.5,
+        "baseZ": 81.43,
+        "height": 4.07
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1370.79,
+              -2419.81
+            ],
+            [
+              -1361.37,
+              -2419.81
+            ],
+            [
+              -1361.37,
+              -2411.8
+            ],
+            [
+              -1370.79,
+              -2411.8
+            ],
+            [
+              -1370.79,
+              -2419.81
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f64e69d7c7f5",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_03a_C",
+        "minZ": 81.57,
+        "maxZ": 85.72,
+        "baseZ": 81.57,
+        "height": 4.15
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1369.5,
+              -2424.39
+            ],
+            [
+              -1359.59,
+              -2424.39
+            ],
+            [
+              -1359.59,
+              -2416.47
+            ],
+            [
+              -1369.5,
+              -2416.47
+            ],
+            [
+              -1369.5,
+              -2424.39
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "eeea0ebf91bf",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_03_C",
+        "minZ": 81.86,
+        "maxZ": 90.68,
+        "baseZ": 81.86,
+        "height": 8.82
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1369.06,
+              -2378.77
+            ],
+            [
+              -1352.86,
+              -2378.77
+            ],
+            [
+              -1352.86,
+              -2361.91
+            ],
+            [
+              -1369.06,
+              -2361.91
+            ],
+            [
+              -1369.06,
+              -2378.77
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4f1ccd6a7473",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_02a_C",
+        "minZ": 81.54,
+        "maxZ": 85.14,
+        "baseZ": 81.54,
+        "height": 3.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1367.64,
+              -2428.8
+            ],
+            [
+              -1357.33,
+              -2428.8
+            ],
+            [
+              -1357.33,
+              -2420.47
+            ],
+            [
+              -1367.64,
+              -2420.47
+            ],
+            [
+              -1367.64,
+              -2428.8
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0251970cc7f0",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_01_C",
+        "minZ": 81.54,
+        "maxZ": 94.81,
+        "baseZ": 81.54,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1361.33,
+              -2400.6
+            ],
+            [
+              -1341.78,
+              -2400.6
+            ],
+            [
+              -1341.78,
+              -2380.54
+            ],
+            [
+              -1361.33,
+              -2380.54
+            ],
+            [
+              -1361.33,
+              -2400.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "89cd7cf9ab3f",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_02a_C",
+        "minZ": 81.87,
+        "maxZ": 89.98,
+        "baseZ": 81.87,
+        "height": 8.11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1360.74,
+              -1922.76
+            ],
+            [
+              -1330.76,
+              -1922.76
+            ],
+            [
+              -1330.76,
+              -1896.62
+            ],
+            [
+              -1360.74,
+              -1896.62
+            ],
+            [
+              -1360.74,
+              -1922.76
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "06b054a2eba7",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_02a_C",
+        "minZ": 83.01,
+        "maxZ": 91.11,
+        "baseZ": 83.01,
+        "height": 8.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1359.22,
+              -1464.41
+            ],
+            [
+              -1333.12,
+              -1464.41
+            ],
+            [
+              -1333.12,
+              -1434.44
+            ],
+            [
+              -1359.22,
+              -1434.44
+            ],
+            [
+              -1359.22,
+              -1464.41
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a61b9807cf94",
+      "properties": {
+        "kind": "shop",
+        "class": "B_Shop_02_C",
+        "minZ": 63.83,
+        "maxZ": 72.83,
+        "baseZ": 63.83,
+        "height": 9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1357.55,
+              1140.21
+            ],
+            [
+              -1344.68,
+              1140.21
+            ],
+            [
+              -1344.68,
+              1150.63
+            ],
+            [
+              -1357.55,
+              1150.63
+            ],
+            [
+              -1357.55,
+              1140.21
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "e369039e0f47",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_03_C",
+        "minZ": 75.36,
+        "maxZ": 84.18,
+        "baseZ": 75.36,
+        "height": 8.82
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1348.26,
+              -2646.61
+            ],
+            [
+              -1331.75,
+              -2646.61
+            ],
+            [
+              -1331.75,
+              -2630.45
+            ],
+            [
+              -1348.26,
+              -2630.45
+            ],
+            [
+              -1348.26,
+              -2646.61
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b5167873447b",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_01_C",
+        "minZ": 93.51,
+        "maxZ": 106.78,
+        "baseZ": 93.51,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1328.66,
+              213.47
+            ],
+            [
+              -1309.68,
+              213.47
+            ],
+            [
+              -1309.68,
+              236.8
+            ],
+            [
+              -1328.66,
+              236.8
+            ],
+            [
+              -1328.66,
+              213.47
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "488fa31e9880",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_04a_C",
+        "minZ": 82.58,
+        "maxZ": 94.81,
+        "baseZ": 82.58,
+        "height": 12.23
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1320.54,
+              -1902
+            ],
+            [
+              -1268.64,
+              -1902
+            ],
+            [
+              -1268.64,
+              -1858.84
+            ],
+            [
+              -1320.54,
+              -1858.84
+            ],
+            [
+              -1320.54,
+              -1902
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f2ae42da8adc",
+      "properties": {
+        "kind": "office",
+        "class": "B_Office_01_A_C",
+        "minZ": 78.6,
+        "maxZ": 96.26,
+        "baseZ": 78.6,
+        "height": 17.66
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1318.13,
+              -2314.56
+            ],
+            [
+              -1267.67,
+              -2314.56
+            ],
+            [
+              -1267.67,
+              -2272.56
+            ],
+            [
+              -1318.13,
+              -2272.56
+            ],
+            [
+              -1318.13,
+              -2314.56
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cfd20990b520",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_02a_C",
+        "minZ": 83.81,
+        "maxZ": 91.91,
+        "baseZ": 83.81,
+        "height": 8.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1313.39,
+              -2162.12
+            ],
+            [
+              -1287.05,
+              -2162.12
+            ],
+            [
+              -1287.05,
+              -2132.08
+            ],
+            [
+              -1313.39,
+              -2132.08
+            ],
+            [
+              -1313.39,
+              -2162.12
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9db9bfea51ad",
+      "properties": {
+        "kind": "office",
+        "class": "B_Office_01_A_C",
+        "minZ": 78.6,
+        "maxZ": 96.26,
+        "baseZ": 78.6,
+        "height": 17.66
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1312.28,
+              -2409.68
+            ],
+            [
+              -1270.28,
+              -2409.68
+            ],
+            [
+              -1270.28,
+              -2359.21
+            ],
+            [
+              -1312.28,
+              -2359.21
+            ],
+            [
+              -1312.28,
+              -2409.68
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fefdd4607a3d",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_03_C",
+        "minZ": 86.13,
+        "maxZ": 94.95,
+        "baseZ": 86.13,
+        "height": 8.82
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1306.07,
+              279.61
+            ],
+            [
+              -1288.58,
+              279.61
+            ],
+            [
+              -1288.58,
+              296.69
+            ],
+            [
+              -1306.07,
+              296.69
+            ],
+            [
+              -1306.07,
+              279.61
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3cf2dcc8693f",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_02a_C",
+        "minZ": 81.87,
+        "maxZ": 89.98,
+        "baseZ": 81.87,
+        "height": 8.11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1305.56,
+              -2068.49
+            ],
+            [
+              -1275.7,
+              -2068.49
+            ],
+            [
+              -1275.7,
+              -2038.78
+            ],
+            [
+              -1305.56,
+              -2038.78
+            ],
+            [
+              -1305.56,
+              -2068.49
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0a6ed9d1c90c",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_03b_C",
+        "minZ": 84.24,
+        "maxZ": 94.5,
+        "baseZ": 84.24,
+        "height": 10.26
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1289.22,
+              -2192.63
+            ],
+            [
+              -1212.33,
+              -2192.63
+            ],
+            [
+              -1212.33,
+              -2143.24
+            ],
+            [
+              -1289.22,
+              -2143.24
+            ],
+            [
+              -1289.22,
+              -2192.63
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0e997f5ebdd3",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_02_C",
+        "minZ": 92.05,
+        "maxZ": 101.36,
+        "baseZ": 92.05,
+        "height": 9.31
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1278.39,
+              226.55
+            ],
+            [
+              -1262.92,
+              226.55
+            ],
+            [
+              -1262.92,
+              249.43
+            ],
+            [
+              -1278.39,
+              249.43
+            ],
+            [
+              -1278.39,
+              226.55
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d92da688fd7c",
+      "properties": {
+        "kind": "office",
+        "class": "B_Office_01_A_C",
+        "minZ": 80.51,
+        "maxZ": 98.17,
+        "baseZ": 80.51,
+        "height": 17.66
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1277.91,
+              -2147.59
+            ],
+            [
+              -1227.21,
+              -2147.59
+            ],
+            [
+              -1227.21,
+              -2104.72
+            ],
+            [
+              -1277.91,
+              -2104.72
+            ],
+            [
+              -1277.91,
+              -2147.59
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b1d873a19716",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Small_02a_C",
+        "minZ": 79.47,
+        "maxZ": 85.7,
+        "baseZ": 79.47,
+        "height": 6.23
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1276.17,
+              -1717.01
+            ],
+            [
+              -1258.72,
+              -1717.01
+            ],
+            [
+              -1258.72,
+              -1699.55
+            ],
+            [
+              -1276.17,
+              -1699.55
+            ],
+            [
+              -1276.17,
+              -1717.01
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9638969a90b1",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_04a_C",
+        "minZ": 82.58,
+        "maxZ": 94.81,
+        "baseZ": 82.58,
+        "height": 12.23
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1259.93,
+              -2444.63
+            ],
+            [
+              -1208.03,
+              -2444.63
+            ],
+            [
+              -1208.03,
+              -2401.47
+            ],
+            [
+              -1259.93,
+              -2401.47
+            ],
+            [
+              -1259.93,
+              -2444.63
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b41b9522b5cf",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Small_03a_C",
+        "minZ": 80.43,
+        "maxZ": 86.59,
+        "baseZ": 80.43,
+        "height": 6.16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1258.58,
+              -1872.87
+            ],
+            [
+              -1244.77,
+              -1872.87
+            ],
+            [
+              -1244.77,
+              -1857.14
+            ],
+            [
+              -1258.58,
+              -1857.14
+            ],
+            [
+              -1258.58,
+              -1872.87
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0eed72daf1fa",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Small_03a_C",
+        "minZ": 83.61,
+        "maxZ": 89.77,
+        "baseZ": 83.61,
+        "height": 6.16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1247.13,
+              -2091.69
+            ],
+            [
+              -1233.46,
+              -2091.69
+            ],
+            [
+              -1233.46,
+              -2076.01
+            ],
+            [
+              -1247.13,
+              -2076.01
+            ],
+            [
+              -1247.13,
+              -2091.69
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5dc6276b4036",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_03b_C",
+        "minZ": 81.88,
+        "maxZ": 92.14,
+        "baseZ": 81.88,
+        "height": 10.26
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1240.83,
+              -2276
+            ],
+            [
+              -1163.53,
+              -2276
+            ],
+            [
+              -1163.53,
+              -2228.03
+            ],
+            [
+              -1240.83,
+              -2228.03
+            ],
+            [
+              -1240.83,
+              -2276
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "46dfe3f79ee6",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Small_03a_C",
+        "minZ": 80.46,
+        "maxZ": 86.62,
+        "baseZ": 80.46,
+        "height": 6.16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1235.6,
+              -1875.07
+            ],
+            [
+              -1219.93,
+              -1875.07
+            ],
+            [
+              -1219.93,
+              -1861.43
+            ],
+            [
+              -1235.6,
+              -1861.43
+            ],
+            [
+              -1235.6,
+              -1875.07
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "03e412817a1e",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_02a_C",
+        "minZ": 82.11,
+        "maxZ": 90.21,
+        "baseZ": 82.11,
+        "height": 8.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1227.58,
+              -2316.75
+            ],
+            [
+              -1197.72,
+              -2316.75
+            ],
+            [
+              -1197.72,
+              -2290.98
+            ],
+            [
+              -1227.58,
+              -2290.98
+            ],
+            [
+              -1227.58,
+              -2316.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "60ae9ae37508",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_02a_C",
+        "minZ": 78.33,
+        "maxZ": 86.44,
+        "baseZ": 78.33,
+        "height": 8.11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1213.2,
+              -2551.7
+            ],
+            [
+              -1184.17,
+              -2551.7
+            ],
+            [
+              -1184.17,
+              -2521.48
+            ],
+            [
+              -1213.2,
+              -2521.48
+            ],
+            [
+              -1213.2,
+              -2551.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "542e456f0331",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_02a_C",
+        "minZ": 78.49,
+        "maxZ": 86.6,
+        "baseZ": 78.49,
+        "height": 8.11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1211.28,
+              -2499.82
+            ],
+            [
+              -1180.95,
+              -2499.82
+            ],
+            [
+              -1180.95,
+              -2471.49
+            ],
+            [
+              -1211.28,
+              -2471.49
+            ],
+            [
+              -1211.28,
+              -2499.82
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ac7ac3a8aac0",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_02a_C",
+        "minZ": 82.11,
+        "maxZ": 90.21,
+        "baseZ": 82.11,
+        "height": 8.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1209.62,
+              -2357.04
+            ],
+            [
+              -1179.76,
+              -2357.04
+            ],
+            [
+              -1179.76,
+              -2331.27
+            ],
+            [
+              -1209.62,
+              -2331.27
+            ],
+            [
+              -1209.62,
+              -2357.04
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9287f40f928c",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_02a_C",
+        "minZ": 82.03,
+        "maxZ": 90.14,
+        "baseZ": 82.03,
+        "height": 8.11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1198.99,
+              -2408.5
+            ],
+            [
+              -1173.15,
+              -2408.5
+            ],
+            [
+              -1173.15,
+              -2378.62
+            ],
+            [
+              -1198.99,
+              -2378.62
+            ],
+            [
+              -1198.99,
+              -2408.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "44e43694d7bc",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Small_Hut_01a_C",
+        "minZ": 79.54,
+        "maxZ": 85.7,
+        "baseZ": 79.54,
+        "height": 6.16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1176.67,
+              -1617.18
+            ],
+            [
+              -1161.19,
+              -1617.18
+            ],
+            [
+              -1161.19,
+              -1603.92
+            ],
+            [
+              -1176.67,
+              -1603.92
+            ],
+            [
+              -1176.67,
+              -1617.18
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "973f82444fd2",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Garage_01a_C",
+        "minZ": 83.54,
+        "maxZ": 90.71,
+        "baseZ": 83.54,
+        "height": 7.17
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1174.17,
+              -1931.14
+            ],
+            [
+              -1147.83,
+              -1931.14
+            ],
+            [
+              -1147.83,
+              -1912.7
+            ],
+            [
+              -1174.17,
+              -1912.7
+            ],
+            [
+              -1174.17,
+              -1931.14
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "90f5953d37f7",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Small_03a_C",
+        "minZ": 81.67,
+        "maxZ": 87.83,
+        "baseZ": 81.67,
+        "height": 6.16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1173.51,
+              -2289.25
+            ],
+            [
+              -1161.32,
+              -2289.25
+            ],
+            [
+              -1161.32,
+              -2274.21
+            ],
+            [
+              -1173.51,
+              -2274.21
+            ],
+            [
+              -1173.51,
+              -2289.25
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f09e3bf3c9b9",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_02a_C",
+        "minZ": 83.63,
+        "maxZ": 91.74,
+        "baseZ": 83.63,
+        "height": 8.11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1173.46,
+              -2148.74
+            ],
+            [
+              -1147.52,
+              -2148.74
+            ],
+            [
+              -1147.52,
+              -2118.82
+            ],
+            [
+              -1173.46,
+              -2118.82
+            ],
+            [
+              -1173.46,
+              -2148.74
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "25266f53deee",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_03b_C",
+        "minZ": 83.16,
+        "maxZ": 93.42,
+        "baseZ": 83.16,
+        "height": 10.26
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1160.91,
+              -2179.83
+            ],
+            [
+              -1083.62,
+              -2179.83
+            ],
+            [
+              -1083.62,
+              -2131.86
+            ],
+            [
+              -1160.91,
+              -2131.86
+            ],
+            [
+              -1160.91,
+              -2179.83
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "01272b6c1988",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_03_C",
+        "minZ": 65.81,
+        "maxZ": 74.63,
+        "baseZ": 65.81,
+        "height": 8.82
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1156.08,
+              1012.38
+            ],
+            [
+              -1140.53,
+              1012.38
+            ],
+            [
+              -1140.53,
+              1027.24
+            ],
+            [
+              -1156.08,
+              1027.24
+            ],
+            [
+              -1156.08,
+              1012.38
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "40673099fd4d",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Small_03b_C",
+        "minZ": 79.6,
+        "maxZ": 85.76,
+        "baseZ": 79.6,
+        "height": 6.16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1153.36,
+              -1602.22
+            ],
+            [
+              -1137.68,
+              -1602.22
+            ],
+            [
+              -1137.68,
+              -1588.54
+            ],
+            [
+              -1153.36,
+              -1588.54
+            ],
+            [
+              -1153.36,
+              -1602.22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "821d21b855af",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_01_C",
+        "minZ": 66.97,
+        "maxZ": 80.24,
+        "baseZ": 66.97,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1142.92,
+              1040.48
+            ],
+            [
+              -1125.41,
+              1040.48
+            ],
+            [
+              -1125.41,
+              1059.61
+            ],
+            [
+              -1142.92,
+              1059.61
+            ],
+            [
+              -1142.92,
+              1040.48
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "808d1c6db00d",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Small_03a_C",
+        "minZ": 83.24,
+        "maxZ": 89.4,
+        "baseZ": 83.24,
+        "height": 6.16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1139.94,
+              -2237.12
+            ],
+            [
+              -1124.26,
+              -2237.12
+            ],
+            [
+              -1124.26,
+              -2223.46
+            ],
+            [
+              -1139.94,
+              -2223.46
+            ],
+            [
+              -1139.94,
+              -2237.12
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "573d05a5988e",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_02a_C",
+        "minZ": 83.63,
+        "maxZ": 91.74,
+        "baseZ": 83.63,
+        "height": 8.11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1137.57,
+              -2132.28
+            ],
+            [
+              -1111.64,
+              -2132.28
+            ],
+            [
+              -1111.64,
+              -2102.36
+            ],
+            [
+              -1137.57,
+              -2102.36
+            ],
+            [
+              -1137.57,
+              -2132.28
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "40b3651fe351",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Small_03a_C",
+        "minZ": 83.24,
+        "maxZ": 89.4,
+        "baseZ": 83.24,
+        "height": 6.16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1124.48,
+              -2230.04
+            ],
+            [
+              -1108.81,
+              -2230.04
+            ],
+            [
+              -1108.81,
+              -2216.38
+            ],
+            [
+              -1124.48,
+              -2216.38
+            ],
+            [
+              -1124.48,
+              -2230.04
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2fb8c352fcb2",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_02a_C",
+        "minZ": 83.63,
+        "maxZ": 91.74,
+        "baseZ": 83.63,
+        "height": 8.11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1112.91,
+              -2106.34
+            ],
+            [
+              -1082.97,
+              -2106.34
+            ],
+            [
+              -1082.97,
+              -2080.34
+            ],
+            [
+              -1112.91,
+              -2080.34
+            ],
+            [
+              -1112.91,
+              -2106.34
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a823be44d90e",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_02_C",
+        "minZ": 67.64,
+        "maxZ": 76.95,
+        "baseZ": 67.64,
+        "height": 9.31
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1105.42,
+              1190.36
+            ],
+            [
+              -1081.88,
+              1190.36
+            ],
+            [
+              -1081.88,
+              1209.43
+            ],
+            [
+              -1105.42,
+              1209.43
+            ],
+            [
+              -1105.42,
+              1190.36
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a2711ccd38ec",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Small_02a_C",
+        "minZ": 78.08,
+        "maxZ": 84.3,
+        "baseZ": 78.08,
+        "height": 6.22
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1098.76,
+              1345.71
+            ],
+            [
+              -1080.39,
+              1345.71
+            ],
+            [
+              -1080.39,
+              1364.12
+            ],
+            [
+              -1098.76,
+              1364.12
+            ],
+            [
+              -1098.76,
+              1345.71
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3f9c24912adb",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_03a_C",
+        "minZ": 80.11,
+        "maxZ": 90.36,
+        "baseZ": 80.11,
+        "height": 10.25
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1087.81,
+              -1674.86
+            ],
+            [
+              -1039.72,
+              -1674.86
+            ],
+            [
+              -1039.72,
+              -1597.6
+            ],
+            [
+              -1087.81,
+              -1597.6
+            ],
+            [
+              -1087.81,
+              -1674.86
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f07462d66b6a",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Small_03a_C",
+        "minZ": 83.29,
+        "maxZ": 89.45,
+        "baseZ": 83.29,
+        "height": 6.16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1077.97,
+              -2168.96
+            ],
+            [
+              -1063.88,
+              -2168.96
+            ],
+            [
+              -1063.88,
+              -2153.16
+            ],
+            [
+              -1077.97,
+              -2153.16
+            ],
+            [
+              -1077.97,
+              -2168.96
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dca05ebf2318",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Small_03a_C",
+        "minZ": 81.71,
+        "maxZ": 87.87,
+        "baseZ": 81.71,
+        "height": 6.16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1075.14,
+              -2498.12
+            ],
+            [
+              -1059.23,
+              -2498.12
+            ],
+            [
+              -1059.23,
+              -2483.18
+            ],
+            [
+              -1075.14,
+              -2483.18
+            ],
+            [
+              -1075.14,
+              -2498.12
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "669058b76f69",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Garage_01a_C",
+        "minZ": 83.52,
+        "maxZ": 90.69,
+        "baseZ": 83.52,
+        "height": 7.17
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1067.95,
+              -1881.14
+            ],
+            [
+              -1041.6,
+              -1881.14
+            ],
+            [
+              -1041.6,
+              -1862.73
+            ],
+            [
+              -1067.95,
+              -1862.73
+            ],
+            [
+              -1067.95,
+              -1881.14
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "64ca078859cc",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Small_03a_C",
+        "minZ": 81.68,
+        "maxZ": 87.84,
+        "baseZ": 81.68,
+        "height": 6.16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1059.35,
+              -2509.31
+            ],
+            [
+              -1043.44,
+              -2509.31
+            ],
+            [
+              -1043.44,
+              -2494.37
+            ],
+            [
+              -1059.35,
+              -2494.37
+            ],
+            [
+              -1059.35,
+              -2509.31
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f0f40b113058",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_03_C",
+        "minZ": 73.9,
+        "maxZ": 82.72,
+        "baseZ": 73.9,
+        "height": 8.82
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1057.77,
+              1221.13
+            ],
+            [
+              -1040.47,
+              1221.13
+            ],
+            [
+              -1040.47,
+              1237.77
+            ],
+            [
+              -1057.77,
+              1237.77
+            ],
+            [
+              -1057.77,
+              1221.13
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d3d680510c84",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_02a_C",
+        "minZ": 81.87,
+        "maxZ": 89.98,
+        "baseZ": 81.87,
+        "height": 8.11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1055.71,
+              -2489.32
+            ],
+            [
+              -1025.4,
+              -2489.32
+            ],
+            [
+              -1025.4,
+              -2460.77
+            ],
+            [
+              -1055.71,
+              -2460.77
+            ],
+            [
+              -1055.71,
+              -2489.32
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b7db6a6aa987",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_02a_C",
+        "minZ": 81.87,
+        "maxZ": 89.98,
+        "baseZ": 81.87,
+        "height": 8.11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1052.26,
+              -2148.3
+            ],
+            [
+              -1021.94,
+              -2148.3
+            ],
+            [
+              -1021.94,
+              -2119.75
+            ],
+            [
+              -1052.26,
+              -2119.75
+            ],
+            [
+              -1052.26,
+              -2148.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1f753571c90a",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_01_C",
+        "minZ": 70.61,
+        "maxZ": 83.88,
+        "baseZ": 70.61,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1051.76,
+              1179.1
+            ],
+            [
+              -1030.42,
+              1179.1
+            ],
+            [
+              -1030.42,
+              1199.09
+            ],
+            [
+              -1051.76,
+              1199.09
+            ],
+            [
+              -1051.76,
+              1179.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5f1254857dee",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_04a_C",
+        "minZ": 77.81,
+        "maxZ": 90.04,
+        "baseZ": 77.81,
+        "height": 12.23
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1031.65,
+              1292.22
+            ],
+            [
+              -984.84,
+              1292.22
+            ],
+            [
+              -984.84,
+              1344.89
+            ],
+            [
+              -1031.65,
+              1344.89
+            ],
+            [
+              -1031.65,
+              1292.22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2d17f3c4d95c",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Small_03a_C",
+        "minZ": 81.26,
+        "maxZ": 87.42,
+        "baseZ": 81.26,
+        "height": 6.16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1025.45,
+              -2418.66
+            ],
+            [
+              -1009.54,
+              -2418.66
+            ],
+            [
+              -1009.54,
+              -2403.72
+            ],
+            [
+              -1025.45,
+              -2403.72
+            ],
+            [
+              -1025.45,
+              -2418.66
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a120a489f250",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Small_Hut_01a_C",
+        "minZ": 81.27,
+        "maxZ": 87.43,
+        "baseZ": 81.27,
+        "height": 6.16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1013.45,
+              -2402.03
+            ],
+            [
+              -997.83,
+              -2402.03
+            ],
+            [
+              -997.83,
+              -2387.5
+            ],
+            [
+              -1013.45,
+              -2387.5
+            ],
+            [
+              -1013.45,
+              -2402.03
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "02fa96f45701",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_02a_C",
+        "minZ": 81.87,
+        "maxZ": 89.98,
+        "baseZ": 81.87,
+        "height": 8.11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1011.59,
+              -2521.53
+            ],
+            [
+              -981.28,
+              -2521.53
+            ],
+            [
+              -981.28,
+              -2492.98
+            ],
+            [
+              -1011.59,
+              -2492.98
+            ],
+            [
+              -1011.59,
+              -2521.53
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f4be1b65bbd9",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_04a_C",
+        "minZ": 84.15,
+        "maxZ": 96.38,
+        "baseZ": 84.15,
+        "height": 12.23
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1008.68,
+              -2067.12
+            ],
+            [
+              -956.77,
+              -2067.12
+            ],
+            [
+              -956.77,
+              -2023.96
+            ],
+            [
+              -1008.68,
+              -2023.96
+            ],
+            [
+              -1008.68,
+              -2067.12
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "e53cae5504d6",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_02a_C",
+        "minZ": 83.77,
+        "maxZ": 91.88,
+        "baseZ": 83.77,
+        "height": 8.11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -993.21,
+              -1912.76
+            ],
+            [
+              -963.28,
+              -1912.76
+            ],
+            [
+              -963.28,
+              -1886.79
+            ],
+            [
+              -993.21,
+              -1886.79
+            ],
+            [
+              -993.21,
+              -1912.76
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a3794f6b750a",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Small_03a_C",
+        "minZ": 82.3,
+        "maxZ": 88.46,
+        "baseZ": 82.3,
+        "height": 6.16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -987.42,
+              -2232.88
+            ],
+            [
+              -972.32,
+              -2232.88
+            ],
+            [
+              -972.32,
+              -2216.98
+            ],
+            [
+              -987.42,
+              -2216.98
+            ],
+            [
+              -987.42,
+              -2232.88
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a98a509c325f",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_02a_C",
+        "minZ": 81.67,
+        "maxZ": 89.78,
+        "baseZ": 81.67,
+        "height": 8.11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -982.14,
+              -2332.2
+            ],
+            [
+              -951.83,
+              -2332.2
+            ],
+            [
+              -951.83,
+              -2303.65
+            ],
+            [
+              -982.14,
+              -2303.65
+            ],
+            [
+              -982.14,
+              -2332.2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9ef8afa8dd11",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Small_03a_C",
+        "minZ": 82.3,
+        "maxZ": 88.46,
+        "baseZ": 82.3,
+        "height": 6.16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -975.5,
+              -2217.12
+            ],
+            [
+              -960.4,
+              -2217.12
+            ],
+            [
+              -960.4,
+              -2201.23
+            ],
+            [
+              -975.5,
+              -2201.23
+            ],
+            [
+              -975.5,
+              -2217.12
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d5869399f268",
+      "properties": {
+        "kind": "office",
+        "class": "B_Office_01_A_C",
+        "minZ": 80.57,
+        "maxZ": 98.23,
+        "baseZ": 80.57,
+        "height": 17.66
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -971.17,
+              -1981.79
+            ],
+            [
+              -929.17,
+              -1981.79
+            ],
+            [
+              -929.17,
+              -1931.33
+            ],
+            [
+              -971.17,
+              -1931.33
+            ],
+            [
+              -971.17,
+              -1981.79
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "294be7236db5",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_01_C",
+        "minZ": 77.27,
+        "maxZ": 90.54,
+        "baseZ": 77.27,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -962.28,
+              1224.51
+            ],
+            [
+              -941.98,
+              1224.51
+            ],
+            [
+              -941.98,
+              1247.84
+            ],
+            [
+              -962.28,
+              1247.84
+            ],
+            [
+              -962.28,
+              1224.51
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5cd31e94d379",
+      "properties": {
+        "kind": "office",
+        "class": "B_Office_01_A_C",
+        "minZ": 79.5,
+        "maxZ": 97.16,
+        "baseZ": 79.5,
+        "height": 17.66
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -929.54,
+              -2163.82
+            ],
+            [
+              -881.34,
+              -2163.82
+            ],
+            [
+              -881.34,
+              -2113.75
+            ],
+            [
+              -929.54,
+              -2113.75
+            ],
+            [
+              -929.54,
+              -2163.82
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "e718c1894a80",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_02a_C",
+        "minZ": 81.87,
+        "maxZ": 89.98,
+        "baseZ": 81.87,
+        "height": 8.11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -909.53,
+              -2538.02
+            ],
+            [
+              -880.74,
+              -2538.02
+            ],
+            [
+              -880.74,
+              -2507.74
+            ],
+            [
+              -909.53,
+              -2507.74
+            ],
+            [
+              -909.53,
+              -2538.02
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "092555c3392f",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_03_C",
+        "minZ": 93.13,
+        "maxZ": 101.95,
+        "baseZ": 93.13,
+        "height": 8.82
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -907.08,
+              1093.32
+            ],
+            [
+              -889.85,
+              1093.32
+            ],
+            [
+              -889.85,
+              1109.81
+            ],
+            [
+              -907.08,
+              1109.81
+            ],
+            [
+              -907.08,
+              1093.32
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a5ce072d11c6",
+      "properties": {
+        "kind": "shop",
+        "class": "B_Shop_03_C",
+        "minZ": 78.55,
+        "maxZ": 87.25,
+        "baseZ": 78.55,
+        "height": 8.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -905.04,
+              -2223.83
+            ],
+            [
+              -885.74,
+              -2223.83
+            ],
+            [
+              -885.74,
+              -2203.8
+            ],
+            [
+              -905.04,
+              -2203.8
+            ],
+            [
+              -905.04,
+              -2223.83
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "49a5c9c31624",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_03a_C",
+        "minZ": 84.06,
+        "maxZ": 94.31,
+        "baseZ": 84.06,
+        "height": 10.25
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -900.23,
+              -1872.91
+            ],
+            [
+              -822.97,
+              -1872.91
+            ],
+            [
+              -822.97,
+              -1824.82
+            ],
+            [
+              -900.23,
+              -1824.82
+            ],
+            [
+              -900.23,
+              -1872.91
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "7f5f39bfb33b",
+      "properties": {
+        "kind": "office",
+        "class": "B_Office_01_A_C",
+        "minZ": 79.9,
+        "maxZ": 97.56,
+        "baseZ": 79.9,
+        "height": 17.66
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -894.59,
+              -2115.14
+            ],
+            [
+              -846.38,
+              -2115.14
+            ],
+            [
+              -846.38,
+              -2065.07
+            ],
+            [
+              -894.59,
+              -2065.07
+            ],
+            [
+              -894.59,
+              -2115.14
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "792df4a1d598",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_04a_C",
+        "minZ": 84.45,
+        "maxZ": 96.68,
+        "baseZ": 84.45,
+        "height": 12.23
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -891.9,
+              -1819.49
+            ],
+            [
+              -840.08,
+              -1819.49
+            ],
+            [
+              -840.08,
+              -1775.8
+            ],
+            [
+              -891.9,
+              -1775.8
+            ],
+            [
+              -891.9,
+              -1819.49
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9bbc63a8e2db",
+      "properties": {
+        "kind": "office",
+        "class": "B_Office_01_A_C",
+        "minZ": 80.57,
+        "maxZ": 98.23,
+        "baseZ": 80.57,
+        "height": 17.66
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -882.38,
+              -1939.57
+            ],
+            [
+              -840.19,
+              -1939.57
+            ],
+            [
+              -840.19,
+              -1889.05
+            ],
+            [
+              -882.38,
+              -1889.05
+            ],
+            [
+              -882.38,
+              -1939.57
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bb032162d0a0",
+      "properties": {
+        "kind": "shop",
+        "class": "B_Shop_01_C",
+        "minZ": 79.23,
+        "maxZ": 89.57,
+        "baseZ": 79.23,
+        "height": 10.34
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -868.18,
+              -2181.29
+            ],
+            [
+              -843.5,
+              -2181.29
+            ],
+            [
+              -843.5,
+              -2154.41
+            ],
+            [
+              -868.18,
+              -2154.41
+            ],
+            [
+              -868.18,
+              -2181.29
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "82e030797d84",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_02_C",
+        "minZ": 97.41,
+        "maxZ": 106.72,
+        "baseZ": 97.41,
+        "height": 9.31
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -864.49,
+              1065.45
+            ],
+            [
+              -842.63,
+              1065.45
+            ],
+            [
+              -842.63,
+              1091.15
+            ],
+            [
+              -864.49,
+              1091.15
+            ],
+            [
+              -864.49,
+              1065.45
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "109fc6e7a7f8",
+      "properties": {
+        "kind": "shop",
+        "class": "B_Shop_02_C",
+        "minZ": 79.22,
+        "maxZ": 88.22,
+        "baseZ": 79.22,
+        "height": 9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -855.33,
+              -2189.96
+            ],
+            [
+              -840.09,
+              -2189.96
+            ],
+            [
+              -840.09,
+              -2175.28
+            ],
+            [
+              -855.33,
+              -2175.28
+            ],
+            [
+              -855.33,
+              -2189.96
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8b38db80659d",
+      "properties": {
+        "kind": "shop",
+        "class": "B_Shop_03_C",
+        "minZ": 79.23,
+        "maxZ": 87.93,
+        "baseZ": 79.23,
+        "height": 8.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -852.81,
+              -2159.09
+            ],
+            [
+              -832.77,
+              -2159.09
+            ],
+            [
+              -832.77,
+              -2139.79
+            ],
+            [
+              -852.81,
+              -2139.79
+            ],
+            [
+              -852.81,
+              -2159.09
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "207bcbdca4d6",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_05_C",
+        "minZ": 81.67,
+        "maxZ": 94.94,
+        "baseZ": 81.67,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -846.5,
+              -2259.14
+            ],
+            [
+              -827.37,
+              -2259.14
+            ],
+            [
+              -827.37,
+              -2238.99
+            ],
+            [
+              -846.5,
+              -2238.99
+            ],
+            [
+              -846.5,
+              -2259.14
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bcf94ef05359",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_05_C",
+        "minZ": 83.72,
+        "maxZ": 96.99,
+        "baseZ": 83.72,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -834.46,
+              -2129.71
+            ],
+            [
+              -811.44,
+              -2129.71
+            ],
+            [
+              -811.44,
+              -2106.89
+            ],
+            [
+              -834.46,
+              -2106.89
+            ],
+            [
+              -834.46,
+              -2129.71
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a357f572532e",
+      "properties": {
+        "kind": "office",
+        "class": "B_Office_01_A_C",
+        "minZ": 80.7,
+        "maxZ": 98.36,
+        "baseZ": 80.7,
+        "height": 17.66
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -832.08,
+              -2410.26
+            ],
+            [
+              -784.04,
+              -2410.26
+            ],
+            [
+              -784.04,
+              -2360.16
+            ],
+            [
+              -832.08,
+              -2360.16
+            ],
+            [
+              -832.08,
+              -2410.26
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d80957c8e320",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_01_C",
+        "minZ": 81.53,
+        "maxZ": 91.3,
+        "baseZ": 81.53,
+        "height": 9.77
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -824.68,
+              -2262.12
+            ],
+            [
+              -807.5,
+              -2262.12
+            ],
+            [
+              -807.5,
+              -2242.89
+            ],
+            [
+              -824.68,
+              -2242.89
+            ],
+            [
+              -824.68,
+              -2262.12
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3f9bd6276953",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Small_02a_C",
+        "minZ": 83.75,
+        "maxZ": 89.97,
+        "baseZ": 83.75,
+        "height": 6.22
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -817.34,
+              -2337.24
+            ],
+            [
+              -799.14,
+              -2337.24
+            ],
+            [
+              -799.14,
+              -2318.99
+            ],
+            [
+              -817.34,
+              -2318.99
+            ],
+            [
+              -817.34,
+              -2337.24
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9678437e9e1a",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_01_C",
+        "minZ": 84.96,
+        "maxZ": 94.73,
+        "baseZ": 84.96,
+        "height": 9.77
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -816.99,
+              -2109.32
+            ],
+            [
+              -794.3,
+              -2109.32
+            ],
+            [
+              -794.3,
+              -2088.81
+            ],
+            [
+              -816.99,
+              -2088.81
+            ],
+            [
+              -816.99,
+              -2109.32
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "981b3894acf6",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Scrapyard_01a_C",
+        "minZ": 83.8,
+        "maxZ": 93.4,
+        "baseZ": 83.8,
+        "height": 9.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -805.22,
+              -2320.18
+            ],
+            [
+              -775.56,
+              -2320.18
+            ],
+            [
+              -775.56,
+              -2285.59
+            ],
+            [
+              -805.22,
+              -2285.59
+            ],
+            [
+              -805.22,
+              -2320.18
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d3d53abd8105",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_03a_C",
+        "minZ": 84.25,
+        "maxZ": 94.49,
+        "baseZ": 84.25,
+        "height": 10.24
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -797.11,
+              -2355.69
+            ],
+            [
+              -737.95,
+              -2355.69
+            ],
+            [
+              -737.95,
+              -2283.12
+            ],
+            [
+              -797.11,
+              -2283.12
+            ],
+            [
+              -797.11,
+              -2355.69
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "e90ab87a1825",
+      "properties": {
+        "kind": "warehouse",
+        "class": "BP_Warehouse_Small_02a_C",
+        "minZ": 83.75,
+        "maxZ": 89.97,
+        "baseZ": 83.75,
+        "height": 6.22
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -782.47,
+              -2288.78
+            ],
+            [
+              -764.28,
+              -2288.78
+            ],
+            [
+              -764.28,
+              -2270.53
+            ],
+            [
+              -782.47,
+              -2270.53
+            ],
+            [
+              -782.47,
+              -2288.78
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "102151ad1474",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_03_C",
+        "minZ": 86.9,
+        "maxZ": 95.72,
+        "baseZ": 86.9,
+        "height": 8.82
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -775.94,
+              -2069.27
+            ],
+            [
+              -758.47,
+              -2069.27
+            ],
+            [
+              -758.47,
+              -2052.22
+            ],
+            [
+              -775.94,
+              -2052.22
+            ],
+            [
+              -775.94,
+              -2069.27
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a5f343fc7502",
+      "properties": {
+        "kind": "supply",
+        "class": "B_SupplyBuilding_01_C",
+        "minZ": 131.79,
+        "maxZ": 136.27,
+        "baseZ": 131.79,
+        "height": 4.48
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -774.27,
+              745.06
+            ],
+            [
+              -753.06,
+              745.06
+            ],
+            [
+              -753.06,
+              765.04
+            ],
+            [
+              -774.27,
+              765.04
+            ],
+            [
+              -774.27,
+              745.06
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9dfde9efad53",
+      "properties": {
+        "kind": "shop",
+        "class": "B_Shop_02_C",
+        "minZ": 125.67,
+        "maxZ": 134.67,
+        "baseZ": 125.67,
+        "height": 9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -773.22,
+              801.01
+            ],
+            [
+              -757.96,
+              801.01
+            ],
+            [
+              -757.96,
+              815.65
+            ],
+            [
+              -773.22,
+              815.65
+            ],
+            [
+              -773.22,
+              801.01
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "da19d8282f22",
+      "properties": {
+        "kind": "warehouse",
+        "class": "B_Warehouse_03a_C",
+        "minZ": 84.18,
+        "maxZ": 94.42,
+        "baseZ": 84.18,
+        "height": 10.24
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -770.68,
+              -2374.85
+            ],
+            [
+              -711.52,
+              -2374.85
+            ],
+            [
+              -711.52,
+              -2302.28
+            ],
+            [
+              -770.68,
+              -2302.28
+            ],
+            [
+              -770.68,
+              -2374.85
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1fb316570a30",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_05_C",
+        "minZ": 86.78,
+        "maxZ": 100.05,
+        "baseZ": 86.78,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -770.35,
+              -2048.21
+            ],
+            [
+              -747.42,
+              -2048.21
+            ],
+            [
+              -747.42,
+              -2025.51
+            ],
+            [
+              -770.35,
+              -2025.51
+            ],
+            [
+              -770.35,
+              -2048.21
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "102e8e913ac0",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_05_C",
+        "minZ": 85.73,
+        "maxZ": 99,
+        "baseZ": 85.73,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -768.84,
+              -2103.68
+            ],
+            [
+              -746.08,
+              -2103.68
+            ],
+            [
+              -746.08,
+              -2080.71
+            ],
+            [
+              -768.84,
+              -2080.71
+            ],
+            [
+              -768.84,
+              -2103.68
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c6475a05a8a3",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_01a_C",
+        "minZ": 85.88,
+        "maxZ": 89.94,
+        "baseZ": 85.88,
+        "height": 4.06
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -765.67,
+              -2113.43
+            ],
+            [
+              -756.17,
+              -2113.43
+            ],
+            [
+              -756.17,
+              -2104.49
+            ],
+            [
+              -765.67,
+              -2104.49
+            ],
+            [
+              -765.67,
+              -2113.43
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "439b0ab8fce0",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_05_C",
+        "minZ": 82.06,
+        "maxZ": 95.33,
+        "baseZ": 82.06,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -755.13,
+              -2227.67
+            ],
+            [
+              -732.2,
+              -2227.67
+            ],
+            [
+              -732.2,
+              -2204.97
+            ],
+            [
+              -755.13,
+              -2204.97
+            ],
+            [
+              -755.13,
+              -2227.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "42ce43c55d33",
+      "properties": {
+        "kind": "shop",
+        "class": "B_Shop_01_C",
+        "minZ": 126.18,
+        "maxZ": 136.52,
+        "baseZ": 126.18,
+        "height": 10.34
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -744.02,
+              772.21
+            ],
+            [
+              -718.03,
+              772.21
+            ],
+            [
+              -718.03,
+              798.35
+            ],
+            [
+              -744.02,
+              798.35
+            ],
+            [
+              -744.02,
+              772.21
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2d382c4c6c00",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_01a_C",
+        "minZ": 88.17,
+        "maxZ": 92.24,
+        "baseZ": 88.17,
+        "height": 4.07
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -741.8,
+              -2037.13
+            ],
+            [
+              -732.28,
+              -2037.13
+            ],
+            [
+              -732.28,
+              -2028.28
+            ],
+            [
+              -741.8,
+              -2028.28
+            ],
+            [
+              -741.8,
+              -2037.13
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4ba7a9dd43bb",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_03_C",
+        "minZ": 83.04,
+        "maxZ": 91.85,
+        "baseZ": 83.04,
+        "height": 8.81
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -740.25,
+              -2202.55
+            ],
+            [
+              -722.78,
+              -2202.55
+            ],
+            [
+              -722.78,
+              -2185.49
+            ],
+            [
+              -740.25,
+              -2185.49
+            ],
+            [
+              -740.25,
+              -2202.55
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "04250513536e",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_03_C",
+        "minZ": 81.82,
+        "maxZ": 90.63,
+        "baseZ": 81.82,
+        "height": 8.81
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -734.16,
+              -2706.3
+            ],
+            [
+              -716.65,
+              -2706.3
+            ],
+            [
+              -716.65,
+              -2689.1
+            ],
+            [
+              -734.16,
+              -2689.1
+            ],
+            [
+              -734.16,
+              -2706.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0d86253c2a6b",
+      "properties": {
+        "kind": "shop",
+        "class": "B_Shop_02_C",
+        "minZ": 125.63,
+        "maxZ": 134.64,
+        "baseZ": 125.63,
+        "height": 9.01
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -733.68,
+              820.22
+            ],
+            [
+              -719.15,
+              820.22
+            ],
+            [
+              -719.15,
+              835.46
+            ],
+            [
+              -733.68,
+              835.46
+            ],
+            [
+              -733.68,
+              820.22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1cfd521f150b",
+      "properties": {
+        "kind": "shop",
+        "class": "B_Shop_03_C",
+        "minZ": 125.67,
+        "maxZ": 134.37,
+        "baseZ": 125.67,
+        "height": 8.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -721.9,
+              803.07
+            ],
+            [
+              -702.94,
+              803.07
+            ],
+            [
+              -702.94,
+              823.16
+            ],
+            [
+              -721.9,
+              823.16
+            ],
+            [
+              -721.9,
+              803.07
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "56083e2db23b",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_01_C",
+        "minZ": 82.96,
+        "maxZ": 92.73,
+        "baseZ": 82.96,
+        "height": 9.77
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -713.58,
+              -2248.77
+            ],
+            [
+              -693.07,
+              -2248.77
+            ],
+            [
+              -693.07,
+              -2226.08
+            ],
+            [
+              -713.58,
+              -2226.08
+            ],
+            [
+              -713.58,
+              -2248.77
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "7af2e2e58cae",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_04_C",
+        "minZ": 82.78,
+        "maxZ": 96.04,
+        "baseZ": 82.78,
+        "height": 13.26
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -703.35,
+              -2805.06
+            ],
+            [
+              -682.2,
+              -2805.06
+            ],
+            [
+              -682.2,
+              -2781.4
+            ],
+            [
+              -703.35,
+              -2781.4
+            ],
+            [
+              -703.35,
+              -2805.06
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "89fb7718b62f",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_05_C",
+        "minZ": 83.46,
+        "maxZ": 96.73,
+        "baseZ": 83.46,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -695.98,
+              -2268.36
+            ],
+            [
+              -673.28,
+              -2268.36
+            ],
+            [
+              -673.28,
+              -2245.44
+            ],
+            [
+              -695.98,
+              -2245.44
+            ],
+            [
+              -695.98,
+              -2268.36
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2cfd8417c27d",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_02a_C",
+        "minZ": 93.02,
+        "maxZ": 96.61,
+        "baseZ": 93.02,
+        "height": 3.59
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -576.8,
+              -947.63
+            ],
+            [
+              -567.38,
+              -947.63
+            ],
+            [
+              -567.38,
+              -937.35
+            ],
+            [
+              -576.8,
+              -937.35
+            ],
+            [
+              -576.8,
+              -947.63
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "eb8e5715335e",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_01a_C",
+        "minZ": 92.58,
+        "maxZ": 96.65,
+        "baseZ": 92.58,
+        "height": 4.07
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -571.59,
+              -950.74
+            ],
+            [
+              -562.72,
+              -950.74
+            ],
+            [
+              -562.72,
+              -941.23
+            ],
+            [
+              -571.59,
+              -941.23
+            ],
+            [
+              -571.59,
+              -950.74
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ee8702415638",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_01a_C",
+        "minZ": 93.98,
+        "maxZ": 98.04,
+        "baseZ": 93.98,
+        "height": 4.06
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -525.19,
+              -759.35
+            ],
+            [
+              -516.12,
+              -759.35
+            ],
+            [
+              -516.12,
+              -749.88
+            ],
+            [
+              -525.19,
+              -749.88
+            ],
+            [
+              -525.19,
+              -759.35
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3a53833717c7",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_02a_C",
+        "minZ": 93.21,
+        "maxZ": 96.81,
+        "baseZ": 93.21,
+        "height": 3.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -524.09,
+              -864.55
+            ],
+            [
+              -513.78,
+              -864.55
+            ],
+            [
+              -513.78,
+              -855.27
+            ],
+            [
+              -524.09,
+              -855.27
+            ],
+            [
+              -524.09,
+              -864.55
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "396bde395dbc",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_Abandoned_01_C",
+        "minZ": 86.43,
+        "maxZ": 99.7,
+        "baseZ": 86.43,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -496.99,
+              -2196.85
+            ],
+            [
+              -475.21,
+              -2196.85
+            ],
+            [
+              -475.21,
+              -2172.05
+            ],
+            [
+              -496.99,
+              -2172.05
+            ],
+            [
+              -496.99,
+              -2196.85
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "97ed30984f3b",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_04_C",
+        "minZ": 86.63,
+        "maxZ": 99.89,
+        "baseZ": 86.63,
+        "height": 13.26
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -428.32,
+              -2259.43
+            ],
+            [
+              -406.56,
+              -2259.43
+            ],
+            [
+              -406.56,
+              -2235.82
+            ],
+            [
+              -428.32,
+              -2235.82
+            ],
+            [
+              -428.32,
+              -2259.43
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0a6acb8ef5cd",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_02_C",
+        "minZ": 86.79,
+        "maxZ": 96.1,
+        "baseZ": 86.79,
+        "height": 9.31
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -336.6,
+              -2340.53
+            ],
+            [
+              -313.19,
+              -2340.53
+            ],
+            [
+              -313.19,
+              -2315.34
+            ],
+            [
+              -336.6,
+              -2315.34
+            ],
+            [
+              -336.6,
+              -2340.53
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "29f38c55fec9",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_01a_C",
+        "minZ": 93.18,
+        "maxZ": 97.25,
+        "baseZ": 93.18,
+        "height": 4.07
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -291.8,
+              -999.46
+            ],
+            [
+              -283.33,
+              -999.46
+            ],
+            [
+              -283.33,
+              -989.94
+            ],
+            [
+              -291.8,
+              -989.94
+            ],
+            [
+              -291.8,
+              -999.46
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ba8833525ea6",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_03_C",
+        "minZ": 86.9,
+        "maxZ": 100.17,
+        "baseZ": 86.9,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -276.97,
+              -2587.42
+            ],
+            [
+              -250.56,
+              -2587.42
+            ],
+            [
+              -250.56,
+              -2564.81
+            ],
+            [
+              -276.97,
+              -2564.81
+            ],
+            [
+              -276.97,
+              -2587.42
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "44a72817a70e",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_01_C",
+        "minZ": 87.89,
+        "maxZ": 101.16,
+        "baseZ": 87.89,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -164.97,
+              -2538.2
+            ],
+            [
+              -144.67,
+              -2538.2
+            ],
+            [
+              -144.67,
+              -2514.86
+            ],
+            [
+              -164.97,
+              -2514.86
+            ],
+            [
+              -164.97,
+              -2538.2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3e2b09b76b1e",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_01_C",
+        "minZ": 88.55,
+        "maxZ": 98.32,
+        "baseZ": 88.55,
+        "height": 9.77
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -69.96,
+              -2475.14
+            ],
+            [
+              -48.9,
+              -2475.14
+            ],
+            [
+              -48.9,
+              -2452.4
+            ],
+            [
+              -69.96,
+              -2452.4
+            ],
+            [
+              -69.96,
+              -2475.14
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fa851dffd62c",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_02_C",
+        "minZ": 116.09,
+        "maxZ": 125.4,
+        "baseZ": 116.09,
+        "height": 9.31
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              359.95,
+              -2881.85
+            ],
+            [
+              381.99,
+              -2881.85
+            ],
+            [
+              381.99,
+              -2857.79
+            ],
+            [
+              359.95,
+              -2857.79
+            ],
+            [
+              359.95,
+              -2881.85
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadab97a15e2",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_04_C",
+        "minZ": 122.77,
+        "maxZ": 136.03,
+        "baseZ": 122.77,
+        "height": 13.26
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              414.54,
+              -2650.32
+            ],
+            [
+              437.33,
+              -2650.32
+            ],
+            [
+              437.33,
+              -2629.23
+            ],
+            [
+              414.54,
+              -2629.23
+            ],
+            [
+              414.54,
+              -2650.32
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bb76936793be",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_01_C",
+        "minZ": 118.06,
+        "maxZ": 127.83,
+        "baseZ": 118.06,
+        "height": 9.77
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              426.36,
+              -2945.75
+            ],
+            [
+              441.72,
+              -2945.75
+            ],
+            [
+              441.72,
+              -2928.55
+            ],
+            [
+              426.36,
+              -2928.55
+            ],
+            [
+              426.36,
+              -2945.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "74a6752f859b",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_01_C",
+        "minZ": 119.43,
+        "maxZ": 132.7,
+        "baseZ": 119.43,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              438.09,
+              -2784.54
+            ],
+            [
+              458.22,
+              -2784.54
+            ],
+            [
+              458.22,
+              -2762.05
+            ],
+            [
+              438.09,
+              -2762.05
+            ],
+            [
+              438.09,
+              -2784.54
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "388a9cff9418",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_01_C",
+        "minZ": 126.65,
+        "maxZ": 139.93,
+        "baseZ": 126.65,
+        "height": 13.28
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              830.45,
+              -2657.6
+            ],
+            [
+              850.1,
+              -2657.6
+            ],
+            [
+              850.1,
+              -2633.86
+            ],
+            [
+              830.45,
+              -2633.86
+            ],
+            [
+              830.45,
+              -2657.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2ca065a34503",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_Abandoned_01_C",
+        "minZ": 126.96,
+        "maxZ": 140.23,
+        "baseZ": 126.96,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              894.27,
+              -2819.92
+            ],
+            [
+              919.26,
+              -2819.92
+            ],
+            [
+              919.26,
+              -2798.04
+            ],
+            [
+              894.27,
+              -2798.04
+            ],
+            [
+              894.27,
+              -2819.92
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a9af0450e276",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_01_C",
+        "minZ": 128.46,
+        "maxZ": 138.23,
+        "baseZ": 128.46,
+        "height": 9.77
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1045.11,
+              -3110.33
+            ],
+            [
+              1065.03,
+              -3110.33
+            ],
+            [
+              1065.03,
+              -3088.04
+            ],
+            [
+              1045.11,
+              -3088.04
+            ],
+            [
+              1045.11,
+              -3110.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12c0e29cabfa",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_Abandoned_01_C",
+        "minZ": 123.89,
+        "maxZ": 137.16,
+        "baseZ": 123.89,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1349.75,
+              -2875.21
+            ],
+            [
+              1371.61,
+              -2875.21
+            ],
+            [
+              1371.61,
+              -2850.22
+            ],
+            [
+              1349.75,
+              -2850.22
+            ],
+            [
+              1349.75,
+              -2875.21
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "538b22deb9ea",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_02_C",
+        "minZ": 131.83,
+        "maxZ": 141.14,
+        "baseZ": 131.83,
+        "height": 9.31
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1777.07,
+              -3357.74
+            ],
+            [
+              1800.47,
+              -3357.74
+            ],
+            [
+              1800.47,
+              -3339.91
+            ],
+            [
+              1777.07,
+              -3339.91
+            ],
+            [
+              1777.07,
+              -3357.74
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "7ae6fdc7b9ca",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_04_C",
+        "minZ": 131.13,
+        "maxZ": 144.39,
+        "baseZ": 131.13,
+        "height": 13.26
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1816.06,
+              -3225.04
+            ],
+            [
+              1837.04,
+              -3225.04
+            ],
+            [
+              1837.04,
+              -3201.43
+            ],
+            [
+              1816.06,
+              -3201.43
+            ],
+            [
+              1816.06,
+              -3225.04
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c083cf2fade2",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_01_C",
+        "minZ": 138.02,
+        "maxZ": 147.79,
+        "baseZ": 138.02,
+        "height": 9.77
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2063.8,
+              -3302.24
+            ],
+            [
+              2080.05,
+              -3302.24
+            ],
+            [
+              2080.05,
+              -3284.43
+            ],
+            [
+              2063.8,
+              -3284.43
+            ],
+            [
+              2063.8,
+              -3302.24
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8edaf0c4e60c",
+      "properties": {
+        "kind": "house",
+        "class": "B_Residential_House_01_C",
+        "minZ": 153.94,
+        "maxZ": 167.21,
+        "baseZ": 153.94,
+        "height": 13.27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2381.49,
+              -3261.02
+            ],
+            [
+              2400.45,
+              -3261.02
+            ],
+            [
+              2400.45,
+              -3242.96
+            ],
+            [
+              2381.49,
+              -3242.96
+            ],
+            [
+              2381.49,
+              -3261.02
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fe9c35c7c8c3",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_01_C",
+        "minZ": 153.31,
+        "maxZ": 163.08,
+        "baseZ": 153.31,
+        "height": 9.77
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2386.91,
+              -3288.4
+            ],
+            [
+              2406.31,
+              -3288.4
+            ],
+            [
+              2406.31,
+              -3269.94
+            ],
+            [
+              2386.91,
+              -3269.94
+            ],
+            [
+              2386.91,
+              -3288.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b49509760998",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_02a_C",
+        "minZ": 154.24,
+        "maxZ": 157.84,
+        "baseZ": 154.24,
+        "height": 3.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2393.12,
+              -3241.18
+            ],
+            [
+              2403.1,
+              -3241.18
+            ],
+            [
+              2403.1,
+              -3234.11
+            ],
+            [
+              2393.12,
+              -3234.11
+            ],
+            [
+              2393.12,
+              -3241.18
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "e05feae631b0",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_02a_C",
+        "minZ": 153.98,
+        "maxZ": 157.58,
+        "baseZ": 153.98,
+        "height": 3.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2406.51,
+              -3295.85
+            ],
+            [
+              2416.49,
+              -3295.85
+            ],
+            [
+              2416.49,
+              -3288.78
+            ],
+            [
+              2406.51,
+              -3288.78
+            ],
+            [
+              2406.51,
+              -3295.85
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "774a2220bf9f",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_02a_C",
+        "minZ": 143.24,
+        "maxZ": 146.83,
+        "baseZ": 143.24,
+        "height": 3.59
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2452.74,
+              -3470.39
+            ],
+            [
+              2460.12,
+              -3470.39
+            ],
+            [
+              2460.12,
+              -3460.31
+            ],
+            [
+              2452.74,
+              -3460.31
+            ],
+            [
+              2452.74,
+              -3470.39
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "09f31165059f",
+      "properties": {
+        "kind": "bungalow",
+        "class": "B_Residential_Bungalow_02_C",
+        "minZ": 142.27,
+        "maxZ": 151.58,
+        "baseZ": 142.27,
+        "height": 9.31
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2462.64,
+              -3476.44
+            ],
+            [
+              2483.01,
+              -3476.44
+            ],
+            [
+              2483.01,
+              -3452.82
+            ],
+            [
+              2462.64,
+              -3452.82
+            ],
+            [
+              2462.64,
+              -3476.44
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12bf22bda520",
+      "properties": {
+        "kind": "garage",
+        "class": "BP_Garage_Closed_02a_C",
+        "minZ": 145.55,
+        "maxZ": 149.51,
+        "baseZ": 145.55,
+        "height": 3.96
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2802.91,
+              -3728.73
+            ],
+            [
+              2809.9,
+              -3728.73
+            ],
+            [
+              2809.9,
+              -3718.83
+            ],
+            [
+              2802.91,
+              -3718.83
+            ],
+            [
+              2802.91,
+              -3728.73
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

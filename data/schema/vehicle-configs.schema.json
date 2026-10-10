@@ -1,0 +1,216 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Vehicle configs",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1,
+      "description": "Version of this file's layout. It changes only when the layout does."
+    },
+    "gameBuild": {
+      "type": "string",
+      "description": "Steam build id the data was extracted from."
+    },
+    "configs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "package": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Package path of the config asset, also its entry in `assets`."
+          },
+          "type": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Config class: `MWheeledVehicleConfigDataAsset`, `MTrackedVehicleConfigDataAsset`, `BHRotaryVehicleConfigDataAsset` or `BHAirplaneVehicleConfigDataAsset` or `BHBaseVehicleConfigDataAsset` (stationary weapons and drones)."
+          },
+          "family": {
+            "type": "string",
+            "enum": [
+              "wheeled",
+              "tracked",
+              "rotary",
+              "airplane",
+              "stationary"
+            ],
+            "description": "Vehicle family, from the config class."
+          },
+          "damageEntity": {
+            "description": "The `entity` of the vehicle's damage rules in damage.json, from the config's gameplay systems asset.",
+            "type": "string"
+          },
+          "variants": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Vehicle variants (ids from vehicles.json) of the same family that share this config's damage entity. A platform with several configs lists its variants under each; empty for configs of things the shop does not sell."
+          },
+          "assets": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Package paths of every asset reachable from the config by following its references (the config itself included), sorted. Each is an entry in `assets`."
+          }
+        },
+        "required": [
+          "package",
+          "type",
+          "family",
+          "variants",
+          "assets"
+        ],
+        "additionalProperties": false,
+        "description": "One vehicle config and the assets it links to."
+      },
+      "description": "One entry per vehicle config asset, sorted by package."
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "package": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The game's package path (`/WHL_05/Data/DA_Characteristics_WHL_05_Humvee`), which is what a `ref` in a property names."
+          },
+          "asset": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Path of the asset inside the game files."
+          },
+          "exports": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "The export's name inside its package."
+                },
+                "type": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "The export's class, as the game names it (`MWheeledVehicleCharacteristicsDataAsset`, `CurveFloat`)."
+                },
+                "outer": {
+                  "description": "Name of the export this one is embedded in, when it is not the package's own object.",
+                  "type": "string"
+                },
+                "properties": {
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string"
+                  },
+                  "additionalProperties": {
+                    "$ref": "#/$defs/__schema0"
+                  },
+                  "description": "Every property the game stores for it, under the game's own names. Values are stored units (centimeters, degrees, milliseconds as the game keeps them). A reference to another object is `{ ref, object? }` (see `assets[].package`), a gameplay tag is `{ tag }`, text is `{ text, table?, key? }` with the string table entry it comes from. Properties the game leaves at their default are not in its files and are absent."
+                }
+              },
+              "required": [
+                "name",
+                "type",
+                "properties"
+              ],
+              "additionalProperties": false,
+              "description": "One object of a vehicle asset package."
+            },
+            "description": "The package's objects, in the game's order."
+          }
+        },
+        "required": [
+          "package",
+          "asset",
+          "exports"
+        ],
+        "additionalProperties": false,
+        "description": "One asset reachable from a vehicle config."
+      },
+      "description": "Every asset reachable from a config, once each, sorted by package. Shared assets (curves, a platform's characteristics used by several configs) appear once."
+    },
+    "skipped": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "package": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Package path."
+          },
+          "types": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Classes of its objects."
+          }
+        },
+        "required": [
+          "package",
+          "types"
+        ],
+        "additionalProperties": false,
+        "description": "A linked package left out because it is art or audio content."
+      },
+      "description": "Packages the configs link to that hold art or audio content rather than properties (static meshes and their collision, MetaSound audio graphs, particle systems, materials, textures). They are named here and not published. Sorted by package."
+    },
+    "unresolved": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Packages the configs and their assets reference that are not in the game files (or are engine classes under `/Script/`). Sorted."
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "gameBuild",
+    "configs",
+    "assets",
+    "skipped",
+    "unresolved"
+  ],
+  "additionalProperties": false,
+  "description": "Everything the game stores about how each vehicle behaves: the config assets and the assets they link to (physics, engine, gearbox, axles, wheels, tire models, suspension, helicopter flight and drag, tracked engine and dynamics, input controls, camera spring arms, sensors, gameplay systems and effects, prediction settings, curves), with every stored property. Meant for tools that simulate or compare vehicles; `vehicles.json` has the curated numbers.",
+  "$defs": {
+    "__schema0": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/__schema0"
+          }
+        },
+        {
+          "type": "object",
+          "propertyNames": {
+            "type": "string"
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/__schema0"
+          }
+        }
+      ]
+    }
+  }
+}

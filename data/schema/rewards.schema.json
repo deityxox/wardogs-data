@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cash rewards",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1,
+      "description": "Version of this file's layout. It changes only when the layout does."
+    },
+    "gameBuild": {
+      "type": "string",
+      "description": "Steam build id the data was extracted from."
+    },
+    "rewards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "minLength": 1,
+            "description": "What earns the reward, from the game's table name: `PlayerKill`, `Heal`, `Revive`, `VehicleDestroyed`, `Repair`, `Refuel`, `Spotting`, `ControlZoneReward`, ..."
+          },
+          "context": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The case within the action, the game's context tag without its `Meta.Progression.Context.` prefix (a vehicle variant id for vehicle-specific rewards)."
+          },
+          "description": {
+            "description": "The game's own note on when the case applies.",
+            "type": "string"
+          },
+          "resource": {
+            "type": "string",
+            "minLength": 1,
+            "description": "What is paid: `Cash`."
+          },
+          "base": {
+            "type": "number",
+            "description": "Base amount."
+          },
+          "modifiers": {
+            "type": "object",
+            "propertyNames": {
+              "type": "string"
+            },
+            "additionalProperties": {
+              "type": "number"
+            },
+            "description": "The other numbers of the row, named as the game names them (`FriendlyModifier`, `ModifierCZ` for control zones, `ModifierHZ` for hot zones, `AssistBaseModifier`, ...). They scale or adjust the base amount depending on who and where."
+          }
+        },
+        "required": [
+          "action",
+          "context",
+          "resource",
+          "base",
+          "modifiers"
+        ],
+        "additionalProperties": false,
+        "description": "One cash reward case."
+      },
+      "description": "Reward cases, sorted by action then by the order of the game's table."
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "gameBuild",
+    "rewards"
+  ],
+  "additionalProperties": false,
+  "description": "Cash rewards for in-game actions (kills, heals, revives, repairs, building, objectives) with their base amounts and modifiers. The game also has a challenge reward system (challenge-rewards.json) with its own formulas and different numbers (a player kill has a base of 250 here and 300 there); the files do not say which one the live game pays by."
+}

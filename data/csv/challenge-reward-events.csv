@@ -1,0 +1,76 @@
+event,name,description
+Buildables.BuildableDamaged,Buildable Damaged,Reward for damaging buildables.
+Buildables.BuildableDestroyed,Buildable Destroyed,Reward for destroying a buildable.
+Buildables.BuildableDestroyed.Assist,Buildable Destroyed Assist,Reward for assisting in destroying a buildable.
+Buildables.BuildableFinished,Buildable Finished,Reward for finishing construction of a buildable.
+Buildables.Building,Buildable Building,Reward for contributing to construction of a buildable.
+Buildables.BuildSuppliesConsumed,Build Supplies Consumed,Reward/Cost for using build supplies in the fob.
+Buildables.BuildSuppliesDeposited,Build Supplies Deposited,Reward for placing build supplies in the fob.
+Buildables.FOBHacked,FOB Hacked,Reward for successfully hacking an enemy FOB.
+Buildables.FOBOwnerPayed,FOB Resources Used,Reward/Cost for another player using the supplies in your FOB.
+Buildables.SchematicPlaced,Schematic Placed,Reward for placing a building schematic.
+DeployOnVehicle,Deploy On Vehicle,Award resources when a player is deployed on a vehicle
+DeploySupplyCrate,Deploy a Supply Crate,Award resources when a player deploys a supply crate
+DestroySupplyCrate,Destroy a Supply Crate,Award resources when a player destroys a supply crate.
+DestroyThrowable,Destroy Throwable,Award resources or take them when the player destroys a throwable
+DestroyVehicle,Destroy Vehicle,Award resources to a player when they destroy a vehicle.
+DestroyVehicle.Assist,Destroy Vehicle Assist,Award resources to players who assisted in the destruction of a vehicle by damaging it.
+DestroyVehicle.Assist.CrewAssist,Destroy Vehicle Assist Crew Assist,Award resources to crew players whos pilot/driver/gunner assisted in the destruction of a vehicle by damaging it.
+DestroyVehicle.Assist.FOBSuppliedAssist,Vehicle Destroyed Assist Revive Assist,
+DestroyVehicle.Assist.LogisticAssist,Vehicle Destroyed Assist Logistic Assist,
+DestroyVehicle.Assist.ReviveAssist,Vehicle Destroyed Assist Revive Assist,
+DestroyVehicle.Assist.SupplyCrateAssist,Vehicle Destroyed Assist Supply Crate Assist,Award resources to the player who sold the damage causer.
+DestroyVehicle.CrewAssist,Destroy Vehicle Crew Assist,Award resources to a crew player when their pilot/driver/gunner destroys a vehicle.
+DestroyVehicle.FOBSuppliedAssist,Destroy Vehicle FOB Supplied Assist,
+DestroyVehicle.LogisticAssist,Destroy Vehicle Logisitic Assist,
+DestroyVehicle.ReviveAssist,Destroy Vehicle Revive Assist,
+DestroyVehicle.SupplyCrateAssist,Destroy Vehicle Supply Crate Assist,Award resources to the player who sold the damage causer.
+DestroyVehicleSection,Destroy Vehicle Section,Award resources to a player when they destroy a vehicle section.
+DestroyVehicleSection.Assist,Destroy Vehicle Section Assist,Award resources to players who assisted in the destruction of a vehicle section by damaging it.
+DestroyVehicleSection.Assist.CrewAssist,Destroy Vehicle Section Assist Crew Assist,Award resources to a crew player when their pilot/driver/gunner assists in destroying a vehicle section.
+DestroyVehicleSection.Assist.LogisticAssist,Destroy Vehicle Section Assist Logistic Assist,
+DestroyVehicleSection.Assist.ReviveAssist,Destroy Vehicle Section Assist Revive Assist,
+DestroyVehicleSection.Assist.SupplyCrateAssist,Destroy Vehicle Section Assist Supply Crate Assist,Award resources to the player who sold the damage causer.
+DestroyVehicleSection.CrewAssist,Destroy Vehicle Section Crew Assist,Award resources to a crew player when their pilot/driver/gunner destroys a vehicle section.
+DestroyVehicleSection.LogisticAssist,Destroy Vehicle Section Logistic Assist,
+DestroyVehicleSection.ReviveAssist,Destroy Vehicle Section Revive Assist,
+DestroyVehicleSection.SupplyCrateAssist,Destroy Vehicle Section Supply Crate Assist,Award resources to the player who sold the damage causer.
+HealPlayer,Heal Player,Award resources to a player when they heal another player.
+HealPlayer.LogisticAssist,Heal Player Logistic Assist,
+HealPlayer.ReviveAssist,Heal Player Revive Assist,
+HealPlayer.SupplyCrateAssist,Heal Player Supply Crate Assist,Award resources to the player who sold the heal causer.
+HotZoneMagnet.MagnetActivated,Magnet Activated,Award resources to all players in range of an activated Magnet of the same faction.
+HotZoneMagnet.MagnetDeactivated,Magnet Deactivated,Award resources to all players in range of a deactivated Magnet of the same faction.
+HotZoneMagnet.TowerCaptured,Tower Captured,Award resources to all players in range of a captured Tower of the same faction.
+PassengerSurvived,Survived Trip,
+PlayerDelivered,Deliver Teammate to Zone,
+PlayerKill,Player Kill,Award resources to (or take from) a player when they kill another player.
+PlayerKill.Assist,Player Kill Assist,Award resources to (or take from) a player when they assisted in the death of another player.
+PlayerKill.Assist.CrewAssist,Player Kill Assist Crew Assist,Award resources to (or take from) a crew player when their pilot/driver/gunner assists in the death of another player.
+PlayerKill.Assist.FOBSuppliedAssist,Player Kill Assist FOB Supplied Assist,
+PlayerKill.Assist.LogisticAssist,Player Kill Assist Logistic Assist,
+PlayerKill.Assist.ReviveAssist,Player Kill Assist Revive Assist,
+PlayerKill.Assist.SupplyCrateAssist,Player Kill Assist Supply Crate Assist,Award resources to the player who sold the damage causer.
+PlayerKill.CrewAssist,Player Kill Crew Assist,Award resources to (or take from) a crew player when their pilot/driver/gunner kills another player.
+PlayerKill.FOBSuppliedAssist,Player Kill FOB Supplied Assist,
+PlayerKill.LogisticAssist,Player Kill Logisitic Assist,
+PlayerKill.ReviveAssist,Player Kill Revive Assist,
+PlayerKill.SupplyCrateAssist,Player Kill Supply Crate Assist,Award resources to the player who sold the damage causer.
+PreTip,Send & Receive Pre Tip,Remove resources from one player and give it to another after they pre tip.
+PurchaseFromSupplyCrate,Purchase From Supply Crate,Award resources to a player when they purchase from a supply crate.
+RefuelVehicle,Refuel Vehicle,Award resources to a player when they refuel a vehicle.
+RepairVehicle,Repair Vehicle,Award resources to a player when they repair another vehicle.
+RevivePlayer,Revive Player,Award resources to a player when they revive another player.
+RevivePlayer.Contributor,Revive Player Contributor,Award resources to a player when they're mid-process of reviving another player.
+RevivePlayer.LogisticAssist,Revive Player Logisitic Assist,
+RevivePlayer.ReviveAssist,Revive Player Revive Assist,
+RevivePlayer.SupplyCrateAssist,Revive Player Supply Crate Assist,Award resources to the player who sold the revive causer.
+SafeZoneEntered,Safe Zone Entered after succesful logistics run,
+Spotting.Added,Target Spotted,Award resources to the player successfully spotting a target.
+Spotting.Removed,Spotted Target Destroyed,Award resources to the players who spotted a destroyed target.
+SupplyPalletDropped,Supply Pallet Dropped,Award resources when a player deploys a supply pallet
+Test,Test Reward,
+Tip,Send & Receive Tip,Remove resources from one player and give it to another when they tip.
+VehicleAirborne,Vehicle Air Time Bonus,Award resources to the vehicle driver after a long duration of air time.
+VehicleFlyThrough,Vehicle Fly Through Bonus,Award resources to the vehicle pilot after flying through a fly through trigger
+ZoneEntry,Zone Entry,Award resources to a player when entering the zone.

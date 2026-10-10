@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cosmetics",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1,
+      "description": "Version of this file's layout. It changes only when the layout does."
+    },
+    "gameBuild": {
+      "type": "string",
+      "description": "Steam build id the data was extracted from."
+    },
+    "sets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Set id, as used by `set` in a cosmetic."
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Display name."
+          },
+          "sortIndex": {
+            "type": "integer",
+            "minimum": -9007199254740991,
+            "maximum": 9007199254740991,
+            "description": "Order in the collection screen."
+          },
+          "hidden": {
+            "type": "boolean",
+            "description": "True when the set is hidden in the collection screen."
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "sortIndex",
+          "hidden"
+        ],
+        "additionalProperties": false,
+        "description": "A named group of cosmetics."
+      },
+      "description": "Named sets, in collection order."
+    },
+    "cosmetics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Cosmetic id: the game's tag without its `Meta.Cosmetic.` prefix, for example `BlackAndGold.AK74`."
+          },
+          "item": {
+            "type": "string",
+            "minLength": 1,
+            "description": "What it applies to: an item id from items.json, or an emote id (`Id.Emote.*`), or a vehicle variant for taxi liveries."
+          },
+          "set": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The cosmetic set or category it belongs to (`BlackAndGold`, `Emote`, `FactionLogo`, `Taxi`)."
+          },
+          "archetype": {
+            "description": "Weapon archetype it is for, such as `AR` or `Pistol`. Absent for emotes.",
+            "type": "string"
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The game's table the cosmetic was read from, for example `Season01_Skins`."
+          }
+        },
+        "required": [
+          "id",
+          "item",
+          "set",
+          "source"
+        ],
+        "additionalProperties": false,
+        "description": "One cosmetic: a weapon skin, emote, faction logo or taxi livery."
+      },
+      "description": "Cosmetics, sorted by id."
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "gameBuild",
+    "sets",
+    "cosmetics"
+  ],
+  "additionalProperties": false,
+  "description": "The cosmetic catalog: skin sets and what each cosmetic applies to. Prices and availability are not in the game files read."
+}

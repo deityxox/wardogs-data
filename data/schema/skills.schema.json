@@ -1,0 +1,185 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Role skills",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1,
+      "description": "Version of this file's layout. It changes only when the layout does."
+    },
+    "gameBuild": {
+      "type": "string",
+      "description": "Steam build id the data was extracted from."
+    },
+    "trees": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "role": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Role id."
+          },
+          "rows": {
+            "type": "integer",
+            "exclusiveMinimum": 0,
+            "maximum": 9007199254740991,
+            "description": "Number of rings in the role's tree grid."
+          },
+          "columns": {
+            "type": "integer",
+            "exclusiveMinimum": 0,
+            "maximum": 9007199254740991,
+            "description": "Number of positions around each ring."
+          },
+          "shape": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The game's grid type: `Circle` (a half circle, drawn from the start angle over a total angle of 180 degrees)."
+          }
+        },
+        "required": [
+          "role",
+          "rows",
+          "columns",
+          "shape"
+        ],
+        "additionalProperties": false,
+        "description": "The grid a role's skills are placed on."
+      },
+      "description": "The skill tree grid of each role, sorted by role."
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Skill id: the game's skill tag without the `Meta.Role.` prefix, for example `Infantry.SprintBreach`."
+          },
+          "role": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The role whose tree holds the skill: Infantry, Support, Medic, Recon, Pilot or Driver."
+          },
+          "name": {
+            "description": "Name shown in the skill tree.",
+            "type": "string"
+          },
+          "description": {
+            "description": "Description shown in the skill tree.",
+            "type": "string"
+          },
+          "layout": {
+            "description": "Position in the role's tree. Absent for a skill the game does not place in the tree.",
+            "type": "object",
+            "properties": {
+              "row": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991,
+                "description": "Ring of the tree, 0 for the innermost. Rings are farther from the center as the number grows (checked against the canvas positions)."
+              },
+              "column": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991,
+                "description": "Position around the ring, counted from 0."
+              },
+              "x": {
+                "type": "number",
+                "description": "Horizontal canvas position of the node in the game's skill tree widget."
+              },
+              "y": {
+                "type": "number",
+                "description": "Vertical canvas position of the node in the game's skill tree widget."
+              }
+            },
+            "required": [
+              "row",
+              "column",
+              "x",
+              "y"
+            ],
+            "additionalProperties": false
+          },
+          "effects": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "trigger": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "When the effect applies, the game's skill trigger without its `Meta.Skill.` prefix (`Character`, `Character.HeldItemUpdated`, ...)."
+                },
+                "effect": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Name of the game's gameplay effect the skill applies. For skills that only unlock an ability this is the whole effect."
+                },
+                "attribute": {
+                  "description": "Attribute the skill level scales, such as `Movement.ReadyToFirePlayRate`. Absent when the effect has no level-scaled value.",
+                  "type": "string"
+                },
+                "curve": {
+                  "description": "Name of the game's curve the values come from.",
+                  "type": "string"
+                },
+                "levels": {
+                  "description": "Value by skill level, from the curve. The game interpolates linearly between points.",
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "level": {
+                        "type": "number",
+                        "description": "Skill level."
+                      },
+                      "value": {
+                        "type": "number",
+                        "description": "Value of the attribute at that level (a multiplier unless the attribute says otherwise)."
+                      }
+                    },
+                    "required": [
+                      "level",
+                      "value"
+                    ],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": [
+                "trigger",
+                "effect"
+              ],
+              "additionalProperties": false,
+              "description": "One effect of a skill."
+            },
+            "description": "What the skill does. Empty when the client files hold the skill's text and place in the tree but no effect data (the effects are applied by the server or by code)."
+          }
+        },
+        "required": [
+          "id",
+          "role",
+          "effects"
+        ],
+        "additionalProperties": false,
+        "description": "One role skill."
+      },
+      "description": "Role skills, sorted by id."
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "gameBuild",
+    "trees",
+    "skills"
+  ],
+  "additionalProperties": false,
+  "description": "Role skills: names, descriptions, place in the role's tree and the value of each effect by skill level. Item unlocks by role and level are in items.json. Skill point costs and prerequisites are not in the client files."
+}
